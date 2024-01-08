@@ -13,10 +13,10 @@ individual outcome graphs included for supplementary appendix
 survivors and controls  *********************** */
 
 /*KB 25/2 I added to the "post" to capture the number of events, and the agesex_adj incidences */
-foreach year in 0  1 {
+foreach year in 0 {
 foreach db of  global databases {
 *
-foreach outcome in  dementia {
+foreach outcome in dementia vasc alz other_dem ns_dem  dementiadrugs dementiahes {
 
 use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 
@@ -25,7 +25,7 @@ use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 	tempfile estimates
 	postfile estimates str8 outcome str8 model str3 cancersite  str3 year  nfail irexp irunexp hr lci uci pval using "`estimates'"
 	*local i = 1
-	foreach model in agesex_adj adjusted {
+	foreach model in crude agesex_adj adjusted {
 		dib "`model'", ul
 		foreach site of global cancersites {
 			dib "`site'", ul
@@ -62,14 +62,11 @@ use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 
 *Capture all numeric results (e.g. to use estimates in sys review summary figure)
 use "$results_an_dem/_temp_dementia_0.dta", clear
-append using "$results_an_dem/_temp_dementia_1.dta"
 
-/*foreach outcome in  dementia vasc alz other_dem ns_dem drugsdementia dementiahes {
-foreach outcome in  dementia {
+foreach outcome in   vasc alz other_dem ns_dem drugsdementia dementiahes {
     append using "$results_an_dem/_temp_`outcome'_0.dta"
-    append using "$results_an_dem/_temp_`outcome'_1.dta"
 
-}*/
+}
 replace outcome="other_dem" if outcome=="other_de"
 save "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", replace
 sort cancer year model 
@@ -77,9 +74,9 @@ list
  
 
 /**** GRAPHS  *********************** */
-foreach year in 0 1 {
+foreach year in 1 {
 foreach db of  global databases {
-foreach outcome in  dementia vasc alz other_dem ns_dem drugsdementia dementiahes {
+foreach outcome in dementia vasc alz other_dem ns_dem  drugsdementia dementiahes {
 	*
 	use "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", clear
 	keep if year=="`year'"
@@ -244,13 +241,14 @@ foreach outcome in  dementia vasc alz other_dem ns_dem drugsdementia dementiahes
 }
 
 
-graph combine dementia_0 dementia_1, iscale(*0.9) cols(2) rows(2) ///
+graph combine dementia_0, iscale(*0.9) cols(2) rows(2) ///
 ysize(5) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  
 note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
 name(combined, replace) 
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementia_year0and1.emf", replace
 
+*Dementia types
 graph combine  alz_0 vasc_0 other_dem_0 ns_dem_0, iscale(*0.9) cols(2) rows(2) ///
 ysize(10) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  

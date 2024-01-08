@@ -53,11 +53,33 @@ end
 *Set up output file
 
 foreach db in aandg {
-use "$datafiles/cr_dataforDEManalysis_`db'.dta", clear
+use "$datafiles_an_dem/cr_dataforDEManalysis_`db'.dta", clear
 
 count
 recode smokstatus 12=3
 drop if h_odementia==1
+
+rename indexdate doentry
+	
+gen doexit = min(doendcprdfup, d(29mar2021))
+format doexit %dD/N/CY
+
+
+*Censor controls at date of censor in cases
+gen censordatecancer_temp=doexit if exposed==1
+bysort setid: egen censordatecancer=max(censordatecancer_temp) 
+replace doexit = censordatecancer if doexit>censordatecancer 
+format censordatecancer %td 
+format censordatecancer_temp %td 
+*br setid exposed doe* censor* in 1/100
+
+*Censor cases at date of all cases censored
+gsort setid -exposed -doexit
+gen censordatecontrol_temp=doexit if exposed==0
+bysort setid: egen censordatecontrol=max(censordatecontrol_temp)  
+gen flag=1 if doexit>censordatecontrol
+replace doexit = censordatecontrol if doexit>censordatecontrol 
+format censordatecontrol censordatecontrol_temp %td 
 
 
 
@@ -66,7 +88,7 @@ drop if h_odementia==1
 ********************************************************************************
 
 cap file close tablecontent
-file open tablecontent using "$results\dementia\Table_an_covariates_tables_manuscript_`db'.txt", write text replace
+file open tablecontent using "$results_an_dem\Table_an_covariates_tables_manuscript_`db'.txt", write text replace
 
 file write tablecontent "Variable" _tab "Level" _tab "Cancer survivors" _tab "Non-cancer participants" _n
 
@@ -74,10 +96,10 @@ file write tablecontent "Variable" _tab "Level" _tab "Cancer survivors" _tab "No
 gen byte Total=1
 tabulatevariable, variable(Total) start(1) end(1) outcome(exposed)
 
-***Person years from cancer diagnosis to the end of CPRD follow-up / study period
+*** Person years from cancer diagnosis to the end of CPRD follow-up / study period
 * follow-up for each analysis will depend on the mh event date
-
-gen time = (doendcprdfup - indexdate)/365.25
+gen time = (doexit - doentry)/365.25
+ 
 file write tablecontent "Person-years from cancer diagnosis/baseline to end of follow-up" _n
 
 file write tablecontent _tab "Mean (SD)"
@@ -113,22 +135,25 @@ drop time
 
 *** Total person years included (from index to end of follow-up)
 file write tablecontent _n "Total person-years included* (millions)"
-gen time = (doendcprdfup - indexdate)/365.25
+gen time = (doexit - doentry)/365.25
 qui summ time if exposed == 1
 local timemillions = r(sum) / 1000000
 local string = string(`timemillions', "%6.2fc")
-file write tablecontent  _n _tab _tab ("`string'")
+file write tablecontent  _tab _tab ("`string'")
 
 qui summ time if exposed == 0
 local timemillions = r(sum) / 1000000
 local string = string(`timemillions', "%6.2fc")
 file write tablecontent  _tab ("`string'") _n
-
+file write tablecontent _n 
 
 *Age (years)
-
+egen age_cat_dementia=cut(age), at(17 65 80 200)
+recode age_cat_dementia 17=1 65=2 80=3
+lab define age_cat_dementia 1 "18-64" 2 "65-79" 3 "80+"
+lab val age_cat_dementia age_cat_dementia
 *Age catgorical
-tabulatevariable, variable(age_cat) start(1) end(4) outcome(exposed) 
+tabulatevariable, variable(age_cat_dementia) start(1) end(3) outcome(exposed) 
 file write tablecontent _n 
 
 *Sex
@@ -140,16 +165,16 @@ tabulatevariable, variable(imd5) start(1) end(5) outcome(exposed)
 file write tablecontent _n 
 
 *Ethnicity
-tabulatevariable, variable(eth5) start(0) end(4) missing outcome(exposed)
+tabulatevariable, variable(eth5_cprd) start(0) end(4) missing outcome(exposed)
 file write tablecontent _n 
 
 *Year cancer diagnosis
-tabulatevariable, variable(cal_year_gp) start(1) end(5) outcome(exposed)
+tabulatevariable, variable(index_year_gr) start(1) end(5) outcome(exposed)
 file write tablecontent _n 
 
-recode b_gpno 4=2 10=3
+recode b_nocons_yrprior_gr 4=2 10=3
 *Number consultations year prior to indexdate
-tabulatevariable, variable(b_gpno) start(0) end(3) outcome(exposed)
+tabulatevariable, variable(b_nocons_yrprior_gr) start(0) end(3) outcome(exposed)
 file write tablecontent _n 
 
 *Smoking status
@@ -157,7 +182,7 @@ tabulatevariable, variable(smokstatus) start(0) end(3)  outcome(exposed)
 file write tablecontent _n 
 
 *Alc status
-tabulatevariable, variable(alcstatus) start(0) end(2) missing outcome(exposed)
+tabulatevariable, variable(alcohol_prob) start(0) end(2) missing outcome(exposed)
 file write tablecontent _n 
 
 *BMI
@@ -168,7 +193,7 @@ file write tablecontent _n
 tabulatevariable, variable(b_diab) start(1) end(1) outcome(exposed)
 
 *CVD hypertension
-foreach cond in b_cvd b_hyp b_ckd b_ra b_ibd b_coeliac b_lupus   {
+foreach cond in b_cvd b_hyp b_ckd b_ra b_ibd b_coeliac b_lupus  b_depression {
 tabulatevariable, variable(`cond') start(1) end(1) outcome(exposed)
 }
 

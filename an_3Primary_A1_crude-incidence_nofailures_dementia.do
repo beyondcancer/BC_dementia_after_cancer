@@ -4,15 +4,14 @@ log using "$logfiles_an_dem/an_Primary_A1_crude-incidence_nofailures.txt", repla
 /*******************************************************************************
 CREATE FILE WITH CRUDE INCIDENCE RATES AND NUMBER OF FAILURES
 *******************************************************************************/
-*alz vasc other_dem ns_dem
-*foreach outcome in  dementia vasc alz other_dem ns_dem drugsdementia dementiahes {
-foreach outcome in  dementia {
+*dementia vasc alz other_dem ns_dem
+foreach outcome in dementia vasc alz other_dem ns_dem  dementiadrugs dementiahes {
 postutil clear
 postfile failures str10 db str5 cancersite str5 year str20 outcome nfail rateexp rateunexp using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", replace
 
 foreach db of  global databases {
 foreach cancersite of global cancersites {
-foreach year in 0 1 {
+foreach year in 0  {
 noi di "`cancersite'" "`outcome'"
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear
 	

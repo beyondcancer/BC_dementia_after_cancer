@@ -51,8 +51,8 @@ if "`outcome'"=="dementiahes" {
 gen dementia= 1 if main`year'_datedementiahes<= doexit
 }
 
-if "`outcome'"=="drugsdementia" {
-gen dementia= 1 if main`year'_datedrugsdementia<= doexit
+if "`outcome'"=="dementiadrugs" {
+gen dementia= 1 if main`year'_datedementiadrugs<= doexit
 }
 		
 *create unique id value to account for patients who are both in the control and control groups

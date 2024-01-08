@@ -88,7 +88,7 @@ drop if anyexposed==0
 
 tab exposed
 * SAVA DATASET
-save "$datafiles/cr_dataforDEManalysis_gold.dta", replace
+save "$datafiles_an_dem/cr_dataforDEManalysis_gold.dta", replace
 
 log close
 
