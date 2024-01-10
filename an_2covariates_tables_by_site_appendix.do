@@ -147,6 +147,7 @@ file write tablecontent  _tab ("`string'") _n
 file write tablecontent _n 
 
 *Age (years)
+*Age (years)
 egen age_cat_dementia=cut(age), at(17 65 80 200)
 recode age_cat_dementia 17=1 65=2 80=3
 lab define age_cat_dementia 1 "18-64" 2 "65-79" 3 "80+"

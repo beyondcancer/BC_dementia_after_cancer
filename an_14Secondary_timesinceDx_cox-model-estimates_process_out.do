@@ -14,7 +14,7 @@ foreach db of  global databases {
 foreach cancersite of global cancersites {
 foreach outcome in dementia dementiahes {
 foreach year in 0.25 0.5 0.75 1 2 5 10 25 {		
-cap estimates use "$results/dementia/an_Secondary_timesinceDx_cox-model-estimates_`cancersite'_`outcome'_`db'_`year'"
+cap estimates use "$results_an_dem/an_Secondary_timesinceDx_cox-model-estimates_`cancersite'_`outcome'_`db'_`year'"
 if _rc==0 post results ("`db'") ("`cancersite'") ("`outcome'") ("`year'")  ("`model'") (_b[exposed]) (_se[exposed])
 }
 }
@@ -29,7 +29,7 @@ gen hr = exp(beta)
 gen lci = exp(beta-invnorm(0.975)*sebeta)
 gen uci = exp(beta+invnorm(0.975)*sebeta)
 
-save "$results\dementia/an_Secondary_timesinceDx_cox_processout_dementia.dta", replace
+save "$results_an_dem/an_Secondary_timesinceDx_cox_processout_dementia.dta", replace
 
 
 

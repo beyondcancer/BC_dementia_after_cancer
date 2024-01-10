@@ -21,7 +21,7 @@ EDITED KB 11/7/23
 foreach outcome in  dementia {
 
 clear all 
-use "$results\dementia/an_Secondary_timesinceDx_cox_processout_dementia.dta", clear
+use "$results_an_dem/an_Secondary_timesinceDx_cox_processout_dementia.dta", clear
 keep if outcome=="`outcome'"
 *gen lci = substr(v6,1,4)
 *gen uci = substr(v7,1,4)
@@ -160,8 +160,8 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 		
 
 graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis.grec"
-graph save "$results_dem/forest_`outcome'_timesincedx", replace
-graph export "$results_dem\forest_`outcome'_timesincedx.emf", as(emf) name("Graph") replace
+graph save "$results_an_dem/forest_`outcome'_timesincedx", replace
+graph export "$results_an_dem\forest_`outcome'_timesincedx.emf", as(emf) name("Graph") replace
 }
 
 stop 

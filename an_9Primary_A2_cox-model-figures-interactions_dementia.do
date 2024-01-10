@@ -33,7 +33,7 @@ foreach cancer of global cancersites {
 		if "`cancer'"=="ute" local cancerlong "Uterus (C54-55)"
 		
 
-use "$results_dem/an_Primary_A2_cox-model-estimates_int_processout_aandg_dementia.dta", clear
+use "$results_an_dem/an_Primary_A2_cox-model-estimates_int_processout_aandg_dementia.dta", clear
 
 
 keep if outcome=="`outcome'" & cancer=="`cancer'"
@@ -48,26 +48,21 @@ replace stratum = "Age 80+y" if intvar=="age_cat" & level == 3
 
 replace stratum = "White" if intvar=="ethnicity_binary" & level == 0
 replace stratum = "Non-White" if intvar=="ethnicity_binary" & level == 1
-  
-replace stratum = "1-2y since diagnosis" if intvar=="timesincediag3" & level == 0 
-replace stratum = "2-3y since diagnosis" if intvar=="timesincediag3" & level == 1 
-replace stratum = "3-5y since diagnosis" if intvar=="timesincediag3" & level == 2 
-replace stratum = "5+y since diagnosis" if intvar=="timesincediag3" & level == 5 
 
-replace stratum = "Years 1995-2000" if intvar=="calendaryearcat3" & level == 0 
-replace stratum = "Years 2001-2005" if intvar=="calendaryearcat3" & level == 2
-replace stratum = "Years 2006-2010" if intvar=="calendaryearcat3" & level == 3
-replace stratum = "Years 2011-2015" if intvar=="calendaryearcat3" & level == 4
-replace stratum = "Years 2016-2018" if intvar=="calendaryearcat3" & level == 5
+replace stratum = "Years 1998-2002" if intvar=="calendaryearcat3" & level == 0 
+replace stratum = "Years 2003-2008" if intvar=="calendaryearcat3" & level == 2
+replace stratum = "Years 2009-2015" if intvar=="calendaryearcat3" & level == 3
+replace stratum = "Years 2016-2018" if intvar=="calendaryearcat3" & level == 4
 
 replace stratum = "Lower deprivation" if intvar=="mostdeprived" & level == 0 
 replace stratum = "Higher deprivation" if intvar=="mostdeprived" & level == 1 
 
-replace stratum = "Gold" if intvar=="cprd_db" & level == 0 
-replace stratum = "Aurum" if intvar=="cprd_db" & level == 1 
+replace stratum = "North" if intvar=="region_cat" & level == 0
+replace stratum = "East" if intvar=="region_cat" & level == 2
+replace stratum = "West" if intvar=="region_cat" & level == 3
+replace stratum = "South" if intvar=="region_cat" & level == 4
+replace stratum = "London" if intvar=="region_cat" & level == 5
 
-replace stratum = "Does not live alone" if intvar=="living_alone" & level == 0 
-replace stratum = "Lives alone" if intvar=="living_alone" & level == 1 
 list 
 gen esthr = string(hr, "%4.2f") + " (" + string(lci, "%4.2f") + ", " + string(uci, "%4.2f") + ")"
 gen pintstr = "p-int="+ string(pint, "%5.3f") if pint>=0.001 & pint<0.01
@@ -124,8 +119,8 @@ scatter n hr , mcol(black) ///
 
  
 graph combine $cancersites, altshrink rows(4)  graphregion(color(white))
-graph export "$results_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.emf", replace
-graph export "$results_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.jpg", replace
+graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.emf", replace
+graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.jpg", replace
 
 *graph drop _all
 } /*outcome*/

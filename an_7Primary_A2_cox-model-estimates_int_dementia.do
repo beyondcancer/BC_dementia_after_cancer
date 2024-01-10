@@ -17,11 +17,10 @@ foreach intvar of any age_cat gender ethnicity_binary calendaryearcat3 mostdepri
 
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear 
 	keep if cancer=="`cancersite'"
-	local year 1
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
 	
-	dib "`cancersite' `outcome' `db' *`intvar'", stars
+	noi di "`cancersite' `outcome' `db' *`intvar'"
 
 	*create new age category variable
 	*Adults aged 25-49 contribute around a tenth (9%) of all new cancer cases 
@@ -33,11 +32,11 @@ foreach intvar of any age_cat gender ethnicity_binary calendaryearcat3 mostdepri
 	rename age_cat2 age_cat
 	recode age_cat 15=1 65=2 80=3
 	
-	gen cal_year_gp=cut(index_year), at(1998 2003 2009 2015)
+	egen cal_year_gp=cut(index_year), at(1998 2003 2009 2015)
 	recode cal_year_gp 1998=1 2003=2 2009=3 2015=4
 	
 	*include "$dofiles\analyse\inc_setupadditionalcovariates.do"
-	include "$dofiles_an_mh\dementia/inc_excludepriorandset_dementia.do"
+	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do"
 		
 	*generate variables for use in interaction models
 	local exposureinteractionspec "i.exposed i.exposed##i.`intvar'"
@@ -55,7 +54,7 @@ foreach intvar of any age_cat gender ethnicity_binary calendaryearcat3 mostdepri
 		local exposureinteractionspec "i.exposed 1.exposed##1.`intvar' 1.exposed##2.`intvar' 1.exposed##3.`intvar' 1.exposed##4.`intvar'  "
 	}
 	if "`intvar'"=="ethnicity_binary" {	
-		gen ethnicity_binary = eth5>=1
+		gen ethnicity_binary = eth5_cprd>=1
 		local exposureinteractionspec "i.exposed 1.exposed##1.`intvar'"
 		}	
 		
@@ -78,7 +77,7 @@ foreach intvar of any age_cat gender ethnicity_binary calendaryearcat3 mostdepri
 	}
 	if `abort'==0 {
 	stcox  $covariates_common  `exposureinteractionspec', strata(set) iterate(1000)
-	if _rc==0 estimates save "$results_dem/an_Primary_A2_cox-model-estimates_int`intvar'_`cancersite'_`outcome'_`db'_dementia_`year'", replace
+	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_int`intvar'_`cancersite'_`outcome'_`db'_dementia_`year'", replace
 	
 	/*if "`intvar'"=="gender" {
 	/*rerun adjusted model because covariate classification has changed*/

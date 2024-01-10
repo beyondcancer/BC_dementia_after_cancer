@@ -62,26 +62,31 @@ use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 
 *Capture all numeric results (e.g. to use estimates in sys review summary figure)
 use "$results_an_dem/_temp_dementia_0.dta", clear
-
-foreach outcome in   vasc alz other_dem ns_dem drugsdementia dementiahes {
+replace outcome="dem_all"
+foreach outcome in   vasc alz other_dem ns_dem dementiahes {
     append using "$results_an_dem/_temp_`outcome'_0.dta"
-
+	replace outcome="dem_hes" if outcome=="dementia"
 }
+    append using "$results_an_dem/_temp_dementiadrugs_0.dta"
+replace outcome="dem_drugs" if outcome=="dementia"
 replace outcome="other_dem" if outcome=="other_de"
 save "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", replace
 sort cancer year model 
 list
  
+cd $results_an_dem
 
 /**** GRAPHS  *********************** */
-foreach year in 1 {
+foreach year in 0 {
 foreach db of  global databases {
-foreach outcome in dementia vasc alz other_dem ns_dem  drugsdementia dementiahes {
+foreach outcome in dem_all vasc alz other_dem ns_dem  dem_drugs dem_hes {
 	*
 	use "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", clear
 	keep if year=="`year'"
 	keep if outcome=="`outcome'"
+	drop if model=="crude"
 	replace model="crude" if model=="agesex_a"
+	
 	count
 	if `r(N)'>0 {
 	*Cancersite labels
@@ -231,17 +236,16 @@ foreach outcome in dementia vasc alz other_dem ns_dem  drugsdementia dementiahes
 			xscale(range(0.5 10) log)						///	resize x-axis
 			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(10)	/// y-axis no labels or title
 			graphregion(color(white))			/// get rid of rubbish grey/blue around graph
-			title("`name' `year'", size(vsmall)) ///
 			legend(order(1 3) label(1 "Stratified by age and gender matched sets") label(3 "Additionally adjusted for shared risk factors")  /// legend (1 = first plot, 3 = 3rd plot, 5 = 5th plot)
 			size(tiny) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero)) /// 
 			name("`outcome'_`year'", replace)
+		
 	} /*if there are data*/
 } /*outcomes*/
 } /*years*/
 }
 
-
-graph combine dementia_0, iscale(*0.9) cols(2) rows(2) ///
+graph combine dem_all_0, iscale(*0.9) cols(2) rows(2) ///
 ysize(5) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  
 note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
@@ -256,7 +260,7 @@ note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazar
 name(combined, replace)
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementiaTYPE_year0.emf", replace
 
-
+/*
 graph combine  alz_1 vasc_1 other_dem_0 ns_dem_1, iscale(*0.9) cols(2) rows(2) ///
 ysize(10) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  

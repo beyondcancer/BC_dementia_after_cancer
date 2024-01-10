@@ -7,8 +7,8 @@ foreach db of  global databases {
 	foreach site of global cancersites {
 	foreach outcome in dementia {
 	di "`site'"    
-	foreach year in 1 {		
-	use "$datafiles/cr_dataforDEManalysis_`db'_`site'.dta", clear 
+	foreach year in 0 {		
+	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`site'.dta", clear 
 	
 	drop if cal_year<2012
 	
@@ -39,7 +39,7 @@ foreach db of  global databases {
 	dib "`site' `outcome' `db'", stars
 	
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
-	include "$dofiles\analyse_mental_health\dementia/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
+	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
 	tab `stage'
 	rename `stage' stage_final
 
@@ -58,7 +58,7 @@ foreach db of  global databases {
 
 *	if `exposed_trtfailures' >=1 & `controlfailures' >=1 & `exposed_trtfailures2' >=1 {
 	cap noi stcox i.stage_final $covariates_common i.b_cvd i.b_hyp, strata(set) iterate(1000)
-	if _rc==0 estimates save "$results/dementia/an_Primary_A2_cox-model-estimatesdem_stage_`site'_`outcome'_`db'_`year'", replace	
+	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimatesdem_stage_`site'_`outcome'_`db'_`year'", replace	
 *} /*if at least 1 ev per group for crude and adjusted models*/
 } /*year from dx*/
 } /* outcomes */

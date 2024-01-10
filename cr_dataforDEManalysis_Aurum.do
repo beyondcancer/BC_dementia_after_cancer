@@ -85,6 +85,7 @@ drop if anyexposed==0
 
 
 tab exposed
+rename b_diab_cat b_diab
 * SAVA DATASET
 save "$datafiles_an_dem/cr_dataforDEManalysis_aurum.dta", replace
 

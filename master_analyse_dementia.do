@@ -56,17 +56,18 @@ SECONDARY ANALYSIS
 
 *Subsequent analyses all currently start at 1 year
 
-****STAGE****
-do "$dofiles_an_dem\an_10Secondary_A2_cox-model-estimates-stage.do"
-do "$dofiles_an_dem\an_11Secondary_A2_cox-model-estimates_processout-stage.do"
-do "$dofiles_an_dem\an_12Secondary_A2_figure-stage.do"
-
 ***TIME SINCE DX****
 do "$dofiles_an_dem\an_13Secondary_timesinceDx_cox-model-estimates.do" 
 do "$dofiles_an_dem\an_14Secondary_timesinceDx_cox-model-estimates_process_out.do"	
 do "$dofiles_an_dem\an_15Secondary_timesinceDx_cox-model-estimates-figures.do"
 
-***TREATMENT
+****STAGE****
+do "$dofiles_an_dem\an_10Secondary_A2_cox-model-estimates-stage.do"
+do "$dofiles_an_dem\an_11Secondary_A2_cox-model-estimates_processout-stage.do"
+do "$dofiles_an_dem\an_12Secondary_A2_figure-stage.do"
+
+
+*/**TREATMENT
 do "$dofiles_an_dem\an_16Secondary_A2_cox-model-estimates-trt.do"
 do "$dofiles_an_dem\an_17Secondary_A2_cox-model-estimates_processout-trt.do"
 do "$dofiles_an_dem\an_18Secondary_A2_figure-trt.do"
