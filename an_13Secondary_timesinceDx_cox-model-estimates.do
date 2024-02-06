@@ -12,7 +12,7 @@ foreach db of  global databases {
 	
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
-	dib "`cancersite' `outcome' `db'", stars
+	di  "`cancersite' `outcome' `db'"
 	
 	*drop individuals with outcome event prior to index date and create stset variables
 	drop if main0_date`outcome' <= indexdate

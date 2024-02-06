@@ -10,7 +10,7 @@ foreach db of  global databases {
 	foreach year in 0 {		
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`site'.dta", clear 
 	
-	drop if cal_year<2012
+	drop if index_year<2012
 	
 	if "`site'"=="cns" {
 	local stage grade_cns
@@ -36,7 +36,7 @@ foreach db of  global databases {
 	*Apply outcome specific exclusions
 	drop if h_o365_`year'`outcome'==1
 	drop if h_o`outcome'==1
-	dib "`site' `outcome' `db'", stars
+	noi di "***************`site' `outcome' `db'********************"
 	
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
 	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
@@ -57,7 +57,7 @@ foreach db of  global databases {
 	local controlfailures = `r(N)'
 
 *	if `exposed_trtfailures' >=1 & `controlfailures' >=1 & `exposed_trtfailures2' >=1 {
-	cap noi stcox i.stage_final $covariates_common i.b_cvd i.b_hyp, strata(set) iterate(1000)
+	cap noi stcox i.stage_final $covariates_common, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimatesdem_stage_`site'_`outcome'_`db'_`year'", replace	
 *} /*if at least 1 ev per group for crude and adjusted models*/
 } /*year from dx*/

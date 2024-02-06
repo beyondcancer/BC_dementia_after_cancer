@@ -135,15 +135,7 @@ foreach outcome in dem_all vasc alz other_dem ns_dem  dem_drugs dem_hes {
 	/*individual graph headings*/
 	include "$dofiles_an_dem\inc_outcometographtitle.do" /*locals for graph headings*/
 	
-	#delimit ;
-	local outcomeletters "A dementia"
-	;
-	#delimit cr
-	
-	di "`outcome'"
-	local x = strpos("`outcomeletters'", " `outcome'" ) - 1
-
-	local name = "(" + substr("`outcomeletters'", `x', 1) + ") " + "`outcome'" 
+	di "`outcome' `name'"
 
 	/*replace hrs and cis if hr is outside of 0.5 to 12 scale*/
 	replace result = "" if hr <0.001
@@ -238,6 +230,7 @@ foreach outcome in dem_all vasc alz other_dem ns_dem  dem_drugs dem_hes {
 			graphregion(color(white))			/// get rid of rubbish grey/blue around graph
 			legend(order(1 3) label(1 "Stratified by age and gender matched sets") label(3 "Additionally adjusted for shared risk factors")  /// legend (1 = first plot, 3 = 3rd plot, 5 = 5th plot)
 			size(tiny) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero)) /// 
+			title("`name'") ///
 			name("`outcome'_`year'", replace)
 		
 	} /*if there are data*/

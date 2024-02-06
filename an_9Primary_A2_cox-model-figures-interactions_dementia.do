@@ -91,7 +91,7 @@ gen n=`nmax' + 1 - nrev
 
 cap drop estx px interacx
 gen interacx = 0.1
-gen estx = 12
+gen estx = 10
 gen px = 40
 
 	/* gen new variable for offscale lcis and ucis*/ 
@@ -105,7 +105,7 @@ gen px = 40
 		gen overlab = ">"
 	gen underlab = "<"
 
-scatter n hr , mcol(black) ///
+scatter n hr , mcol(black) mlabsize(vsmall) ///
 	|| scatter n interacx, m(i) mlab(stratum) mlabcol(black) ///
 	|| rcap uci lci n, hor lc(black) ///
 	|| scatter n estx, m(i) mlab(esthr) mlabcol(black) ///

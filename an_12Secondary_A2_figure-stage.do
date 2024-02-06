@@ -131,32 +131,32 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 		gen overlab = ">"
 	gen underlab = "<"
 	 
-	scatter graphorder labelxpos if stage==0, m(i) mlab(cancersite) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder labelxpos if stage==1, m(i) mlab(stage2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if stage==1, mcol(black) msize(small) msymbol(D) ///
+	scatter graphorder labelxpos if stage==0, m(i) mlab(cancersite) mlabcol(black) mlabsize(tiny) ///
+	|| scatter graphorder labelxpos if stage==1, m(i) mlab(stage2) mlabcol(black) mlabsize(tiny) ///
+	|| scatter graphorder hr if stage==1, mcol(black) msize(tiny) msymbol(D) ///
 	|| rcap lci uci graphorder if stage==1, hor mcol(black) lcol(black) ///
-	|| scatter graphorder hrxpos if stage==1, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder hrxpos if stage==1, m(i) mlab(displayhrci) mlabcol(black) mlabsize(tiny) ///
 	///		
 	|| scatter graphorder labelxpos if stage==2, m(i)  ///
-	|| scatter graphorder labelxpos if stage==2, m(i) mlab(stage2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if stage==2, mcol(black) msize(small) msymbol(D) ///
+	|| scatter graphorder labelxpos if stage==2, m(i) mlab(stage2) mlabcol(black) mlabsize(tiny) ///
+	|| scatter graphorder hr if stage==2, mcol(black) msize(tiny) msymbol(D) ///
 	|| rcap lci uci graphorder if stage==2, hor mcol(black) lcol(black) ///	
-	|| scatter graphorder hrxpos if stage==2, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder hrxpos if stage==2, m(i) mlab(displayhrci) mlabcol(black) mlabsize(tiny) ///
 	///
 	|| scatter graphorder labelxpos if stage==3, m(i)   ///
-	|| scatter graphorder labelxpos if stage==3, m(i) mlab(stage2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if stage==3, mcol(black) msize(small) msymbol(D) ///
+	|| scatter graphorder labelxpos if stage==3, m(i) mlab(stage2) mlabcol(black) mlabsize(tiny) ///
+	|| scatter graphorder hr if stage==3, mcol(black) msize(tiny) msymbol(D) ///
 	|| rcap lci uci graphorder if stage==3, hor mcol(black) lcol(black) ///	
-	|| scatter graphorder hrxpos if stage==3, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder hrxpos if stage==3, m(i) mlab(displayhrci) mlabcol(black) mlabsize(tiny) ///
 	///
 	|| scatter graphorder labelxpos if stage==4, m(i)   ///
-	|| scatter graphorder labelxpos if stage==4, m(i) mlab(stage2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if stage==4, mcol(black) msize(small) msymbol(D) ///
+	|| scatter graphorder labelxpos if stage==4, m(i) mlab(stage2) mlabcol(black) mlabsize(tiny) ///
+	|| scatter graphorder hr if stage==4, mcol(black) msize(tiny) msymbol(D) ///
 	|| rcap lci uci graphorder if stage==4, hor mcol(black) lcol(black) ///	
-	|| scatter graphorder hrxpos if stage==4, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder hrxpos if stage==4, m(i) mlab(displayhrci) mlabcol(black) mlabsize(tiny) ///
 	ylabels(none) ytitle("") xscale(log range(50)) xlab(0.5 1 2 4 6) ///
-	xtitle("Hazard ratio & 95% CI") title("`outcome'") xline(1,lp(dash)) legend(off) ///
-	ysize(20) graphregion(color(white))
+	xtitle("Hazard ratio & 95% CI") xline(1,lp(dash)) legend(off) ///
+	ysize(10) graphregion(color(white))
 		
 		
 

@@ -26,12 +26,12 @@ foreach cancer of global cancersites {
 	drop if h_odementia==1
 		gen mostdeprived = (imd5==4|imd5==5)
 		gen ethnicity_binary = eth5_cprd>=1
-	*create new age category variable
-	egen age_cat2=cut(age), at(15, 50, 65, 80, 140)
+	
+	egen age_cat2=cut(age), at(15, 65, 80, 140)
 	tab age_cat2
 	drop age_cat
 	rename age_cat2 age_cat
-	recode age_cat 15=1 50=2 65=3 80=4
+	recode age_cat 15=1 65=2 80=3
 	
 	gen region_cat = region
 	recode region_cat 2/3=1 4=2 6=2 5=3 7=5 8/9=4
@@ -64,11 +64,14 @@ if "`intvar'"=="age_cat"   {
 local minlevel = 1
 local maxlevel = 3
 }
-if "`intvar'"=="calendaryearcat3" | "`intvar'"=="region_cat"   {
+if "`intvar'"=="calendaryearcat3" {
 local minlevel = 1
 local maxlevel = 4
 }
-
+if "`intvar'"=="region_cat" {
+local minlevel = 1
+local maxlevel = 5
+}
 
 local minlevelplus1 = `minlevel'+1
 
@@ -88,7 +91,7 @@ local pint = r(p)
 di "here 2"
 
 lincom 1.exposed
-post estimates ("`cancer'") ("`outcome'") ("`intvar'") (0) (r(estimate)) (r(se)) (`pint') 
+post estimates ("`cancer'") ("`outcome'") ("year'") ("`intvar'") (0) (r(estimate)) (r(se)) (`pint') 
 
 di "here 3"
 
