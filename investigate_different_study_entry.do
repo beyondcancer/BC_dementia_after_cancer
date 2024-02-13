@@ -1,7 +1,7 @@
 *run results where follow-up starts at birth...
 
 	use "$datafiles_an_dem/cr_dataforDEManalysis_gold.dta", clear 
-		local year 0
+		local year 1
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
 	drop if h_o365_`year'dementia==1
@@ -37,6 +37,9 @@ cap drop dementia
 
 gen dementia= 1 if main`year'_datedementia<= doexit
 
+gen month=7
+gen day=1
+gen dob=mdy(month, day, yob)
 *create unique id value to account for patients who are both in the control and control groups
 sort e_patid exposed
 gen id = _n
@@ -45,9 +48,12 @@ stset doexit, id(id) failure(dementia = 1) enter(dob) origin(dob) exit(doexit) s
 
 	stcox exposed
 	stcox exposed i.age_cat
-	stcox exposed, strata(set) iterate(1000)
+	stcox exposed, strata(set) vce(robust) iterate(1000)
 	 stcox exposed $covariates_common i.b_cvd i.b_hyp, strata(set) iterate(1000)
 	 
+stset doexit, id(id) failure(dementia = 1) enter(doentry) origin(doentry) exit(doexit) scale(365.25)
+	 stcox exposed $covariates_common i.b_cvd i.b_hyp, strata(set) iterate(1000)
+
 	 	/*louise criteria*/
 	/*	start of follow-up was defined as the earliest date of cancer diagnosis
 End date (earliest of:  transfer out date, the practice's last collection date, date of death (ONS data), study-end (2016), a dementia diagnosis, or a second cancer diagnosis, whichever occurred first. Cancer patients could act as potential controls until their first cancer diagnosis.*/
