@@ -29,7 +29,7 @@ replace order=3 if year==3
 replace order=4 if year==5
 replace order=5 if year==10
 
-gen graphorder = 8-order
+gen graphorder = 6-order
 
 * limit UCI to 15
 gen uci_abovemax=.
@@ -57,7 +57,7 @@ gen overlab = ">" if uci_abovemax==1
 
 
 gen anxpos = 0.08 // all analysis
-gen hrxpos = 7 // HR display 
+gen hrxpos = 6 // HR display 
 
 replace displayhrci="[not calculated]" if displayhrci==". (.-.)"
 replace displayhrci="[not calculated]" if displayhrci=="0.00 (0.00-0.00)"
@@ -115,9 +115,9 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	
 	scatter graphorder hr if cancersite2=="`cancer'" & outcome=="dementia", mcol(black) msize(small) ///
 	|| rcap lci uci graphorder if cancersite2=="`cancer'" & outcome=="dementia", hor mcol(black) lcol(black) ///
-	|| scatter graphorder hrxpos if cancersite2=="`cancer'", m(i) mlab(displayhrci) mlabcol(black) mlabsize(2) ///
+	|| scatter graphorder hrxpos if cancersite2=="`cancer'", m(i) mlab(displayhrci) mlabcol(black) mlabsize(3) ///
 	|| scatter graphorder anxpos if cancersite2=="`cancer'", m(i) mlab(analysis) mlabcol(black) mlabsize(3) ///
-	ylabels(none) ytitle("") xscale(log) xlab(0.5 1 2 4 8 15) ///
+	ylabels(none) ytitle("") xscale(log) xlab(0.5 1 2 4 8 20) ysize(3) ///
 	xtitle("Hazard ratio & 95% CI") title("`cancer'") xline(1,lp(dash)) legend(off) ///
 	name("`namegraph'", replace)
 

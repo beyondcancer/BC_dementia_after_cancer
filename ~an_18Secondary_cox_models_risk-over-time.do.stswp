@@ -9,6 +9,11 @@ foreach db of  global databases {
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`site'.dta", clear 
 
 	dib "`site' `outcome' `db'", stars
+	
+	*Apply outcome specific exclusions: already excluded, but a saftey check!
+	drop if h_odementia==1
+	drop if h_o365_`year'dementia==1
+	dib "`cancersite' `outcome' `db'", stars
 
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
 	include "$dofiles_an_dem\inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/

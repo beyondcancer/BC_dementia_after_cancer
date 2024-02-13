@@ -51,7 +51,7 @@ if "`outcome'"=="dementiahes" {
 gen dementia= 1 if main0_datedementiahes<= doexit
 }
 
-if "`outcome'"=="dementiadrugs" {
+if "`outcome'"=="drugsdementia" {
 gen dementia= 1 if main0_datedementiadrugs<= doexit
 }
 		
