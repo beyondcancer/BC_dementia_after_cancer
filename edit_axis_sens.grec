@@ -1,0 +1,26 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: twowaygraph_g
+*! family: twoway
+*! date: 16 Nov 2022
+*! time: 19:57:43
+*! graph_scheme: s2color
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.xaxis1.major.delete_tick 11
+// xaxis1 edits
+
+.xaxis1.major.delete_tick 11
+// xaxis1 edits
+
+.xaxis1.major.delete_tick 11
+// xaxis1 edits
+
+.xaxis1.major.delete_tick  11
+// xaxis1 edits
+
+// <end>
