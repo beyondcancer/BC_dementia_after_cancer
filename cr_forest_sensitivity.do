@@ -34,6 +34,7 @@ replace analysis=".  Recent consulters" if sense == "exc_non_"
 replace analysis=".  Adj. BMI" if sense == "bmi"
 replace analysis=".  Censor at start of pandemic" if sense == "pandemic"
 replace analysis=".  Dementia drugs only" if sense == "demdrugs"
+replace analysis=".  Excl. cancer survivors with chemotherapy record" if sense == "nochemo"
 
 
 tab analysis, miss
@@ -46,7 +47,9 @@ replace order=4 if sense == "bmi"
 replace order=5 if sense == "demhes"
 replace order=6 if sense == "demdrugs"
 replace order=7 if sense == "exc_non_"
-replace order=8 if sense == "pandemic"
+replace order=8 if sense == "nochemo"
+
+replace order=9 if sense == "pandemic"
 
 *replace order=6 if analysis==".  Data from 2006 onwards"
 

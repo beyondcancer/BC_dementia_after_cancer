@@ -37,10 +37,10 @@ postclose failures
 } /* gold/aurum */
 }
 
+foreach outcome in dementia vasc alz other_dem ns_dem  dementiadrugs dementiahes {
 
-use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_dementia", clear
+use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 list
-use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_dementiahes", clear
-list
+}
 log close
 

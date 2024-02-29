@@ -36,7 +36,7 @@ gen dementia= 1 if main0_datedementia<= doexit & dem_typedementia==2
 }
 
 if "`outcome'"=="other_dem" {
-gen dementia= 1 if main0_datedementia<= doexit & (dem_typedementia==2  | dem_typedementia==3 | dem_typedementia==4 | dem_typedementia==5 | dem_typedementia==6)      
+gen dementia= 1 if main0_datedementia<= doexit & (dem_typedementia==3 | dem_typedementia==4 | dem_typedementia==5 | dem_typedementia==6)      
 }
 
 if "`outcome'"=="ns_dem" {

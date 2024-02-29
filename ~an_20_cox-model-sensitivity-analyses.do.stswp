@@ -43,7 +43,7 @@ foreach db of  global databases {
 */
 	*don't include those having chemo
 	cap noi stcox exposed $covariates_common if dof_chemo==., strata(set) iterate(1000)
-	if _rc==0 estimates save "$results_an_dem/an_Sense_nochemo_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace	
+	if _rc==0 estimates save "$results_an_dem/an_Sense_nochemo_cox-model-estimates_a_`site'_`outcome'_`db'_`year'", replace	
 
 	/*Censor at start of the pandemic 
 	replace doexit=d(31jan2020) if doexit>d(31jan2020)
