@@ -19,7 +19,7 @@ replace sense="demdrugs" if outcome=="dementiadrugs"
 
 
 drop if ca=="crude" | ca=="agesex_a"
-drop if outcome=="alz" | outcome=="other_dem" | outcome=="ns_dem" 
+drop if outcome=="alz" | outcome=="other_dem" | outcome=="ns_dem" | outcome=="vasc"
 
 
 
@@ -34,7 +34,7 @@ replace analysis=".  Recent consulters" if sense == "exc_non_"
 replace analysis=".  Adj. BMI" if sense == "bmi"
 replace analysis=".  Censor at start of pandemic" if sense == "pandemic"
 replace analysis=".  Dementia drugs only" if sense == "demdrugs"
-replace analysis=".  Excl. cancer survivors with chemotherapy record" if sense == "nochemo"
+replace analysis=".  No chemotherapy record" if sense == "nochemo"
 
 
 tab analysis, miss

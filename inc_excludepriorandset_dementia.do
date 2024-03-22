@@ -8,7 +8,15 @@ replace doentry=doentry +(365.25*`year')
 
 *Note: doendcprdfup=min(lcd,tod,deathdate,dod, enddate), where enddate includes date of 
 *cancer diagnosis in controls
+
+if "`outcome'"=="alz" | "`outcome'"=="vasc"  | "`outcome'"=="other_dem" |  "`outcome'"=="ns_dem" | "`outcome'"=="dementia" {
 gen doexit = min(doendcprdfup, main0_datedementia, d(29mar2021))
+}
+
+if "`outcome'"=="dementiahes" | "`outcome'"=="dementiadrugs" {
+gen doexit = min(doendcprdfup, main0_date`outcome', d(29mar2021))
+}
+
 format doexit %dD/N/CY
 drop if doentry == doexit /*NEW 21/09/18*/
 
@@ -51,7 +59,7 @@ if "`outcome'"=="dementiahes" {
 gen dementia= 1 if main0_datedementiahes<= doexit
 }
 
-if "`outcome'"=="drugsdementia" {
+if "`outcome'"=="dementiadrugs" {
 gen dementia= 1 if main0_datedementiadrugs<= doexit
 }
 		

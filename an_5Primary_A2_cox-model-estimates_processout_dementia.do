@@ -12,12 +12,13 @@ postfile results str8 db str8 cancersite str15 outcome str15 year str8 ca beta s
 
 foreach db of  global databases {
 foreach cancersite of global cancersites {
-foreach outcome in dementia vasc alz other_dem ns_dem  dementiadrugs dementiahes {
-foreach model of any crude agesex_adj adjusted  {
+	*vasc alz other_dem ns_dem dementiahes dementiadrugs
+foreach outcome in  dementia   {
+foreach model of any  agesex_adj adjusted  {
 foreach year in 0 {
 
 
-cap estimates use "$results_an_dem/an_Primary_A2_cox-model-estimates_`model'_`cancersite'_`outcome'_`db'_`outcome'_`year'"
+cap estimates use "$results_an_dem/an_Primary_A2_cox-model-estimates_`model'_`cancersite'_`outcome'_`db'_`year'",
 if _rc==0 post results ("`db'") ("`cancersite'") ("`outcome'") ("`year'")  ("`model'") (_b[exposed]) (_se[exposed])
 
 }

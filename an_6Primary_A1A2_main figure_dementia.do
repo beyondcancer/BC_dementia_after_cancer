@@ -202,34 +202,34 @@ foreach outcome in dem_all vasc alz other_dem ns_dem  dem_drugs dem_hes {
 	/// hr and cis (crude)
 	|| scatter obs hr if model == "crude", msymbol(smtriangle) msize(small) mcolor(black) 		/// data points 
 		xline(1, lp(solid) lw(vthin) lcolor(black))				/// add ref line
-	|| rcap lci uci obs if model == "crude", horizontal lw(vthin) col(black) msize(vtiny)		/// add the CIs
+	|| rcap lci uci obs if model == "crude", horizontal lw(vthin) col(black) msize(vvsmall)		/// add the CIs
 	/// hr and cis (adjusted)
 	|| scatter obs hr if model == "adjusted", msymbol(smsquare) msize(small) mcolor(black) 		/// data points 
 		xline(1, lp(solid) lw(vthin) lcolor(black))				/// add ref line
-	|| rcap lci uci obs if model == "adjusted", horizontal lw(vthin) color(black) msize(vtiny)		/// add the CIs	
+	|| rcap lci uci obs if model == "adjusted", horizontal lw(vthin) color(black) msize(vvsmall)		/// add the CIs	
 	/// markers for lcis and ucis that are offscale
 	|| scatter obs lcimin, mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| scatter obs ucimax, mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	/// add results labels
 	|| scatter obs irlabpos if model == "crude", m(i)  mlab(irboth) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
-	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
+	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(vsmall) mlabposition(9)  ///
 	/// Headings for site labels and results
 	|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
 	|| scatter obs hrlabpos if obs==$headingobs, m(i) mlab(hrheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
 	|| scatter obs sitelabpos if obs==$headingobs & sitelabelson == 1, m(i) mlab(siteheading) mlabcol(black) mlabsize(tiny) mlabpos(3) ///
-	|| scatter obs higherlabpos if _n==1|obs==$headingobs, m(i) mlab(higherriskheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
-	|| scatter obs lowerlabpos if _n==1|obs==$headingobs, m(i) mlab(lowerriskheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
+	|| scatter obs higherlabpos if _n==1|obs==$headingobs, m(i) mlab(higherriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
+	|| scatter obs lowerlabpos if _n==1|obs==$headingobs, m(i) mlab(lowerriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
 	/// The cancer site labels
-	|| scatter obs sitelabpos if sitelabelson == 1, m(i) mlab(sitelabel) mlabcol(black) mlabsize(tiny)  ///
+	|| scatter obs sitelabpos if sitelabelson == 1, m(i) mlab(sitelabel) mlabcol(black) mlabsize(vsmall)  ///
 	/// graph options
 			, 		/// turn legend off
-			xtitle("HR (95% CI)", size(tiny) margin(0 2 0 0)) 		/// x-axis title - legend off
-			xlab(0.5 1 2 4, labsize(tiny)) /// x-axis tick marks
+			xtitle("HR (95% CI)", size(vsmall) margin(0 2 0 0)) 		/// x-axis title - legend off
+			xlab(0.5 1 2 4, labsize(vsmall)) /// x-axis tick marks
 			xscale(range(0.5 10) log)						///	resize x-axis
 			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(10)	/// y-axis no labels or title
 			graphregion(color(white))			/// get rid of rubbish grey/blue around graph
 			legend(order(1 3) label(1 "Stratified by age and gender matched sets") label(3 "Additionally adjusted for shared risk factors") /// legend (1 = first plot, 3 = 3rd plot, 5 = 5th plot)
-			size(tiny) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero) pos(6)) /// 
+			size(vsmall) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero) pos(6)) /// 
 			title("`name'") ///
 			name("`outcome'_`year'", replace)
 		
@@ -239,16 +239,16 @@ foreach outcome in dem_all vasc alz other_dem ns_dem  dem_drugs dem_hes {
 }
 
 graph combine dem_all_0, iscale(*0.9) ///
-ysize(10) ///
-/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  
+ysize(8) ///
+/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
 note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
 name(combined, replace) 
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementia_year0.emf", replace
 
 *Dementia types
 graph combine  alz_0 vasc_0 other_dem_0 ns_dem_0, iscale(*0.9) cols(2) rows(2) ///
-ysize(10) ///
-/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  
+ysize(8) ///
+/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
 note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
 name(combined, replace)
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementiaTYPE_year0.emf", replace
@@ -256,36 +256,36 @@ graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementiaTYPE_year0.emf
 /*
 graph combine  alz_1 vasc_1 other_dem_0 ns_dem_1, iscale(*0.9) cols(2) rows(2) ///
 ysize(10) ///
-/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  
-note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
+/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
+note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(vsmall)) ///
 name(combined, replace)
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementiaTYPE_year1.emf", replace
 
 graph combine  dementia_0 dementia_1 dementiahes_0 dementiahes_1, iscale(*0.9) cols(2) rows(2) ///
 ysize(10) ///
-/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  
-note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
+/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
+note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(vsmall)) ///
 name(combined, replace)
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementiaHES.emf", replace
 
 graph combine  dementia_0 dementia_1 drugsdementia_0 drugsdementia_1, iscale(*0.9) cols(2) rows(2) ///
 ysize(10) ///
-/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  
-note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
+/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
+note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(vsmall)) ///
 name(combined, replace)
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementiaDRUGS.emf", replace
 
 /***MAIN FIGURE - A TO D
 grc1leg dementia alz vasc other_dem ns_dem, iscale(*0.9) cols(2) rows(2) ///
 legendfrom(dementia) position(7) ///
-/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(tiny))*/ ///  
-note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
+/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
+note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(vsmall)) ///
 name(combined, replace)
 
 
 graph dir
 graph display dementia
-graph display combined, ysize(8.4) margins(tiny)  /*8.4 = close to aspect ratio of A4 paper*/
+graph display combined, ysize(8.4) margins(vsmall)  /*8.4 = close to aspect ratio of A4 paper*/
 graph export "$results/an_Primary_A1A2_main_figure_1AtoD_dementia.emf", replace
 graph export "$results/an_Primary_A1A2_main_figure_1AtoD_dementia.pdf", replace
 

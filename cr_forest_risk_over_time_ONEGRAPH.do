@@ -13,11 +13,11 @@ use "$results_an_dem\an_Secondary_risk-over-time_cox-model-estimates_processout_
 gen displayhrci = string(hr, "%3.2f") + " (" + string(lci, "%3.2f") + "-" + string(uci, "%3.2f") + ")"
 
 destring year, replace
-gen analysis="Start of follow-up: index date" if year==0 
-replace analysis="Start of follow-up: 1 year" if year==1 
-replace analysis="Start of follow-up: 3 year" if year==3 
-replace analysis="Start of follow-up: 5 year" if year==5 
-replace analysis="Start of follow-up: 10 year" if year==10 
+gen analysis="Index date" if year==0 
+replace analysis="1 year" if year==1 
+replace analysis="3 year" if year==3 
+replace analysis="5 year" if year==5 
+replace analysis="10 year" if year==10 
 
 
 tab analysis, miss
@@ -117,11 +117,11 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	|| rcap lci uci graphorder if cancersite2=="`cancer'" & outcome=="dementia", hor mcol(black) lcol(black) ///
 	|| scatter graphorder hrxpos if cancersite2=="`cancer'", m(i) mlab(displayhrci) mlabcol(black) mlabsize(3) ///
 	|| scatter graphorder anxpos if cancersite2=="`cancer'", m(i) mlab(analysis) mlabcol(black) mlabsize(3) ///
-	ylabels(none) ytitle("") xscale(log) xlab(0.5 1 2 4 8 20) ysize(3) ///
+	ylabels(none) ytitle("") xscale(log) xlab(0.5 1 2 4 8 20) ysize(2) ///
 	xtitle("Hazard ratio & 95% CI") title("`cancer'") xline(1,lp(dash)) legend(off) ///
 	name("`namegraph'", replace)
 
-	graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis_sens.grec"
+	*graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis_sens.grec"
 	graph save "$results_an_dem/`namegraph'.gph", replace
 }
 

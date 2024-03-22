@@ -4,10 +4,10 @@ log using "$logfiles_an_dem/an_Secondary_timesinceDx_cox-model-estimates_dementi
 
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
 foreach db of  global databases {
-	foreach site of global cancersites_mel {
+	foreach site of global cancersites {
 	foreach outcome in dementia {
-	    
-	foreach year in 0.25 0.5 0.75 1 2 5 10 25 100 {		
+	    *0.25 0.5 0.75 1 2 5 10 25
+	foreach year in  100 {		
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`site'.dta", clear 
 	
 	*Apply outcome specific exclusions

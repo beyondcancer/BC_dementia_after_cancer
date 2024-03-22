@@ -84,7 +84,7 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	replace timeperiod2=".  0-2 yrs" if year==2
 	replace timeperiod2=".  0-5 yrs" if year==5
 	replace timeperiod2=".  0-10 yrs" if year==10
-	replace timeperiod2=".  0-25 yrs" if year==25
+	replace timeperiod2=".  All yrs" if year==100
 
 	gen graphorder = .
 	replace graphorder=1  if cancersite=="Oral cavity (C00-06)"
@@ -144,6 +144,12 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	|| rcap lci uci graphorder if timeperiod==3, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if timeperiod==3, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///
+		|| scatter graphorder labelxpos if timeperiod==100, m(i)   ///
+	|| scatter graphorder labelxpos if timeperiod==100, m(i) mlab(timeperiod2) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder hr if timeperiod==100, mcol(black) msize(small) msymbol(D) ///
+	|| rcap lci uci graphorder if timeperiod==100, hor mcol(black) lcol(black) ///	
+	|| scatter graphorder hrxpos if timeperiod==100, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
+	///
 	ylabels(none) ytitle("") xscale(log range(50)) xlab(0.5 1 2 4 6) ///
 	xtitle("Hazard ratio & 95% CI") xline(1,lp(dash)) legend(off) ///
 	ysize(10) graphregion(color(white))
@@ -154,6 +160,7 @@ graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles
 graph save "$results_an_dem/forest_`outcome'_timesincedx_A", replace
 graph export "$results_an_dem\forest_`outcome'_timesincedx_A.emf", as(emf) name("Graph") replace
 }
+ 
 
 foreach outcome in  dementia {
 
@@ -222,7 +229,7 @@ foreach cancer in  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C
 	replace timeperiod2=".  0-2 yrs" if year==2
 	replace timeperiod2=".  0-5 yrs" if year==5
 	replace timeperiod2=".  0-10 yrs" if year==10
-	replace timeperiod2=".  0-25 yrs" if year==25
+	replace timeperiod2=".  All yrs" if year==100
 
 	gen graphorder = .
 	replace graphorder=1 if cancersite=="Uterus (C54-55)" 
@@ -281,6 +288,12 @@ foreach cancer in  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C
 	|| scatter graphorder hr if timeperiod==3, mcol(black) msize(small) msymbol(D) ///
 	|| rcap lci uci graphorder if timeperiod==3, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if timeperiod==3, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
+	///
+			|| scatter graphorder labelxpos if timeperiod==100, m(i)   ///
+	|| scatter graphorder labelxpos if timeperiod==100, m(i) mlab(timeperiod2) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder hr if timeperiod==100, mcol(black) msize(small) msymbol(D) ///
+	|| rcap lci uci graphorder if timeperiod==100, hor mcol(black) lcol(black) ///	
+	|| scatter graphorder hrxpos if timeperiod==100, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///
 	ylabels(none) ytitle("") xscale(log range(50)) xlab(0.5 1 2 4 6) ///
 	xtitle("Hazard ratio & 95% CI") xline(1,lp(dash)) legend(off) ///

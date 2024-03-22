@@ -4,10 +4,10 @@ log using "$logfiles_an_dem/an_Primary_A1_crude-incidence_nofailures.txt", repla
 /*******************************************************************************
 CREATE FILE WITH CRUDE INCIDENCE RATES AND NUMBER OF FAILURES
 *******************************************************************************/
-*dementia vasc alz other_dem ns_dem
-foreach outcome in dementia vasc alz other_dem ns_dem  dementiadrugs dementiahes {
+*dementia vasc alz other_dem ns_dem   dementiahes dementiadrugs
+foreach outcome in dementia {
 postutil clear
-postfile failures str10 db str5 cancersite str5 year str20 outcome nfail rateexp rateunexp using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", replace
+postfile failures str10 db str5 cancersite str5 year str20 outcome nfail expfail unexpfail rateexp rateunexp using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", replace
 
 foreach db of  global databases {
 foreach cancersite of global cancersites {
@@ -30,17 +30,21 @@ noi di "`cancersite'" "`outcome'"
 	local rateexp = r(rate)
 	stptime if exposed==0
 	local rateunexp = r(rate)
-	post failures ("`db'") ("`cancersite'") ("`year'") ("`outcome'") (`failures') (`rateexp') (`rateunexp')
+	count if exposed == 1 & _d==1
+	local exposedfailures = `r(N)'
+	count if exposed == 0 & _d==1
+	local controlfailures = `r(N)'
+	post failures ("`db'") ("`cancersite'") ("`year'") ("`outcome'") (`failures') (`exposedfailures') (`controlfailures') (`rateexp') (`rateunexp')
 } /* outcomes */
 } /* sites */
 postclose failures
 } /* gold/aurum */
 }
 
-foreach outcome in dementia vasc alz other_dem ns_dem  dementiadrugs dementiahes {
-
-use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
+use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_dementia", clear
+append using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_dementiadrugs"
+sort cancer outcome
 list
-}
+
 log close
 

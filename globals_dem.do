@@ -23,5 +23,7 @@ global cancersites5yrsurv "pan liv lun cns oes gas ora leu bla ova mye  col  nhl
 global cancersites_female "ora oes gas col liv pan lun mel bre cer ute ova kid bla cns thy nhl mye leu" /*prostate removed*/
 global top9cancers "col lun mel bre ute pro bla nhl leu"
 global cancersites_bre "bre" 
-global cancersites_pan "pan" 
+global cancersites_col "col" 
 global cancersites_mel "mel" 
+global cancersites_pan "pan" 
+global cancersites_liv "liv" 
