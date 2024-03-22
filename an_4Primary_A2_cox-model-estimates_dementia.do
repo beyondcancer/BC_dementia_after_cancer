@@ -6,7 +6,7 @@ log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_dementia.txt", rep
 foreach db of  global databases {
 	foreach cancersite of global cancersites {
 		* vasc alz other_dem ns_dem dementiahes dementiadrugs
-foreach outcome in   dementia {
+foreach outcome in   dementia vasc alz other_dem ns_dem dementiahes {
 			foreach year in 0 {		
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear 
 		

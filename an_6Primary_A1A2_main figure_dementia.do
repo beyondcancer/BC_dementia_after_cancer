@@ -212,7 +212,7 @@ foreach outcome in dem_all vasc alz other_dem ns_dem  dem_drugs dem_hes {
 	|| scatter obs ucimax, mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	/// add results labels
 	|| scatter obs irlabpos if model == "crude", m(i)  mlab(irboth) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
-	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(vsmall) mlabposition(9)  ///
+	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
 	/// Headings for site labels and results
 	|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
 	|| scatter obs hrlabpos if obs==$headingobs, m(i) mlab(hrheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
@@ -247,7 +247,7 @@ graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementia_year0.emf", r
 
 *Dementia types
 graph combine  alz_0 vasc_0 other_dem_0 ns_dem_0, iscale(*0.9) cols(2) rows(2) ///
-ysize(8) ///
+ysize(10) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
 note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
 name(combined, replace)
