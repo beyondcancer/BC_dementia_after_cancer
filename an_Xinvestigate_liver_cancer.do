@@ -38,7 +38,7 @@ keep if dementia==1 & exposed==1 & cprd_db==1
 save  "$datafiles\liver_cancer_dementia_aurum.dta", replace
 restore
 
-
+/*
 use  "$datafiles\cr_all_mh_Rx_outcomeevents_aurum.dta", clear
 keep if binaryrxvar=="drugsdementia"
 destring e_patid, replace
@@ -47,12 +47,16 @@ bysort e_patid (obsdate): keep if _n==1
 keep e_patid obsdate 
 gen drugs=1
 save  "$datafiles\dementia_drugs_aurum.dta", replace /*7*/
-
+*/
 use "$datafiles\cr_all_mh_dx_outcomeevents_aurum.dta", clear
 keep if binaryvar=="dementia"
 destring e_patid, replace
 merge m:1 e_patid using "$datafiles\liver_cancer_dementia_aurum.dta", keep(match)
 bysort e_patid (obsdate): keep if _n==1
+drop _m
+merge m:1 lshtmcode using "$datafiles//aurummedicaldict_lookup.dta", keep(match master)
+
+stop 
 keep e_patid obsdate 
 gen pricare=1
 save  "$datafiles\dementia_pricare_aurum.dta", replace /*65*/

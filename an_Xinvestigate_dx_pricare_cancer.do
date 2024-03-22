@@ -1,4 +1,5 @@
-log using "$logfiles_an_dem/an_HES_codes_dementia_by_cancer_without g31.txt", replace t
+cap log close 
+log using "$logfiles_an_dem/an_pri_codes_dementia_by_cancer.txt", replace t
 
 
 *Look at records of liver cancer survivors with dementia diagnosis
@@ -47,29 +48,22 @@ save  "$datafiles\unexp_dementia_aurum_`cancersite'.dta", replace
 
 
 
-use "$datafiles\cr_all_mh_outcomeevents_HES_aurum.dta", clear
+use "$datafiles\cr_all_mh_dx_outcomeevents_aurum.dta", clear
 keep if binaryvar=="dementia"
 destring e_patid, replace
 merge m:1 e_patid using "$datafiles\exp_dementia_aurum_`cancersite'.dta", keep(match) nogen /*167*/
-merge m:1 icd using "J:\EHR-Working\Krishnan\20_000268\codelists\cr_codelist_dementia_HES.dta", keep(match)
-drop if icd=="G31" | icd=="G31.0" | icd=="G31.1" | icd=="G31.2" | icd=="G31.8" | icd=="G31.9"  
+merge m:1 lshtmcode using "$datafiles//aurummedicaldict_lookup.dta", keep(match master)
 bysort e_patid (obsdate): keep if _n==1
-keep e_patid obsdate icd desc
-noi tab icd, sort freq
-tab desc
+noi tab term, sort freq
 
-	use "$datafiles\cr_all_mh_outcomeevents_HES_aurum.dta", clear
+use "$datafiles\cr_all_mh_dx_outcomeevents_aurum.dta", clear
 keep if binaryvar=="dementia"
 destring e_patid, replace
 merge m:1 e_patid using "$datafiles\unexp_dementia_aurum_`cancersite'.dta", keep(match) nogen /*167*/
-merge m:1 icd using "J:\EHR-Working\Krishnan\20_000268\codelists\cr_codelist_dementia_HES.dta", keep(match)
-drop if icd=="G31" | icd=="G31.0" | icd=="G31.1" | icd=="G31.2" | icd=="G31.8" | icd=="G31.9"  
+merge m:1 lshtmcode using "$datafiles//aurummedicaldict_lookup.dta", keep(match master)
 
 bysort e_patid (obsdate): keep if _n==1
-
-keep e_patid obsdate icd desc
-noi tab icd, sort freq
-tab desc
+noi tab term, sort freq
 }
 log close 
 stop 
@@ -117,27 +111,25 @@ keep if dementia==1 & exposed==0 & cprd_db==1
 save  "$datafiles\unexp_dementia_aurum.dta", replace
 
 
-
-use "$datafiles\cr_all_mh_outcomeevents_HES_aurum.dta", clear
+use "$datafiles\cr_all_mh_dx_outcomeevents_aurum.dta", clear
 keep if binaryvar=="dementia"
 destring e_patid, replace
-merge m:1 e_patid using "$datafiles\exp_dementia_aurum.dta", keep(match) nogen /*167*/
-merge m:1 icd using "J:\EHR-Working\Krishnan\20_000268\codelists\cr_codelist_dementia_HES.dta", keep(match)
+merge 1:m e_patid using "$datafiles\exp_dementia_aurum.dta", keep(match) nogen /*167*/
+merge m:1 lshtmcode using "$datafiles//aurummedicaldict_lookup.dta", keep(match master)
 bysort e_patid (obsdate): keep if _n==1
-keep e_patid obsdate icd desc
-noi tab icd, sort freq
-tab desc
+drop _m
+noi tab term, sort freq
 
-	use "$datafiles\cr_all_mh_outcomeevents_HES_aurum.dta", clear
+
+use "$datafiles\cr_all_mh_dx_outcomeevents_aurum.dta", clear
 keep if binaryvar=="dementia"
 destring e_patid, replace
 bysort e_patid (obsdate): keep if _n==1
 merge 1:m e_patid using "$datafiles\unexp_dementia_aurum.dta", keep(match) nogen /*167*/
-merge m:1 icd using "J:\EHR-Working\Krishnan\20_000268\codelists\cr_codelist_dementia_HES.dta", keep(match)
+merge m:1 lshtmcode using "$datafiles//aurummedicaldict_lookup.dta", keep(match master)
 bysort e_patid (obsdate): keep if _n==1
 keep e_patid obsdate icd desc
-noi tab icd, sort freq
-tab desc
+noi tab term, sort freq
 }
 *overall very similar distribution
 	
