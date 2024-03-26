@@ -1,6 +1,6 @@
-*Look at records of liver cancer survivors with dementia diagnosis
+*Look at records of pan cancer survivors with dementia diagnosis
 preserve
-use "$datafiles_an_dem/cr_dataforDEManalysis_aandg_liv.dta", clear
+use "$datafiles_an_dem/cr_dataforDEManalysis_aandg_pan.dta", clear
 
 
 
@@ -35,14 +35,14 @@ tab dementia exposed, col
 
 keep if dementia==1 & exposed==1 & cprd_db==1
 *189 in Aurum
-save  "$datafiles\liver_cancer_dementia_aurum.dta", replace
+save  "$datafiles\pan_cancer_dementia_aurum.dta", replace
 restore
 
 /*
 use  "$datafiles\cr_all_mh_Rx_outcomeevents_aurum.dta", clear
 keep if binaryrxvar=="drugsdementia"
 destring e_patid, replace
-merge m:1 e_patid using "$datafiles\liver_cancer_dementia_aurum.dta", keep(match)
+merge m:1 e_patid using "$datafiles\pan_cancer_dementia_aurum.dta", keep(match)
 bysort e_patid (obsdate): keep if _n==1
 keep e_patid obsdate 
 gen drugs=1
@@ -51,7 +51,7 @@ save  "$datafiles\dementia_drugs_aurum.dta", replace /*7*/
 use "$datafiles\cr_all_mh_dx_outcomeevents_aurum.dta", clear
 keep if binaryvar=="dementia"
 destring e_patid, replace
-merge m:1 e_patid using "$datafiles\liver_cancer_dementia_aurum.dta", keep(match)
+merge m:1 e_patid using "$datafiles\pan_cancer_dementia_aurum.dta", keep(match)
 bysort e_patid (obsdate): keep if _n==1
 drop _m
 merge m:1 lshtmcode using "$datafiles//aurummedicaldict_lookup.dta", keep(match master)
@@ -64,7 +64,7 @@ save  "$datafiles\dementia_pricare_aurum.dta", replace /*65*/
 use "$datafiles\cr_all_mh_outcomeevents_HES_aurum.dta", clear
 keep if binaryvar=="dementia"
 destring e_patid, replace
-merge m:1 e_patid using "$datafiles\liver_cancer_dementia_aurum.dta", keep(match) /*167*/
+merge m:1 e_patid using "$datafiles\pan_cancer_dementia_aurum.dta", keep(match) /*167*/
 bysort e_patid (obsdate): keep if _n==1
 keep e_patid obsdate icd
 tab icd
@@ -74,7 +74,7 @@ save  "$datafiles\dementia_hes_aurum.dta", replace
 G31.9 Degenerative disease of nervous system, unspecified
 */
 
-merge m:1 e_patid using "$datafiles\liver_cancer_dementia_aurum.dta", keep(match using)
+merge m:1 e_patid using "$datafiles\pan_cancer_dementia_aurum.dta", keep(match using)
 drop _m
 merge m:1 lshtmcode using "$datafiles//aurummedicaldict_lookup.dta", keep(match master)
 merge 1:m e_patid using "$datafiles\dementia_drugs_aurum.dta"

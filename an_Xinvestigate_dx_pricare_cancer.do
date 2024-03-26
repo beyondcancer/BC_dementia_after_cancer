@@ -3,7 +3,7 @@ log using "$logfiles_an_dem/an_pri_codes_dementia_by_cancer.txt", replace t
 
 
 *Look at records of liver cancer survivors with dementia diagnosis
-qui foreach cancersite of global cancersites {
+qui foreach cancersite of global cancersites_pan {
 
 noi di "`cancersite'"
 use "$datafiles_an_dem/cr_dataforDEManalysis_aandg_`cancersite'.dta", clear
@@ -63,7 +63,9 @@ merge m:1 e_patid using "$datafiles\unexp_dementia_aurum_`cancersite'.dta", keep
 merge m:1 lshtmcode using "$datafiles//aurummedicaldict_lookup.dta", keep(match master)
 
 bysort e_patid (obsdate): keep if _n==1
+
 noi tab term, sort freq
+
 }
 log close 
 stop 

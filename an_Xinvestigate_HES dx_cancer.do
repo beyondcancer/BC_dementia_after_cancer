@@ -2,7 +2,7 @@ log using "$logfiles_an_dem/an_HES_codes_dementia_by_cancer_without g31.txt", re
 
 
 *Look at records of liver cancer survivors with dementia diagnosis
-qui foreach cancersite of global cancersites {
+qui foreach cancersite of global cancersites_pan {
 
 noi di "`cancersite'"
 use "$datafiles_an_dem/cr_dataforDEManalysis_aandg_`cancersite'.dta", clear
