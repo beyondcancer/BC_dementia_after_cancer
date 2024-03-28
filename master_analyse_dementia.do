@@ -37,11 +37,6 @@ do "$dofiles_an_dem/an_4Primary_A2_cox-model-estimates_dementia.do"
 do "$dofiles_an_dem/an_5Primary_A2_cox-model-estimates_processout_dementia.do" /*save estimates in stata file*/
 
 *Figures 
-*dementia overall - start of follow-up 0 years and 1 year post Dx
-*dementia type - start of follow-up 0 years and 1 year post Dx
-*dementia hes - start of follow-up 0 years and 1 year post Dx
-*dementia drugs only - start of follow-up 0 years and 1 year post Dx
-
 do "$dofiles_an_dem/an_6Primary_A1A2_main figure_dementia.do" 
 
 ***INTERACTIONS****
@@ -53,8 +48,6 @@ do "$dofiles_an_dem\an_9Primary_A2_cox-model-figures-interactions_dementia.do"
 /***************************************************************************
 SECONDARY ANALYSIS
 ***************************************************************************/
-
-*Subsequent analyses all currently start at 1 year
 
 ***TIME SINCE DX****
 do "$dofiles_an_dem\an_13Secondary_timesinceDx_cox-model-estimates.do" 

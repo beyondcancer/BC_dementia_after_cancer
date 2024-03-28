@@ -2,21 +2,25 @@
 *drop individuals with outcome event prior to index date and create stset variables
 *results may not be generalisable to risk of recurrent specific CVD events
 
-drop if main0_datedementia <= indexdate+(365.25*`year')
-rename indexdate doentry
-replace doentry=doentry +(365.25*`year')		
+	
 
 *Note: doendcprdfup=min(lcd,tod,deathdate,dod, enddate), where enddate includes date of 
 *cancer diagnosis in controls
 
 if "`outcome'"=="alz" | "`outcome'"=="vasc"  | "`outcome'"=="other_dem" |  "`outcome'"=="ns_dem" | "`outcome'"=="dementia" {
+drop if main0_datedementia <= indexdate+(365.25*`year')
+rename indexdate doentry
+replace doentry=doentry +(365.25*`year')	
 gen doexit = min(doendcprdfup, main0_datedementia, d(29mar2021))
 }
 
-if "`outcome'"=="dementiahes" | "`outcome'"=="dementiadrugs" {
+if "`outcome'"=="dementiaspec"  {
+drop if main0_date`outcome' <= indexdate+(365.25*`year')
+rename indexdate doentry
+replace doentry=doentry +(365.25*`year')	
 gen doexit = min(doendcprdfup, main0_date`outcome', d(29mar2021))
 }
-
+ 
 format doexit %dD/N/CY
 drop if doentry == doexit /*NEW 21/09/18*/
 
@@ -33,6 +37,18 @@ gen flag=1 if doexit>censordatecontrol
 *list setid exposed doexit censordatecontrol  if flag==1 
 replace doexit = censordatecontrol if doexit>censordatecontrol
 format censordatecontrol %td
+
+*Check all cases have at least one control
+gsort setid exposed
+drop anyunexposed
+bysort setid: egen anyunexposed=min(exposed)
+drop if anyunexposed==1
+
+*Drop controls without a case
+gsort setid -exposed
+drop anyexposed
+bysort setid: egen anyexposed=max(exposed)
+drop if anyexposed==0
 
 cap drop dementia
 if "`outcome'"=="alz" {
@@ -55,13 +71,10 @@ if "`outcome'"=="dementia" {
 gen dementia= 1 if main0_datedementia<= doexit
 }
 
-if "`outcome'"=="dementiahes" {
-gen dementia= 1 if main0_datedementiahes<= doexit
+if "`outcome'"=="dementiaspec" {
+gen dementia= 1 if main0_datedementiaspec<= doexit
 }
 
-if "`outcome'"=="dementiadrugs" {
-gen dementia= 1 if main0_datedementiadrugs<= doexit
-}
 		
 *create unique id value to account for patients who are both in the control and control groups
 sort e_patid exposed

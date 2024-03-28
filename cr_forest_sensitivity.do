@@ -14,13 +14,12 @@ use  "$results_an_dem\an_Primary_A2_cox-model-estimates_processout_dementia-sens
 rename ca sense
 *APPEND main results_an_dem
 append using "$results_an_dem\an_Primary_A2_cox-model-estimates_processout_dementia.dta"
-replace sense="demhes" if outcome=="dementiahes"
-replace sense="demdrugs" if outcome=="dementiadrugs"
 
 
 drop if ca=="crude" | ca=="agesex_a"
 drop if outcome=="alz" | outcome=="other_dem" | outcome=="ns_dem" | outcome=="vasc"
-
+replace sense="dementiaspec" if outcome=="dementiaspec"
+ 
 
 
 gen displayhrci = string(hr, "%3.2f") + " (" + string(lci, "%3.2f") + "-" + string(uci, "%3.2f") + ")"
@@ -35,6 +34,7 @@ replace analysis=".  Adj. BMI" if sense == "bmi"
 replace analysis=".  Censor at start of pandemic" if sense == "pandemic"
 replace analysis=".  Dementia drugs only" if sense == "demdrugs"
 replace analysis=".  No chemotherapy record" if sense == "nochemo"
+replace analysis=".  Specific diagnoses" if sense == "dementiaspec"
 
 
 tab analysis, miss
@@ -44,12 +44,10 @@ gen order=.
 replace order=1 if analysis=="Main analysis"
 replace order=3 if sense == "ethnicit"
 replace order=4 if sense == "bmi"
-replace order=5 if sense == "demhes"
-replace order=6 if sense == "demdrugs"
-replace order=7 if sense == "exc_non_"
-replace order=8 if sense == "nochemo"
-
-replace order=9 if sense == "pandemic"
+replace order=5 if sense == "exc_non_"
+replace order=6 if sense == "nochemo"
+replace order=7 if sense == "dementiaspec"
+replace order=8 if sense == "pandemic"
 
 *replace order=6 if analysis==".  Data from 2006 onwards"
 
@@ -128,7 +126,7 @@ foreach cancer in "Oral cavity (C00-06)" "Oesophageal (C15)" "Stomach (C16)" "Co
 	name("`namegraph'", replace)
 
 	graph play "$dofiles_an_dem\edit_axis_sens.grec"
-	graph save "$results_an_dem/`namegraph'.gph", replace
+	graph save "$results_an_dem/`namegraph'.gph", replace 
 }
 
 graph combine ora oes gas col liv pan lun mel bre cer ute ova pro kid bla cns thy nhl mye leu, col(5) iscale(0.3) imargin (1 1 1 1) ycommon graphregion(margin(l=0 r=0))

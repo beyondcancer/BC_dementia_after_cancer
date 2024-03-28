@@ -12,8 +12,8 @@ postfile results str8 db str8 cancersite str15 outcome str15 year str8 ca beta s
 
 foreach db of  global databases {
 foreach cancersite of global cancersites {
-	*vasc alz other_dem ns_dem dementiahes dementiadrugs
-foreach outcome in  dementia   {
+	*
+foreach outcome in  dementia dementiaspec vasc alz other_dem ns_dem   {
 foreach model of any  agesex_adj adjusted  {
 foreach year in 0 {
 

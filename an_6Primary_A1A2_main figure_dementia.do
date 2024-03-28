@@ -16,7 +16,7 @@ survivors and controls  *********************** */
 foreach year in 0 {
 foreach db of  global databases {
 *
-foreach outcome in dementia vasc alz other_dem ns_dem  dementiadrugs dementiahes {
+foreach outcome in dementia dementiaspec vasc alz other_dem ns_dem  {
 
 use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 

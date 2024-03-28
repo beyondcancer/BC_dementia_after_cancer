@@ -11,6 +11,8 @@ use  "$datafiles_core/cr_coredataset_aurum.dta", clear
 	desc using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
 	drop _m
+	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_specific_outcome_categories_aurum"
+	drop _m
 	merge 1:1 setid e_patid using "${datafiles_raw}/cr_listpatid_outcome_categories_HES_only_aurum.dta"
 drop _m
 	
@@ -66,18 +68,6 @@ tab h_odementia age_cat if exposed==0, col
 
 drop if h_odementia==1 & exposed==1
 drop if h_odementia==1 & exposed==0
-
-*Check all cases have at least one control
-gsort setid exposed
-drop anyunexposed
-bysort setid: egen anyunexposed=min(exposed)
-drop if anyunexposed==1
-
-*Drop controls without a case
-gsort setid -exposed
-drop anyexposed
-bysort setid: egen anyexposed=max(exposed)
-drop if anyexposed==0
 
 
 

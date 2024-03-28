@@ -10,6 +10,8 @@ use  "$datafiles_core/cr_coredataset_gold.dta", clear
 	desc using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_gold"
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_gold"
 	drop _m
+	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_specific_outcome_categories_gold"
+	drop _m
 	merge 1:1 setid e_patid using "${datafiles_raw}/cr_listpatid_outcome_categories_HES_only_gold.dta"
 	drop *esha*
 	drop _m
@@ -72,17 +74,7 @@ tab age_cat exposed, col
 drop if h_odementia==1 & exposed==1
 drop if h_odementia==1 & exposed==0
 
-*Check all cases have at least one control
-gsort setid exposed
-drop anyunexposed
-bysort setid: egen anyunexposed=min(exposed)
-drop if anyunexposed==1
 
-*Drop controls without a case
-gsort setid -exposed
-drop anyexposed
-bysort setid: egen anyexposed=max(exposed)
-drop if anyexposed==0
 
 
 
