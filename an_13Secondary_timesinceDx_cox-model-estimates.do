@@ -57,9 +57,9 @@ format censordatecontrol %td
 
 		cap noi stcox exposed 
 	if _rc==0 estimates save "$results_an_dem/an_Secondary_timesinceDx_cox-model-crude-estimates_`site'_`outcome'_`db'_`year'", replace
-	cap noi stcox exposed $covariates_mh_an, strata(set) iterate(1000)
+	cap noi stcox exposed $covariates_common, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Secondary_timesinceDx_cox-model-estimates_`site'_`outcome'_`db'_`year'", replace
-	
+	 
 	}
 } /*if at least 1 ev per group for crude and adjusted models*/
 } /*year from dx*/

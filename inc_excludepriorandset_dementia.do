@@ -1,11 +1,8 @@
 
 *drop individuals with outcome event prior to index date and create stset variables
-*results may not be generalisable to risk of recurrent specific CVD events
 
-	
 
-*Note: doendcprdfup=min(lcd,tod,deathdate,dod, enddate), where enddate includes date of 
-*cancer diagnosis in controls
+*Note: doendcprdfup=min(lcd,tod,deathdate,dod,enddate), where enddate includes date of cancer diagnosis in controls
 
 if "`outcome'"=="alz" | "`outcome'"=="vasc"  | "`outcome'"=="other_dem" |  "`outcome'"=="ns_dem" | "`outcome'"=="dementia" {
 drop if main0_datedementia <= indexdate+(365.25*`year')
@@ -34,6 +31,7 @@ gsort setid -exposed -doexit
 gen censordatecontrol_temp=doexit if exposed==0
 bysort setid: egen censordatecontrol=max(censordatecontrol_temp)
 gen flag=1 if doexit>censordatecontrol
+
 *list setid exposed doexit censordatecontrol  if flag==1 
 replace doexit = censordatecontrol if doexit>censordatecontrol
 format censordatecontrol %td

@@ -12,7 +12,7 @@ global outcomes "dementia"
 *global outcomes_test "depression"
 *global outcomes_with_definite "selfharm anxiety  depression"
 *global outcomes_no_suicide "selfharm anxiety  depression "
-global covariates_common "i.imd5 i.smokstatus i.alcohol_prob b_diab b_cvd b_hyp b_ckd b_depression "
+global covariates_common "i.imd5 i.smokstatus i.alcohol_prob b_diab b_cvd b_hyp b_ckd b_depression"
 global databases "AandG"
 
 *Cancer sites
