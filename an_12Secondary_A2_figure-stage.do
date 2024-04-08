@@ -188,7 +188,7 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	|| scatter graphorder hrxpos if stage==4, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	ylabels(none) ytitle("") xscale(log range(50)) xlab(0.5 1 2 4 6) ///
 	xtitle("Hazard ratio & 95% CI") xline(1,lp(dash)) legend(off) ///
-	ysize(18) graphregion(color(white))
+	ysize(10) graphregion(color(white))
 		
 		
 

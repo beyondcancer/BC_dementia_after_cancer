@@ -115,12 +115,12 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	
 	scatter graphorder hr if cancersite2=="`cancer'" & outcome=="dementia", mcol(black) msize(small) ///
 	|| rcap lci uci graphorder if cancersite2=="`cancer'" & outcome=="dementia", hor mcol(black) lcol(black) ///
-	|| scatter graphorder hrxpos if cancersite2=="`cancer'", m(i) mlab(displayhrci) mlabcol(black) mlabsize(3) ///
-	|| scatter graphorder anxpos if cancersite2=="`cancer'", m(i) mlab(analysis) mlabcol(black) mlabsize(3) ///
+	|| scatter graphorder hrxpos if cancersite2=="`cancer'", m(i) mlab(displayhrci) mlabcol(black) mlabsize(small) ///
+	|| scatter graphorder anxpos if cancersite2=="`cancer'", m(i) mlab(analysis) mlabcol(black) mlabsize(med) ///
 	ylabels(none) ytitle("") xscale(log) xlab(0.5 1 2 4 8 20) ysize(2) ///
 	xtitle("Hazard ratio & 95% CI") title("`cancer'") xline(1,lp(dash)) legend(off) ///
 	name("`namegraph'", replace)
-
+ 
 	*graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis_sens.grec"
 	graph save "$results_an_dem/`namegraph'.gph", replace
 }

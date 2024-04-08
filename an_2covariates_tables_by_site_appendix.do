@@ -57,33 +57,13 @@ foreach db in aandg {
 use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`site'.dta", clear 
 
 keep if cancer=="`site'"
-drop if h_odementia==1
-
-rename indexdate doentry
-	
-gen doexit = min(doendcprdfup, d(29mar2021))
-format doexit %dD/N/CY
-
-
-*Censor controls at date of censor in cases
-gen censordatecancer_temp=doexit if exposed==1
-bysort setid: egen censordatecancer=max(censordatecancer_temp) 
-replace doexit = censordatecancer if doexit>censordatecancer 
-format censordatecancer %td 
-format censordatecancer_temp %td 
-*br setid exposed doe* censor* in 1/100
-
-*Censor cases at date of all cases censored
-gsort setid -exposed -doexit
-gen censordatecontrol_temp=doexit if exposed==0
-bysort setid: egen censordatecontrol=max(censordatecontrol_temp)  
-gen flag=1 if doexit>censordatecontrol
-replace doexit = censordatecontrol if doexit>censordatecontrol 
-format censordatecontrol censordatecontrol_temp %td 
-
-
+local outcome dementia
+local year 0
 count
 recode smokstatus 12=3
+drop if h_odementia==1
+
+	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
 ********************************************************************************
 * 2 - Prepare formats for data for output
 ********************************************************************************
@@ -173,17 +153,12 @@ file write tablecontent _n
 tabulatevariable, variable(index_year_gr) start(1) end(5) outcome(exposed)
 file write tablecontent _n 
 
-recode b_nocons_yrprior_gr 4=2 10=3
-*Number consultations year prior to indexdate
-tabulatevariable, variable(b_nocons_yrprior_gr) start(0) end(3) outcome(exposed)
-file write tablecontent _n 
-
 *Smoking status
 tabulatevariable, variable(smokstatus) start(0) end(3)  outcome(exposed) 
 file write tablecontent _n 
 
 *Alc status
-tabulatevariable, variable(alcohol_prob) start(0) end(2) missing outcome(exposed)
+tabulatevariable, variable(alcohol_prob) start(1) end(1) outcome(exposed)
 file write tablecontent _n 
 
 *BMI
