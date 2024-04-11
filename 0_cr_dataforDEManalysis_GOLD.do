@@ -51,7 +51,8 @@ count if doendcprdfup<indexdate & exposed==0
 drop if doendcprdfup<indexdate
 assert	doendcprdfup>=indexdate
 	
-
+drop if h_odementia==1 & exposed==1
+drop if h_odementia==1 & exposed==0
 	
 *Check all cases have at least one control
 gsort setid exposed
@@ -71,8 +72,7 @@ tab age_cat exposed, col
 /******************************************************************************/
 
 
-drop if h_odementia==1 & exposed==1
-drop if h_odementia==1 & exposed==0
+
 
 
 
