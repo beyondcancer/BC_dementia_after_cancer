@@ -22,7 +22,7 @@ replace year2="3 year" if year==3
 replace year2="5 year" if year==5 
 replace year2="10 year" if year==10 
 keep if outcome=="dementia"
-drop if year==3 | year==10
+*drop if year==5 | year==10
 bysort cancersite (year): gen year_n=_n
 
 replace cancersite="Oral cavity (C00-06)" 	  if cancersite=="ora"
@@ -101,7 +101,7 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	rename graphorder2 graphorder
 
 	gen labelxpos = 0.15
-	gen hrxpos = 16
+	gen hrxpos = 10
 
 	
 	destring lci, replace
@@ -154,7 +154,7 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	|| scatter graphorder hr if year==10, mcol(black) msize(vsmall) msymbol(D) ///
 	|| rcap lci uci graphorder if year==10, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if year==10, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
-	ylabels(none) ytitle("") xscale(log range(50)) xlab(0.5 1 2 4 6) ///
+	ylabels(none) ytitle("") xscale(log range(30)) xlab(0.5 1 2 4 6) ///
 	xtitle("Hazard ratio & 95% CI") xline(1,lp(dash)) legend(off) ///
 	ysize(15) graphregion(color(white))
 		

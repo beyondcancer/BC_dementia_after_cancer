@@ -61,7 +61,7 @@ replace uci=4.1 if uci_abovemax==1
 gen overlab = ">" if uci_abovemax==1
 
 
-gen anxpos = 0.01 // all analysis
+gen anxpos = 0.1 // all analysis
 gen hrxpos = 4.5 // HR display 
 
 
@@ -120,7 +120,7 @@ foreach cancer in "Oral cavity (C00-06)" "Oesophageal (C15)" "Stomach (C16)" "Co
 	|| scatter graphorder hrxpos if cancersite2=="`cancer'", m(i) mlab(displayhrci) mlabcol(black) mlabsize(2.5) ///
 	|| scatter graphorder uci if cancersite2=="`cancer'", m(i) mlab(overlab) mlabcol(black) mlabsize(2.5) ///
 	|| scatter graphorder anxpos if cancersite2=="`cancer'", m(i) mlab(analysis) mlabcol(black) mlabsize(2.5) ///
-	ylabels(none) ytitle("") xscale(log) xlab(0.5 1 2 4 8 16 32) ///
+	ylabels(none) ytitle("") xscale(log) xlab(1 2 4 8 10) ///
 	xtitle("Hazard ratio & 95% CI") title("`cancer'") xline(1,lp(dash)) legend(off) ///
 	name("`namegraph'", replace)
 

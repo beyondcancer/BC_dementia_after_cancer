@@ -226,7 +226,7 @@ foreach outcome in dem_all {
 			xtitle("HR (95% CI)", size(vsmall) margin(0 2 0 0)) 		/// x-axis title - legend off
 			xlab(0.5 1 2 4, labsize(vsmall)) /// x-axis tick marks
 			xscale(range(0.5 10) log)						///	resize x-axis
-			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(8)	/// y-axis no labels or title
+			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(10)	/// y-axis no labels or title
 			graphregion(color(white))	bgcolor(white)		/// get rid of rubbish grey/blue around graph
 			legend(order(1 3) label(1 "Stratified by age and gender matched sets") label(3 "Additionally adjusted for shared risk factors") /// legend (1 = first plot, 3 = 3rd plot, 5 = 5th plot)
 			size(vsmall) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero) pos(6)) /// 
@@ -238,7 +238,7 @@ foreach outcome in dem_all {
 }
 
 graph combine dem_all_0, iscale(*0.9) ///
-ysize(8) ///
+ysize(10) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
 note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) graphregion(fcolor(white))  ///
 name(combined, replace) 
@@ -412,7 +412,7 @@ foreach outcome in  vasc alz other_dem ns_dem  dem_drugs dem_hes {
 
 *Dementia types
 graph combine  alz_0 vasc_0 other_dem_0 ns_dem_0, iscale(*0.9) cols(2) rows(2) ///
-ysize(8) ///
+ysize(10) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
 note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
 name(combined, replace)

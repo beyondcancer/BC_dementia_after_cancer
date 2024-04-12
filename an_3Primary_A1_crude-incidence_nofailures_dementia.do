@@ -4,14 +4,14 @@ log using "$logfiles_an_dem/an_Primary_A1_crude-incidence_nofailures.txt", repla
 /*******************************************************************************
 CREATE FILE WITH CRUDE INCIDENCE RATES AND NUMBER OF FAILURES
 *******************************************************************************/
-*
-foreach outcome in dementia dementiaspec vasc alz other_dem ns_dem  {
+*dementiaspec vasc alz other_dem ns_dem
+foreach outcome in dementia   {
 postutil clear
 postfile failures str10 db str5 cancersite str5 year str20 outcome nfail expfail unexpfail rateexp rateunexp using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", replace
 
 foreach db of  global databases {
 foreach cancersite of global cancersites {
-foreach year in 0  {
+foreach year in 0 1 3 5 10  {
 noi di "`cancersite'" "`outcome'"
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear
 	
@@ -48,4 +48,10 @@ append using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'
 sort cancer outcome
 save "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_ALLTYPES", replace
 log close
+
+collapse (sum) expfail unexpfail, by(outcome)
+egen total_exp=total(expfail)
+egen total_unexp=total(unexpfail)
+gen percent_exp=(expfail/total_exp)*100
+gen percent_uexp=(unexpfail/total_unexp)*100
 
