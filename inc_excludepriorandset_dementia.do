@@ -19,7 +19,8 @@ gen doexit = min(doendcprdfup, main0_date`outcome', d(29mar2021))
 }
  
 format doexit %dD/N/CY
-drop if doentry == doexit /*NEW 21/09/18*/
+drop if doentry > doexit & exposed==0 
+drop if doentry > doexit & exposed==1 
 
 *Censor controls at date of censor in cases
 gen censordatecancer_temp=doexit if exposed==1

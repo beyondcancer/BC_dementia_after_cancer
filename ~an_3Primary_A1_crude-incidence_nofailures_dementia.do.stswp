@@ -49,3 +49,9 @@ sort cancer outcome
 save "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_ALLTYPES", replace
 log close
 
+collapse (sum) expfail unexpfail, by(outcome)
+egen total_exp=total(expfail)
+egen total_unexp=total(unexpfail)
+gen percent_exp=(expfail/total_exp)*100
+gen percent_uexp=(unexpfail/total_unexp)*100
+

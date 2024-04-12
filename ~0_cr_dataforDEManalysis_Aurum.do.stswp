@@ -45,14 +45,19 @@ drop if b_smi==1 & exposed==0
 
 
 *Check follow-up is correct
-count if doendcprdfup<indexdate & exposed==1
+count if doendcprdfup<=indexdate & exposed==1
 count if doendcprdfup<indexdate & exposed==0
 
-drop if doendcprdfup<indexdate
+drop if doendcprdfup<=indexdate
 assert	doendcprdfup>=indexdate
 
 
+recode h_odementia .=0
+tab h_odementia age_cat if exposed==1, col
+tab h_odementia age_cat if exposed==0, col
 
+drop if h_odementia==1 & exposed==1
+drop if h_odementia==1 & exposed==0
 	
 *Check all cases have at least one control
 gsort setid exposed

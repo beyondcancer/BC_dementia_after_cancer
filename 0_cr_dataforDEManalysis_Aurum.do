@@ -45,10 +45,10 @@ drop if b_smi==1 & exposed==0
 
 
 *Check follow-up is correct
-count if doendcprdfup<indexdate & exposed==1
-count if doendcprdfup<indexdate & exposed==0
+count if doendcprdfup<=indexdate & exposed==1
+count if doendcprdfup<=indexdate & exposed==0
 
-drop if doendcprdfup<indexdate
+drop if doendcprdfup<=indexdate
 assert	doendcprdfup>=indexdate
 
 

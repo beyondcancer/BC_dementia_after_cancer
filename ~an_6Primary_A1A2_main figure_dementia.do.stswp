@@ -240,7 +240,7 @@ foreach outcome in dem_all {
 graph combine dem_all_0, iscale(*0.9) ///
 ysize(8) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
-note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) graphregion(color(white))  ///
+note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) graphregion(fcolor(white))  ///
 name(combined, replace) 
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementia_year0.emf", replace
 
