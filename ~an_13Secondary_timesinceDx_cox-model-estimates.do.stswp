@@ -6,7 +6,7 @@ log using "$logfiles_an_dem/an_Secondary_timesinceDx_cox-model-estimates_dementi
 foreach db of  global databases {
 	postutil clear
 postfile failures str10 db str5 cancersite str5 year str20 outcome nfail expfail unexpfail rateexp rateunexp using "$results_an_dem/an_Secondary_timesinceDx_cox_absolute_numbers", replace
-	foreach site of global cancersites {
+	foreach site of global cancersites_m {
 	foreach outcome in dementia {
 	foreach year in 0.25 0.5 0.75 1 2 5 10 25 100 {		
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`site'.dta", clear 

@@ -1,5 +1,5 @@
 
-	foreach site of global cancersites {
+	foreach site of global cancersites_l {
 foreach db of  global databases {
 
 	foreach outcome of global outcomes {

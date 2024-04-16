@@ -22,7 +22,7 @@ replace year2="3 year" if year==3
 replace year2="5 year" if year==5 
 replace year2="10 year" if year==10 
 keep if outcome=="dementia"
-drop if  year==10
+*drop if  year==10
 bysort cancersite (year): gen year_n=_n
 
 replace cancersite="Oral cavity (C00-06)" 	  if cancersite=="ora"
