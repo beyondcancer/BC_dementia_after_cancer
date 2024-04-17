@@ -156,3 +156,19 @@ foreach year in 0 {
 graph export "$results_an_dem/an_fiveyrsurv_figure_dementia_year0.emf", replace
 
 
+
+	use "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", clear
+	merge m:1 cancer using "C:\Users\encdhfor\London School of Hygiene and Tropical Medicine\Beyond Cancer_Group - Documents\Projects\Mental_health_cancer_survivors\results\5year_surv_cancers", nogen
+
+	keep if outcome=="dem_all"
+	keep if year=="0"
+	keep if model=="adjusted"	
+	
+	keep outcome hr five
+	list
+	gen loghr=log(hr)
+	list
+	*1 unit increase in five year survival (1% increase)  
+	noi regress loghr five
+	noi di 1-(exp(_b[fiveyr_surv]))
+	
