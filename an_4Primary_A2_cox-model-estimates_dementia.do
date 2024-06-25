@@ -4,9 +4,9 @@ log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_dementia.txt", rep
 
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
 foreach db of  global databases {
-	foreach cancersite of global cancersites {
-		* 
-foreach outcome in   dementia dementiaspec vasc alz other_dem ns_dem  {
+	foreach cancersite of global cancersites_pan {
+		* dementiaspec vasc alz other_dem ns_dem
+foreach outcome in   dementia   {
 			foreach year in 0 {		
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear 
 
@@ -37,6 +37,9 @@ foreach outcome in   dementia dementiaspec vasc alz other_dem ns_dem  {
 	 stcox exposed $covariates_common, strata(set) iterate(1000) 
 	  
 	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace	
+	 
+	 	 stcox exposed $covariates_common i.age, strata(set) iterate(1000) 
+
 	 
 } /*if at least 1 ev per group for crude and adjusted models*/
 } /*outcome*/

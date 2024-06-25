@@ -5,14 +5,12 @@ log using "$logfiles_an_dem/cr_dataforanalysis_aurum.txt", replace t
 
 
 use  "$datafiles_core/cr_coredataset_aurum.dta", clear
-tab exposed
+
 
 	/* mh outcomes */
 	desc using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
 	drop _m
-	replace h_o=0 if h_o==.
-	tab  h_o exposed, col chi
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_specific_outcome_categories_aurum"
 	drop _m
 	merge 1:1 setid e_patid using "${datafiles_raw}/cr_listpatid_outcome_categories_HES_only_aurum.dta"
@@ -58,8 +56,8 @@ recode h_odementia .=0
 tab h_odementia age_cat if exposed==1, col
 tab h_odementia age_cat if exposed==0, col
 
-drop if h_odementia==1 & exposed==1
-drop if h_odementia==1 & exposed==0
+*drop if h_odementia==1 & exposed==1
+*drop if h_odementia==1 & exposed==0
 	
 *Check all cases have at least one control
 gsort setid exposed
@@ -79,7 +77,7 @@ drop if anyexposed==0
 tab exposed
 rename b_diab_cat b_diab
 * SAVA DATASET
-save "$datafiles_an_dem/cr_dataforDEManalysis_aurum.dta", replace
+save "$datafiles_an_dem/cr_dataforSENSE_DEManalysis_aurum.dta", replace
 
 log close
 
