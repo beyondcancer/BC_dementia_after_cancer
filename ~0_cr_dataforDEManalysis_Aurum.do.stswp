@@ -5,16 +5,13 @@ log using "$logfiles_an_dem/cr_dataforanalysis_aurum.txt", replace t
 
 
 use  "$datafiles_core/cr_coredataset_aurum.dta", clear
-
+tab exposed
 
 	/* mh outcomes */
 	desc using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
 	drop _m
-	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_specific_outcome_categories_aurum"
-	drop _m
-	merge 1:1 setid e_patid using "${datafiles_raw}/cr_listpatid_outcome_categories_HES_only_aurum.dta"
-drop _m
+
 	
 ********************************************************************************
 *APPLY EXCLUSIONS
@@ -46,7 +43,7 @@ drop if b_smi==1 & exposed==0
 
 *Check follow-up is correct
 count if doendcprdfup<=indexdate & exposed==1
-count if doendcprdfup<indexdate & exposed==0
+count if doendcprdfup<=indexdate & exposed==0
 
 drop if doendcprdfup<=indexdate
 assert	doendcprdfup>=indexdate

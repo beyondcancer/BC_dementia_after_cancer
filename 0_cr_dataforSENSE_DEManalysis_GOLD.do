@@ -7,14 +7,9 @@ log using "$logfiles_an_dem/cr_dataforDEManalysis_Gold.txt", replace t
 use  "$datafiles_core/cr_coredataset_gold.dta", clear
 
 	/* mh outcomes */
-	desc using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_gold"
-	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_gold"
-	drop _m
+	desc using "$datafiles_raw/cr_listpatid_dementia_specific_outcome_categories_gold"
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_specific_outcome_categories_gold"
-	drop _m
-	merge 1:1 setid e_patid using "${datafiles_raw}/cr_listpatid_outcome_categories_HES_only_gold.dta"
-	drop *esha*
-	drop _m
+
 ********************************************************************************
 *APPLY EXCLUSIONS
 ********************************************************************************
@@ -50,8 +45,8 @@ count if doendcprdfup<=indexdate & exposed==0
 
 drop if doendcprdfup<=indexdate
 	
-*drop if h_odementia==1 & exposed==1
-*drop if h_odementia==1 & exposed==0
+drop if h_odementia==1 & exposed==1
+drop if h_odementia==1 & exposed==0
 	
 *Check all cases have at least one control
 gsort setid exposed

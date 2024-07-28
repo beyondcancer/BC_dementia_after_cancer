@@ -10,11 +10,7 @@ use  "$datafiles_core/cr_coredataset_gold.dta", clear
 	desc using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_gold"
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_gold"
 	drop _m
-	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_specific_outcome_categories_gold"
-	drop _m
-	merge 1:1 setid e_patid using "${datafiles_raw}/cr_listpatid_outcome_categories_HES_only_gold.dta"
-	drop *esha*
-	drop _m
+
 ********************************************************************************
 *APPLY EXCLUSIONS
 ********************************************************************************

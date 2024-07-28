@@ -11,12 +11,6 @@ tab exposed
 	desc using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
 	drop _m
-	replace h_o=0 if h_o==.
-	tab  h_o exposed, col chi
-	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_specific_outcome_categories_aurum"
-	drop _m
-	merge 1:1 setid e_patid using "${datafiles_raw}/cr_listpatid_outcome_categories_HES_only_aurum.dta"
-drop _m
 	
 ********************************************************************************
 *APPLY EXCLUSIONS
