@@ -24,6 +24,7 @@ global cancersites_female "ora oes gas col liv pan lun mel bre cer ute ova kid b
 global top9cancers "col lun mel bre ute pro bla nhl leu"
 global cancersites_bre "bre" 
 global cancersites_col "col" 
-global cancersites_mel "mel" 
+global cancersites_mye "mye" 
 global cancersites_pan "pan" 
 global cancersites_liv "liv" 
+global cancersites_lun "lun" 

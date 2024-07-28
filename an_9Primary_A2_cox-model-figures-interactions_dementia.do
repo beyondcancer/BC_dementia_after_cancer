@@ -63,6 +63,9 @@ replace stratum = "West" if intvar=="region_cat" & level == 3
 replace stratum = "South" if intvar=="region_cat" & level == 4
 replace stratum = "London" if intvar=="region_cat" & level == 5
 
+replace stratum = "No CVD at baseline" if intvar=="b_cvd" & level == 0 
+replace stratum = "CVD at baseline" if intvar=="b_cvd" & level == 1 
+
 list 
 gen esthr = string(hr, "%4.2f") + " (" + string(lci, "%4.2f") + ", " + string(uci, "%4.2f") + ")"
 gen pintstr = "p-int="+ string(pint, "%5.3f") if pint>=0.001 & pint<0.01

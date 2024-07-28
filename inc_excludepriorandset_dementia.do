@@ -74,8 +74,9 @@ if "`outcome'"=="dementiaspec" {
 gen dementia= 1 if main0_datedementiaspec<= doexit
 }
 
-		
+tab dementia exposed		
 *create unique id value to account for patients who are both in the control and control groups
 sort e_patid exposed
 gen id = _n
 stset doexit, id(id) failure(dementia = 1) enter(doentry) origin(doentry) exit(doexit) scale(365.25)
+stop 

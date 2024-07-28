@@ -2,7 +2,7 @@
 
 
 foreach db of  global databases {
-	foreach cancersite of global cancersites {
+	foreach cancersite of global cancersites_lun {
 		* dementiaspec vasc alz other_dem ns_dem
 
 		use "$datafiles_an_dem/cr_dataforSENSE_DEManalysis_`db'_`cancersite'.dta", clear 
@@ -22,9 +22,12 @@ local n_unexp_`cancersite'=r(N)
 local pct_exp_`cancersite'=(`n_exp_`cancersite''/`tot_exp')*100
 local pct_unexp_`cancersite'=(`n_unexp_`cancersite''/`tot_unexp')*100
 
-logistic h_odementia exposed 
+logistic h_odementia exposed if age_cat==3
+logistic h_odementia exposed if age_cat==4
+logistic h_odementia exposed if age>=60 & age<=70
 
 logistic h_odementia exposed $covariates_common age gender
+stop
 	if _rc==0 estimates save "$results_an_dem/an_SENSE_h_o_`cancersite'_`outcome'_`db'", replace	
 
 	}

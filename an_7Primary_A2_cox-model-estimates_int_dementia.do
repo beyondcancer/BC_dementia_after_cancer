@@ -12,8 +12,8 @@ foreach db of  global databases {
 foreach year in 0 {
 foreach cancersite of global cancersites {
 foreach outcome in dementia {
-*foreach intvar of any age_cat  {
-foreach intvar of any age_cat gender ethnicity_binary calendaryearcat3 mostdeprived region_cat {
+foreach intvar of any b_cvd  {
+*foreach intvar of any age_cat gender ethnicity_binary calendaryearcat3 mostdeprived region_cat {
 
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear 
 	keep if cancer=="`cancersite'"

@@ -40,8 +40,8 @@ foreach cancer of global cancersites {
 	recode cal_year_gp 1998=1 2003=2 2009=3 2015=4
 		gen calendaryearcat3 = cal_year_gp
 	
-	
-foreach intvar of any age_cat gender ethnicity_binary calendaryearcat3 mostdeprived region_cat {
+	 
+foreach intvar of any age_cat gender ethnicity_binary calendaryearcat3 mostdeprived region_cat b_cvd {
 
 global nowon "`intvar' `outcome' `cancer'"
 di "$nowon"
@@ -52,7 +52,7 @@ local rc = 0
 cap estimates use "$results_an_dem/an_Primary_A2_cox-model-estimates_int`intvar'_`cancer'_`outcome'_`db'_dementia_`year'"
 if _rc==0 {
 
-if  "`intvar'"=="mostdeprived" | "`intvar'"=="ethnicity_binary"  {
+if  "`intvar'"=="mostdeprived" | "`intvar'"=="ethnicity_binary" |  "`intvar'"=="b_cvd" {
 local minlevel = 0
 local maxlevel = 1
 }

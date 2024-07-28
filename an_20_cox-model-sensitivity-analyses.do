@@ -29,7 +29,7 @@ foreach db of  global databases {
 	
 	*****Sensitivity analyses*****
 	
-	/*Adj for ethnicity
+	*Adj for ethnicity
 	cap noi stcox exposed $covariates_common i.eth5_cprd, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Sense_ethnicity_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace	
 	
@@ -40,23 +40,33 @@ foreach db of  global databases {
 	*Excluding no consulters in year prior to index
 	cap noi stcox exposed $covariates_common if b_nocons_yrprior_gr!=0, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Sense_exc_non_cons_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace
-*/
-	*don't include those having chemo
-	cap noi stcox exposed $covariates_common if dof_chemo==., strata(set) iterate(1000)
-	if _rc==0 estimates save "$results_an_dem/an_Sense_nochemo_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace	
 
-	/*Censor at start of the pandemic 
-	replace doexit=d(31jan2020) if doexit>d(31jan2020)
-	replace `outcome' = 0 if main0_date`outcome' > doexit
-	*create unique id value to account for patients who are both in the control and control groups
-	sort e_patid exposed
-	drop id 
-	gen id = _n
-	stset doexit, id(id) failure(`outcome' = 1) enter(doentry) origin(doentry) exit(doexit) scale(365.25)
+	*don't include those having chemo
+	drop if doentry<=d(01apr2014)
 	tab exposed
-	cap noi stcox exposed $covariates_mh_an, strata(set) iterate(1000)
-	if _rc==0 estimates save "$results_an_dem/an_Sense_pandemic_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace
-	*/
+	gen exposed_trt=exposed
+	replace exposed_trt=2 if exposed==1 & dof_chemo!=.
+	tab exposed_trt
+	replace exposed_trt=1 if (dof_chemo<doentry-31 | dof_chemo>doentry+365.25) & exposed==1
+	replace exposed_trt=1 if dof_chemo>doendcprdfup & exposed==1
+	tab exposed_trt
+	drop if exposed_trt==2
+	
+	*Check all cases have at least one control
+gsort setid exposed
+drop anyunexposed
+bysort setid: egen anyunexposed=min(exposed)
+drop if anyunexposed==1
+
+*Drop controls without a case
+gsort setid -exposed
+drop anyexposed
+bysort setid: egen anyexposed=max(exposed)
+drop if anyexposed==0
+	
+	cap noi stcox exposed $covariates_common, strata(set) iterate(1000)
+	if _rc==0 estimates save "$results_an_dem/an_Sense_nochemo_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace	
+ 
 } /*if at least 1 ev per group for crude and adjusted models*/
 } /*outcome*/
 } /*year from dx*/

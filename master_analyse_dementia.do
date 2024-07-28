@@ -5,6 +5,10 @@
 DEMENTIA ANALYSIS
 ***************************************************************************/
 ***************************************************************************/
+do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_GOLD.do"
+do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_Aurum.do"
+do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_AandG.do"
+
 do "$dofiles_an_dem\0_cr_dataforDEManalysis_GOLD.do"
 do "$dofiles_an_dem\0_cr_dataforDEManalysis_Aurum.do"
 do "$dofiles_an_dem\0_cr_dataforDEManalysis_AandG.do"
