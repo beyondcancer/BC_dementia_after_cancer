@@ -1,6 +1,6 @@
 cap log close
 args cancersite db
-log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_dementia.txt", replace t
+log using "$logfiles_an_dem/an_Sense_A2_cox-model-estimates_dementia_spec.txt", replace t
 
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
 foreach db of  global databases {
@@ -11,7 +11,6 @@ foreach db of  global databases {
 	tab exposed	
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
-	drop if h_o365_`year'dementia==1
 	dib "`cancersite' `outcome' `db'", stars
 
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
@@ -33,7 +32,7 @@ foreach db of  global databases {
 	 
 	 stcox exposed $covariates_common, strata(set) iterate(1000) 
 	  
-	if _rc==0 estimates save "$results_an_dem/an_Sense_dementiaspec_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace
+	if _rc==0 estimates save "$results_an_dem/an_Sense_dementiaspec_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace
 	 
 	 
 } /*if at least 1 ev per group for crude and adjusted models*/

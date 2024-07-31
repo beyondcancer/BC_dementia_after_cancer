@@ -6,13 +6,12 @@ log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_dementia.txt", rep
 foreach db of  global databases {
 	foreach cancersite of global cancersites {
 		* 
-foreach outcome in   dementia vasc alz other_dem ns_dem  {
+foreach outcome in dementia vasc alz other_dem ns_dem  {
 			foreach year in 0 {		
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear 
 	tab exposed	
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
-	drop if h_o365_`year'dementia==1
 	dib "`cancersite' `outcome' `db'", stars
 
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
@@ -37,7 +36,7 @@ foreach outcome in   dementia vasc alz other_dem ns_dem  {
 	  
 	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace	
 	 
-	 	 stcox exposed $covariates_common i.age, strata(set) iterate(1000) 
+	 
 
 	 
 } /*if at least 1 ev per group for crude and adjusted models*/

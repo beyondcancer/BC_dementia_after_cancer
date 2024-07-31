@@ -14,8 +14,8 @@ do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_Aurum.do"
 do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_AandG.do"
 
 do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_GOLD.do"
-do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_Aurum.do"
-do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_AandG.do"
+do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_Aurum.do"
+do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_AandG.do"
 
 /***************************************************************************
         DESCRIPTIVE ANALYSIS        
