@@ -17,6 +17,8 @@ foreach db of  global databases {
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
 	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
 	
+	replace doexit=d(31jan2020) if doexit>d(31jan2020)
+	replace dementia = 0 if main0_datedementia > doexit
 	*** CRUDE AND ADJUSTED MODELS
 	*Only run models if there are >=10 failures in both groups
 	count if exposed == 1 & _d==1
@@ -29,18 +31,16 @@ foreach db of  global databases {
 	
 	*****Sensitivity analyses*****
 *Censor at start of the pandemic 
-	replace doexit=d(31jan2020) if doexit>d(31jan2020)
-	replace `outcome' = 0 if main0_date`outcome' > doexit
+
 	*create unique id value to account for patients who are both in the control and control groups
 	sort e_patid exposed
 	drop id 
 	gen id = _n
-	stset doexit, id(id) failure(`outcome' = 1) enter(doentry) origin(doentry) exit(doexit) scale(365.25)
+	stset doexit, id(id) failure(dementia= 1) enter(doentry) origin(doentry) exit(doexit) scale(365.25)
 	tab exposed
-	cap noi stcox exposed $covariates_mh_an, strata(set) iterate(1000)
-	if _rc==0 estimates save "$results_an_dem/an_Sense_pandemic_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace
-	
-		
+	 noi stcox exposed, strata(set) iterate(1000)
+	 noi stcox exposed $covariates_common, strata(set) iterate(1000)
+	if _rc==0 estimates save "$results_an_dem/an_Sense_pandemic_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace		
 	
 } /*if at least 1 ev per group for crude and adjusted models*/
 } /*outcome*/

@@ -7,6 +7,11 @@ use "$datafiles_an_dem/cr_dataforSENSE_DEManalysis_aurum.dta", replace
 append using  "$datafiles_an_dem/cr_dataforSENSE_DEManalysis_gold.dta"
 tab exposed
 recode eth5_cprd 5=.
+recode smokstatus 12=2
+	gen eth5_comb=eth5_cprd
+	replace eth5_comb=eth5_hes if eth5_comb==.
+	 	recode b_cvd .=0
+
 save  "$datafiles_an_dem/cr_dataforSENSE_DEManalysis_AandG.dta", replace
 cap log close
 

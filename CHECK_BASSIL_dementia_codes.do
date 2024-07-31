@@ -48,6 +48,9 @@ keep if binaryvar=="dementia"
 	bysort e_patid (eventdate): keep if _n==1
 	save "${datafiles}\\listpatid_dementiaHARRIET_GOLD_HES.dta", replace	
 	
+	
+	
+	*Merge outcomes with core dataset
 	use "Z:\GPRD_GOLD\Krishnan\20_000268\20_000268_2nd_Delivery (full data)\datafiles\cr_coredataset/cr_coredataset_gold", clear
 	keep if cancer=="lun"
 	tab exposed

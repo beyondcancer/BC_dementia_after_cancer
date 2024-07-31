@@ -29,7 +29,7 @@ foreach db of  global databases {
 	*****Sensitivity analyses*****
 	
 	*Adj for ethnicity
-	cap noi stcox exposed $covariates_common i.eth5_cprd, strata(set) iterate(1000)
+	cap noi stcox exposed $covariates_common i.eth5_comb, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Sense_ethnicity_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace	
 	
 	*Adj for bmi

@@ -17,7 +17,7 @@ append using "$results_an_dem\an_Primary_A2_cox-model-estimates_processout_demen
 
 
 drop if ca=="crude" | ca=="agesex_a"
-drop if outcome=="alz" | outcome=="other_dem" | outcome=="ns_dem" | outcome=="vasc" 
+drop if outcome=="alz" | outcome=="other_dem" | outcome=="ns_dem" | outcome=="vasc" | outcome=="dementiaspec"
 
 gen displayhrci = string(hr, "%3.2f") + " (" + string(lci, "%3.2f") + "-" + string(uci, "%3.2f") + ")"
 
@@ -31,7 +31,8 @@ replace analysis=".  Adj. BMI" if sense == "bmi"
 replace analysis=".  Censor at start of pandemic" if sense == "pandemic"
 *replace analysis=".  Dementia drugs only" if sense == "demdrugs"
 replace analysis=".  No chemotherapy record" if sense == "nochemo"
-replace analysis=".  Specific diagnoses" if sense == "dementiaspec"
+replace analysis=".  Specific diagnoses" if sense == "dementia"
+replace analysis=".  Primary care diagnoses" if sense == "pricare"
 
 
 tab analysis, miss
@@ -42,8 +43,9 @@ replace order=1 if analysis=="Main analysis"
 replace order=3 if sense == "ethnicit"
 replace order=4 if sense == "bmi"
 replace order=5 if sense == "nochemo"
-replace order=6 if sense == "dementiaspec"
-replace order=7 if sense == "pandemic"
+replace order=6 if sense == "dementia"
+replace order=7 if sense == "pricare"
+replace order=8 if sense == "pandemic"
 
 *replace order=6 if analysis==".  Data from 2006 onwards"
 

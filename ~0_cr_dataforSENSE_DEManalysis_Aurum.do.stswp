@@ -53,7 +53,7 @@ recode h_odementia .=0
 tab h_odementia age_cat if exposed==1, col
 tab h_odementia age_cat if exposed==0, col
 
-*drop if h_odementia==1 & exposed==1
+drop if h_odementia==1 & exposed==1
 *drop if h_odementia==1 & exposed==0
 	
 *Check all cases have at least one control

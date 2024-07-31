@@ -146,7 +146,7 @@ tabulatevariable, variable(imd5) start(1) end(5) outcome(exposed)
 file write tablecontent _n 
 
 *Ethnicity
-tabulatevariable, variable(eth5_cprd) start(0) end(4) missing outcome(exposed)
+tabulatevariable, variable(eth5_comb) start(0) end(4) missing outcome(exposed)
 file write tablecontent _n 
 
 *Year cancer diagnosis
