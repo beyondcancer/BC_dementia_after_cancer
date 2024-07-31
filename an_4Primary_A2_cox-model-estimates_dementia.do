@@ -4,7 +4,7 @@ log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_dementia.txt", rep
 
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
 foreach db of  global databases {
-	foreach cancersite of global cancersites {
+	foreach cancersite of global cancersites_lun {
 		* 
 foreach outcome in dementia vasc alz other_dem ns_dem  {
 			foreach year in 0 {		
@@ -12,7 +12,7 @@ foreach outcome in dementia vasc alz other_dem ns_dem  {
 	tab exposed	
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
-	dib "`cancersite' `outcome' `db'", stars
+	*dib "`cancersite' `outcome' `db'", stars
 
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
 	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
@@ -26,13 +26,13 @@ foreach outcome in dementia vasc alz other_dem ns_dem  {
 	strate if exposed==1, per(1000)
 	strate if exposed==0, per(1000)
 	if `exposedfailures' >=10 & `controlfailures' >=10 {
-	stcox exposed /*fewer comparator matches in older age groups*/
-	*if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_crude_`cancersite'_`outcome'_`db'_`year'", replace
  
- stcox exposed
-	stcox exposed, strata(set) iterate(1000)
-
+	*Not accounting for matching 
+	stcox exposed
+ stcox exposed age i.gender $covariates_common
 	
+	*Accounting for matching
+	stcox exposed, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_agesex_adj_`cancersite'_`outcome'_`db'_`year'", replace
 	 stcox exposed $covariates_common, strata(set) iterate(1000) 
 	  
