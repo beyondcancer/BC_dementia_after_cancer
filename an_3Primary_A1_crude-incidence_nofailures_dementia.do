@@ -17,7 +17,6 @@ noi di "`cancersite'" "`outcome'"
 	
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
-	drop if h_o365_`year'dementia==1
 
 	dib "`cancersite' `outcome' `db'", stars
 

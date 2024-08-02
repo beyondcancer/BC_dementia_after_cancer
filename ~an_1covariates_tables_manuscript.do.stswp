@@ -129,10 +129,11 @@ file write tablecontent  _tab ("`string'") _n
 file write tablecontent _n 
 
 *Age (years)
-egen age_cat_dementia=cut(age), at(17 65 80 200)
-recode age_cat_dementia 17=1 65=2 80=3
-lab define age_cat_dementia 1 "18-64" 2 "65-79" 3 "80+"
+egen age_cat_dementia=cut(age), at(17 50 70 200)
+recode age_cat_dementia 17=1 50=2 70=3
+lab define age_cat_dementia 1 "18-49" 2 "50-69" 3 "70+"
 lab val age_cat_dementia age_cat_dementia
+
 *Age catgorical
 tabulatevariable, variable(age_cat_dementia) start(1) end(3) outcome(exposed) 
 file write tablecontent _n 
@@ -146,7 +147,7 @@ tabulatevariable, variable(imd5) start(1) end(5) outcome(exposed)
 file write tablecontent _n 
 
 *Ethnicity
-tabulatevariable, variable(eth5_co) start(0) end(4) missing outcome(exposed)
+tabulatevariable, variable(eth5_comb) start(0) end(3) missing outcome(exposed)
 file write tablecontent _n 
 
 *Year cancer diagnosis

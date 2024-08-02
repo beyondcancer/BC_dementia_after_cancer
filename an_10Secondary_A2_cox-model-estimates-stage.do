@@ -34,7 +34,6 @@ foreach db of  global databases {
 	tab `stage', nolab
 
 	*Apply outcome specific exclusions
-	drop if h_o365_`year'`outcome'==1
 	drop if h_o`outcome'==1
 	noi di "***************`site' `outcome' `db'********************"
 	

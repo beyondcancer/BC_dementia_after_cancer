@@ -11,6 +11,7 @@ recode smokstatus 12=2
 	gen eth5_comb=eth5_cprd
 	replace eth5_comb=eth5_hes if eth5_comb==.
 	 	recode b_cvd .=0
+	recode eth5_comb 4=3
 
 save  "$datafiles_an_dem/cr_dataforDEManalysis_AandG.dta", replace
 cap log close

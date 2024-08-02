@@ -30,8 +30,7 @@ foreach db of  global databases {
 
 	 stcox exposed $covariates_common, strata(set) iterate(1000) 
 	  
-	if _rc==0 estimates save "$results_an_dem/an_Sense_pricare_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace
-	 sto
+	if _rc==0 estimates save "$results_an_dem/an_Sense_pricare_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace 
 	 
 } /*if at least 1 ev per group for crude and adjusted models*/
 } /*outcome*/

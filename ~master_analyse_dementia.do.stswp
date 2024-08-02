@@ -7,7 +7,7 @@ DEMENTIA ANALYSIS
 ***************************************************************************/
 
 *Generate dementia outcome variable and history of
-do "C:\Github\BC_data_management\2 variable generation\cr_all_events_dementia_gold.do"
+do "C:\Github\BC_data_management\2 variable generation\cr_all_events_dementia_Auru.do"
 do "C:\Github\BC_data_management\2 variable generation\cr_all_events_dementia_Aurum.do"
  
 do "C:\Github\BC_data_management\2 variable generation\cr_listpat_dementia_gold.do"

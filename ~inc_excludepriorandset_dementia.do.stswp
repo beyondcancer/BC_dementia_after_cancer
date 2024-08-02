@@ -11,6 +11,7 @@ replace doentry=doentry +(365.25*`year')
 gen doexit = min(doendcprdfup, main0_datedementia, d(29mar2021))
 }
 
+
 format doexit %dD/N/CY
 drop if doentry > doexit & exposed==0 
 drop if doentry > doexit & exposed==1 

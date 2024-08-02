@@ -1,6 +1,6 @@
 cap log close
 args  db site
-log using "$logfiles_an_dem/an_Secondary_timesinceDx_cox-model-estimates_dementia.txt", replace t
+log using "$logfiles_an_dem/an_13Secondary_timesinceDx_cox-model-estimates_dementia.txt", replace t
 
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
 foreach db of  global databases {

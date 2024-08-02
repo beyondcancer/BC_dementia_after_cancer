@@ -50,6 +50,7 @@ replace stratum = "White" if intvar=="eth5_comb" & level == 0
 replace stratum = "South Asian" if intvar=="eth5_comb" & level == 1
 replace stratum = "Black" if intvar=="eth5_comb" & level == 2
 replace stratum = "Other or Mixed" if intvar=="eth5_comb" & level == 3
+replace stratum = "Mixed" if intvar=="eth5_comb" & level == 4
 
 replace stratum = "Years 1998-2002" if intvar=="calendaryearcat3" & level == 0 
 replace stratum = "Years 2003-2008" if intvar=="calendaryearcat3" & level == 2
