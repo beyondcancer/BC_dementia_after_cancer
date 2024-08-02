@@ -221,7 +221,7 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 		replace `var'=. if displayhrci=="(not calculated)"
 	}
 	replace displayhrci="Adj HR (95% CI)" if n==1
-	replace nevents="N cancers" if n==1
+	replace nevents="Number cancers" if n==1
 	 
 	scatter graphorder labelxpos if stage==0, m(i) mlab(cancersite) mlabcol(black) mlabsize(vsmall) ///
 	|| scatter graphorder labelnpos if stage==0, m(i) mlab(nevents) mlabcol(black) mlabsize(vsmall) ///

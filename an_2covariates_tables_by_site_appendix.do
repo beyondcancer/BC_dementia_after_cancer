@@ -130,33 +130,42 @@ file write tablecontent _n
 *Stage
 
 *Generate stage_binary
-	gen stage=stage_tnm 
-	replace stage =stage_mye if cancer=="mye" 
-	replace stage =stage_nhl if cancer=="nhl"
-	replace stage =stage_leu if cancer=="leu"
-	replace stage =grade_cns if cancer=="cns"
-
-	rename stage stage_final
-	gen stage_binary=.
-	recode stage_binary .=1 if stage_final==1 | stage_final==2
-	recode stage_binary .=2 if stage_final==3 | stage_final==4
-	recode stage_binary .=3 if doentry>d(01jan2012)
-	replace stage_binary=. if exposed==0
-
-	tab stage_binary exposed, col
-	tab stage_binary exposed, miss col
+	if "`site'"=="cns" {
+	local stage grade_cns
+	}
+	if "`site'"=="leu" {
+	local stage stage_leu
+	}
+	if "`site'"=="nhl" {
+	local stage stage_nhl
+	}
+	if "`site'"=="mye" {
+	local stage stage_mye
+	}
+	if "`site'"=="bre" | "`site'"=="ova" | "`site'"=="bla" | "`site'"=="bre" | "`site'"=="cer" | "`site'"=="col" | "`site'"=="gas" | "`site'"=="kid" | "`site'"=="liv" | "`site'"=="lun" | "`site'"=="mel" | "`site'"=="oes" | "`site'"=="ora" | "`site'"=="ova" | "`site'"=="pan" | "`site'"=="pro" | "`site'"=="thy" | "`site'"=="ute" {
+	local stage stage_tnm
+	}
+	
+	gen stage_final=`stage'
+	recode stage_final 2=1 3=2 4=2
+	replace stage_final=0 if  exposed==0
+	replace stage_final=9 if stage_final==99 & exposed==1
+	replace stage_final=9 if stage_final==. & exposed==1 
+	replace stage_final=. if doentry<=d(01jan2012)
+	tab stage_final
+	tab stage_final, nolab
 
 *Stage
- count  if exposed == 1 & stage_binary!=.
+ count  if exposed == 1 & stage_final!=.
  local tot=r(N)
- count  if exposed == 1 & stage_binary==1
+ count  if exposed == 1 & stage_final==1
  local s1=r(N)
  local s1_p=(`s1'/`tot')*100
-  count  if exposed == 1 & stage_binary==2
+  count  if exposed == 1 & stage_final==2
  local s2=r(N)
   local s2_p=(`s2'/`tot')*100
 
-  count  if exposed == 1 & stage_binary==3
+  count  if exposed == 1 & stage_final==9
  local sm=r(N)
    local sm_p=(`sm'/`tot')*100
    di "`s1_p'"

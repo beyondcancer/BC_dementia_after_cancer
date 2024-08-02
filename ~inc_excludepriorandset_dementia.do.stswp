@@ -1,16 +1,17 @@
 
 *drop individuals with outcome event prior to index date and create stset variables
 
+*Add 0.5 day to dementia DX if happen on same day as indexdate 
+replace main0_datedementia=main0_datedementia+0.5 if main0_datedementia==indexdate
 
 *Note: doendcprdfup=min(lcd,tod,deathdate,dod,enddate), where enddate includes date of cancer diagnosis in controls
-
-if "`outcome'"=="alz" | "`outcome'"=="vasc"  | "`outcome'"=="other_dem" |  "`outcome'"=="ns_dem" | "`outcome'"=="dementia" {
-drop if main0_datedementia <= indexdate+(365.25*`year')
+drop if main0_datedementia<indexdate+(365.25*`year')
 rename indexdate doentry
 replace doentry=doentry +(365.25*`year')	
 gen doexit = min(doendcprdfup, main0_datedementia, d(29mar2021))
-}
 
+*Add 0.5 day to end date if happen on same day as indexdate 
+replace doexit=doexit+0.5 if doexit==doe
 
 format doexit %dD/N/CY
 drop if doentry > doexit & exposed==0 

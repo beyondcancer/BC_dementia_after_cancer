@@ -13,13 +13,10 @@ foreach db of  global databases {
 foreach site of global cancersites {
 foreach outcome in dementia  {
 foreach year in 0 {		
-foreach stage in 1 2 3 {
+foreach stage in 1 2 9 {
 estimates use "$results_an_dem/an_Primary_A2_cox-model-estimatesdem_stage_`site'_`outcome'_`db'_`year'"
 if _rc==0 post results ("`db'") ("`site'") ("`outcome'") ("`stage'") (_b[`stage'.stage_final]) (_se[`stage'.stage_final])
 } /*stage 1 to 3*/
-if "`site'"!="mye" & "`site'"!="leu" {
-if _rc==0 post results ("`db'") ("`site'") ("`outcome'") ("4") (_b[4.stage_final]) (_se[4.stage_final])
-}
 }
 }
 }
