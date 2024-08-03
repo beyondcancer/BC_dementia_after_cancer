@@ -41,7 +41,7 @@ lab val age_cat_dementia age_cat_dementia
 	
 	 
 foreach intvar of any age_cat_dementia gender eth5_comb calendaryearcat3 mostdeprived region_cat b_cvd {
-
+*
 global nowon "`intvar' `outcome' `cancer'"
 di "$nowon"
 

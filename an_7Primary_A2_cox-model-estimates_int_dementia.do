@@ -1,6 +1,7 @@
 
 *K_anfitinteractionmodels
-
+*set trace on
+set trace off
 cap log close
 log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_int", replace t
 
@@ -50,11 +51,11 @@ lab val age_cat_dementia age_cat_dementia
 		}		
 	
 	if "`intvar'"=="age_cat_dementia" {
-		local exposureinteractionspec "i.exposed 1.exposed##1.`intvar' 1.exposed##2.`intvar' 1.exposed##3.`intvar' 1.exposed##4.`intvar'  "
+		local exposureinteractionspec "i.exposed  1.exposed##1.`intvar' 1.exposed##2.`intvar' 1.exposed##3.`intvar' "
 	}
 	if "`intvar'"=="eth5_comb" {	
-		local exposureinteractionspec "i.exposed 1.exposed##1.`intvar' 0.exposed##1.`intvar' 1.exposed##2.`intvar' 1.exposed##3.`intvar' "		}	
-		
+		local exposureinteractionspec "i.exposed 1.exposed##0.`intvar' 1.exposed##1.`intvar' 1.exposed##2.`intvar' 1.exposed##3.`intvar'"		
+		}	
 		
 	if "`intvar'"=="region_cat"  { /*1=north 2=east 3=west 4=south 5=london*/ 
 		gen region_cat = region
