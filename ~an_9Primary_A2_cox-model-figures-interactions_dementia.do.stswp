@@ -45,7 +45,7 @@ drop if intvar=="age_cat_dementia" & level == 1
 replace stratum = "Age 18-49y" if intvar=="age_cat_dementia" & level == 0
 replace stratum = "Age 50-59y" if intvar=="age_cat_dementia" & level == 2 
 replace stratum = "Age 60-69y" if intvar=="age_cat_dementia" & level == 3
-replace stratum = "Age 70-79y" if intvar=="age_cat_dementia" & level == 4
+replace stratum = "Age 0-59y" if intvar=="age_cat_dementia" & level == 4
 replace stratum = "Age 80+y" if intvar=="age_cat_dementia" & level == 5
 
 

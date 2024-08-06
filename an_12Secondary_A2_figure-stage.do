@@ -239,12 +239,12 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	|| rcap lci uci graphorder if stage==2, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if stage==2, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///
-	|| scatter graphorder labelxpos if stage==9, m(i)  ///
-	|| scatter graphorder labelxpos if stage==9, m(i) mlab(stage2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder labelnpos if stage==9, m(i) mlab(nevents) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if stage==9, mcol(black) msize(vsmall) msymbol(D) ///
-	|| rcap lci uci graphorder if stage==9, hor mcol(grey) lcol(grey) ///	
-	|| scatter graphorder hrxpos if stage==9, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder labelxpos if stage==9, m(i)  mlabcol(gs8)  ///
+	|| scatter graphorder labelxpos if stage==9, m(i) mlab(stage2) mlabcol(gs8) mlabsize(vsmall) ///
+	|| scatter graphorder labelnpos if stage==9, m(i) mlab(nevents) mlabcol(gs8) mlabsize(vsmall) ///
+	|| scatter graphorder hr if stage==9, mcol(gs8) msize(vsmall) msymbol(D) ///
+	|| rcap lci uci graphorder if stage==9, hor mcol(gs8) lcol(gs8) ///	
+	|| scatter graphorder hrxpos if stage==9, m(i) mlab(displayhrci) mlabcol(gs8) mlabsize(vsmall) ///
 	///
 	ylabels(none) ytitle("") xscale(log range(50)) xlab(0.5 1 2 4 6) ///
 	xtitle("Hazard ratio & 95% CI") xline(1,lp(dash)) legend(off) ///

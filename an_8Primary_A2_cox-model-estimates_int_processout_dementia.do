@@ -13,7 +13,6 @@ postfile estimates str10 cancer str20 outcome str20 year str20 intvar level esti
 foreach db of  global databases {
 foreach year in 0 {
 
-*depression anxiety selfharm suicide
 foreach outcome in dementia  {
 foreach cancer of global cancersites {
 
@@ -60,8 +59,8 @@ local minlevel = 1
 local maxlevel = 2
 }
 if "`intvar'"=="age_cat_dementia"   {
-local minlevel = 1
-local maxlevel = 3
+local minlevel = 0
+local maxlevel = 5
 }
 if "`intvar'"=="calendaryearcat3" {
 local minlevel = 1

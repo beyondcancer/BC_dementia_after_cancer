@@ -22,6 +22,10 @@ do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_GOLD.do"
 do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_Aurum.do"
 do "$dofiles_an_dem\0_cr_dataforSENSE_DEManalysis_AandG.do"
 
+do "$dofiles_an_dem\0_cr_dataforSENSE_histdem_DEManalysis_GOLD.do"
+do "$dofiles_an_dem\0_cr_dataforSENSE_histdem_DEManalysis_Aurum.do"
+do "$dofiles_an_dem\0_cr_dataforSENSE_histdem_DEManalysis_AandG.do"
+
 do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_GOLD.do"
 do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_Aurum.do"
 do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_AandG.do"
@@ -95,8 +99,8 @@ do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses4-stroke.do"
 do "$dofiles_an_dem\an_21_cox-model-sensitivity-analyses-process-out.do"
 do "$dofiles_an_dem\an_22cr_forest_sensitivity.do"
 
-
-
+*Odds of having a history of dementia at cancer diagnosis
+do "$dofiles_an_dem\an_23_SENSE_odds_exc_h_o_dementia.do"
 
 *Exploratory
 *With estimates unaccounted for matched set (crude)
