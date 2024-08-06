@@ -91,7 +91,7 @@ do "$dofiles_an_dem/an_4Primary_A2_cox-model-estimates_dementia_SENSE_specificde
 do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses2.do"
 do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses.do"
 do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses3-pricare.do"
-do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses4-stroke.do"
+an_20_cox-model-sensitivity-analyses4-stroke.do"
 do "$dofiles_an_dem\an_21_cox-model-sensitivity-analyses-process-out.do"
 do "$dofiles_an_dem\an_22cr_forest_sensitivity.do"
 

@@ -31,8 +31,9 @@ replace analysis=".  Adj. BMI" if sense == "bmi"
 replace analysis=".  Censor at start of pandemic" if sense == "pandemic"
 *replace analysis=".  Dementia drugs only" if sense == "demdrugs"
 replace analysis=".  No chemotherapy record" if sense == "nochemo"
-replace analysis=".  Specific diagnoses" if sense == "dementia"
-replace analysis=".  Primary care diagnoses" if sense == "pricare"
+replace analysis=".  Specific dementia Dx" if sense == "dementia"
+replace analysis=".  Primary care dementia Dx" if sense == "pricare"
+replace analysis=".  Adj. stroke after cancer" if sense == "stroke"
 
 
 tab analysis, miss
@@ -42,16 +43,17 @@ gen order=.
 replace order=1 if analysis=="Main analysis"
 replace order=3 if sense == "ethnicit"
 replace order=4 if sense == "bmi"
-replace order=5 if sense == "nochemo"
-replace order=6 if sense == "dementia"
-replace order=7 if sense == "pricare"
-replace order=8 if sense == "pandemic"
+replace order=5 if sense == "stroke"
+replace order=6 if sense == "nochemo"
+replace order=7 if sense == "dementia"
+replace order=8 if sense == "pricare"
+replace order=9 if sense == "pandemic"
 
 *replace order=6 if analysis==".  Data from 2006 onwards"
 
 sort cancer order
 
-gen graphorder = 10-order
+gen graphorder = 11-order
 
 * limit UCI to 4.5
 gen uci_abovemax=.
