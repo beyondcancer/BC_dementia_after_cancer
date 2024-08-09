@@ -12,16 +12,26 @@ capture program drop stpmcumpredincidences
 program stpmcumpredincidences
 args outcome graphname
 	
-foreach cancersite of global cancersites_pan {
+foreach cancersite of global cancersites {
 
 use "$datafiles_an_dem/cr_dataforDEManalysis_aandg_`cancersite'.dta", clear 
 	local year 0
 	local outcome dementia
 	dib " `outcome' `db'", stars
 
+	*gen tenyearsfup=indexdate+(10*365.25)
+	*replace doendcprdfup=min(doendcprdfup, tenyearsfup)
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
 	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
 	 
+	 
+	*tab dementia exposed if b_cvd==0, miss col 
+	*sts graph if b_cvd==0, by(exposed) cumhaz
+	*sts graph if b_cvd==0, by(exposed) 
+	
+	*tab dementia exposed if b_cvd==1, miss col 
+	sts graph if b_cvd==1, by(exposed) cumhaz
+	*stop
 /*generate bmi splines
 mkspline bmispl=bmi, cubic nk(3) dis
 summ bmispl1 if exposed==1
@@ -31,7 +41,7 @@ local bmispl2ref = r(mean)
 replace bmispl2=`bmispl2ref'
 replace bmispl1=`bmispl1mean'
 */
-	sts graph if b_cvd==0, by(exposed) cumhaz saving("$results_an_dem/km_`outcome'_`cancersite'", replace)	
+	sts graph if b_cvd==0, by(exposed) cumhaz saving("$results_an_dem/"$results_an_dem\stpm2cumrisk_`outcome'_`cancersite'", replace)	
 local covariatescleaned = subinstr(subinstr("$covariates_common", "i.smokstatus","",1), "i.", "", 2)
 
 gen female = gender==2
@@ -76,7 +86,7 @@ if e(converged)==1{
 			 ytitle("Cumulative risk", size(tiny)) title("`outcome'") ///
 			 xtitle("Time since cancer diagnosis (years)") 
 			 
-	graph save "Graph" "$results_an_dem\stpm2cumrisk_`outcome'`cancersite'.gph", replace
+	graph save "Graph" "$results_an_dem\stpm2cumrisk_`outcome'`cancersite'.gph"", replace
 	graph export "$results_an_dem\stpm2cumrisk_`outcome'`cancersite'.pdf", as(pdf) name("Graph") replace
 	
 	
@@ -101,40 +111,8 @@ append using "$results_an_dem/cumrisk_dementia_`cancersite'"
 duplicates drop 
 
 foreach x in exp0b_cvd0 exp0b_cvd0_lci exp0b_cvd0_uci exp0b_cvd1 exp0b_cvd1_lci exp0b_cvd1_uci exp1b_cvd0 exp1b_cvd0_lci exp1b_cvd0_uci exp1b_cvd1 exp1b_cvd1_lci exp1b_cvd1_uci {
-replace `x'=`x'*100	
+*replace `x'=`x'*100	
 }
 save "$results_an_dem/an_stpm2_cum_predictedincidences_allcancers_cis", replace
 desc
-********************************************************************************
-*graphs
-********************************************************************************
-foreach outcome in dementia  {
-	use "$results_an_dem/an_stpm2_cum_predictedincidences_allcancers_cis", clear
-keep	if outcome== "`outcome'" 
 
-twoway  (rarea exp0b_cvd0_lci exp0b_cvd0_uci date, color(blue%25))  ///
-			(rarea exp0b_cvd1_lci exp0b_cvd1_uci date, color(red%25)) ///
-			(rarea exp1b_cvd0_lci exp1b_cvd0_uci date, color(blue%25)) ///
-			(rarea exp1b_cvd1_lci exp1b_cvd1_uci  date, color(red%25)) ///
-			(line exp0b_cvd0 date, sort lpattern(dash) lcolor(blue) lwidth(vthin)) ///
-			(line exp1b_cvd0 date, sort lcolor(blue) lwidth(vthin)) ///
-			(line exp0b_cvd1 date, sort lpattern(dash) lcolor(red)  lwidth(vthin)) ///
-			(line exp1b_cvd1 date, sort lcolor(red)  lwidth(vthin)) ///
-			 ,  legend(off) ///
-			 ylabel(0 (10) 60,angle(h) format(%3.2f) labsize(tiny)) xlabel(0(1)10, labsize(tiny)) ///
-			 ytitle("Cumulative risk (%)", size(vsmall) placement(w)) ///
-			 xtitle("Time since cancer diagnosis (years)", size(vsmall)) title("`title'", size(small)) ///
-			 graphregion(color(white)) 
-			 
-	graph save "Graph" "$results_an_dem\stpm2cumrisk_`outcome'.gph", replace
-	graph export "$results_an_dem\stpm2cumrisk_`outcome'.pdf", as(pdf) name("Graph") replace
-}
-
-/*
-
-graph combine "$results_an_dem\stpm2cumrisk_anxiety.gph" "$results_an_dem\stpm2cumrisk_depression.gph" ///
-"$results_an_dem\stpm2cumrisk_selfharm.gph" "$results_an_dem\stpm2cumrisk_suicide.gph" 
-
-graph export "$results_an_dem\Forest_cumincid_all.png", width(8000) height(6000) replace name("Graph")
-	
-/*legend(order(1 "No hist. mental illness" 2 "Hist. mental illness" 5 "No cancer" 6 "Cancer survivors" 7 "No cancer" 8 "Cancer survivors") ring(0) cols(6) pos(11) size(tiny)) ///

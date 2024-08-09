@@ -2,12 +2,12 @@
 
 
 foreach db of  global databases {
-	foreach cancersite of global cancersites_lun {
+	foreach cancersite of global cancersites {
 		* dementiaspec vasc alz other_dem ns_dem
-
+local outcome dementia
 		use "$datafiles_an_dem/cr_dataforSENSE_histdem_DEManalysis_`db'_`cancersite'.dta", clear 
-
 tab exposed
+recode h_odementia .=0
 tab h_odementia exposed, col chi
 count if exposed==1
 local tot_exp=r(N)
@@ -22,12 +22,18 @@ local n_unexp_`cancersite'=r(N)
 local pct_exp_`cancersite'=(`n_exp_`cancersite''/`tot_exp')*100
 local pct_unexp_`cancersite'=(`n_unexp_`cancersite''/`tot_unexp')*100
 
-logistic h_odementia exposed if age_cat==3
-logistic h_odementia exposed if age_cat==4
-logistic h_odementia exposed if age>=60 & age<=70
+egen age_cat_dementia=cut(age), at(17 50 60 70 80 200)
+recode age_cat_dementia 17=1 50=2 60=3 70=4 80=5
+lab define age_cat_dementia 1 "18-49" 2 "50-59" 3 "60-69" 4 "70-79" 5 "80+"
+lab val age_cat_dementia age_cat_dementia
+tab age_cat_dementia
 
-logistic h_odementia exposed $covariates_common age gender
-stop
+tab h_odementia exposed, col
+tab h_odementia, miss
+
+logistic h_odementia exposed
+logistic h_odementia exposed i.age_cat_dementia $covariates_common
+  
 	if _rc==0 estimates save "$results_an_dem/an_SENSE_h_o_`cancersite'_`outcome'_`db'", replace	
 
 	}
@@ -44,7 +50,7 @@ postfile results str8 db str8 cancersite ncancer pctcancer ncontrol pctcontrol b
 foreach db of  global databases {
 foreach cancersite of global cancersites {
 
-cap estimates use "$results_an_dem/an_SENSE_h_o_`cancersite'__`db'",
+cap estimates use "$results_an_dem/an_SENSE_h_o_`cancersite'_dementia_`db'",
 if _rc==0 post results ("`db'") ("`cancersite'") (`n_exp_`cancersite'') (`pct_exp_`cancersite'') (`n_unexp_`cancersite'') (`pct_unexp_`cancersite'') (_b[exposed]) (_se[exposed])
 
 }

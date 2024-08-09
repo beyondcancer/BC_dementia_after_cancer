@@ -1,6 +1,6 @@
 cap log close
 args cancersite db
-log using "$logfiles_an_dem/an_20_cox-model-sensitivity-analyses4-stroke.txt", replace t
+log using "$logfiles_an_dem/CHECK_4Primary_A2_cox-model-estimates_dementia_NO_CENSOR_SETS.txt", replace t
 
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
 foreach db of  global databases {
@@ -16,13 +16,7 @@ foreach outcome in dementia  {
 
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
 	
-	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
-	replace dof_stroke=. if dof_stroke>=doexit
-	sum dof_stroke
-	stsplit stroke, after(dof_stroke) at(0)
-	replace stroke = stroke + 1
-	replace stroke=0 if dof_stroke==.
-	*br e_patid cancer exposed stroke doentry doexit dof_stroke _*
+	include "$dofiles_an_dem/inc_excludepriorandset_dementia_NOCENSOR_SETS.do" /*excludes prior specific outcomes and st sets data*/
 	
 	*** CRUDE AND ADJUSTED MODELS
 	*Only run models if there are >=10 failures in both groups
@@ -38,12 +32,27 @@ foreach outcome in dementia  {
 	stcox exposed
  stcox exposed age i.gender $covariates_common
 	*/
+	*Age (years)
+egen age_cat_dementia=cut(age), at(17 50 60 70 80 200)
+recode age_cat_dementia 17=1 50=2 60=3 70=4 80=5
+lab define age_cat_dementia 1 "18-49" 2 "50-59" 3 "60-69" 4 "70-79" 5 "80+"
+lab val age_cat_dementia age_cat_dementia
 	
 	*Accounting for matching
-	stcox exposed, strata(set) iterate(1000)
-	 stcox exposed $covariates_common stroke, strata(set) iterate(1000) 
-	  
-	if _rc==0 estimates save "$results_an_dem/an_Sense_stroke_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace  	 
+	stcox exposed
+	stcox exposed i.age_cat_dementia
+	stcox exposed age
+	*generate age splines
+*Restricted cubic splines
+gen age_whole=floor(age) 
+cap drop _S*
+mkspline _S = age_whole, cubic knots(26 49 55 61 71 84 90)
+	
+	stcox exposed _S*
+	stcox exposed $covariates_common i.age_cat_dementia i.gender
+	  stop 
+	if _rc==0 estimates save "$results_an_dem/CHECK_4Primary_A2_cox-model-estimates_dementia_NO_CENSOR_SETS`cancersite'_`outcome'_`db'_`year'", replace	
+	 
 
 	 
 } /*if at least 1 ev per group for crude and adjusted models*/

@@ -34,15 +34,18 @@ foreach cancer of global cancersites {
 		
 
 use "$results_an_dem/an_Primary_A2_cox-model-estimates_int_processout_aandg_dementia.dta", clear
+rename cancer cancersite
+merge 1:1 cancersite intvar level using "$results_an_dem/an_7Primary_A2_rawnumbers_int_dementia.dta"
+rename cancersite cancer
+drop if _m==2
 
+gen nevents=nfailunexp+nfailexp
 
 keep if outcome=="`outcome'" & cancer=="`cancer'"
-gen stratum = "Male" if intvar=="gender" & level == 0 
+gen stratum = "Male" if intvar=="gender" & level == 1
 replace stratum = "Female" if intvar=="gender" & level == 2
-drop if intvar=="gender" & level == 1
 
-drop if intvar=="age_cat_dementia" & level == 1   
-replace stratum = "Age 18-49y" if intvar=="age_cat_dementia" & level == 0
+replace stratum = "Age 18-49y" if intvar=="age_cat_dementia" & level == 1
 replace stratum = "Age 50-59y" if intvar=="age_cat_dementia" & level == 2 
 replace stratum = "Age 60-69y" if intvar=="age_cat_dementia" & level == 3
 replace stratum = "Age 70-79y" if intvar=="age_cat_dementia" & level == 4
@@ -54,7 +57,7 @@ replace stratum = "South Asian" if intvar=="eth5_comb" & level == 1
 replace stratum = "Black" if intvar=="eth5_comb" & level == 2
 replace stratum = "Other or Mixed" if intvar=="eth5_comb" & level == 3
 
-replace stratum = "Years 1998-2002" if intvar=="calendaryearcat3" & level == 0 
+replace stratum = "Years 1998-2002" if intvar=="calendaryearcat3" & level == 1 
 replace stratum = "Years 2003-2008" if intvar=="calendaryearcat3" & level == 2
 replace stratum = "Years 2009-2015" if intvar=="calendaryearcat3" & level == 3
 replace stratum = "Years 2016-2018" if intvar=="calendaryearcat3" & level == 4
@@ -62,7 +65,7 @@ replace stratum = "Years 2016-2018" if intvar=="calendaryearcat3" & level == 4
 replace stratum = "Lower deprivation" if intvar=="mostdeprived" & level == 0 
 replace stratum = "Higher deprivation" if intvar=="mostdeprived" & level == 1 
 
-replace stratum = "North" if intvar=="region_cat" & level == 0
+replace stratum = "North" if intvar=="region_cat" & level == 1
 replace stratum = "East" if intvar=="region_cat" & level == 2
 replace stratum = "West" if intvar=="region_cat" & level == 3
 replace stratum = "South" if intvar=="region_cat" & level == 4
@@ -97,10 +100,7 @@ local nmax = r(max)
 
 gen n=`nmax' + 1 - nrev
 
-cap drop estx px interacx
-gen interacx = 0.1
-gen estx = 18
-gen px = 70
+
 
 	/* gen new variable for offscale lcis and ucis*/ 
 	gen nogen=1 if hr <0.5 | hr>15
@@ -111,24 +111,39 @@ gen px = 70
 	replace lci = 0.5 if lcimin == 0.5
 	gen ucimax = 15 if uci > 15 & hr !=.
 	replace uci = 15 if ucimax == 15
-	
 
 	replace uci=0.5 if uci<0.5
 	gen overlab = ">"
 	gen underlab = "<"
 	
 	replace esthr="[could not calculate]" if lci==. 
-	*replace lci=. uci=. hr=. if lci==0 
+bysort intvar (level): replace pintstr="" if _n!=1 
  
-scatter n hr , mcol(black) mlabsize(vsmall) ///
+*CReate headers for graphs
+insobs 1, before(1) 
+replace n=31 if n==.
+ tostring nevents, gen(nevents_str)
+ replace nevents_str="N outcomes" if n==31
+ replace stratum="Variable" if n==31 
+ replace esthr="HR (95% CI)" if n==31 
+ replace pintstr="P-int" if n==31 
+
+cap drop estx px interacx
+gen interacx = 0.01
+gen lab_events=0.1
+gen estx = 18
+gen px = 70
+ 
+ scatter n hr , mcol(black) mlabsize(vsmall) ///
 	|| scatter n interacx, m(i) mlab(stratum) mlabcol(black) ///
 	|| rcap uci lci n, hor lc(black) ///
-	|| scatter n estx, m(i) mlab(esthr) mlabcol(black) ///
-	|| scatter n px if pint<., m(i) mlab(pintstr) mlabcol(black) ///
+	|| scatter n lab_events, m(i) mlab(nevents_str) mlabcol(black) ///
+	|| scatter n estx, m(i) mlab(esthr) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter n px, m(i) mlab(pintstr) mlabcol(black)  mlabsize(vsmall) ///
 	|| scatter n lcimin, mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| scatter n ucimax, mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| , xscale(range (0.1 90) log) xlab(0.5 1 2 4 6) yscale(range(20)) ysize(4) ylab(none) xtitle("HR and 95% CI") ytitle("") legend(off) title("`cancerlong'") name(`cancer', replace) xline(1, lp(dash)) graphregion(color(white))
-
+ 
 } /*cancer*/
 *graph export "$results\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.emf", replace
 
@@ -136,7 +151,7 @@ scatter n hr , mcol(black) mlabsize(vsmall) ///
 graph combine $cancersites, altshrink rows(4)  graphregion(color(white))
 graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.emf", replace
 graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.jpg", replace
-
+graph export "$results_an_dem/forest_interaction_`outcome'.tif", name("Graph") replace width(10000) 
 *graph drop _all
 } /*outcome*/
 } /*db*/

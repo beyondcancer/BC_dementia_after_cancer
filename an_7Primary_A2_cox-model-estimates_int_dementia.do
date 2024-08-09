@@ -13,8 +13,8 @@ foreach db of  global databases {
 foreach year in 0 {
 foreach cancersite of global cancersites {
 foreach outcome in dementia {
-	*gender eth5_comb calendaryearcat3 mostdeprived region_cat
-foreach intvar of any age_cat_dementia  {
+	*
+foreach intvar of any age_cat_dementia gender eth5_comb calendaryearcat3 mostdeprived region_cat {
 
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear 
 	keep if cancer=="`cancersite'"
@@ -33,7 +33,7 @@ recode age_cat_dementia 17=1 50=2 60=3 70=4 80=5
 lab define age_cat_dementia 1 "18-49" 2 "50-59" 3 "60-69" 4 "70-79" 5 "80+"
 lab val age_cat_dementia age_cat_dementia
 	
-	egen cal_year_gp=cut(index_year), at(1998 2003 2009 2015)
+	egen cal_year_gp=cut(index_year), at(1998 2003 2009 2015 2020)
 	recode cal_year_gp 1998=1 2003=2 2009=3 2015=4
 	
 	*include "$dofiles\analyse\inc_setupadditionalcovariates.do"

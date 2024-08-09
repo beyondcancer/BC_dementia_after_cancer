@@ -40,8 +40,6 @@ foreach outcome in dementia vasc alz other_dem ns_dem  {
 	  
 	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace	
 	 
-
-	 
 } /*if at least 1 ev per group for crude and adjusted models*/
 } /*outcome*/
 } /*year from dx*/

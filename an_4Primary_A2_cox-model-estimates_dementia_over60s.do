@@ -1,27 +1,24 @@
 cap log close
 args cancersite db
-log using "$logfiles_an_dem/an_20_cox-model-sensitivity-analyses4-stroke.txt", replace t
+log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_dementia.txt", replace t
 
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
-foreach db of  global databases {
+qui {
+	foreach db of  global databases {
 	foreach cancersite of global cancersites {
-		
-foreach outcome in dementia  {
+		* 
+foreach outcome in dementia   {
 			foreach year in 0 {		
-	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear 
+	noi use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear 
 	tab exposed	
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
+	drop if age<60
 	*dib "`cancersite' `outcome' `db'", stars
 
 	*include "$Dodir\analyse\inc_setupadditionalcovariates.do" /*defines female and site specific covariates*/
+	
 	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
-	replace dof_stroke=. if dof_stroke>=doexit
-	sum dof_stroke
-	stsplit stroke, after(dof_stroke) at(0)
-	replace stroke = stroke + 1
-	replace stroke=0 if dof_stroke==.
-	*br e_patid cancer exposed stroke doentry doexit dof_stroke _*
 	
 	*** CRUDE AND ADJUSTED MODELS
 	*Only run models if there are >=10 failures in both groups
@@ -39,10 +36,12 @@ foreach outcome in dementia  {
 	*/
 	
 	*Accounting for matching
-	stcox exposed, strata(set) iterate(1000)
-	 stcox exposed $covariates_common stroke, strata(set) iterate(1000) 
+	noi stcox exposed, strata(set) iterate(1000)
+	*if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_agesex_adj_`cancersite'_`outcome'_`db'_`year'", replace
+	noi stcox exposed $covariates_common, strata(set) iterate(1000) 
 	  
-	if _rc==0 estimates save "$results_an_dem/an_Sense_stroke_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace  	 
+	*if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace	
+	 
 
 	 
 } /*if at least 1 ev per group for crude and adjusted models*/
@@ -52,5 +51,5 @@ foreach outcome in dementia  {
 }	
 	
 } /*if at least 10 ev per group for crude and adjusted models*/
-
+}
 log close

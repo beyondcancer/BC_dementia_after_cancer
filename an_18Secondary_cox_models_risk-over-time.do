@@ -3,7 +3,7 @@ capture log close
 log using "$logfiles_an_dem\an_18Secondary_cox_models_risk-over-time", replace
 
 
-	foreach site of global cancersites_lun {
+	foreach site of global cancersites {
 foreach db of  global databases {
 
 	foreach outcome of global outcomes {

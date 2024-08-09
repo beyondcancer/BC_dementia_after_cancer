@@ -14,6 +14,7 @@ do "C:\Github\BC_data_management\2 variable generation\cr_listpat_dementia_gold.
 do "C:\Github\BC_data_management\2 variable generation\cr_listpat_dementia_aurum.do"
 
 
+*Generate main dataset and datasets for sense analysis
 do "$dofiles_an_dem\0_cr_dataforDEManalysis_GOLD.do"
 do "$dofiles_an_dem\0_cr_dataforDEManalysis_Aurum.do"
 do "$dofiles_an_dem\0_cr_dataforDEManalysis_AandG.do"
@@ -39,11 +40,8 @@ do "$dofiles_an_dem\an_1covariates_tables_manuscript.do"
 
 *Number in each analysis
 
-
 *Appendix tables for site-specific
 do "$dofiles_an_dem\an_2covariates_tables_by_site_appendix.do"
-
-
 
 
 /***************************************************************************
@@ -60,8 +58,8 @@ do "$dofiles_an_dem/an_5Primary_A2_cox-model-estimates_processout_dementia.do" /
 do "$dofiles_an_dem/an_6Primary_A1A2_main figure_dementia.do" 
 
 ***INTERACTIONS****
-*Dementia overall only: start of follow-up 0 and 1 year post Dx
 do "$dofiles_an_dem\an_7Primary_A2_cox-model-estimates_int_dementia.do"
+do "$dofiles_an_dem\an_7Primary_A2_rawnumbers_int_dementia.do"
 do "$dofiles_an_dem\an_8Primary_A2_cox-model-estimates_int_processout_dementia.do"
 do "$dofiles_an_dem\an_9Primary_A2_cox-model-figures-interactions_dementia.do"
 

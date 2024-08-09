@@ -14,11 +14,13 @@ tab exposed
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
 	drop _m
 	
+		/*downs syndrome*/
+	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpat_downs_syndrome_outcomes_aurum"
+	drop _m
+	
 ********************************************************************************
 *APPLY EXCLUSIONS
 ********************************************************************************
-
-
 
 *Drop those with missing BMI, smoking status and IMD
 tab exposed
