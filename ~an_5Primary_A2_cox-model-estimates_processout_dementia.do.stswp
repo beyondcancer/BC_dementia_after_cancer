@@ -14,7 +14,7 @@ foreach db of  global databases {
 foreach cancersite of global cancersites {
 	*
 foreach outcome in  dementia dementiaspec vasc alz other_dem ns_dem   {
-foreach model of any unadj agesex_adj adjusted  {
+foreach model of any u agesex_adj adjusted  {
 foreach year in 0 {
 
 

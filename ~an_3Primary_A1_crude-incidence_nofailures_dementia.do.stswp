@@ -35,7 +35,7 @@ noi di "`cancersite'" "`outcome'"
 	local exposedfailures = `r(N)'
 	count if exposed == 0 & _d==1
 	local controlfailures = `r(N)'
-	post failures ("`db'") ("`cancersite'") ("`year'") ("`outcome'") (`failures') (`exposedfailures') (`controlfailures') (`exptime') (`unexptime') (`rateexp') (`rateunexp')
+	post failures ("`db'") ("`cancersite'") ("`year'") ("`outcome'") (`failures') (`exposedfailures') (`controlfailures') (`exptime') (`unexpti') (`rateexp') (`rateunexp')
 } /* outcomes */
 } /* sites */
 postclose failures

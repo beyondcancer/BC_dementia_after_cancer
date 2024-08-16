@@ -76,4 +76,4 @@ tab dementia exposed
 sort e_patid exposed
 gen id = _n
 stset doexit, id(id) failure(dementia = 1) enter(doentry) origin(doentry) exit(doexit) scale(365.25)
-recode dementia .=0
+recode dementia .
