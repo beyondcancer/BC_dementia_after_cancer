@@ -16,14 +16,14 @@ rename ca sense
 append using "$results_an_dem\an_Primary_A2_cox-model-estimates_processout_dementia.dta"
 
 
-drop if ca=="crude" | ca=="agesex_a"
+drop if ca=="unadj" | ca=="agesex_a"
 drop if outcome=="alz" | outcome=="other_dem" | outcome=="ns_dem" | outcome=="vasc" | outcome=="dementiaspec"
 
 gen displayhrci = string(hr, "%3.2f") + " (" + string(lci, "%3.2f") + "-" + string(uci, "%3.2f") + ")"
 
 
 gen analysis=""
-replace analysis="Main analysis" if sense==""
+replace analysis="Main analysis" if ca=="adjusted"
 replace analysis=".  Adj. for ethnicity" if sense == "ethnicit"
 *replace analysis=".  Dementia HES only" if sense == "demhes"
 *replace analysis=".  Recent consulters" if sense == "exc_non_"

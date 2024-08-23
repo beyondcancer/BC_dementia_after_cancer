@@ -12,8 +12,8 @@ use  "$datafiles_core/cr_coredataset_gold.dta", clear
 	drop _m
 	
 	/*downs syndrome*/
-	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpat_downs_syndrome_outcomes_gold"
-	drop _m
+	*merge 1:1 setid e_patid using "$datafiles_raw/cr_listpat_downs_syndrome_outcomes_gold"
+	*drop _m
 
 ********************************************************************************
 *APPLY EXCLUSIONS

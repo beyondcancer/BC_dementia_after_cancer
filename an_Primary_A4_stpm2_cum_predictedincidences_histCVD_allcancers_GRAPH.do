@@ -63,8 +63,10 @@ twoway  (rarea exp0b_cvd0_lci exp0b_cvd0_uci date, color(blue%25))  ///
 			(line exp0b_cvd1 date, sort lpattern(dash) lcolor(red)  lwidth(vthin)) ///
 			(line exp1b_cvd1 date, sort lcolor(red)  lwidth(vthin)) ///
 			 ,  legend(off) xtitle("",)  ///
-			 ylabel(0 (0.1) 0.3,angle(h) format(%3.2f) labsize(tiny)) xlabel(0(1)10, labsize(tiny)) ///
+			 ylabel(0 (10) 30,angle(h) format(%3.0f) labsize(tiny)) xlabel(0(1)10, labsize(tiny)) ///
 			title("`cancersite2'", size(small)) ///
+			ytitle("Incidence (per 1000 person years)", size(vsmall)) ///
+			 xtitle("Time since cancer diagnosis (years)", size(vsmall)) ///
 			 graphregion(color(white)) 
 			 
 	graph save "Graph" "$results_an_dem\stpm2cumrisk_`cancersite'.gph", replace

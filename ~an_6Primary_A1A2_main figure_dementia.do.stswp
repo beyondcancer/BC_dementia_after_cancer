@@ -13,12 +13,13 @@ individual outcome graphs included for supplementary appendix
 survivors and controls  *********************** */
 
 /*KB 25/2 I added to the "post" to capture the number of events, and the agesex_adj incidences */
+
 foreach year in 0 {
 foreach db of  global databases {
-*
-foreach outcome in dementia dementiaspec vasc alz other_dem ns_dem  {
 
-use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
+foreach outcome in dementia vasc alz other_dem ns_dem  {
+
+*use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 
 	*noi dib "`outcome'", stars
 	capture postutil clear
@@ -26,9 +27,9 @@ use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 	postfile estimates str8 outcome str8 model str3 cancersite  str3 year  nfail irexp irunexp hr lci uci pval using "`estimates'"
 	*local i = 1
 	foreach model in unadj agesex_adj adjusted {
-		*dib "`model'", ul
+		dib "`model'", ul
 		foreach site of global cancersites {
-			*dib "`site'", ul
+			dib "`site'", ul
 			summ nfail if cancersite=="`site'" & outcome=="`outcome'" & db=="`db'"  & year=="`year'"
 			local nfail = r(mean)
 			summ rateexp if cancersite=="`site'" & outcome=="`outcome'" & db=="`db'"   & year=="`year'"
@@ -163,7 +164,7 @@ foreach outcome in dem_all {
 	
 	/*label/headings positions*/
 	gen irlabpos = 10
-	gen hrlabpos = 30 /*location of HR estimates*/
+	gen hrlabpos = 10 /*location of HR estimates*/
 	gen sitelabpos = 0.08  /*location of cancer site labels*/
 	*note this leaves plenty of space as the graphs will be squashed when combined
 	
@@ -216,10 +217,8 @@ foreach outcome in dem_all {
 	|| scatter obs lcimin, mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| scatter obs ucimax, mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	/// add results labels
-	|| scatter obs irlabpos if model == "unadj", m(i)  mlab(irboth) mlabcol(black) mlabsize(vsmall) mlabposition(9)  ///
 	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(vsmall) mlabposition(9)  ///
 	/// Headings for site labels and results
-	|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
 	|| scatter obs hrlabpos if obs==$headingobs, m(i) mlab(hrheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
 	|| scatter obs sitelabpos if obs==$headingobs & sitelabelson == 1, m(i) mlab(siteheading) mlabcol(black) mlabsize(vsmall) mlabpos(3) ///
 	|| scatter obs higherlabpos if _n==1|obs==$headingobs, m(i) mlab(higherriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
@@ -234,13 +233,17 @@ foreach outcome in dem_all {
 			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(13)	/// y-axis no labels or title
 			graphregion(color(white))	bgcolor(white)		/// get rid of rubbish grey/blue around graph
 			legend(order(1 3 5) label(1 "Unadjusted") label(3 "Stratified by age and gender matched sets") label(5 "Additionally adjusted for shared risk factors") /// legend (1 = first plot, 3 = 3rd plot, 5 = 5th plot)
-			size(vsmall) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero) pos(6)) /// 
+			size(tiny) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero) pos(6)) /// 
 			name("`outcome'_`year'", replace)
 		
 	} /*if there are data*/
 } /*outcomes*/
 } /*years*/
 }
+
+/*	|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
+	|| scatter obs irlabpos if model == "unadj", m(i)  mlab(irboth) mlabcol(black) mlabsize(vsmall) mlabposition(9)  ///
+*/
 
 graph combine dem_all_0, iscale(*0.9) ///
 ysize(13) ///
@@ -253,7 +256,7 @@ graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementia_year0.emf", r
 /**** GRAPHS  *********************** */
 foreach year in 0 {
 foreach db of  global databases {
-foreach outcome in  vasc alz other_dem ns_dem  dem_drugs dem_hes {
+foreach outcome in  vasc alz other_de ns_dem {
 	*
 	use "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", clear
 	keep if year=="`year'"
@@ -386,10 +389,8 @@ foreach outcome in  vasc alz other_dem ns_dem  dem_drugs dem_hes {
 	|| scatter obs lcimin if model == "adjusted", mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| scatter obs ucimax if model == "adjusted", mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	/// add results labels
-	|| scatter obs irlabpos if model == "adjusted", m(i)  mlab(irboth) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
 	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
 	/// Headings for site labels and results
-	|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
 	|| scatter obs hrlabpos if obs==$headingobs, m(i) mlab(hrheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
 	|| scatter obs sitelabpos if obs==$headingobs & sitelabelson == 1, m(i) mlab(siteheading) mlabcol(black) mlabsize(tiny) mlabpos(3) ///
 	|| scatter obs higherlabpos if _n==1|obs==$headingobs, m(i) mlab(higherriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
@@ -412,11 +413,13 @@ foreach outcome in  vasc alz other_dem ns_dem  dem_drugs dem_hes {
 } /*years*/
 }
 
-
-
+/*
+	|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
+	|| scatter obs irlabpos if model == "adjusted", m(i)  mlab(irboth) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
+*/
 
 *Dementia types
-graph combine  alz_0 vasc_0 other_dem_0 ns_dem_0, iscale(*0.9) cols(2) rows(2) ///
+graph combine  alz_0 vasc_0 other_de_0 ns_dem_0, iscale(*0.9) cols(2) rows(2) ///
 ysize(10) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
 note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///

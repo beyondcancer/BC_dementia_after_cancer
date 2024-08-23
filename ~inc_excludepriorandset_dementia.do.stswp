@@ -30,7 +30,8 @@ gen flag=1 if doexit>censordatecontrol
 
 *list setid exposed doexit censordatecontrol  if flag==1 
 replace doexit = censordatecontrol if doexit>=censordatecontrol
-format censordatecontrol %td*/
+format censordatecontrol %td
+*/
 
 
 *Check all cases have at least one control
@@ -76,4 +77,3 @@ tab dementia exposed
 sort e_patid exposed
 gen id = _n
 stset doexit, id(id) failure(dementia = 1) enter(doentry) origin(doentry) exit(doexit) scale(365.25)
-recode dementia .

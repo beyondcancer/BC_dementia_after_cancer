@@ -47,8 +47,8 @@ do "$dofiles_an_dem\an_2covariates_tables_by_site_appendix.do"
 /***************************************************************************
 MAIN ANALYSIS
 ***************************************************************************/
-*Generate incidences
-do "$dofiles_an_dem/an_3Primary_A1_crude-incidence_nofailures_dementia.do"
+*Generate incidences - no longer generating crude incidences
+*do "$dofiles_an_dem/an_3Primary_A1_crude-incidence_nofailures_dementia.do"
 
 *Run main models
 do "$dofiles_an_dem/an_4Primary_A2_cox-model-estimates_dementia.do" 
@@ -100,6 +100,9 @@ do "$dofiles_an_dem\an_22cr_forest_sensitivity.do"
 *Odds of having a history of dementia at cancer diagnosis
 do "$dofiles_an_dem\an_23_SENSE_odds_exc_h_o_dementia.do"
 
-*Exploratory
+*Cumulative incidence over time 
+do "$dofiles_an_dem\an_Primary_A4_stpm2_cum_predictedincidences_histCVD_allcancers.do"
+do "$dofiles_an_dem\an_Primary_A4_stpm2_cum_predictedincidences_histCVD_allcancers_GRAPH.do"
+/*Exploratory
 *With estimates unaccounted for matched set (crude)
 do "$dofiles_an_dem/an_X_main figure_dementia_with_crude.do"
