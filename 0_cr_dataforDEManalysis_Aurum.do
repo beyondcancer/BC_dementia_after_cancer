@@ -15,8 +15,8 @@ tab exposed
 	drop _m
 	
 		/*downs syndrome*/
-	*merge 1:1 setid e_patid using "$datafiles_raw/cr_listpat_downs_syndrome_outcomes_aurum"
-	*drop _m
+	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpat_downs_syndrome_outcomes_aurum", force
+	drop _m
 	
 ********************************************************************************
 *APPLY EXCLUSIONS

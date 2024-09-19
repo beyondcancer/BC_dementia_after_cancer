@@ -1,5 +1,5 @@
 
-capture log close
+/*capture log close
 *log using "$logfiles\an_Primary_A1A2_main figure.txt", replace text
 
 /*******  PRIMARY ANALYSIS AIM 1 / 2 agesex_adj INCIDENCE RATES, agesex_adj AND ADUSTED HRS  *****
@@ -71,7 +71,7 @@ replace outcome="dementia" if outcome=="dem_spec"
 save "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", replace
 sort cancer year model 
 list in 1/20
- 
+ */
 cd $results_an_dem
 
 /**** GRAPHS  *********************** */
@@ -83,14 +83,18 @@ foreach outcome in dem_all {
 	keep if year=="`year'"
 	keep if outcome=="`outcome'"
 	
+	drop if model=="unadj"
+	replace model="crude" if model=="agesex_a"
+	
+	
 	count
 	if `r(N)'>0 {
 	*Cancersite labels
 	gen str1 sitelabel=""
 	foreach site of global cancersites {
 		qui include "$dofiles_an_dem\inc_cancersitetographtitle.do"
-		replace sitelabel = "`name'" if cancersite=="`site'" & model == "unadj"
-		replace sitelabel = "`icd'" if cancersite=="`site'" & model == "agesex_a"
+		replace sitelabel = "`name'" if cancersite=="`site'" & model == "crude"
+		replace sitelabel = "`icd'" if cancersite=="`site'" & model == "adjusted"
 		}
 
 	*numeric version of cancersite variable with labels
@@ -103,20 +107,14 @@ foreach outcome in dem_all {
 		local i = `i' + 1
 		}
 	label values ycat cancersitelab 
- 
+
 	/*number observations with gap between cancers to represent separator 
 	row in graphs*/
-
-
-	expand 2 if model=="adjusted", gen(dupindicator)
 	gsort -ycat model
-	foreach var in  outcome model result irboth {
-		replace `var'="" if dupindicator==1
-	}
-	gsort -ycat model -dupindicator
-
 	gen obs = _n
-
+	replace obs = . if mod(obs,2)==1
+	replace obs = (3*obs/2) - 1
+	replace obs = obs[_n+1] - 1  if obs==.
 		
 	keep obs ycat cancersite sitelabel hr lci uci result irboth model nfail
 
@@ -164,12 +162,12 @@ foreach outcome in dem_all {
 	
 	/*label/headings positions*/
 	gen irlabpos = 10
-	gen hrlabpos = 10 /*location of HR estimates*/
-	gen sitelabpos = 0.08  /*location of cancer site labels*/
+	gen hrlabpos = 8 /*location of HR estimates*/
+	gen sitelabpos = 0.3  /*location of cancer site labels*/
 	*note this leaves plenty of space as the graphs will be squashed when combined
 	
-	gen higherlabpos=2.2
-	gen lowerlabpos=1.05
+	gen higherlabpos=1.5
+	gen lowerlabpos=0.95
 	
 	/*otpion to only show site labels for graphs that will be on left hand side of
 	combined graph*/
@@ -182,8 +180,8 @@ foreach outcome in dem_all {
 		
 	/*KB 25/2	*/
 	sort cancersite model obs
-	by cancersite: replace sitelabel = sitelabel + " " + sitelabel[1] if _n==3
-	by cancersite: replace sitelabel = "[" + string(nfail) + "]" if _n==2 
+	by cancersite: replace sitelabel = sitelabel + " " + sitelabel[1] if _n==2 
+	by cancersite: replace sitelabel = "[" + string(nfail) + "]" if _n==1 
 	replace sitelabel = subinstr(sitelabel, "Non-Hodgkin lymphoma", "NHL ", 1)
 	replace sitelabel = subinstr(sitelabel, "Multiple myeloma", "Mult myeloma ", 1)
 	replace sitelabel = subinstr(sitelabel, "Malignant melanoma", "Mal melanoma ", 1)
@@ -194,65 +192,62 @@ foreach outcome in dem_all {
 
 	gen overlab = ">"
 	gen underlab = "<"
-
 	
 	/*******************************************************************************
 	#draw graph
 	*******************************************************************************/
-		
+
+	
 	graph twoway ///
 	/// hr and cis (crude)
-		|| scatter obs hr if model == "unadj", msymbol(smcircle) msize(small) mcolor(black) 		/// data points 
+	|| scatter obs hr if model == "crude", msymbol(smtriangle) msize(small) mcolor(black) 		/// data points 
 		xline(1, lp(solid) lw(vthin) lcolor(black))				/// add ref line
-	|| rcap lci uci obs if model == "unadj", horizontal lw(vthin) col(black) msize(vvsmall)		/// add the CIs
-	/// hr and cis (adjusted)
-	|| scatter obs hr if model == "agesex_a", msymbol(smtriangle) msize(small) mcolor(black) 		/// data points 
-		xline(1, lp(solid) lw(vthin) lcolor(black))				/// add ref line
-	|| rcap lci uci obs if model == "agesex_a", horizontal lw(vthin) col(black) msize(vvsmall)		/// add the CIs
+	|| rcap lci uci obs if model == "crude", horizontal lw(vthin) col(black) msize(vvsmall)		/// add the CIs
 	/// hr and cis (adjusted)
 	|| scatter obs hr if model == "adjusted", msymbol(smsquare) msize(small) mcolor(black) 		/// data points 
 		xline(1, lp(solid) lw(vthin) lcolor(black))				/// add ref line
 	|| rcap lci uci obs if model == "adjusted", horizontal lw(vthin) color(black) msize(vvsmall)		/// add the CIs	
 	/// markers for lcis and ucis that are offscale
-	|| scatter obs lcimin, mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
-	|| scatter obs ucimax, mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
+		|| scatter obs lcimin if model == "crude", mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
+	|| scatter obs ucimax if model == "crude", mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
+	|| scatter obs lcimin if model == "adjusted", mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
+	|| scatter obs ucimax if model == "adjusted", mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	/// add results labels
-	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(vsmall) mlabposition(9)  ///
+	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
 	/// Headings for site labels and results
-	|| scatter obs hrlabpos if obs==$headingobs, m(i) mlab(hrheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
-	|| scatter obs sitelabpos if obs==$headingobs & sitelabelson == 1, m(i) mlab(siteheading) mlabcol(black) mlabsize(vsmall) mlabpos(3) ///
-	|| scatter obs higherlabpos if _n==1|obs==$headingobs, m(i) mlab(higherriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
-	|| scatter obs lowerlabpos if _n==1|obs==$headingobs, m(i) mlab(lowerriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
+	|| scatter obs hrlabpos if obs==$headingobs, m(i) mlab(hrheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
+	|| scatter obs sitelabpos if obs==$headingobs & sitelabelson == 1, m(i) mlab(siteheading) mlabcol(black) mlabsize(tiny) mlabpos(3) ///
 	/// The cancer site labels
-	|| scatter obs sitelabpos if sitelabelson == 1, m(i) mlab(sitelabel) mlabcol(black) mlabsize(vsmall)  ///
+	|| scatter obs sitelabpos if sitelabelson == 1, m(i) mlab(sitelabel) mlabcol(black) mlabsize(tiny)  ///
 	/// graph options
 			, 		/// turn legend off
 			xtitle("HR (95% CI)", size(vsmall) margin(0 2 0 0)) 		/// x-axis title - legend off
 			xlab(0.5 1 2 4, labsize(vsmall)) /// x-axis tick marks
 			xscale(range(0.5 10) log)						///	resize x-axis
-			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(13)	/// y-axis no labels or title
+			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(10)	/// y-axis no labels or title
+			legend(order(1 3) label(1 "Stratified by age and gender matched sets") label(3 "Additionally adjusted for shared risk factors") /// legend (1 = first plot, 3 = 3rd plot, 5 = 5th plot)
+			size(tiny) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero) pos(6)) ///
 			graphregion(color(white))	bgcolor(white)		/// get rid of rubbish grey/blue around graph
-			legend(order(1 3 5) label(1 "Unadjusted") label(3 "Stratified by age and gender matched sets") label(5 "Additionally adjusted for shared risk factors") /// legend (1 = first plot, 3 = 3rd plot, 5 = 5th plot)
-			size(tiny) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero) pos(6)) /// 
 			name("`outcome'_`year'", replace)
+		
 		
 	} /*if there are data*/
 } /*outcomes*/
 } /*years*/
 }
 
-/*	|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
+/*		|| scatter obs higherlabpos if _n==1|obs==$headingobs, m(i) mlab(higherriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
+	|| scatter obs lowerlabpos if _n==1|obs==$headingobs, m(i) mlab(lowerriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
 	|| scatter obs irlabpos if model == "unadj", m(i)  mlab(irboth) mlabcol(black) mlabsize(vsmall) mlabposition(9)  ///
 */
 
 graph combine dem_all_0, iscale(*0.9) ///
-ysize(13) ///
-/*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
-note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) graphregion(fcolor(white))  ///
+ysize(8) ///
+graphregion(fcolor(white))  ///
 name(combined, replace) 
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementia_year0.emf", replace
 
-
+stop 
 /**** GRAPHS  *********************** */
 foreach year in 0 {
 foreach db of  global databases {
