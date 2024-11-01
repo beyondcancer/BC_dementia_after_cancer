@@ -32,6 +32,8 @@ drop if h_odementia==1
 
 	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
 
+	
+	
 *Generate stage_binary
 	if "`site'"=="cns" {
 	local stage grade_cns
@@ -54,7 +56,7 @@ drop if h_odementia==1
 	replace stage_final=0 if  exposed==0
 	replace stage_final=9 if stage_final==99 & exposed==1
 	replace stage_final=9 if stage_final==. & exposed==1 
-	replace stage_final=. if doentry<=d(01jan2012)
+	replace stage_final=. if doentry<=d(01jan2013)
 	tab stage_final
 	tab stage_final, nolab
 
@@ -102,6 +104,8 @@ drop if cancer=="cancer"
 rename cancer cancersite
 merge 1:1 cancersite stage using "$results_an_dem/an_Primary_A2_cox-model-estimates_processout_stage.dta"
 
+drop if cancersite=="liv" | cancersite=="cns" | cancersite=="mye" | cancersite=="leu"
+
 order cancersite hr lci uci 
 destring stage, replace
 
@@ -111,7 +115,7 @@ replace cancersite="Oral cavity (C00-06)" 	  if cancersite=="ora"
 replace cancersite="Oesophageal (C15)"	  	  if cancersite=="oes"
 replace cancersite="Stomach (C16)" 		  	  if cancersite=="gas"
 replace cancersite="Colorectal (C18-20)"  	  if cancersite=="col"
-replace cancersite="Liver (C22)"		  	  if cancersite=="liv"
+*replace cancersite="Liver (C22)"		  	  if cancersite=="liv"
 replace cancersite="Pancreas (C25)"		  	  if cancersite=="pan"
 replace cancersite="Lung (C34)"  		  	  if cancersite=="lun"
 replace cancersite="Malignant melanoma (C43)" if cancersite=="mel"
@@ -122,11 +126,11 @@ replace cancersite="Ovary (C56)" 		  	  if cancersite=="ova"
 replace cancersite="Prostate (C61)"		  	  if cancersite=="pro"
 replace cancersite="Kidney (C64)" 		  	  if cancersite=="kid"
 replace cancersite="Bladder (C67)" 		  	  if cancersite=="bla" 
-replace cancersite="CNS (C71-72)" 		  	  if cancersite=="cns"
+*replace cancersite="CNS (C71-72)" 		  	  if cancersite=="cns"
 replace cancersite="Thyroid (C73)" 		  	  if cancersite=="thy"
 replace cancersite="NHL (C82-85)" 		  	  if cancersite=="nhl"
-replace cancersite="Multiple myeloma (C90)"   if cancersite=="mye"
-replace cancersite="Leukaemia (C91-95)"   	  if cancersite=="leu"
+*replace cancersite="Multiple myeloma (C90)"   if cancersite=="mye"
+*replace cancersite="Leukaemia (C91-95)"   	  if cancersite=="leu"
 
 
 
@@ -142,7 +146,9 @@ replace displayhrci="(not calculated)" if uci==. | beta==0 | sebeta==0
 *replace displayhrci = string(hr, "%3.2f") + " (" + lci + "-" + uci + ", 0.004" + ")" if p>0.004 & p<0.005
 *replace displayhrci = string(hr, "%3.2f") + " (" + lci + "-" + uci + ", 0.01" + ")" if p>0.005 & p<=0.01
 
-foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "Colorectal (C18-20)" "Liver (C22)"  "Pancreas (C25)" "Lung (C34)" "Malignant melanoma (C43)"  "Breast (C50)"  "Cervix (C53)"  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C64)"  "Bladder (C67)" "CNS (C71-72)" "Thyroid (C73)" "NHL (C82-85)" "Multiple myeloma (C90)" "Leukaemia (C91-95)" {
+
+*"Liver (C22)""CNS (C71-72)"  "Multiple myeloma (C90)" "Leukaemia (C91-95)" 
+foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "Colorectal (C18-20)"   "Pancreas (C25)" "Lung (C34)" "Malignant melanoma (C43)"  "Breast (C50)"  "Cervix (C53)"  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C64)"  "Bladder (C67)" "Thyroid (C73)" "NHL (C82-85)"{
 	count 
 	local n=r(N)+1
 	set obs `n'
@@ -161,22 +167,22 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	replace graphorder=2  if cancersite=="Oesophageal (C15)"
 	replace graphorder=3  if cancersite=="Stomach (C16)"
 	replace graphorder=4  if cancersite=="Colorectal (C18-20)"
-	replace graphorder=5  if cancersite=="Liver (C22)" 
-	replace graphorder=6  if cancersite=="Pancreas (C25)" 
-	replace graphorder=7  if cancersite=="Lung (C34)" 
-	replace graphorder=8  if cancersite=="Malignant melanoma (C43)" 
-	replace graphorder=9  if cancersite=="Breast (C50)" 
-	replace graphorder=10 if cancersite=="Cervix (C53)" 
-	replace graphorder=11 if cancersite=="Uterus (C54-55)" 
-	replace graphorder=12 if cancersite=="Ovary (C56)" 
-	replace graphorder=13 if cancersite=="Prostate (C61)" 
-	replace graphorder=14 if cancersite=="Kidney (C64)" 
-	replace graphorder=15 if cancersite=="Bladder (C67)"
-	replace graphorder=16 if cancersite=="CNS (C71-72)" 
-	replace graphorder=17 if cancersite=="Thyroid (C73)"
-	replace graphorder=18 if cancersite=="NHL (C82-85)" 
-	replace graphorder=19 if cancersite=="Multiple myeloma (C90)" 
-	replace graphorder=20 if cancersite=="Leukaemia (C91-95)"
+	*replace graphorder=5  if cancersite=="Liver (C22)" 
+	replace graphorder=5  if cancersite=="Pancreas (C25)" 
+	replace graphorder=6  if cancersite=="Lung (C34)" 
+	replace graphorder=7  if cancersite=="Malignant melanoma (C43)" 
+	replace graphorder=8  if cancersite=="Breast (C50)" 
+	replace graphorder=9 if cancersite=="Cervix (C53)" 
+	replace graphorder=10 if cancersite=="Uterus (C54-55)" 
+	replace graphorder=11 if cancersite=="Ovary (C56)" 
+	replace graphorder=12 if cancersite=="Prostate (C61)" 
+	replace graphorder=13 if cancersite=="Kidney (C64)" 
+	replace graphorder=14 if cancersite=="Bladder (C67)"
+	*replace graphorder=16 if cancersite=="CNS (C71-72)" 
+	replace graphorder=15 if cancersite=="Thyroid (C73)"
+	replace graphorder=16 if cancersite=="NHL (C82-85)" 
+	*replace graphorder=19 if cancersite=="Multiple myeloma (C90)" 
+	*replace graphorder=20 if cancersite=="Leukaemia (C91-95)"
 
 
 	gsort graphorder stage stage_n

@@ -26,7 +26,7 @@ keep if outcome=="`outcome'"
 *rename v8 pvalue
 order cancersite hr lci uci 
 destring year, replace
-drop if year==0.5 | year==0.75 | year==25 | year==10
+drop if year==0.5 | year==0.75 | year==25 | year==10 | year==100
 
 bysort cancersite year: gen timeperiod=_n
 
@@ -78,8 +78,6 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	replace timeperiod2=".  0-1 yrs" if year==1
 	replace timeperiod2=".  0-2 yrs" if year==2
 	replace timeperiod2=".  0-5 yrs" if year==5
-	replace timeperiod2=".  0-10 yrs" if year==10
-	replace timeperiod2=".  All yrs" if year==100
 
 	gen graphorder = .
 	replace graphorder=1  if cancersite=="Oral cavity (C00-06)"
@@ -162,15 +160,10 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	|| scatter graphorder hr if timeperiod==3, mcol(black) msize(small) msymbol(D) ///
 	|| rcap lci uci graphorder if timeperiod==3, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if timeperiod==3, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
-		|| scatter graphorder labelxpos if timeperiod==100, m(i)   ///
-	|| scatter graphorder labelxpos if timeperiod==100, m(i) mlab(timeperiod2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if timeperiod==100, mcol(black) msize(small) msymbol(D) ///
-	|| rcap lci uci graphorder if timeperiod==100, hor mcol(black) lcol(black) ///	
-	|| scatter graphorder hrxpos if timeperiod==100, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	|| scatter graphorder hrlabpos, m(i) mlab(hrheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
 	ylabels(none) ytitle("") xscale(log range(50)) xlab(0.5 1 2 4 6) ///
 	xtitle("Hazard ratio & 95% CI") xline(1,lp(dash)) legend(off) ///
-	ysize(10) graphregion(color(white))
+	ysize(8) graphregion(color(white))
 		
 graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis.grec"
 graph save "$results_an_dem/forest_`outcome'_timesincedx_A", replace
@@ -203,7 +196,7 @@ keep if outcome=="`outcome'"
 *rename v8 pvalue
 order cancersite hr lci uci 
 destring year, replace
-drop if year==0.5 | year==0.75 | year==25 | year==10
+drop if year==0.5 | year==0.75 | year==25 | year==10 | year==100
 
 bysort cancersite year: gen timeperiod=_n
 
@@ -274,7 +267,7 @@ foreach cancer in  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C
 	gsort graphorder timeperiod year
 
 	gen n = _n
-	gen graphorder2=101-n
+	gen graphorder2=98-n
 	drop graphorder
 	rename graphorder2 graphorder
 
@@ -334,15 +327,10 @@ foreach cancer in  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C
 	|| rcap lci uci graphorder if timeperiod==3, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if timeperiod==3, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///
-		|| scatter graphorder labelxpos if timeperiod==100, m(i)   ///
-	|| scatter graphorder labelxpos if timeperiod==100, m(i) mlab(timeperiod2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if timeperiod==100, mcol(black) msize(small) msymbol(D) ///
-	|| rcap lci uci graphorder if timeperiod==100, hor mcol(black) lcol(black) ///	
-	|| scatter graphorder hrxpos if timeperiod==100, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	|| scatter graphorder hrlabpos, m(i) mlab(hrheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
 	ylabels(none) ytitle("") xscale(log range(50)) xlab(0.5 1 2 4 6) ///
 	xtitle("Hazard ratio & 95% CI") xline(1,lp(dash)) legend(off) ///
-	ysize(10) graphregion(color(white))
+	ysize(8) graphregion(color(white))
 		
 		
 

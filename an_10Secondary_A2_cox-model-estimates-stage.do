@@ -10,7 +10,7 @@ foreach db of  global databases {
 	foreach year in 0 {		
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`site'.dta", clear 
 	
-	keep if indexdate>d(01jan2012)
+	keep if indexdate>d(01jan2013)
 	if "`site'"=="cns" {
 	local stage grade_cns
 	}

@@ -151,7 +151,7 @@ file write tablecontent _n
 	replace stage_final=0 if  exposed==0
 	replace stage_final=9 if stage_final==99 & exposed==1
 	replace stage_final=9 if stage_final==. & exposed==1 
-	replace stage_final=. if doentry<=d(01jan2012)
+	replace stage_final=. if doentry<=d(01jan2013)
 	tab stage_final
 	tab stage_final, nolab
 

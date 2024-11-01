@@ -148,12 +148,6 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	|| scatter graphorder hr if year==5, mcol(black) msize(vsmall) msymbol(D) ///
 	|| rcap lci uci graphorder if year==5, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if year==5, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
-	///
-	|| scatter graphorder labelxpos if year==10, m(i)   ///
-	|| scatter graphorder labelxpos if year==10, m(i) mlab(year2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if year==10, mcol(black) msize(vsmall) msymbol(D) ///
-	|| rcap lci uci graphorder if year==10, hor mcol(black) lcol(black) ///	
-	|| scatter graphorder hrxpos if year==10, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	ylabels(none) ytitle("") xscale(log range(30)) xlab(0.5 1 2 4 6) ///
 	xtitle("Hazard ratio & 95% CI") xline(1,lp(dash)) legend(off) ///
 	ysize(15) graphregion(color(white))

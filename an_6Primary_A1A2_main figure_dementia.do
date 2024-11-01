@@ -256,9 +256,7 @@ foreach outcome in  vasc alz other_de ns_dem {
 	use "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", clear
 	keep if year=="`year'"
 	keep if outcome=="`outcome'"
-	drop if model=="crude"
-	replace model="crude" if model=="agesex_a"
-	
+	drop if model=="unadj"	
 	
 	count
 	if `r(N)'>0 {
@@ -266,7 +264,7 @@ foreach outcome in  vasc alz other_de ns_dem {
 	gen str1 sitelabel=""
 	foreach site of global cancersites {
 		qui include "$dofiles_an_dem\inc_cancersitetographtitle.do"
-		replace sitelabel = "`name'" if cancersite=="`site'" & model == "crude"
+		replace sitelabel = "`name'" if cancersite=="`site'" & model == "agesex_a"
 		replace sitelabel = "`icd'" if cancersite=="`site'" & model == "adjusted"
 		}
 
@@ -366,8 +364,8 @@ foreach outcome in  vasc alz other_de ns_dem {
 	gen overlab = ">"
 	gen underlab = "<"
 	
-	replace irboth="" if model=="crude"
-	replace resu="" if model=="crude"
+	replace irboth="" if model=="agesex_a"
+	replace resu="" if model=="agesex_a"
 
 	
 	/*******************************************************************************
@@ -400,7 +398,7 @@ foreach outcome in  vasc alz other_de ns_dem {
 			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(6)	/// y-axis no labels or title
 			legend(off) ///
 			graphregion(color(white))	bgcolor(white)		/// get rid of rubbish grey/blue around graph
-			title("`name'") ///
+			title("`outcomename'") ///
 			name("`outcome'_`year'", replace)
 		
 	} /*if there are data*/
@@ -415,9 +413,9 @@ foreach outcome in  vasc alz other_de ns_dem {
 
 *Dementia types
 graph combine  alz_0 vasc_0 other_de_0 ns_dem_0, iscale(*0.9) cols(2) rows(2) ///
-ysize(10) ///
+ysize(8) ///
 /*title("Figure 1A to D: Absolute and relative risk of cardiovascular disease in cancer survivors compared to general population controls", size(vsmall))*/ ///  
-note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval, IR = incidence rate per 1000 patient years, GPC = general population controls, CS = cancer survivors", size(tiny)) ///
+note("(*) too few events for estimation; </> = CI limit <0.5 or >12" "HR = hazard ratio, CI = confidence interval" "HR adjusted for IMD 20 deciles, smoking status and alcohol problems, diabetes, cardiovascular disease, hypertension, chronic kidney disease and depression.", size(tiny)) ///
 name(combined, replace)
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementiaTYPE_year0.emf", replace
 
