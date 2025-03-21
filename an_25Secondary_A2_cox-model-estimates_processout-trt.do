@@ -14,10 +14,10 @@ foreach cancersite of global cancersites {
 foreach outcome in dementia {
 foreach model in adj adjstage  {
 foreach year in 1   {		
-foreach trt in chemo surg {
+foreach trt in chemo {
 foreach exposed in 1 2 {
 
-cap estimates use "$results_dem\an_Primary_A2_cox-model-estimates_`model'_`trt'_`cancersite'_`outcome'_`db'_`year'"
+cap estimates use "$results_an_dem\an_Primary_A2_cox-model-estimates_`model'_`trt'_`cancersite'_`outcome'_`db'_`year'"
 if _rc==0 post results ("`db'") ("`cancersite'") ("`outcome'") ("`trt'") ("`exposed'")  ("`model'") (_b[`exposed'.exposed]) (_se[`exposed'.exposed])
 }
 }
@@ -34,7 +34,7 @@ gen hr = exp(beta)
 gen lci = exp(beta-invnorm(0.975)*sebeta)
 gen uci = exp(beta+invnorm(0.975)*sebeta)
 
-save "$results_dem\an_Primary_A2_cox-model-estimates_processout_trt_dementia.dta", replace
+save "$results_an_dem\an_Primary_A2_cox-model-estimates_processout_trt_dementia.dta", replace
 
 
 

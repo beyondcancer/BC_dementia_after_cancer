@@ -32,7 +32,7 @@ syntax, variable(varname) condition(string) outcome(string)
 	cou if exposed==0 & `variable' `condition'
 	local pct = 100*(r(N)/`coldenom')
 	file write tablecontent (r(N)) (" (") %4.1f  (`pct') (")") _tab _n
-	
+		
 end
 
 *******************************************************************************
@@ -153,6 +153,12 @@ file write tablecontent _n
 *Year cancer diagnosis
 tabulatevariable, variable(index_year_gr) start(1) end(5) outcome(exposed)
 file write tablecontent _n 
+
+*H/C contacts pre-basline
+recode b_nocons_yrprior_gr 4=2 10=3
+tabulatevariable, variable(b_nocons_yrprior_gr) start(0) end(3) outcome(exposed)
+file write tablecontent _n 
+
 
 *Smoking status
 tabulatevariable, variable(smokstatus) start(0) end(3)  outcome(exposed) 

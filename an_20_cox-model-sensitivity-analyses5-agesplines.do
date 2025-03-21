@@ -1,3 +1,5 @@
+
+
 cap log close
 args cancersite db
 log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_dementia.txt", replace t
@@ -30,26 +32,21 @@ foreach outcome in dementia   {
 	strate if exposed==0, per(1000)
 	if `exposedfailures' >=10 & `controlfailures' >=10 {
  
-	*Not accounting for matching 
-	stcox exposed
 
-	
-	*Accounting for matching
-	stcox exposed	
-	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_unadj_`cancersite'_`outcome'_`db'_`year'", replace
-	stcox exposed, strata(set) iterate(1000)
-	*stcox exposed age i.gender i.index_year_gr
+	stcox exposed $covariates_common age, strata(set) iterate(1000) 
+	if _rc==0 estimates save "$results_an_dem/an_Sense_adj_linAGE_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_0", replace	
+	 *generate age splines
+cap drop agesp*
+mkspline agespl=age, cubic nk(7) dis
+summ agespl1 if exposed==1
+local agespl1mean = r(mean)
+summ agespl2 if abs(agespl1-`agespl1mean')<0.01
+local agespl2ref = r(mean)
+replace agespl2=`agespl2ref'
+replace agespl1=`agespl1mean'
+stcox exposed $covariates_common agesp*, strata(set) iterate(1000) 
+	if _rc==0 estimates save "$results_an_dem/an_Sense_adj_splAGE_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_0", replace	
 
-	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_agesex_adj_`cancersite'_`outcome'_`db'_`year'", replace
-	*stcox exposed age i.gender $covariates_common i.index_year_gr
-	stcox exposed $covariates_common, strata(set) iterate(1000) 
-	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace	
-	
-	recode b_nocons_yrprior_gr 4=2 10=3
-
-	 stcox exposed $covariates_common i.b_nocons_yrprior_gr, strata(set) iterate(1000) 
-	if _rc==0 estimates save "$results_an_dem/an_Sense_adj_hcuse_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_0", replace	
-	
 } /*if at least 1 ev per group for crude and adjusted models*/
 } /*outcome*/
 } /*year from dx*/

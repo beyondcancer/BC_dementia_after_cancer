@@ -11,8 +11,10 @@ log using "$logfiles_an_dem\an_19a_figure-risk_over_time.txt", replace
 ********************************************************************************
 
 clear all 
-use "$results_an_dem\an_Secondary_risk-over-time_cox-model-estimates_processout_dementia.dta", clear
 
+
+use "$results_an_dem\an_Secondary_risk-over-time_cox-model-estimates_processout_dementia.dta", clear
+merge 1:m cancersite year outcome using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_ALLTYPES", keep(master match)
 order cancersite hr lci uci 
 
 destring year, replace
@@ -23,6 +25,10 @@ replace year2="5 year" if year==5
 replace year2="10 year" if year==10 
 keep if outcome=="dementia"
 drop if  year==10
+
+
+replace year2 = year2 + " " + "[" + string(ncancer) + "]" 
+
 bysort cancersite (year): gen year_n=_n
 
 replace cancersite="Oral cavity (C00-06)" 	  if cancersite=="ora"
@@ -45,7 +51,6 @@ replace cancersite="Thyroid (C73)" 		  	  if cancersite=="thy"
 replace cancersite="NHL (C82-85)" 		  	  if cancersite=="nhl"
 replace cancersite="Multiple myeloma (C90)"   if cancersite=="mye"
 replace cancersite="Leukaemia (C91-95)"   	  if cancersite=="leu"
-
 
 
 gen displayhrci = ""
@@ -127,24 +132,24 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	
 	 
 	scatter graphorder labelxpos if display=="", m(i) mlab(cancersite) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder labelxpos if year==0, m(i) mlab(year2) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder labelxpos if year==0, m(i) mlab(year2) mlabcol(black) mlabsize(tiny) ///
 	|| scatter graphorder hr if year==0, mcol(black) msize(vsmall) msymbol(D) ///
 	|| rcap lci uci graphorder if year==0, hor mcol(black) lcol(black) ///
 	|| scatter graphorder hrxpos if year==0, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///	
-	|| scatter graphorder labelxpos if year==1, m(i) mlab(year2) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder labelxpos if year==1, m(i) mlab(year2) mlabcol(black) mlabsize(tiny) ///
 	|| scatter graphorder hr if year==1, mcol(black) msize(vsmall) msymbol(D) ///
 	|| rcap lci uci graphorder if year==1, hor mcol(black) lcol(black) ///
 	|| scatter graphorder hrxpos if year==1, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///		
 	|| scatter graphorder labelxpos if year==3, m(i)  ///
-	|| scatter graphorder labelxpos if year==3, m(i) mlab(year2) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder labelxpos if year==3, m(i) mlab(year2) mlabcol(black) mlabsize(tiny) ///
 	|| scatter graphorder hr if year==3, mcol(black) msize(vsmall) msymbol(D) ///
 	|| rcap lci uci graphorder if year==3, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if year==3, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///
 	|| scatter graphorder labelxpos if year==5, m(i)   ///
-	|| scatter graphorder labelxpos if year==5, m(i) mlab(year2) mlabcol(black) mlabsize(vsmall) ///
+	|| scatter graphorder labelxpos if year==5, m(i) mlab(year2) mlabcol(black) mlabsize(tiny) ///
 	|| scatter graphorder hr if year==5, mcol(black) msize(vsmall) msymbol(D) ///
 	|| rcap lci uci graphorder if year==5, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if year==5, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///

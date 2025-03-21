@@ -19,10 +19,10 @@ EDITED KB 11/7/23
 *** 1. FOREST PLOT BY OUTCOME: 
 ********************************************************************************
 foreach outcome in dementia {
-foreach trt in chemo surg {
+foreach trt in chemo {
 *
 clear all 
-use "$results_dem\an_Primary_A2_cox-model-estimates_processout_trt_dementia.dta", clear
+use "$results_an_dem\an_Primary_A2_cox-model-estimates_processout_trt_dementia.dta", clear
 keep if outcome=="`outcome'"
 keep if trt=="`trt'"
 keep if model=="adjstage"
@@ -152,19 +152,18 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 
 
 graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis.grec"
-graph save "$results_dem/forest_`outcome'_`trt'", replace
-graph export "$results_dem\forest_`outcome'_`trt'.emf", as(emf) name("Graph") replace
+graph save "$results_an_dem/forest_`outcome'_`trt'", replace
+graph export "$results_an_dem\forest_`outcome'_`trt'.emf", as(emf) name("Graph") replace
 }
 }
-
+stop 
 *********************************************************************************
 *** COMBINE FOREST PLOTS
 	graph combine ///
-			$results/forest_dementia_chemo.gph /// 
-			$results/forest_dementia_surg.gph /// 
+			$results_an_dem/forest_dementia_chemo.gph /// 
 			, col(2) iscale(0.6) imargin (0 0 0 0) graphregion(margin(l=0 r=0) color(white)) plotregion(color(white)) ysize(10)
-			graph save "$results_dem/Forest_dementia_trt.gph", replace
-			graph export "$results_dem\Forest_dementia_trt.emf", as(emf) name("Graph") replace
+			graph save "$results_an_dem/Forest_dementia_trt.gph", replace
+			graph export "$results_an_dem\Forest_dementia_trt.emf", as(emf) name("Graph") replace
 
 ************************************************************************************
 log close

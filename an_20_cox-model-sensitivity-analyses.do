@@ -40,7 +40,7 @@ foreach db of  global databases {
 	cap noi stcox exposed $covariates_common if b_nocons_yrprior_gr!=0, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Sense_exc_non_cons_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace
 
-	*don't include those having chemo
+	/*don't include those having chemo: THIS WAS INCORRECT - it didn't remove those who died/were lost to follow-up in first year
 	drop if doentry<=d(01apr2014)
 	tab exposed
 	gen exposed_trt=exposed
@@ -48,7 +48,7 @@ foreach db of  global databases {
 	tab exposed_trt
 	replace exposed_trt=1 if (dof_chemo<doentry-31 | dof_chemo>doentry+365.25) & exposed==1
 	replace exposed_trt=1 if dof_chemo>doendcprdfup & exposed==1
-	tab exposed_trt
+	tab exposed_trt 
 	drop if exposed_trt==2
 	
 	*Check all cases have at least one control
@@ -65,6 +65,7 @@ drop if anyexposed==0
 	
 	cap noi stcox exposed $covariates_common, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Sense_nochemo_cox-model-estimates_adjusted_`site'_`outcome'_`db'_`year'", replace	
+	*/
  
 } /*if at least 1 ev per group for crude and adjusted models*/
 } /*outcome*/

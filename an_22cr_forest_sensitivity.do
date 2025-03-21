@@ -30,11 +30,13 @@ replace analysis=".  Adj. for ethnicity" if sense == "ethnicit"
 replace analysis=".  Adj. BMI" if sense == "bmi"
 replace analysis=".  Censor at start of pandemic" if sense == "pandemic"
 *replace analysis=".  Dementia drugs only" if sense == "demdrugs"
-replace analysis=".  No chemotherapy record" if sense == "nochemo"
+drop if sense == "nochemo"
 replace analysis=".  Specific dementia Dx" if sense == "dementia"
 replace analysis=".  Primary care dementia Dx" if sense == "pricare"
 replace analysis=".  Adj. stroke after cancer" if sense == "stroke"
 replace analysis=".  Exc. Down's syndrome" if sense == "downs"
+replace analysis=".  Adj. prior healthcare use" if sense == "adj_hcus"
+replace analysis=".  Adj. age using splines" if sense == "adj_splA"
 
 
 tab analysis, miss
@@ -45,17 +47,18 @@ replace order=1 if analysis=="Main analysis"
 replace order=3 if sense == "ethnicit"
 replace order=4 if sense == "bmi"
 replace order=5 if sense == "stroke"
-replace order=6 if sense == "nochemo"
-replace order=7 if sense == "dementia"
-replace order=8 if sense == "pricare"
-replace order=9 if sense == "pandemic"
-replace order=10 if sense == "downs"
+replace order=6 if sense == "dementia"
+replace order=7 if sense == "pricare"
+replace order=8 if sense == "pandemic"
+replace order=9 if sense == "downs"
+replace order=10 if sense == "adj_hcus" 
+replace order=11 if sense == "adj_splA" 
 
 *replace order=6 if analysis==".  Data from 2006 onwards"
 
 sort cancer order
 
-gen graphorder = 11-order
+gen graphorder = 13-order
 
 * limit UCI to 4.5
 gen uci_abovemax=.
@@ -65,7 +68,7 @@ gen overlab = ">" if uci_abovemax==1
 
 
 gen anxpos = 0.1 // all analysis
-gen hrxpos = 4.5 // HR display 
+gen hrxpos = 4 // HR display 
 
 
 ********************************************************************************

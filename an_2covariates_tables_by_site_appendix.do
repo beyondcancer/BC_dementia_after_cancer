@@ -202,6 +202,12 @@ file write tablecontent _n
 tabulatevariable, variable(index_year_gr) start(1) end(5) outcome(exposed)
 file write tablecontent _n 
 
+*H/C contacts pre-basline
+recode b_nocons_yrprior_gr 4=2 10=3
+tabulatevariable, variable(b_nocons_yrprior_gr) start(0) end(3) outcome(exposed)
+file write tablecontent _n 
+
+
 *Smoking status
 tabulatevariable, variable(smokstatus) start(0) end(2)  outcome(exposed) 
 file write tablecontent _n 

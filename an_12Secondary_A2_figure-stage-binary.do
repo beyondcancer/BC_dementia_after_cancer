@@ -14,8 +14,6 @@ EDITED KB 11/7/23
 */
 ************************************************************************************
 
-set trace off
-
 cap file close tablecontent
 file open tablecontent using "$results_an_dem\Table_numbers_cancers_stage.txt", write text replace
 
@@ -54,7 +52,7 @@ drop if h_odementia==1
 	}
 	
 	gen stage_final=`stage'
-	*recode stage_final 2=1 3=2 4=2
+	recode stage_final 2=1 3=2 4=2
 	replace stage_final=0 if  exposed==0
 	replace stage_final=9 if stage_final==99 & exposed==1
 	replace stage_final=9 if stage_final==. & exposed==1 
@@ -65,37 +63,26 @@ drop if h_odementia==1
 *Stage
  count  if exposed == 1 & stage_final!=.
  local tot=r(N)
- 
  count  if exposed == 1 & stage_final==1
  local s1=r(N)
  local s1_p=(`s1'/`tot')*100
- 
   count  if exposed == 1 & stage_final==2
  local s2=r(N)
   local s2_p=(`s2'/`tot')*100
-  
-  count  if exposed == 1 & stage_final==3
- local s3=r(N)
-  local s3_p=(`s2'/`tot')*100
-  
-    count  if exposed == 1 & stage_final==4
- local s4=r(N)
-  local s4_p=(`s2'/`tot')*100
-  
+
   count  if exposed == 1 & stage_final==9
  local s9=r(N)
    local sm_p=(`s9'/`tot')*100
    di "`s1_p'"
   	file write tablecontent "cancer" _tab "stage" _tab "nevents" _n
-  foreach stage in 1 2 3 4 9 {
-  	file write tablecontent "`site'" _tab "`stage'" _tab ("`s`stage''") _n
+  foreach stage in 1 2 9 {
+  	file write tablecontent "`site'" _tab "`stage'" _tab (`s`stage'') _n
 
   }
 }
 }
 
 file close tablecontent
-
 
 /*****************
 EDITED KB 11/7/23
@@ -170,10 +157,8 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 }
   
 	gen stage2=""
-	replace stage2=".  Stage I" if stage==1
-	replace stage2=".  Stage II" if stage==2
-	replace stage2=".  Stage III" if stage==3
-	replace stage2=".  Stage IV" if stage==4
+	replace stage2=".  Early" if stage==1
+	replace stage2=".  Late" if stage==2
 	replace stage2=".  Missing stage" if stage==9 
 	
 	
@@ -250,20 +235,6 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	|| scatter graphorder hr if stage==2, mcol(black) msize(vsmall) msymbol(D) ///
 	|| rcap lci uci graphorder if stage==2, hor mcol(black) lcol(black) ///	
 	|| scatter graphorder hrxpos if stage==2, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
-	///
-		|| scatter graphorder labelxpos if stage==4, m(i)  ///
-	|| scatter graphorder labelxpos if stage==4, m(i) mlab(stage2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder labelnpos if stage==4, m(i) mlab(nevents) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if stage==4, mcol(black) msize(vsmall) msymbol(D) ///
-	|| rcap lci uci graphorder if stage==4, hor mcol(black) lcol(black) ///	
-	|| scatter graphorder hrxpos if stage==4, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
-	///
-		|| scatter graphorder labelxpos if stage==3, m(i)  ///
-	|| scatter graphorder labelxpos if stage==3, m(i) mlab(stage2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder labelnpos if stage==3, m(i) mlab(nevents) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if stage==3, mcol(black) msize(vsmall) msymbol(D) ///
-	|| rcap lci uci graphorder if stage==3, hor mcol(black) lcol(black) ///	
-	|| scatter graphorder hrxpos if stage==3, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///
 	|| scatter graphorder labelxpos if stage==9, m(i)  mlabcol(gs8)  ///
 	|| scatter graphorder labelxpos if stage==9, m(i) mlab(stage2) mlabcol(gs8) mlabsize(vsmall) ///

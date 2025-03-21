@@ -28,7 +28,7 @@ foreach db of  global databases {
 	}
 	
 	gen stage_final=`stage'
-	recode stage_final 2=1 3=2 4=2
+	*recode stage_final 2=1 3=2 4=2 /*stage binary: early and late*/
 	replace stage_final=0 if  exposed==0
 	replace stage_final=9 if stage_final==99 
 	replace stage_final=9 if stage_final==. & exposed==1 
@@ -60,6 +60,7 @@ foreach db of  global databases {
 *	if `exposed_trtfailures' >=1 & `controlfailures' >=1 & `exposed_trtfailures2' >=1 {
 	cap noi stcox i.stage_final $covariates_common, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimatesdem_stage_`site'_`outcome'_`db'_`year'", replace	
+	 
 *} /*if at least 1 ev per group for crude and adjusted models*/
 } /*year from dx*/
 } /* outcomes */

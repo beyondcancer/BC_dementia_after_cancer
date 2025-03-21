@@ -2,18 +2,25 @@ cap log close
 args  db site
 log using "$logfiles_an_dem/an_13Secondary_timesinceDx_cox-model-estimates_dementia.txt", replace t
 
+
+ tempname myhandle
+   file open `myhandle' using "$results_an_dem/an_218_cox_model_phtest_censorfup.txt", write  replace 
+
+
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
+qui {
 foreach db of  global databases {
 	postutil clear
 postfile failures str10 db str5 cancersite str5 year str20 outcome nfail expfail unexpfail rateexp rateunexp using "$results_an_dem/an_Secondary_timesinceDx_cox_absolute_numbers", replace
 	foreach site of global cancersites {
 	foreach outcome in dementia {
-	foreach year in 0.25 0.5 0.75 1 2 5 10 25 100 {		
+	*foreach year in 0.25 0.5 0.75 1 2 5 10 25 100 {		
+	foreach year in 1 {		
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`site'.dta", clear 
 	
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
-	di  "`cancersite' `outcome' `db'"
+	noi di  "`site' `outcome' `db'"
 	
 	gen end_censor=	indexdate+(365.25*`year')
 	
@@ -94,6 +101,10 @@ stset doexit, id(id) failure(dementia = 1) enter(doentry) origin(doentry) exit(d
 	if _rc==0 estimates save "$results_an_dem/an_Secondary_timesinceDx_cox-model-crude-estimates_`site'_`outcome'_`db'_`year'", replace
 	cap noi stcox exposed $covariates_common, strata(set) iterate(1000)
 	if _rc==0 estimates save "$results_an_dem/an_Secondary_timesinceDx_cox-model-estimates_`site'_`outcome'_`db'_`year'", replace
+		noi if e(N_fail)>0 estat phtest, d
+	local phtest=`r(p)'
+	file write `myhandle' _n "`site'" _tab  (`phtest') 
+
 	 
 	}
 
@@ -103,6 +114,7 @@ stset doexit, id(id) failure(dementia = 1) enter(doentry) origin(doentry) exit(d
 } /*cancers*/
 postclose failures
 } /*dbs*/
+}
 
 use "$results_an_dem/an_Secondary_timesinceDx_cox_absolute_numbers", clear
 list 

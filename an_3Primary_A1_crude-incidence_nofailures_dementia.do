@@ -4,14 +4,14 @@ log using "$logfiles_an_dem/an_Primary_A1_crude-incidence_nofailures.txt", repla
 /*******************************************************************************
 CREATE FILE WITH CRUDE INCIDENCE RATES AND NUMBER OF FAILURES
 *******************************************************************************/
-*
-foreach outcome in dementia vasc alz other_dem ns_dem  {
+*vasc alz other_dem ns_dem
+foreach outcome in dementia   {
 postutil clear
-postfile failures str10 db str5 cancersite str5 year str20 outcome nfail expfail unexpfail exptime unexptime rateexp rateunexp using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", replace
+postfile failures str10 db str5 cancersite str5 year str20 outcome ncancer nfail expfail unexpfail exptime unexptime rateexp rateunexp using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", replace
 
 foreach db of  global databases {
 foreach cancersite of global cancersites {
-foreach year in 0 1 3 5 10  {
+foreach year in 0 1 3 5  {
 noi di "`cancersite'" "`outcome'"
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear
 	
@@ -23,6 +23,8 @@ noi di "`cancersite'" "`outcome'"
 	*include "$Dodir/analyse_mental_health\inc_setupadditionalcovariates.do"
 	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do"
 	
+	count if exposed==1
+	local ncancer=`r(N)'
 	stptime
 	local failures = r(failures)
 	stptime if exposed==1
@@ -35,7 +37,7 @@ noi di "`cancersite'" "`outcome'"
 	local exposedfailures = `r(N)'
 	count if exposed == 0 & _d==1
 	local controlfailures = `r(N)'
-	post failures ("`db'") ("`cancersite'") ("`year'") ("`outcome'") (`failures') (`exposedfailures') (`controlfailures') (`exptime') (`unexptime') (`rateexp') (`rateunexp')
+	post failures ("`db'") ("`cancersite'") ("`year'") ("`outcome'") (`ncancer') (`failures') (`exposedfailures') (`controlfailures') (`exptime') (`unexptime') (`rateexp') (`rateunexp')
 } /* outcomes */
 } /* sites */
 postclose failures

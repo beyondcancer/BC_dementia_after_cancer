@@ -1,5 +1,5 @@
 
-/*capture log close
+*capture log close
 *log using "$logfiles\an_Primary_A1A2_main figure.txt", replace text
 
 /*******  PRIMARY ANALYSIS AIM 1 / 2 agesex_adj INCIDENCE RATES, agesex_adj AND ADUSTED HRS  *****
@@ -14,17 +14,17 @@ survivors and controls  *********************** */
 
 /*KB 25/2 I added to the "post" to capture the number of events, and the agesex_adj incidences */
 
-foreach year in 0 {
+foreach year in 0 1 3 5 {
 foreach db of  global databases {
+*vasc alz other_dem ns_dem
+foreach outcome in dementia   {
 
-foreach outcome in dementia vasc alz other_dem ns_dem  {
-
-*use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
+use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 
 	*noi dib "`outcome'", stars
 	capture postutil clear
 	tempfile estimates
-	postfile estimates str8 outcome str8 model str3 cancersite  str3 year  nfail irexp irunexp hr lci uci pval using "`estimates'"
+	postfile estimates str8 outcome str8 model str3 cancersite  str3 year ncancer nfail irexp irunexp hr lci uci pval using "`estimates'"
 	*local i = 1
 	foreach model in unadj agesex_adj adjusted {
 		dib "`model'", ul
@@ -36,15 +36,17 @@ foreach outcome in dementia vasc alz other_dem ns_dem  {
 			local irexp = r(mean)
 			summ rateunexp if cancersite=="`site'" & outcome=="`outcome'" & db=="`db'"   & year=="`year'"
 			local irunexp = r(mean)
+			summ ncancer if cancersite=="`site'" & outcome=="`outcome'" & db=="`db'"   & year=="`year'"
+			local ncancer = r(mean)			
 			capture noisily {
 				estimates use "$results_an_dem/an_Primary_A2_cox-model-estimates_`model'_`site'_`outcome'_`db'_`year'"
 				}
 			if _rc==0 {
 				lincom exposed, hr
-				post estimates ("`outcome'")  ("`model'") ("`site'") ("`year'") (`nfail') (`irexp') (`irunexp') (r(estimate)) (r(lb)) (r(ub)) (r(p))
+				post estimates ("`outcome'")  ("`model'") ("`site'") ("`year'") (`ncancer') (`nfail') (`irexp') (`irunexp') (r(estimate)) (r(lb)) (r(ub)) (r(p))
 				}
 				else {
-					post estimates ("`outcome'")  ("`model'") ("`site'")  ("`year'")  (`nfail') (`irexp') (`irunexp') (.) (.) (.) (.)
+					post estimates ("`outcome'")  ("`model'") ("`site'")  ("`year'") (`ncancer') (`nfail') (`irexp') (`irunexp') (.) (.) (.) (.)
 					}
 			}
 		}
@@ -71,8 +73,19 @@ replace outcome="dementia" if outcome=="dem_spec"
 save "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", replace
 sort cancer year model 
 list in 1/20
- */
+
 cd $results_an_dem
+
+
+
+
+import delimited "$results_an_dem/an_4_main_analysis_PH_test.txt"
+rename var1 cancersite
+rename var2 phtest
+save "$results_an_dem/an_4_main_analysis_PH_test_formatted.txt", replace
+
+*/
+
 
 /**** GRAPHS  *********************** */
 foreach year in 0 {
@@ -80,12 +93,17 @@ foreach db of  global databases {
 foreach outcome in dem_all {
 	*
 	use "$results_an_dem\an_Primary_A1A2_main figure_ALLRESULTS_AandG_dementia", clear
+	merge m:1 cancersite using "$results_an_dem/an_4_main_analysis_PH_test_formatted.txt"
 	keep if year=="`year'"
 	keep if outcome=="`outcome'"
 	
 	drop if model=="unadj"
 	replace model="crude" if model=="agesex_a"
 	
+	
+		/*PH test*/
+	gen phtest_round=round(phtest, 0.001) 
+	replace phtest_round=. if model=="crude"
 	
 	count
 	if `r(N)'>0 {
@@ -116,7 +134,7 @@ foreach outcome in dem_all {
 	replace obs = (3*obs/2) - 1
 	replace obs = obs[_n+1] - 1  if obs==.
 		
-	keep obs ycat cancersite sitelabel hr lci uci result irboth model nfail
+	keep obs ycat cancersite sitelabel hr lci uci result irboth model nfail phtest_round ncancer
 
 	/*graph column and axis headings*/
 	count
@@ -125,11 +143,12 @@ foreach outcome in dem_all {
 	global headingobs = r(max) + 3
 	di $headingobs
 	replace obs=$headingobs if obs==. & _n==_N 
-	gen siteheading = "{bf:Cancer site (ICD10)}" if obs==$headingobs
+	gen siteheading = "{bf:Cancer site (ICD10) [N with cancer]}" if obs==$headingobs
 	gen irheading ="{bf:IR CS/GPC}" if obs==$headingobs
 	gen hrheading ="{bf:HR (95% CI)}" if obs==$headingobs
 	gen higherriskheading ="{it:(Higher}" if obs==$headingobs
 	gen lowerriskheading ="{it:(Lower}" if obs==$headingobs
+	gen phtestheading="{bf:PH test}" if obs==$headingobs
 	replace obs=$headingobs-1 if obs==.
 	
 	/*individual graph headings*/
@@ -162,8 +181,9 @@ foreach outcome in dem_all {
 	
 	/*label/headings positions*/
 	gen irlabpos = 10
-	gen hrlabpos = 8 /*location of HR estimates*/
+	gen hrlabpos = 10 /*location of HR estimates*/
 	gen sitelabpos = 0.3  /*location of cancer site labels*/
+	gen phtestpos=15 /*location of PH test*/
 	*note this leaves plenty of space as the graphs will be squashed when combined
 	
 	gen higherlabpos=1.5
@@ -180,18 +200,21 @@ foreach outcome in dem_all {
 		
 	/*KB 25/2	*/
 	sort cancersite model obs
-	by cancersite: replace sitelabel = sitelabel + " " + sitelabel[1] if _n==2 
+	by cancersite: replace sitelabel = sitelabel + " " + sitelabel[1] + " " + "[" + string(ncancer) + "]"  if _n==2 
 	by cancersite: replace sitelabel = "[" + string(nfail) + "]" if _n==1 
 	replace sitelabel = subinstr(sitelabel, "Non-Hodgkin lymphoma", "NHL ", 1)
 	replace sitelabel = subinstr(sitelabel, "Multiple myeloma", "Mult myeloma ", 1)
 	replace sitelabel = subinstr(sitelabel, "Malignant melanoma", "Mal melanoma ", 1)
-	replace sitelabel = "[n outcomes]" if _n==1
+	replace sitelabel = "[n outcomes*]" if _n==1
 	replace sitelabel = "" if _n==2
 	replace higherriskheading ="{it:risk)}" if _n==1
 	replace lowerriskheading ="{it:risk)}" if _n==1
 
 	gen overlab = ">"
 	gen underlab = "<"
+	
+	
+
 	
 	/*******************************************************************************
 	#draw graph
@@ -224,7 +247,7 @@ foreach outcome in dem_all {
 			xtitle("HR (95% CI)", size(vsmall) margin(0 2 0 0)) 		/// x-axis title - legend off
 			xlab(0.5 1 2 4, labsize(vsmall)) /// x-axis tick marks
 			xscale(range(0.5 10) log)						///	resize x-axis
-			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(10)	/// y-axis no labels or title
+			,ylab(none) ytitle("") yscale(r(1 23) off) ysize(8)	/// y-axis no labels or title
 			legend(order(1 3) label(1 "Stratified by age and gender matched sets") label(3 "Additionally adjusted for shared risk factors") /// legend (1 = first plot, 3 = 3rd plot, 5 = 5th plot)
 			size(tiny) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero) pos(6)) ///
 			graphregion(color(white))	bgcolor(white)		/// get rid of rubbish grey/blue around graph
@@ -239,15 +262,17 @@ foreach outcome in dem_all {
 /*		|| scatter obs higherlabpos if _n==1|obs==$headingobs, m(i) mlab(higherriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
 	|| scatter obs lowerlabpos if _n==1|obs==$headingobs, m(i) mlab(lowerriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
 	|| scatter obs irlabpos if model == "unadj", m(i)  mlab(irboth) mlabcol(black) mlabsize(vsmall) mlabposition(9)  ///
+	/// add PH test labels
+	|| scatter obs phtestpos, m(i)  mlab(phtest_round) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
 */
 
 graph combine dem_all_0, iscale(*0.9) ///
-ysize(8) ///
+ysize(7) ///
 graphregion(fcolor(white))  ///
 name(combined, replace) 
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementia_year0.emf", replace
 
-stop 
+ stop 
 /**** GRAPHS  *********************** */
 foreach year in 0 {
 foreach db of  global databases {

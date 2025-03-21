@@ -1,7 +1,14 @@
-cap log close
-args cancersite db
-log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_dementia.txt", replace t
 
+	
+	
+	cap log close
+args cancersite db
+log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_dementia_PHtest.txt", replace t
+
+ tempname myhandle
+   file open `myhandle' using "$results_an_dem/an_4_main_analysis_PH_test.txt", write  replace 
+
+qui {
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
 foreach db of  global databases {
 	foreach cancersite of global cancersites {
@@ -30,25 +37,21 @@ foreach outcome in dementia   {
 	strate if exposed==0, per(1000)
 	if `exposedfailures' >=10 & `controlfailures' >=10 {
  
-	*Not accounting for matching 
-	stcox exposed
 
-	
-	*Accounting for matching
-	stcox exposed	
-	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_unadj_`cancersite'_`outcome'_`db'_`year'", replace
-	stcox exposed, strata(set) iterate(1000)
-	*stcox exposed age i.gender i.index_year_gr
-
-	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_agesex_adj_`cancersite'_`outcome'_`db'_`year'", replace
-	*stcox exposed age i.gender $covariates_common i.index_year_gr
-	stcox exposed $covariates_common, strata(set) iterate(1000) 
+	noi di "`cancersite'"
+	noi stcox exposed $covariates_common, strata(set) iterate(1000) 
 	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace	
 	
-	recode b_nocons_yrprior_gr 4=2 10=3
+*  Proportional Hazards test 
+	* Based on Schoenfeld residuals
+	timer clear 
+	timer on 1
+	noi if e(N_fail)>0 estat phtest, d
+	local phtest=`r(p)'
+	file write `myhandle' _n "`cancersite'" _tab  (`phtest') 
 
-	 stcox exposed $covariates_common i.b_nocons_yrprior_gr, strata(set) iterate(1000) 
-	if _rc==0 estimates save "$results_an_dem/an_Sense_adj_hcuse_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_0", replace	
+	timer off 1
+	timer list 
 	
 } /*if at least 1 ev per group for crude and adjusted models*/
 } /*outcome*/
@@ -57,7 +60,7 @@ foreach outcome in dementia   {
 }	
 	
 } /*if at least 10 ev per group for crude and adjusted models*/
-
+}
 log close
 
 
