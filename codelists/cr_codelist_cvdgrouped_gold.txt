@@ -1,0 +1,811 @@
+medcode	readcode	readterm	arrhythmia	arrhythmia_type	arrhythmia_cat	cvd	angina	angina_type	angina_cat	cad	cad_cat	cad_type	mi	mi_cat	sca	sca_cat	revascularisation	revascularisation_cat	nonspecificcvd	nonspecificcvd_cat	confidence	hf	stroke	catstroke	vte	dvt	dvt_type	dvt_cat	pulmonaryembolism	pulmonaryembolism_cat	cardiomyopathy	cardiomyopathy_type	cardiomyopathy_cat	pericarditis	pericarditis_type	pericarditis_cat	vhd	vhd_type	vhd_cat	pvd_cat	cvdgrouped
+41577	1477.00	h/o: cerebrovascular disease				cad				CAD	History	Not specific																													1
+10444	14A..00	h/o: cardiovascular disease				nonspecificcvd													1.CVD - non-specific	History																					1
+35674	14A3.00	h/o: myocardial infarct <60				mi							1	History of																											1
+40399	14A4.00	h/o: myocardial infarct >60				mi							1	History of																											1
+6336	14A5.00	h/o: angina pectoris				angina	Angina	History of angina	History																																1
+15058	14A6.00	h/o: heart failure				hf															History	Heart failure																			1
+34135	14A7.00	h/o: cva/stroke				stroke															History		1	90.history of stroke nos																	1
+6305	14A7.11	h/o: cva				stroke															History		1	90.history of stroke nos																	1
+5871	14A7.12	h/o: stroke				stroke															History		1	90.history of stroke nos																	1
+5614	14A8100	h/o: deep vein thrombosis				dvt																				1	90. History of DVT/PE	History													1
+32526	14AA.00	h/o: heart disease nos				cad				CAD	History	Not specific																													1
+10280	14AC.00	h/o: pulmonary embolus				pulmonaryembolism																							1	History											1
+50372	14AH.00	h/o: myocardial infarction in last year				cad				CAD	History	MI																													1
+57062	14AJ.00	h/o: angina in last year				cad				CAD	History	Angina																													1
+66873	14AK.00	h/o: stroke in last year				stroke															History		1	90.history of stroke nos																	1
+46912	14AM.00	h/o: heart failure in last year				hf															History	Heart failure																			1
+6345	14AN.00	h/o: atrial fibrillation	arrhythmia	History of arrhythmia	History	arrhythmia																																			1
+30712	14AP.00	history of ventricular tachycardia	arrhythmia	History of arrhythmia	History	arrhythmia																																			1
+12375	14AQ.00	history of supraventricular tachycardia	arrhythmia	History of arrhythmia	History	arrhythmia																																			1
+93460	14AR.00	history of atrial flutter	arrhythmia	History of arrhythmia	History	arrhythmia																																			1
+100139	14AT.00	history of myocardial infarction				mi							1	History of																											1
+59534	14NB.00	h/o: peripheral vascular disease procedure				pvd																																		History	1
+6434	1736.00	paroxysmal nocturnal dyspnoea				hf															Diagnosis	Heart failure																			1
+6834	18...00	cardiovascular symptoms				nonspecificcvd													1.CVD - non-specific	Possible																					1
+326	181..00	palpitations	arrhythmia	Palpitations	Diagnosis	arrhythmia																																			1
+2975	1812.00	palpitations	arrhythmia	Palpitations	Diagnosis	arrhythmia																																			1
+15616	181Z.00	palpitations nos	arrhythmia	Palpitations	Diagnosis	arrhythmia																																			1
+102627	183B.00	worsening pulmonary oedema				hf															Possible	Heart failure																			1
+103655	187..00	frequency of angina				angina	Angina	Stable angina	Disease management																																1
+45984	18Z..00	cardiovascular symptoms nos				nonspecificcvd													1.CVD - non-specific	Possible																					1
+43868	18ZZ.00	cardiovascular symptom nos				nonspecificcvd													1.CVD - non-specific	Possible																					1
+3997	1J6..00	suspected heart disease				nonspecificcvd													1.CVD - non-specific	Possible																					1
+30963	1J61.00	suspected ischaemic heart disease				nonspecificcvd													1.CVD - non-specific	Possible																					1
+40098	1JA1.00	suspected cerebrovascular disease				nonspecificcvd													1.CVD - non-specific	Possible																					1
+94163	1JH..00	suspected deep vein thrombosis				vte																			1																1
+109034	1M11000	ischaemic foot pain at rest				pvd																																		Diagnosis	1
+109217	1M11100	ischaemic foot pain when walking				pvd																																		Diagnosis	1
+100639	1M4..00	central post-stroke pain				stroke															History		1	90.history of stroke nos																	1
+9913	1O1..00	heart failure confirmed				hf															Diagnosis	Heart failure																			1
+100784	2126400	heart failure resolved				hf															History	Heart failure																			1
+28994	212R.00	atrial fibrillation resolved	arrhythmia	History of arrhythmia	History	arrhythmia																																			1
+5925	2241.00	o/e - collapse -cardiac arrest				sca									1	Diagnosis																									1
+5155	23E1.00	o/e - pulmonary oedema				hf															Possible	Heart failure																			1
+13608	2422.00	o/e - pulse rate - bradycardia	arrhythmia	Bradycardia	Diagnosis	arrhythmia																																			1
+1352	2422.11	o/e - bradycardia	arrhythmia	Bradycardia	Diagnosis	arrhythmia																																			1
+26716	2426.00	o/e - pulse rate tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+7128	2426.11	o/e - tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+108569	2Ba2200	scpe class predom patt c.3 infarct of middle cerebral artery				stroke															Diagnosis		1	30.stroke nos																	1
+9561	2G63.00	ischaemic toe				pvd																																		Diagnosis	1
+111428	2JZ..00	on optimal heart failure therapy				hf															Disease management	Heart failure																			1
+7783	323..00	ecg: myocardial infarction				cad				CAD	Diagnosis	MI																													1
+39904	3232.00	ecg: old myocardial infarction				cad				CAD	History	MI																													1
+55401	3235.00	ecg: subendocardial infarct				mi							1	Myocardial infarction																											1
+59032	323Z.00	ecg: myocardial infarct nos				mi							1	Myocardial infarction																											1
+17597	327..00	ecg: supraventricular arrhythmia	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+3757	3272.00	ecg: atrial fibrillation	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+6771	3273.00	ecg: atrial flutter	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+19707	328..00	ecg: ventricular arrhythmia	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+4924	3282.00	ecg: ventricular tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+29371	328Z.00	ecg: ventricular arrhythmia nos	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+46672	388D.00	new york heart assoc classification heart failure symptoms				hf															Diagnosis	Heart failure																			1
+11284	585f.00	echocardiogram shows left ventricular systolic dysfunction				hf															Diagnosis	Heart failure																			1
+11351	585g.00	echocardiogram shows left ventricular diastolic dysfunction				hf															Diagnosis	Heart failure																			1
+109679	5C13.00	old cerebral infarction on imaging				stroke															History		1	90.history of stroke nos																	1
+107967	661M000	angina self-management plan agreed				cad				CAD	Diagnosis	Angina																													1
+106198	661M500	heart failure self-management plan agreed				hf															Disease management	Heart failure																			1
+107195	661M700	stroke self-management plan agreed				stroke															Diagnosis		1	90.history of stroke nos																	1
+109391	661N000	angina self-management plan review				angina	Angina	Stable angina	Disease management																																1
+114261	661N500	heart failure self-management plan review				hf															Disease management	Heart failure																			1
+109743	661N700	stroke self-management plan review				stroke															Disease management		1	90.history of stroke nos																	1
+13185	662K.00	angina control				angina	Angina	Stable angina	Disease management																																1
+19542	662K000	angina control - good				angina	Angina	Stable angina	Disease management																																1
+15373	662K100	angina control - poor				angina	Angina	Stable angina	Disease management																																1
+14782	662K200	angina control - improving				cad				CAD	Diagnosis	Angina																													1
+29300	662K300	angina control - worsening				angina	Angina	Worsening angina	Disease management																																1
+108504	662K400	angina self management plan commenced				angina	Angina	Stable angina	Disease management																																1
+108506	662K500	angina self management plan completed				angina	Angina	Stable angina	Disease management																																1
+15349	662Kz00	angina control nos				cad				CAD	Diagnosis	Angina																													1
+10792	662M.00	stroke monitoring				stroke															Disease management		1	90.history of stroke nos																	1
+105100	662M100	stroke 6 month review				stroke															Disease management		1	90.history of stroke nos																	1
+104505	662M200	stroke initial post discharge review				stroke															History		1	90.history of stroke nos																	1
+18746	662S.00	atrial fibrillation monitoring	arrhythmia	Atrial fibrillation & flutter	Disease management	arrhythmia																																			1
+12366	662T.00	congestive heart failure monitoring				hf															Disease management	Heart failure																			1
+18499	662U.00	peripheral vascular disease monitoring				pvd																																		Disease management	1
+30779	662W.00	heart failure annual review				hf															Disease management	Heart failure																			1
+18686	662e.00	stroke/cva annual review				stroke															Disease management		1	90.history of stroke nos																	1
+107886	662e.11	stroke annual review				stroke															Disease management		1	90.history of stroke nos																	1
+18853	662f.00	new york heart association classification - class i				hf															Diagnosis	Heart failure																			1
+13189	662g.00	new york heart association classification - class ii				hf															Diagnosis	Heart failure																			1
+19066	662h.00	new york heart association classification - class iii				hf															Diagnosis	Heart failure																			1
+51214	662i.00	new york heart association classification - class iv				hf															Diagnosis	Heart failure																			1
+28914	662o.00	haemorrhagic stroke monitoring				stroke															Disease management		1	90.history of stroke nos																	1
+83502	662p.00	heart failure 6 month review				hf															Disease management	Heart failure																			1
+105002	679W100	education about deteriorating heart failure				hf															Possible	Heart failure																			1
+95835	679X.00	heart failure education				hf															Possible	Heart failure																			1
+45773	6A9..00	atrial fibrillation annual review	arrhythmia	History of arrhythmia	Disease management	arrhythmia																																			1
+12743	790H300	revascularisation of wall of heart				revascularisation											Revascularisation	Diagnosis																							1
+15133	7911300	replacement of aortic valve nec				vhd																															1	1.Aortic valve disease	Diagnosis		1
+737	792..11	coronary artery bypass graft operations				cad				CAD	Diagnosis	Revascularisation																													1
+18249	7920.00	saphenous vein graft replacement of coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+8312	7920.11	saphenous vein graft bypass of coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+8679	7920000	saphenous vein graft replacement of one coronary artery				cad				CAD	Diagnosis	Revascularisation																													1
+7634	7920100	saphenous vein graft replacement of two coronary arteries				cad				CAD	Diagnosis	Revascularisation																													1
+7442	7920200	saphenous vein graft replacement of three coronary arteries				cad				CAD	Diagnosis	Revascularisation																													1
+11610	7920300	saphenous vein graft replacement of four+ coronary arteries				cad				CAD	Diagnosis	Revascularisation																													1
+7137	7920y00	saphenous vein graft replacement of coronary artery os				cad				CAD	Diagnosis	Revascularisation																													1
+51515	7920z00	saphenous vein graft replacement coronary artery nos				cad				CAD	Diagnosis	Revascularisation																													1
+9414	7921.00	other autograft replacement of coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+7134	7921.11	other autograft bypass of coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+44561	7921000	autograft replacement of one coronary artery nec				cad				CAD	Diagnosis	Revascularisation																													1
+19413	7921100	autograft replacement of two coronary arteries nec				revascularisation											Revascularisation	Diagnosis																							1
+10209	7921200	autograft replacement of three coronary arteries nec				cad				CAD	Diagnosis	Revascularisation																													1
+42708	7921300	autograft replacement of four of more coronary arteries nec				cad				CAD	Diagnosis	Revascularisation																													1
+61310	7921y00	other autograft replacement of coronary artery os				cad				CAD	Diagnosis	Revascularisation																													1
+7609	7921z00	other autograft replacement of coronary artery nos				cad				CAD	Diagnosis	Revascularisation																													1
+31556	7922.00	allograft replacement of coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+32651	7922.11	allograft bypass of coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+70111	7922000	allograft replacement of one coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+57241	7922100	allograft replacement of two coronary arteries				cad				CAD	Diagnosis	Revascularisation																													1
+45886	7922200	allograft replacement of three coronary arteries				revascularisation											Revascularisation	Diagnosis																							1
+45370	7922300	allograft replacement of four or more coronary arteries				revascularisation											Revascularisation	Diagnosis																							1
+59423	7922y00	other specified allograft replacement of coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+48767	7922z00	allograft replacement of coronary artery nos				revascularisation											Revascularisation	Diagnosis																							1
+36011	7923.11	prosthetic bypass of coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+28837	7925.11	creation of bypass from mammary artery to coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+42462	7928200	percut translum balloon angioplasty bypass graft coronary a				revascularisation											Revascularisation	Diagnosis																							1
+34963	792D.00	other bypass of coronary artery				revascularisation											Revascularisation	Diagnosis																							1
+3159	792Dy00	other specified other bypass of coronary artery				cad				CAD	Diagnosis	Revascularisation																													1
+33471	792Dz00	other bypass of coronary artery nos				revascularisation											Revascularisation	Diagnosis																							1
+105184	792E.00	percutaneous coronary intervention				revascularisation											Revascularisation	Diagnosis																							1
+107406	792E000	emergency percutaneous coronary intervention				cad				CAD	Diagnosis	Revascularisation																													1
+97560	7932111	cardiac massage - open				sca									1	Diagnosis																									1
+9479	7936A00	implant intravenous pacemaker for atrial fibrillation	arrhythmia	Atrial fibrillation & flutter	Disease management	arrhythmia																																			1
+84152	793M100	perc transluminal ablation of atrial wall for atrial flutter	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+86416	793M300	perc translum ablat conduct sys heart for atrial flutter nec	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+34687	7A09311	trendelenburg pulmonary embolectomy				vte																			1																1
+2761	7A12100	bypass bifurc aorta by anastom aorta to femoral artery nec				revascularisation											Revascularisation	Diagnosis																							1
+43449	7A20100	intracranial bypass to carotid artery				revascularisation											Revascularisation	Diagnosis																							1
+91775	7A20700	intracranial bypass from carotid artery nec				revascularisation											Revascularisation	Diagnosis																							1
+29183	7A26000	bypass of subclavian artery nec				cad				CAD	Diagnosis	Revascularisation																													1
+60465	7A48500	bypass popliteal artery by pop/tib a anast c prosthesis nec				cad				CAD	Diagnosis	Revascularisation																													1
+2066	7A48z00	other bypass of femoral artery or popliteal artery nos				revascularisation											Revascularisation	Diagnosis																							1
+96801	7L1H600	advanced cardiopulmonary resuscitation				cad				CAD	Diagnosis	SCA																													1
+55351	7P24200	delivery of rehabilitation for stroke				stroke															History		1	90.history of stroke nos																	1
+41717	853..00	cardiac massage - external				cad				CAD	Diagnosis	SCA																													1
+72762	8531.00	closed cardiac massage alone				cad				CAD	Diagnosis	SCA																													1
+60367	8532.00	closed cardiac massage+ventil.				sca									1	Diagnosis																									1
+28236	8532.11	cardiopulmonary resuscitation				cad				CAD	Diagnosis	SCA																													1
+72785	853Z.00	external cardiac massage nos				cad				CAD	Diagnosis	SCA																													1
+61670	889A.00	diab mellit insulin-glucose infus acute myocardial infarct				mi							1	Myocardial infarction																											1
+24503	8B29.00	cardiac failure therapy				hf															Disease management	Heart failure																			1
+115304	8B31F00	heart failure medication review				hf															Disease management	Heart failure																			1
+32945	8CL3.00	heart failure care plan discussed with patient				hf															Disease management	Heart failure																			1
+103732	8CMK.00	has heart failure management plan				hf															Disease management	Heart failure																			1
+105554	8CMW200	atrial fibrillation care pathway	arrhythmia	Atrial fibrillation & flutter	Disease management	arrhythmia																																			1
+106008	8CMW800	heart failure clinical pathway				hf															Possible	Heart failure																			1
+108171	8CMWH00	palpitations care pathway	arrhythmia	Palpitations	Disease management	arrhythmia																																			1
+105542	8CeC.00	preferred place of care for next exacerbation heart failure				hf															Possible	Heart failure																			1
+32898	8H2S.00	admit heart failure emergency				hf															Diagnosis	Heart failure																			1
+95550	8H2V.00	admit ischaemic heart disease emergency				cad				CAD	Diagnosis	Not specific																													1
+17851	8HBE.00	heart failure follow-up				hf															Disease management	Heart failure																			1
+13707	8HBJ.00	stroke / transient ischaemic attack referral				stroke															Possible		1	90.history of stroke nos																	1
+56458	8HHM.00	ref to multidisciplinary stroke function improvement service				stroke															Disease management		1	90.history of stroke nos																	1
+26115	8HHb.00	referral to heart failure nurse				hf															Possible	Heart failure																			1
+70619	8HHz.00	referral to heart failure exercise programme				hf															Possible	Heart failure																			1
+48897	8HTL.00	referral to heart failure clinic				hf															Possible	Heart failure																			1
+106680	8HTL000	referral to rapid access heart failure clinic				hf															Possible	Heart failure																			1
+18804	8HTQ.00	referral to stroke clinic				stroke															Possible		1	90.history of stroke nos																	1
+94552	8HTm.00	referral to deep vein thrombosis clinic				vte																			1																1
+103506	8HTy.00	referral to atrial fibrillation clinic	arrhythmia	Atrial fibrillation & flutter	Possible	arrhythmia																																			1
+105520	8Hd6.00	admission to stroke unit				stroke															Diagnosis		1	90.history of stroke nos																	1
+71235	8Hk0.00	referred to heart failure education group				hf															Possible	Heart failure																			1
+100475	8HlP.00	referred for peripheral artery disease assessment				pvd																																		Possible	1
+110101	8I98.00	heart failure rehabilitation programme not available				hf															Diagnosis	Heart failure																			1
+108056	8IEY.00	referral to angina plan self-management programme declined				cad				CAD	Diagnosis	Angina																													1
+107936	8OAD.00	provision of written information about atrial fibrillation	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+107574	8T04.00	referral to angina plan self-management programme				cad				CAD	Diagnosis	Angina																													1
+12627	9N0k.00	seen in heart failure clinic				hf															Possible	Heart failure																			1
+32959	9N0p.00	seen in stroke clinic				stroke															Possible		1	90.history of stroke nos																	1
+19002	9N2p.00	seen by community heart failure nurse				hf															Possible	Heart failure																			1
+43001	9N4h.00	dna - did not attend peripheral vascular disease clinic				pvd																																		Possible	1
+95021	9N4s.00	did not attend practice nurse heart failure clinic				hf															Possible	Heart failure																			1
+83481	9N4w.00	did not attend heart failure clinic				hf															Possible	Heart failure																			1
+69062	9N6T.00	referred by heart failure nurse specialist				hf															Possible	Heart failure																			1
+31218	9Om..00	stroke/transient ischaemic attack monitoring administration				stroke															Disease management		1	90.history of stroke nos																	1
+28753	9Om0.00	stroke/transient ischaemic attack monitoring first letter				stroke															Disease management		1	90.history of stroke nos																	1
+34245	9Om1.00	stroke/transient ischaemic attack monitoring second letter				stroke															Disease management		1	90.history of stroke nos																	1
+34375	9Om2.00	stroke/transient ischaemic attack monitoring third letter				stroke															Disease management		1	90.history of stroke nos																	1
+51465	9Om3.00	stroke/transient ischaemic attack monitoring verbal invitati				stroke															Disease management		1	90.history of stroke nos																	1
+89913	9Om4.00	stroke/transient ischaemic attack monitoring telephone invte				stroke															Disease management		1	90.history of stroke nos																	1
+18793	9On..00	left ventricular dysfunction monitoring administration				hf															Disease management	Heart failure																			1
+60710	9On0.00	left ventricular dysfunction monitoring first letter				hf															Disease management	Heart failure																			1
+60721	9On1.00	left ventricular dysfunction monitoring second letter				hf															Disease management	Heart failure																			1
+72341	9On2.00	left ventricular dysfunction monitoring third letter				hf															Disease management	Heart failure																			1
+92305	9On3.00	left ventricular dysfunction monitoring verbal invite				hf															Disease management	Heart failure																			1
+96484	9On4.00	left ventricular dysfunction monitoring telephone invite				hf															Disease management	Heart failure																			1
+32911	9Or..00	heart failure monitoring administration				hf															Disease management	Heart failure																			1
+19380	9Or0.00	heart failure review completed				hf															Disease management	Heart failure																			1
+90193	9Or1.00	heart failure monitoring telephone invite				hf															Disease management	Heart failure																			1
+90192	9Or2.00	heart failure monitoring verbal invite				hf															Disease management	Heart failure																			1
+72965	9Or3.00	heart failure monitoring first letter				hf															Disease management	Heart failure																			1
+72386	9Or4.00	heart failure monitoring second letter				hf															Disease management	Heart failure																			1
+89650	9Or5.00	heart failure monitoring third letter				hf															Disease management	Heart failure																			1
+57832	9Os..00	atrial fibrillation monitoring administration	arrhythmia	Atrial fibrillation & flutter	Disease management	arrhythmia																																			1
+90187	9Os0.00	atrial fibrillation monitoring first letter	arrhythmia	Atrial fibrillation & flutter	Disease management	arrhythmia																																			1
+90188	9Os1.00	atrial fibrillation monitoring second letter	arrhythmia	Atrial fibrillation & flutter	Disease management	arrhythmia																																			1
+90189	9Os2.00	atrial fibrillation monitoring third letter	arrhythmia	Atrial fibrillation & flutter	Disease management	arrhythmia																																			1
+90190	9Os3.00	atrial fibrillation monitoring verbal invite	arrhythmia	Atrial fibrillation & flutter	Disease management	arrhythmia																																			1
+90191	9Os4.00	atrial fibrillation monitoring telephone invite	arrhythmia	Atrial fibrillation & flutter	Disease management	arrhythmia																																			1
+104394	9hS0.00	excepted frm peripheral arterial dis qual ind: pt unsuitable				pvd																																		Disease management	1
+104270	9hS1.00	except frm peripheral arter dis qual indicat: inform dissent				pvd																																		Disease management	1
+106224	9m1..00	peripheral vascular disease monitoring invitation				pvd																																		Disease management	1
+106260	9m10.00	peripheral vascular disease monitoring first letter				pvd																																		Disease management	1
+106660	9m11.00	peripheral vascular disease monitoring second letter				pvd																																		Disease management	1
+106855	9m12.00	peripheral vascular disease monitoring third letter				pvd																																		Disease management	1
+16803	A364100	meningococcal pericarditis				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+72632	A3A0F00	gas gangrene-foot				pvd																																		Diagnosis	1
+9113	A742100	coxsackie pericarditis				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+65897	A93y000	syphilitic pericarditis				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+31941	A94y600	rupture of syphilitic cerebral aneurysm				stroke															Diagnosis		1	75.other haemorrhage																	1
+96449	A98y200	gonococcal pericarditis				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+112017	A98y400	other gonococcal heart disease				cad				CAD	Diagnosis	Not specific																													1
+96444	AB40300	histoplasma capsulatum with pericarditis				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+94380	AB41300	histoplasma duboisii with pericarditis				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+35399	C107.00	diabetes mellitus with peripheral circulatory disorder				pvd																																		Diagnosis	1
+70448	C107000	diabetes mellitus, juvenile +peripheral circulatory disorder				pvd																																		Diagnosis	1
+63357	C107100	diabetes mellitus, adult, + peripheral circulatory disorder				pvd																																		Diagnosis	1
+69124	C107300	iddm with peripheral circulatory disorder				pvd																																		Diagnosis	1
+56803	C107400	niddm with peripheral circulatory disorder				pvd																																		Diagnosis	1
+65025	C107z00	diabetes mellitus nos with peripheral circulatory disorder				pvd																																		Diagnosis	1
+64446	C108G00	insulin dependent diab mell with peripheral angiopathy				pvd																																		Diagnosis	1
+54212	C109F00	non-insulin-dependent d m with peripheral angiopath				pvd																																		Diagnosis	1
+54899	C109F11	type ii diabetes mellitus with peripheral angiopathy				pvd																																		Diagnosis	1
+60699	C109F12	type 2 diabetes mellitus with peripheral angiopathy				pvd																																		Diagnosis	1
+93468	C10EG00	type 1 diabetes mellitus with peripheral angiopathy				pvd																																		Diagnosis	1
+37806	C10FF00	type 2 diabetes mellitus with peripheral angiopathy				pvd																																		Diagnosis	1
+104639	C10FF11	type ii diabetes mellitus with peripheral angiopathy				pvd																																		Diagnosis	1
+49715	F05..00	phlebitis and thrombophlebitis of intracranial sinuses				vte																			1																1
+31390	F051.00	thrombosis of central nervous system venous sinuses				dvt																				1	4. DVT cerebral venous sinuses	Diagnosis													1
+61366	F051z00	thrombosis of central nervous system venous sinus nos				vte																			1																1
+41180	F053.00	thrombophlebitis of central nervous system venous sinuses				dvt																				1	4. DVT cerebral venous sinuses	Diagnosis													1
+55883	F053000	thrombophlebitis of cavernous sinus				dvt																				1	4. DVT cerebral venous sinuses	Diagnosis													1
+70455	F053100	thrombophlebitis of superior longitudinal venous sinus				dvt																				1	4. DVT cerebral venous sinuses	Diagnosis													1
+115973	F053200	thrombophlebitis lateral venous sinus				vte																			1																1
+113445	F053z00	thrombophlebitis of central nervous system venous sinus nos				vte																			1																1
+65855	F05z.00	phlebitis or thrombophlebitis of cns venous sinus nos				vte																			1																1
+54744	F11x200	cerebral degeneration due to cerebrovascular disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+95347	Fyu5700	[x]other vascular syndroms/brain in cerebrovasculr diseases				stroke															Possible		1	30.stroke nos																	1
+12786	G....00	circulatory system diseases				cad				CAD	Diagnosis	Not specific																													1
+13259	G....11	cardiovascular system diseases				cad				CAD	Diagnosis	Not specific																													1
+10109	G....13	heart diseases				cad				CAD	Diagnosis	Not specific																													1
+24636	G010.00	acute rheumatic pericarditis				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+73540	G01y.00	other acute rheumatic heart disease				cad				CAD	Diagnosis	Not specific																													1
+105615	G01yz00	other acute rheumatic heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+68849	G01z.00	acute rheumatic heart disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+9312	G1...00	chronic rheumatic heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+44376	G10..00	chronic rheumatic pericarditis				pericarditis																												Pericarditis	4. Chronic pericarditis	Diagnosis					1
+72628	G102.00	chronic rheumatic myopericarditis				pericarditis																												Pericarditis	4. Chronic pericarditis	Diagnosis					1
+51879	G111.00	rheumatic mitral insufficiency				vhd																															1	2.Mitral valve disease	Diagnosis		1
+22837	G111.12	mitral regurgitation - rheumatic				vhd																															1	2.Mitral valve disease	Diagnosis		1
+44488	G112.00	mitral stenosis with insufficiency				vhd																															1	2.Mitral valve disease	Diagnosis		1
+44328	G112.13	mitral stenosis with regurgitation				vhd																															1	2.Mitral valve disease	Diagnosis		1
+28662	G113.00	nonrheumatic mitral valve stenosis				vhd																															1	2.Mitral valve disease	Diagnosis		1
+32211	G121.00	rheumatic aortic insufficiency				vhd																															1	1.Aortic valve disease	Diagnosis		1
+7963	G121.12	aortic regurgitation - rheumatic				vhd																															1	1.Aortic valve disease	Diagnosis		1
+63960	G122.00	rheumatic aortic stenosis with insufficiency				vhd																															1	1.Aortic valve disease	Diagnosis		1
+49355	G131.00	mitral stenosis and aortic insufficiency				vhd																															1	2.Mitral valve disease	Diagnosis		1
+17596	G131.14	mitral stenosis and aortic regurgitation				vhd																															1	2.Mitral valve disease	Diagnosis		1
+33262	G132.00	mitral insufficiency and aortic stenosis				vhd																															1	2.Mitral valve disease	Diagnosis		1
+33907	G132.13	mitral regurgitation and aortic stenosis				vhd																															1	2.Mitral valve disease	Diagnosis		1
+94872	G133.11	mitral and aortic insufficiency				vhd																															1	2.Mitral valve disease	Diagnosis		1
+11878	G133.12	mitral and aortic regurgitation				vhd																															1	2.Mitral valve disease	Diagnosis		1
+60266	G140100	rheumatic tricuspid insufficiency				vhd																															1	4.Pulmonary disease	Diagnosis		1
+21980	G140111	tricuspid regurgitation - rheumatic				vhd																															1	4.Pulmonary disease	Diagnosis		1
+93114	G140200	rheumatic tricuspid stenosis and insufficiency				vhd																															1	4.Pulmonary disease	Diagnosis		1
+93113	G14021X	rheumatic tricuspid stenosis and regurgitation				vhd																															1	4.Pulmonary disease	Diagnosis		1
+42128	G140400	tricuspid insufficiency, cause unspecified				vhd																															1	4.Pulmonary disease	Diagnosis		1
+9286	G140413	tricuspid regurgitation, cause unspecified				vhd																															1	4.Pulmonary disease	Diagnosis		1
+72306	G140500	tricuspid stenosis and insufficiency, cause unspecified				vhd																															1	4.Pulmonary disease	Diagnosis		1
+49551	G140514	tricuspid stenosis and regurgitation, cause unspecified				vhd																															1	4.Pulmonary disease	Diagnosis		1
+54088	G141100	rheumatic pulmonary insufficiency				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+105626	G141200	rheumatic pulmonary stenosis and insufficiency				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+15643	G1y..00	other specified chronic rheumatic heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+57980	G1yz.00	other and unspecified rheumatic heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+53878	G1yz000	rheumatic heart disease unspecified				cad				CAD	Diagnosis	Not specific																													1
+22262	G1yz100	rheumatic left ventricular failure				hf															Diagnosis	Heart failure																			1
+59854	G1yzz00	other rheumatic heart disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+20001	G1z..00	chronic rheumatic heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+16292	G21..00	hypertensive heart disease				cad				CAD	Diagnosis	Not specific																													1
+50157	G210.00	malignant hypertensive heart disease				hf															Diagnosis	Heart failure																			1
+95334	G210000	malignant hypertensive heart disease without ccf				cad				CAD	Diagnosis	Not specific																													1
+72668	G210100	malignant hypertensive heart disease with ccf				hf															Diagnosis	Heart failure																			1
+103046	G210z00	malignant hypertensive heart disease nos				hf															Diagnosis	Heart failure																			1
+52427	G211.00	benign hypertensive heart disease				cad				CAD	Diagnosis	Not specific																													1
+61660	G211000	benign hypertensive heart disease without ccf				cad				CAD	Diagnosis	Not specific																													1
+52127	G211100	benign hypertensive heart disease with ccf				hf															Diagnosis	Heart failure																			1
+105938	G211z00	benign hypertensive heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+31464	G21z.00	hypertensive heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+61166	G21z000	hypertensive heart disease nos without ccf				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+62718	G21z100	hypertensive heart disease nos with ccf				hf															Diagnosis	Heart failure																			1
+16173	G21zz00	hypertensive heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+67232	G230.00	malignant hypertensive heart and renal disease				hf															Diagnosis	Heart failure																			1
+21837	G232.00	hypertensive heart&renal dis wth (congestive) heart failure				hf															Diagnosis	Heart failure																			1
+57987	G234.00	hyperten heart&renal dis+both(congestv)heart and renal fail				hf															Diagnosis	Heart failure																			1
+240	G3...00	ischaemic heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+1792	G3...13	ihd - ischaemic heart disease				cad				CAD	Diagnosis	Not specific																													1
+241	G30..00	acute myocardial infarction				cad				CAD	Diagnosis	MI																													1
+13566	G30..11	attack - heart				mi							1	Myocardial infarction																											1
+2491	G30..12	coronary thrombosis				mi							1	Possible MI																											1
+30421	G30..13	cardiac rupture following myocardial infarction (mi)				cad				CAD	Diagnosis	MI																													1
+1204	G30..14	heart attack				mi							1	Myocardial infarction																											1
+1677	G30..15	mi - acute myocardial infarction				cad				CAD	Diagnosis	MI																													1
+13571	G30..16	thrombosis - coronary				mi							1	Possible MI																											1
+17689	G30..17	silent myocardial infarction				cad				CAD	Diagnosis	MI																													1
+12139	G300.00	acute anterolateral infarction				mi							1	Myocardial infarction																											1
+5387	G301.00	other specified anterior myocardial infarction				cad				CAD	Diagnosis	MI																													1
+40429	G301000	acute anteroapical infarction				mi							1	Myocardial infarction																											1
+17872	G301100	acute anteroseptal infarction				cad				CAD	Diagnosis	MI																													1
+14897	G301z00	anterior myocardial infarction nos				cad				CAD	Diagnosis	MI																													1
+8935	G302.00	acute inferolateral infarction				cad				CAD	Diagnosis	MI																													1
+29643	G303.00	acute inferoposterior infarction				cad				CAD	Diagnosis	MI																													1
+23892	G304.00	posterior myocardial infarction nos				mi							1	Myocardial infarction																											1
+14898	G305.00	lateral myocardial infarction nos				mi							1	Myocardial infarction																											1
+63467	G306.00	true posterior myocardial infarction				mi							1	Myocardial infarction																											1
+3704	G307.00	acute subendocardial infarction				cad				CAD	Diagnosis	MI																													1
+9507	G307000	acute non-q wave infarction				cad				CAD	Diagnosis	MI																													1
+10562	G307100	acute non-st segment elevation myocardial infarction				mi							1	Myocardial infarction																											1
+1678	G308.00	inferior myocardial infarction nos				cad				CAD	Diagnosis	MI																													1
+30330	G309.00	acute q-wave infarct				mi							1	Myocardial infarction																											1
+17133	G30A.00	mural thrombosis				mi							1	Possible MI																											1
+32854	G30B.00	acute posterolateral myocardial infarction				cad				CAD	Diagnosis	MI																													1
+29758	G30X.00	acute transmural myocardial infarction of unspecif site				cad				CAD	Diagnosis	MI																													1
+12229	G30X000	acute st segment elevation myocardial infarction				cad				CAD	Diagnosis	MI																													1
+34803	G30y.00	other acute myocardial infarction				cad				CAD	Diagnosis	MI																													1
+28736	G30y000	acute atrial infarction				mi							1	Myocardial infarction																											1
+62626	G30y100	acute papillary muscle infarction				cad				CAD	Diagnosis	MI																													1
+41221	G30y200	acute septal infarction				cad				CAD	Diagnosis	MI																													1
+46017	G30yz00	other acute myocardial infarction nos				cad				CAD	Diagnosis	MI																													1
+14658	G30z.00	acute myocardial infarction nos				mi							1	Myocardial infarction																											1
+27951	G31..00	other acute and subacute ischaemic heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+23579	G310.00	postmyocardial infarction syndrome				cad				CAD	History	MI																													1
+15661	G310.11	dressler's syndrome				mi							1	History of																											1
+36523	G311.00	preinfarction syndrome				angina	Angina	Unstable angina	Diagnosis																																1
+4656	G311.11	crescendo angina				angina	Angina	Unstable angina	Diagnosis																																1
+39655	G311.12	impending infarction				cad				CAD	Diagnosis	Angina																													1
+1431	G311.13	unstable angina				cad				CAD	Diagnosis	Angina																													1
+19655	G311.14	angina at rest				cad				CAD	Diagnosis	Angina																													1
+7347	G311100	unstable angina				cad				CAD	Diagnosis	Angina																													1
+17307	G311200	angina at rest				cad				CAD	Diagnosis	Angina																													1
+34328	G311300	refractory angina				cad				CAD	Diagnosis	Angina																													1
+18118	G311400	worsening angina				cad				CAD	Diagnosis	Angina																													1
+54251	G311z00	preinfarction syndrome nos				angina	Angina	Unstable angina	Diagnosis																																1
+9413	G31y.00	other acute and subacute ischaemic heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+9276	G31y000	acute coronary insufficiency				angina	Angina	Unstable angina	Diagnosis																																1
+68357	G31y100	microinfarction of heart				mi							1	Possible MI																											1
+27977	G31yz00	other acute and subacute ischaemic heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+4017	G32..00	old myocardial infarction				mi							1	History of																											1
+16408	G32..11	healed myocardial infarction				mi							1	History of																											1
+17464	G32..12	personal history of myocardial infarction				cad				CAD	History	MI																													1
+1430	G33..00	angina pectoris				angina	Angina	Stable angina	Diagnosis																																1
+20095	G330.00	angina decubitus				angina	Angina	Stable angina	Diagnosis																																1
+18125	G330000	nocturnal angina				angina	Angina	Stable angina	Diagnosis																																1
+29902	G330z00	angina decubitus nos				cad				CAD	Diagnosis	Angina																													1
+12986	G331.00	prinzmetal's angina				angina	Angina	Vasospastic codes	Diagnosis																																1
+11048	G331.11	variant angina pectoris				cad				CAD	Diagnosis	Angina																													1
+36854	G332.00	coronary artery spasm				angina	Angina	Vasospastic codes	Diagnosis																																1
+25842	G33z.00	angina pectoris nos				cad				CAD	Diagnosis	Angina																													1
+66388	G33z000	status anginosus				cad				CAD	Diagnosis	Angina																													1
+54535	G33z100	stenocardia				angina	Angina	Stable angina	Diagnosis																																1
+7696	G33z200	syncope anginosa				angina	Angina	Stable angina	Diagnosis																																1
+1414	G33z300	angina on effort				cad				CAD	Diagnosis	Angina																													1
+9555	G33z500	post infarct angina				cad				CAD	Diagnosis	Angina																													1
+26863	G33z600	new onset angina				angina	Angina	Stable angina	Diagnosis																																1
+12804	G33z700	stable angina				cad				CAD	Diagnosis	Angina																													1
+28554	G33zz00	angina pectoris nos				cad				CAD	Diagnosis	Angina																													1
+28138	G34..00	other chronic ischaemic heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+1344	G340.12	coronary artery disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+3999	G340000	single coronary vessel disease				cad				CAD	Diagnosis	Not specific																													1
+5254	G340100	double coronary vessel disease				cad				CAD	Diagnosis	Not specific																													1
+7320	G343.00	ischaemic cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Dilated cardiomyopathy	Diagnosis								1
+34633	G34y.00	other specified chronic ischaemic heart disease				cad				CAD	Diagnosis	Not specific																													1
+24540	G34y000	chronic coronary insufficiency				angina	Angina	Stable angina	Diagnosis																																1
+35713	G34yz00	other specified chronic ischaemic heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+15754	G34z.00	other chronic ischaemic heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+18842	G35..00	subsequent myocardial infarction				cad				CAD	Diagnosis	MI																													1
+45809	G350.00	subsequent myocardial infarction of anterior wall				mi							1	Myocardial infarction																											1
+38609	G351.00	subsequent myocardial infarction of inferior wall				mi							1	Myocardial infarction																											1
+72562	G353.00	subsequent myocardial infarction of other sites				cad				CAD	Diagnosis	MI																													1
+46166	G35X.00	subsequent myocardial infarction of unspecified site				cad				CAD	Diagnosis	MI																													1
+36423	G36..00	certain current complication follow acute myocardial infarct				mi							1	History of																											1
+24126	G360.00	haemopericardium/current comp folow acut myocard infarct				mi							1	History of																											1
+23708	G361.00	atrial septal defect/curr comp folow acut myocardal infarct				cad				CAD	History	MI																													1
+37657	G362.00	ventric septal defect/curr comp fol acut myocardal infarctn				mi							1	History of																											1
+59940	G364.00	ruptur chordae tendinae/curr comp fol acute myocard infarct				mi							1	History of																											1
+69474	G365.00	rupture papillary muscle/curr comp fol acute myocard infarct				mi							1	History of																											1
+29553	G366.00	thrombosis atrium,auric append&vent/curr comp foll acute mi				mi							1	History of																											1
+8568	G37..00	cardiac syndrome x				angina	Angina	Cardiac syndrome X	Diagnosis																																1
+32272	G38..00	postoperative myocardial infarction				mi							1	Myocardial infarction																											1
+46112	G380.00	postoperative transmural myocardial infarction anterior wall				cad				CAD	Diagnosis	MI																													1
+46276	G381.00	postoperative transmural myocardial infarction inferior wall				cad				CAD	Diagnosis	MI																													1
+106812	G383.00	postoperative transmural myocardial infarction unspec site				mi							1	Myocardial infarction																											1
+41835	G384.00	postoperative subendocardial myocardial infarction				mi							1	Myocardial infarction																											1
+68748	G38z.00	postoperative myocardial infarction, unspecified				mi							1	Myocardial infarction																											1
+105479	G39..00	coronary microvascular disease				cad				CAD	Diagnosis	Not specific																													1
+22383	G3y..00	other specified ischaemic heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+1676	G3z..00	ischaemic heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+7180	G4...00	pulmonary circulation diseases				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+22412	G4...11	heart disease - pulmonary				cad				CAD	Diagnosis	Not specific																													1
+63217	G40..00	acute pulmonary heart disease				cad				CAD	Diagnosis	Not specific																													1
+8464	G400.00	acute cor pulmonale				hf															Diagnosis	Heart failure																			1
+1266	G401.00	pulmonary embolism				pulmonaryembolism																							1	Diagnosis											1
+9701	G401.12	pulmonary embolus				pulmonaryembolism																							1	Diagnosis											1
+18121	G401000	post operative pulmonary embolus				vte																			1																1
+96209	G401100	recurrent pulmonary embolism				pulmonaryembolism																							1	Diagnosis											1
+65533	G40z.00	acute pulmonary heart disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+46294	G41..00	chronic pulmonary heart disease				cad				CAD	Diagnosis	Not specific																													1
+54113	G41y.00	other chronic pulmonary heart disease				cad				CAD	Diagnosis	Not specific																													1
+71046	G41yz00	other chronic pulmonary heart disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+15782	G41z.00	chronic pulmonary heart disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+5695	G41z.11	chronic cor pulmonale				hf															Diagnosis	Heart failure																			1
+24549	G42..00	other pulmonary circulation disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+65954	G42y.00	other specified pulmonary circulation disease				cad				CAD	Diagnosis	Not specific																													1
+41728	G42yz00	other specified pulmonary circulation disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+73599	G42z.00	other pulmonary circulation disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+61138	G4y..00	other specified pulmonary circulation disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+16084	G4z..00	pulmonary circulation disease nos				cad				CAD	Diagnosis	Not specific																													1
+30171	G5...00	other forms of heart disease				cad				CAD	Diagnosis	Not specific																													1
+3399	G50..00	acute pericarditis				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+45311	G50..11	pericardial effusion - acute				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+29551	G500.00	acute pericarditis in diseases ec				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+58769	G500000	acute pericarditis - coxsackie				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+61379	G500100	acute pericarditis - meningococcal				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+112041	G500200	acute pericarditis - syphilitic				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+57126	G500300	acute pericarditis - tuberculous				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+16996	G500311	tb - acute pericarditis				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+40956	G500400	acute pericarditis - uraemic				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+103850	G500500	acute pericarditis - gonococcal				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+15089	G500z00	acute pericarditis in diseases ec nos				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+35119	G501.00	post infarction pericarditis				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+14646	G50z.00	other and unspecified acute pericarditis				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+27606	G50z000	acute pericarditis - unspecified				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+59102	G50z100	acute idiopathic pericarditis				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+8411	G50z111	viral pericarditis nos				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+36496	G50z200	acute pericarditis - pneumococcal				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+104081	G50z300	acute pericarditis - staphylococcal				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+59677	G50z400	acute pericarditis - streptococcal				pericarditis																												Pericarditis	2. Acute pericarditis - infectious	Diagnosis					1
+64481	G50z500	acute purulent pericarditis unspecified				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+36755	G50zz00	acute pericarditis nos				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+50720	G531.00	adhesive pericarditis				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+96101	G531z00	adhesive pericarditis nos				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+20157	G532.00	constrictive pericarditis				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+65807	G532z00	constrictive pericarditis nos				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+2520	G534.00	pericardial effusion - acute				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+105192	G536.00	pericardial effusion				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+107662	G536000	chronic pericardial effusion				pericarditis																												Pericarditis	4. Chronic pericarditis	Diagnosis					1
+18877	G53yz11	chronic pericarditis				pericarditis																												Pericarditis	4. Chronic pericarditis	Diagnosis					1
+40949	G540.12	mitral valve insufficiency				vhd																															1	2.Mitral valve disease	Diagnosis		1
+9450	G540.14	mitral valve regurgitation				vhd																															1	2.Mitral valve disease	Diagnosis		1
+561	G540.16	mitral regurgitation				vhd																															1	2.Mitral valve disease	Diagnosis		1
+47887	G541011	aortic insufficiency, non-rheumatic				vhd																															1	1.Aortic valve disease	Diagnosis		1
+10187	G541012	aortic regurgitation, non-rheumatic				vhd																															1	1.Aortic valve disease	Diagnosis		1
+999	G541100	aortic stenosis, non-rheumatic				vhd																															1	1.Aortic valve disease	Diagnosis		1
+58810	G541211	aortic insufficiency alone, cause unspecified				vhd																															1	1.Aortic valve disease	Diagnosis		1
+1005	G541212	aortic regurgitation alone, cause unspecified				vhd																															1	1.Aortic valve disease	Diagnosis		1
+10964	G541400	aortic valve stenosis with insufficiency				vhd																															1	1.Aortic valve disease	Diagnosis		1
+9591	G541500	aortic stenosis				vhd																															1	1.Aortic valve disease	Diagnosis		1
+97738	G542011	tricuspid insufficiency, non-rheumatic				vhd																															1	4.Pulmonary disease	Diagnosis		1
+35372	G542012	tricuspid regurgitation, non-rheumatic				vhd																															1	4.Pulmonary disease	Diagnosis		1
+52271	G542200	nonrheumatic tricuspid valve stenosis with insufficiency				vhd																															1	4.Pulmonary disease	Diagnosis		1
+15640	G543011	pulmonary insufficiency, non-rheumatic				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+15496	G543012	pulmonary regurgitation, non-rheumatic				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+38299	G543213	pulmonary insufficiency, cause unspecified				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+6077	G543215	pulmonary regurgitation, cause unspecified				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+34932	G543400	pulmonary valve stenosis with insufficiency				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+5743	G54z500	valvular heart disease				vhd																															1	5.VHD NOS	Diagnosis		1
+3204	G55..00	cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+8010	G551.00	hypertrophic obstructive cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Hypertrophic cardiomyopathy	Diagnosis								1
+68685	G552.00	obscure african cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+57306	G554.00	other primary cardiomyopathies				cardiomyopathy																									Cardiomyopathy	Dilated cardiomyopathy	Diagnosis								1
+5141	G554000	congestive cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Dilated cardiomyopathy	Diagnosis								1
+68766	G554011	congestive obstructive cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Dilated cardiomyopathy	Diagnosis								1
+41488	G554100	constrictive cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+3499	G554300	hypertrophic non-obstructive cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Hypertrophic cardiomyopathy	Diagnosis								1
+7535	G554400	primary dilated cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Dilated cardiomyopathy	Diagnosis								1
+101015	G554500	takotsubo cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+104658	G554511	stress cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+40834	G554z00	other primary cardiomyopathy nos				cardiomyopathy																									Cardiomyopathy	Dilated cardiomyopathy	Diagnosis								1
+4915	G555.00	alcoholic cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+114348	G556.00	cardiomyopathy in chagas's disease				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+100966	G557.00	nutritional and metabolic cardiomyopathies				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+64673	G557z00	nutritional and metabolic cardiomyopathy nos				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+55850	G558.00	cardiomyopathy in disease ec				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+27683	G558100	cardiomyopathy in myotonic dystrophy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+64837	G558200	dystrophic cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+105651	G558400	amyloid cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+98020	G558z00	cardiomyopathy in diseases ec, nos				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+97780	G559.00	arrhythmogenic right ventricular cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Arrhythmogenic right ventricular dysplasia	Diagnosis								1
+102955	G55A.00	tachycardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+104529	G55A.11	tachycardia-induced cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+42043	G55y.00	secondary cardiomyopathy nos				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+9402	G55y.11	secondary dilated cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Dilated cardiomyopathy	Diagnosis								1
+58938	G55y000	cardiomyopathy due to drugs and other external agents				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+22993	G55z.00	cardiomyopathy nos				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+4044	G57..00	cardiac dysrhythmias	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+6503	G57..11	cardiac arrhythmias	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+4940	G570.00	paroxysmal supraventricular tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+1297	G570000	paroxysmal atrial tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+23647	G570100	paroxysmal atrioventricular tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+51845	G570200	paroxysmal junctional tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+29491	G570300	paroxysmal nodal tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+35124	G570z00	paroxysmal supraventricular tachycardia nos	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+3418	G571.00	paroxysmal ventricular tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+7794	G571.11	ventricular tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+25266	G572.00	paroxysmal tachycardia unspecified	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+60047	G572000	essential paroxysmal tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+1381	G572z00	paroxysmal tachycardia nos	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+2212	G573.00	atrial fibrillation and flutter	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+1664	G573000	atrial fibrillation	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+1757	G573100	atrial flutter	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+1268	G573200	paroxysmal atrial fibrillation	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+35127	G573300	non-rheumatic atrial fibrillation	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+96277	G573400	permanent atrial fibrillation	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+96076	G573500	persistent atrial fibrillation	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+107472	G573600	paroxysmal atrial flutter	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+23437	G573z00	atrial fibrillation and flutter nos	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+25583	G574011	cardiac arrest-ventricular fibrillation	arrhythmia	Atrial fibrillation & flutter	Diagnosis	arrhythmia																																			1
+2099	G575.00	cardiac arrest				sca									1	Diagnosis																									1
+25407	G575.11	cardio-respiratory arrest				cad				CAD	Diagnosis	SCA																													1
+33899	G575000	cardiac arrest with successful resuscitation				cad				CAD	Diagnosis	SCA																													1
+21195	G575100	sudden cardiac death, so described				cad				CAD	Diagnosis	SCA																													1
+51140	G575200	electromechanical dissociation with successful resuscitation				cad				CAD	Diagnosis	SCA																													1
+7630	G575300	electromechanical dissociation				cad				CAD	Diagnosis	SCA																													1
+49882	G575z00	cardiac arrest, unspecified				cad				CAD	Diagnosis	SCA																													1
+426	G577.00	sinus arrhythmia	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+7827	G57y.00	other cardiac dysrhythmias	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+3849	G57y000	persistent sinus bradycardia	arrhythmia	Bradycardia	Diagnosis	arrhythmia																																			1
+18268	G57y100	severe sinus bradycardia	arrhythmia	Bradycardia	Diagnosis	arrhythmia																																			1
+7005	G57y700	sinus tachycardia	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+1536	G57y900	supraventricular tachycardia nos	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+31690	G57yA00	re-entry ventricular arrhythmia	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+31133	G57yz00	other cardiac dysrhythmia nos	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+1535	G57z.00	cardiac dysrhythmia nos	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+2062	G58..00	heart failure				hf															Diagnosis	Heart failure																			1
+1223	G58..11	cardiac failure				hf															Diagnosis	Heart failure																			1
+398	G580.00	congestive heart failure				hf															Diagnosis	Heart failure																			1
+2906	G580.11	congestive cardiac failure				hf															Diagnosis	Heart failure																			1
+10079	G580.12	right heart failure				hf															Diagnosis	Heart failure																			1
+10154	G580.13	right ventricular failure				hf															Diagnosis	Heart failure																			1
+9524	G580.14	biventricular failure				hf															Diagnosis	Heart failure																			1
+23707	G580000	acute congestive heart failure				hf															Diagnosis	Heart failure																			1
+32671	G580100	chronic congestive heart failure				hf															Diagnosis	Heart failure																			1
+27884	G580200	decompensated cardiac failure				hf															Diagnosis	Heart failure																			1
+11424	G580300	compensated cardiac failure				hf															Diagnosis	Heart failure																			1
+94870	G580400	congestive heart failure due to valvular disease				hf															Diagnosis	Heart failure																			1
+884	G581.00	left ventricular failure				hf															Diagnosis	Heart failure																			1
+43618	G581.12	pulmonary oedema - acute				hf															Possible	Heart failure																			1
+5942	G581.13	impaired left ventricular function				hf															Diagnosis	Heart failure																			1
+5255	G581000	acute left ventricular failure				hf															Diagnosis	Heart failure																			1
+27964	G582.00	acute heart failure				hf															Diagnosis	Heart failure																			1
+101138	G583.00	heart failure with normal ejection fraction				hf															Diagnosis	Heart failure																			1
+101137	G583.11	hfnef - heart failure with normal ejection fraction				hf															Diagnosis	Heart failure																			1
+106897	G583.12	heart failure with preserved ejection fraction				hf															Diagnosis	Heart failure																			1
+104275	G584.00	right ventricular failure				hf															Diagnosis	Heart failure																			1
+115338	G585.00	heart failure with reduced ejection fraction				hf															Diagnosis	Heart failure																			1
+4024	G58z.00	heart failure nos				hf															Diagnosis	Heart failure																			1
+17278	G58z.12	cardiac failure nos				hf															Diagnosis	Heart failure																			1
+36193	G5y..00	other specified heart disease				cad				CAD	Diagnosis	Not specific																													1
+96799	G5y4z00	post cardiac operation heart failure nos				hf															Diagnosis	Heart failure																			1
+22672	G5yX.00	cardiovascular disease, unspecified				cad				CAD	Diagnosis	Not specific																													1
+59687	G5yy.00	other ill-defined heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+8966	G5yy900	left ventricular systolic dysfunction				hf															Diagnosis	Heart failure																			1
+12550	G5yyA00	left ventricular diastolic dysfunction				hf															Diagnosis	Heart failure																			1
+104876	G5yyB00	right ventricular diastolic dysfunction				hf															Diagnosis	Heart failure																			1
+107397	G5yyD00	left ventricular cardiac dysfunction				hf															Diagnosis	Heart failure																			1
+108180	G5yyE00	right ventricular systolic dysfunction				hf															Diagnosis	Heart failure																			1
+41179	G5yyz00	other ill-defined heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+1811	G5yz.00	other heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+1490	G5z..00	heart disease nos				cad				CAD	Diagnosis	Not specific																													1
+2418	G6...00	cerebrovascular disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+56007	G601.00	subarachnoid haemorrhage from carotid siphon and bifurcation				stroke															Diagnosis		1	22.haemorrhagic stroke subarachnoid																	1
+19412	G602.00	subarachnoid haemorrhage from middle cerebral artery				stroke															Diagnosis		1	22.haemorrhagic stroke subarachnoid																	1
+17326	G60X.00	subarachnoid haemorrh from intracranial artery, unspecif				stroke															Diagnosis		1	22.haemorrhagic stroke subarachnoid																	1
+5051	G61..00	intracerebral haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+6960	G61..11	cva - cerebrovascular accid due to intracerebral haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+18604	G61..12	stroke due to intracerebral haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+31595	G610.00	cortical haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+40338	G611.00	internal capsule haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+46316	G612.00	basal nucleus haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+13564	G613.00	cerebellar haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+7912	G614.00	pontine haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+30045	G616.00	external capsule haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+30202	G617.00	intracerebral haemorrhage, intraventricular				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+57315	G618.00	intracerebral haemorrhage, multiple localized				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+107440	G619.00	lobar cerebral haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+31060	G61X.00	intracerebral haemorrhage in hemisphere, unspecified				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+28314	G61X000	left sided intracerebral haemorrhage, unspecified				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+19201	G61X100	right sided intracerebral haemorrhage, unspecified				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+3535	G61z.00	intracerebral haemorrhage nos				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+57495	G63..11	infarction - precerebral				stroke															Diagnosis		1	10.ischaemic stroke																	1
+23671	G63y000	cerebral infarct due to thrombosis of precerebral arteries				stroke															Diagnosis		1	10.ischaemic stroke																	1
+24446	G63y100	cerebral infarction due to embolism of precerebral arteries				stroke															Diagnosis		1	10.ischaemic stroke																	1
+5363	G64..11	cva - cerebral artery occlusion				stroke															Diagnosis		1	10.ischaemic stroke																	1
+569	G64..12	infarction - cerebral				stroke															Diagnosis		1	10.ischaemic stroke																	1
+6155	G64..13	stroke due to cerebral arterial occlusion				stroke															Diagnosis		1	10.ischaemic stroke																	1
+36717	G640000	cerebral infarction due to thrombosis of cerebral arteries				stroke															Diagnosis		1	10.ischaemic stroke																	1
+27975	G641000	cerebral infarction due to embolism of cerebral arteries				stroke															Diagnosis		1	10.ischaemic stroke																	1
+3149	G64z.00	cerebral infarction nos				stroke															Diagnosis		1	10.ischaemic stroke																	1
+15252	G64z.11	brainstem infarction nos				stroke															Diagnosis		1	10.ischaemic stroke																	1
+5602	G64z.12	cerebellar infarction				stroke															Diagnosis		1	10.ischaemic stroke																	1
+25615	G64z000	brainstem infarction				stroke															Diagnosis		1	10.ischaemic stroke																	1
+47642	G64z100	wallenberg syndrome				stroke															Diagnosis		1	90.history of stroke nos																	1
+5185	G64z111	lateral medullary syndrome				stroke															History		1	90.history of stroke nos																	1
+9985	G64z200	left sided cerebral infarction				stroke															Diagnosis		1	10.ischaemic stroke																	1
+10504	G64z300	right sided cerebral infarction				stroke															Diagnosis		1	10.ischaemic stroke																	1
+26424	G64z400	infarction of basal ganglia				stroke															Diagnosis		1	10.ischaemic stroke																	1
+1469	G66..00	stroke and cerebrovascular accident unspecified				stroke															Diagnosis		1	30.stroke nos																	1
+1298	G66..11	cva unspecified				stroke															Diagnosis		1	30.stroke nos																	1
+6253	G66..12	stroke unspecified				stroke															Diagnosis		1	30.stroke nos																	1
+6116	G66..13	cva - cerebrovascular accident unspecified				stroke															Diagnosis		1	30.stroke nos																	1
+8443	G663.00	brain stem stroke syndrome				stroke															Diagnosis		1	30.stroke nos																	1
+17322	G664.00	cerebellar stroke syndrome				stroke															Diagnosis		1	30.stroke nos																	1
+33499	G665.00	pure motor lacunar syndrome				stroke															Diagnosis		1	30.stroke nos																	1
+7780	G667.00	left sided cva				stroke															Diagnosis		1	30.stroke nos																	1
+12833	G668.00	right sided cva				stroke															Diagnosis		1	30.stroke nos																	1
+13577	G67..00	other cerebrovascular disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+40053	G671.00	generalised ischaemic cerebrovascular disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+12555	G671z00	generalised ischaemic cerebrovascular disease nos				cad				CAD	Diagnosis	Not specific																													1
+37947	G676.00	nonpyogenic venous sinus thrombosis				dvt																				1	4. DVT cerebral venous sinuses	Diagnosis													1
+39344	G676000	cereb infarct due cerebral venous thrombosis, nonpyogenic				stroke															Diagnosis		1	10.ischaemic stroke																	1
+98188	G679.00	small vessel cerebrovascular disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+34117	G67y.00	other cerebrovascular disease os				cad				CAD	Diagnosis	Not specific																													1
+37493	G67z.00	other cerebrovascular disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+23361	G68..00	late effects of cerebrovascular disease				cad				CAD	Diagnosis	Not specific																													1
+48149	G681.00	sequelae of intracerebral haemorrhage				stroke															History		1	90.history of stroke nos																	1
+43451	G682.00	sequelae of other nontraumatic intracranial haemorrhage				stroke															History		1	90.history of stroke nos																	1
+39403	G683.00	sequelae of cerebral infarction				stroke															History		1	90.history of stroke nos																	1
+51138	G68W.00	sequelae/other + unspecified cerebrovascular diseases				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+6228	G68X.00	sequelae of stroke,not specfd as h'morrhage or infarction				stroke															History		1	90.history of stroke nos																	1
+40758	G6W..00	cereb infarct due unsp occlus/stenos precerebr arteries				stroke															Diagnosis		1	10.ischaemic stroke																	1
+33543	G6X..00	cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs				stroke															Diagnosis		1	10.ischaemic stroke																	1
+51311	G6y..00	other specified cerebrovascular disease				cad				CAD	Diagnosis	Not specific																													1
+10062	G6z..00	cerebrovascular disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+19155	G700.11	aorto-iliac disease				pvd																																		Diagnosis	1
+14797	G702.00	extremity artery atheroma				pvd																																		Diagnosis	1
+16260	G702z00	extremity artery atheroma nos				pvd																																		Diagnosis	1
+114606	G729.00	aneurysm and dissection of precerebral artery				stroke															Possible		1	21.haemorrhagic stroke intracerebral																	1
+5943	G73..00	other peripheral vascular disease				pvd																																		Diagnosis	1
+5702	G73..11	peripheral ischaemic vascular disease				pvd																																		Diagnosis	1
+1826	G73..12	ischaemia of legs				pvd																																		Diagnosis	1
+6827	G73..13	peripheral ischaemia				pvd																																		Diagnosis	1
+34638	G731.00	thromboangiitis obliterans				pvd																																		Diagnosis	1
+23497	G731000	buerger's disease				pvd																																		Diagnosis	1
+67401	G731z00	thromboangiitis obliterans nos				pvd																																		Diagnosis	1
+9204	G732.00	peripheral gangrene				pvd																																		Diagnosis	1
+5414	G732000	gangrene of toe				pvd																																		Diagnosis	1
+12735	G732100	gangrene of foot				pvd																																		Diagnosis	1
+98174	G733.00	ischaemic foot				pvd																																		Diagnosis	1
+105317	G734.00	peripheral arterial disease				pvd																																		Diagnosis	1
+38907	G73y.00	other specified peripheral vascular disease				pvd																																		Diagnosis	1
+34152	G73y000	diabetic peripheral angiopathy				pvd																																		Diagnosis	1
+23871	G73y100	peripheral angiopathic disease ec nos				pvd																																		Diagnosis	1
+4317	G73y200	acrocyanosis				pvd																																		Diagnosis	1
+22834	G73y400	acroparaesthesia - schultze's type				pvd																																		Diagnosis	1
+25954	G73y500	acroparaesthesia - nothnagel's type				pvd																																		Diagnosis	1
+68698	G73y511	nothnagel's vasomotor acroparaesthesia				pvd																																		Diagnosis	1
+3715	G73y600	acroparaesthesia - unspecified				pvd																																		Diagnosis	1
+15272	G73y700	erythrocyanosis				pvd																																		Diagnosis	1
+10500	G73y800	erythromelalgia				pvd																																		Diagnosis	1
+4325	G73yz00	other specified peripheral vascular disease nos				pvd																																		Diagnosis	1
+3530	G73z.00	peripheral vascular disease nos				pvd																																		Diagnosis	1
+1517	G73z000	intermittent claudication				pvd																																		Diagnosis	1
+6853	G73z011	claudication				pvd																																		Diagnosis	1
+101866	G73z012	vascular claudication				pvd																																		Diagnosis	1
+2760	G73zz00	peripheral vascular disease nos				pvd																																		Diagnosis	1
+5650	G740.12	aortoiliac obstruction				pvd																																		Diagnosis	1
+15302	G742z00	peripheral arterial embolism and thrombosis nos				pvd																																		Diagnosis	1
+36422	G8...00	vein, lymphatic and circulatory diseases nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+3576	G801.00	deep vein phlebitis and thrombophlebitis of the leg				vte																			1																1
+824	G801.11	deep vein thrombosis				dvt																				1	2.DVT other/NOS	Diagnosis													1
+25478	G801.12	deep vein thrombosis, leg				dvt																				1	3. DVT legs	Diagnosis													1
+3392	G801.13	dvt - deep vein thrombosis				dvt																				1	2.DVT other/NOS	Diagnosis													1
+15382	G801600	thrombophlebitis of the femoral vein				vte																			1																1
+55661	G801700	thrombophlebitis of the popliteal vein				dvt																				1	3. DVT legs	Diagnosis													1
+95077	G801800	thrombophlebitis of the anterior tibial vein				vte																			1																1
+106482	G801900	thrombophlebitis of the dorsalis pedis vein				dvt																				1	2.DVT other/NOS	Diagnosis													1
+61760	G801A00	thrombophlebitis of the posterior tibial vein				vte																			1																1
+32002	G801B00	deep vein thrombophlebitis of the leg unspecified				dvt																				1	3. DVT legs	Diagnosis													1
+42506	G801C00	deep vein thrombosis of leg related to air travel				vte																			1																1
+22038	G801D00	deep vein thrombosis of lower limb				dvt																				1	2.DVT other/NOS	Diagnosis													1
+48920	G801E00	deep vein thrombosis of leg related to intravenous drug use				dvt																				1	3. DVT legs	Diagnosis													1
+98526	G801F00	deep vein thrombosis of peroneal vein				dvt																				1	3. DVT legs	Diagnosis													1
+104342	G801G00	recurrent deep vein thrombosis				dvt																				1	2.DVT other/NOS	Diagnosis													1
+110542	G801H00	unprovoked deep vein thrombosis				vte																			1																1
+110449	G801J00	provoked deep vein thrombosis				dvt																				1	2.DVT other/NOS	Diagnosis													1
+27284	G801z00	deep vein phlebitis and thrombophlebitis of the leg nos				dvt																				1	3. DVT legs	Diagnosis													1
+38099	G80y.11	phlebitis and/or thrombophlebitis of iliac vein				vte																			1																1
+58166	G80y400	thrombophlebitis of the common iliac vein				dvt																				1	2.DVT other/NOS	Diagnosis													1
+94496	G80y500	thrombophlebitis of the internal iliac vein				dvt																				1	2.DVT other/NOS	Diagnosis													1
+58023	G80y600	thrombophlebitis of the external iliac vein				vte																			1																1
+91282	G80y700	thrombophlebitis of the iliac vein unspecified				dvt																				1	2.DVT other/NOS	Diagnosis													1
+70467	G80y800	phlebitis and thrombophlebitis of the iliac vein nos				vte																			1																1
+8769	G81..00	portal vein thrombosis				dvt																				1	2.DVT other/NOS	Diagnosis													1
+57100	G820.11	hepatic vein thrombosis				dvt																				1	2.DVT other/NOS	Diagnosis													1
+43555	G822.00	embolism and thrombosis of the vena cava				vte																			1																1
+97808	G822000	thrombosis of inferior vena cava				dvt																				1	2.DVT other/NOS	Diagnosis													1
+15191	G8y..00	other specified vein, lymphatic or other circulatory disease				cad				CAD	Diagnosis	Not specific																													1
+36323	G8z..00	vein, lymphatic and other circulatory diseases nos				cad				CAD	Diagnosis	Not specific																													1
+107462	GA...00	rheumatic heart disease				cad				CAD	Diagnosis	Not specific																													1
+113022	Gy20.00	thrombosis of dialysis arteriovenous graft				dvt																				1	2.DVT other/NOS	Diagnosis													1
+64876	Gyu..00	[x]additional circulatory system disease classificatn terms				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+100051	Gyu0000	[x]other acute rheumatic heart disease				cad				CAD	Diagnosis	Not specific																													1
+113198	Gyu1400	[x]other specified rheumatic heart diseases				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+52517	Gyu3.00	[x]ischaemic heart diseases				cad				CAD	Diagnosis	Not specific																													1
+39546	Gyu3000	[x]other forms of angina pectoris				angina	Angina	Stable angina	Diagnosis																																1
+113358	Gyu3100	[x]other current complicatns following acute myocard infarct				mi							1	History of																											1
+68401	Gyu3200	[x]other forms of acute ischaemic heart disease				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+47637	Gyu3300	[x]other forms of chronic ischaemic heart disease				cad				CAD	Diagnosis	Not specific																													1
+96838	Gyu3400	[x]acute transmural myocardial infarction of unspecif site				cad				CAD	Diagnosis	MI																													1
+109035	Gyu3500	[x]subsequent myocardial infarction of other sites				mi							1	Myocardial infarction																											1
+99991	Gyu3600	[x]subsequent myocardial infarction of unspecified site				cad				CAD	Diagnosis	MI																													1
+95488	Gyu4.00	[x]pulmon heart disease & diseases of pulmonary circulation				cad				CAD	Diagnosis	Not specific																													1
+110634	Gyu4000	[x]other specified pulmonary heart diseases				cad				CAD	Diagnosis	Not specific																													1
+68979	Gyu5.00	[x]other forms of heart disease				cad				CAD	Diagnosis	Not specific																													1
+100907	Gyu5000	[x]other forms of acute pericarditis				pericarditis																												Pericarditis	3. Acute pericarditis - NOS	Diagnosis					1
+112442	Gyu5200	[x]pericarditis in bacterial diseases classified elsewhere				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+108258	Gyu5400	[x]pericarditis in other diseases classified elsewhere				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+70648	Gyu5M00	[x]other hypertrophic cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Hypertrophic cardiomyopathy	Diagnosis								1
+92266	Gyu5N00	[x]other restrictive cardiomyopathy				cardiomyopathy																									Cardiomyopathy	Restrictive cardiomyopathy	Diagnosis								1
+97617	Gyu5P00	[x]other cardiomyopathies				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+98634	Gyu5R00	[x]cardiomyopathy in metabolic diseases ce				cardiomyopathy																									Cardiomyopathy	Cardiomyopathy NOS	Diagnosis								1
+53893	Gyu5a00	[x]other specified cardiac arrhythmias	arrhythmia	Arrhythmia NOS	Diagnosis	arrhythmia																																			1
+99051	Gyu5g00	[x]cardiovascular disease, unspecified				cad				CAD	Diagnosis	Not specific																													1
+73901	Gyu6.00	[x]cerebrovascular diseases				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+108668	Gyu6000	[x]subarachnoid haemorrhage from other intracranial arteries				stroke															Diagnosis		1	22.haemorrhagic stroke subarachnoid																	1
+53810	Gyu6200	[x]other intracerebral haemorrhage				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+91627	Gyu6300	[x]cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs				stroke															Diagnosis		1	10.ischaemic stroke																	1
+53745	Gyu6400	[x]other cerebral infarction				stroke															Diagnosis		1	10.ischaemic stroke																	1
+111096	Gyu6700	[x]other specified cerebrovascular diseases				cad				CAD	Diagnosis	Not specific																													1
+99367	Gyu6A00	[x]other cerebrovascular disorders in diseases ce				cad				CAD	Diagnosis	Not specific																													1
+114678	Gyu6B00	[x]sequelae of other nontraumatic intracranial haemorrhage				stroke															History		1	90.history of stroke nos																	1
+108630	Gyu6E00	[x]subarachnoid haemorrh from intracranial artery, unspecif				stroke															Diagnosis		1	22.haemorrhagic stroke subarachnoid																	1
+96630	Gyu6F00	[x]intracerebral haemorrhage in hemisphere, unspecified				stroke															Diagnosis		1	21.haemorrhagic stroke intracerebral																	1
+94482	Gyu6G00	[x]cereb infarct due unsp occlus/stenos precerebr arteries				stroke															Diagnosis		1	10.ischaemic stroke																	1
+73961	Gyu7400	[x]other specified peripheral vascular diseases				pvd																																		Diagnosis	1
+116085	Gyu7A00	[x]peripheral angiopathy in diseases classified elsewhere				pvd																																		Diagnosis	1
+101898	Gyu9500	[x]other specifd disorders/circulatory system in diseases ce				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+15736	Gz...00	circulatory system disease nos				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+30214	H54..00	pulmonary congestion and hypostasis				hf															Possible	Heart failure																			1
+1585	H541.00	pulmonary congestion				hf															Possible	Heart failure																			1
+26082	H541000	chronic pulmonary oedema				hf															Possible	Heart failure																			1
+7321	H541z00	pulmonary oedema nos				hf															Possible	Heart failure																			1
+61229	H54z.00	pulmonary congestion and hypostasis nos				hf															Possible	Heart failure																			1
+558	H584.00	acute pulmonary oedema unspecified				hf															Possible	Heart failure																			1
+5293	H584z00	acute pulmonary oedema nos				hf															Possible	Heart failure																			1
+65000	H585.00	trauma and post-operative pulmonary insufficiency				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+96754	H585200	pulmonary insufficiency following trauma				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+114150	H585z00	trauma and post-operative pulmonary insufficiency nos				vhd																															1	3.Tricuspid valve disease	Diagnosis		1
+54205	J420200	thrombus of the superior mesenteric veins				dvt																				1	2.DVT other/NOS	Diagnosis													1
+67006	L096400	pulmonary embolism following abortive pregnancy				vte																			1																1
+112120	L09y200	cardiac failure following abortive pregnancy				hf															Diagnosis	Heart failure																			1
+47607	L440.11	cva - cerebrovascular accident in the puerperium				stroke															Diagnosis		1	30.stroke nos																	1
+56279	L440.12	stroke in the puerperium				stroke															Diagnosis		1	30.stroke nos																	1
+6308	M271.12	ischaemic leg ulcer				pvd																																		Diagnosis	1
+24327	M271000	ischaemic ulcer diabetic foot				pvd																																		Diagnosis	1
+11624	M271300	arterial leg ulcer				pvd																																		Diagnosis	1
+8801	M271400	mixed venous and arterial leg ulcer				pvd																																		Diagnosis	1
+11920	N000400	systemic lupus erythematosus with pericarditis				pericarditis																												Pericarditis	1. Pericarditis NOS	Diagnosis					1
+23754	P5...12	congenital heart disease, septal and bulbar anomalies				nonspecificcvd													1.CVD - non-specific	Diagnosis																					1
+6886	P63..00	congenital aortic valve stenosis				vhd																															1	1.Aortic valve disease	Diagnosis		1
+8636	P64..00	congenital aortic valve insufficiency				vhd																															1	1.Aortic valve disease	Diagnosis		1
+58734	P640.00	congenital aortic valve insufficiency, unspecified				vhd																															1	1.Aortic valve disease	Diagnosis		1
+6843	P64z.00	congenital aortic valve insufficiency nos				vhd																															1	1.Aortic valve disease	Diagnosis		1
+61651	P66..00	congenital mitral insufficiency				vhd																															1	2.Mitral valve disease	Diagnosis		1
+89256	P68..00	congenital heart disease				cad				CAD	Diagnosis	Not specific																													1
+101592	P7yz.00	other cardiovascular system anomaly nos				nonspecificcvd													1.CVD - non-specific	Possible																					1
+65499	P7yzz00	other cardiovascular system anomaly nos				nonspecificcvd													1.CVD - non-specific	Possible																					1
+105624	Pyu2B00	[x]oth specified cong malform of peripheral vascular system				pvd																																		Diagnosis	1
+104012	Q31y400	perinatal acrocyanosis				pvd																																		Diagnosis	1
+20822	Q48y100	congenital cardiac failure				hf															Diagnosis	Heart failure																			1
+24594	R05..00	[d]cardiovascular system symptoms				nonspecificcvd													1.CVD - non-specific	Possible																					1
+1501	R050.00	[d]tachycardia, unspecified	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+93387	R050.12	[d]postural orthostatic tachycardia syndrome (pots)	arrhythmia	Tachycardia	Diagnosis	arrhythmia																																			1
+4789	R051.00	[d]palpitations	arrhythmia	Palpitations	Diagnosis	arrhythmia																																			1
+15998	R051z00	[d]palpitations nos	arrhythmia	Palpitations	Diagnosis	arrhythmia																																			1
+53634	R054200	[d]gangrene of toe in diabetic				pvd																																		Diagnosis	1
+31053	R054300	[d]widespread diabetic foot gangrene				pvd																																		Diagnosis	1
+14796	R055000	[d]failure of peripheral circulation				pvd																																		Diagnosis	1
+30484	R055011	[d]peripheral circulatory failure				pvd																																		Diagnosis	1
+8061	R059.00	[d]sinus bradycardia	arrhythmia	Bradycardia	Diagnosis	arrhythmia																																			1
+3115	R05W.00	[d] bradycardia, unspecified	arrhythmia	Bradycardia	Diagnosis	arrhythmia																																			1
+52175	R05z.00	[d]other cardiovascular symptoms				nonspecificcvd													1.CVD - non-specific	Possible																					1
+15807	R05zz00	[d]cardiovascular symptoms nos				nonspecificcvd													1.CVD - non-specific	Possible																					1
+52423	Ryu0600	[x]bradycardia, unspecified	arrhythmia	Bradycardia	Diagnosis	arrhythmia																																			1
+12734	SP07600	coronary artery bypass graft occlusion				cad				CAD	Diagnosis	Revascularisation																													1
+72435	SP11000	cardiac arrest as a complication of care				cad				CAD	Diagnosis	SCA																													1
+66306	SP11111	heart failure as a complication of care				hf															Diagnosis	Heart failure																			1
+1224	SP12200	post operative deep vein thrombosis				dvt																				1	2.DVT other/NOS	Diagnosis													1
+42248	ZLEP.00	discharge from stroke serv				stroke															History		1	90.history of stroke nos																	1
+26242	ZRad.00	new york heart assoc classification heart failure symptoms				hf															Diagnosis	Heart failure																			1
+27741	ZV12500	[v]personal history of circulatory system disease				cad				CAD	History	Not specific																													1
+19348	ZV12511	[v]personal history of stroke				stroke															History		1	90.history of stroke nos																	1
+7138	ZV12512	[v]personal history of cerebrovascular accident (cva)				stroke															History		1	90.history of stroke nos																	1
+19562	ZV12800	[v] personal history deep vein thrombosis				vte																			1																1
+17847	ZV12811	[v] personal history dvt- deep vein thrombosis				dvt																				1	90. History of DVT/PE	History													1
+16976	ZV12900	[v] personal history of pulmonary embolism				pulmonaryembolism																							1	History											1
+18913	ZV45700	[v]presence of aortocoronary bypass graft				cad				CAD	Diagnosis	Revascularisation																													1
+18643	ZV45800	[v]presence of coronary angioplasty implant and graft				revascularisation											Revascularisation	Possible																							1
+5030	ZV45K00	[v]presence of coronary artery bypass graft				revascularisation											Revascularisation	Diagnosis																							1
+5674	ZV45K11	[v]presence of coronary artery bypass graft - cabg				cad				CAD	Diagnosis	Revascularisation																													1
+12541	ZV71900	[v]observation for suspected myocardial infarction				mi							1	Possible MI																											1

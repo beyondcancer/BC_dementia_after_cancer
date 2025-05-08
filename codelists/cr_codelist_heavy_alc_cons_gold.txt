@@ -1,0 +1,169 @@
+medcode	readcode	readterm	certlevel
+8030	ZV6D600	[v]alcohol abuse counselling and surveillance	1
+8388	ZV57A00	[v]alcohol rehabilitation	1
+16587	ZV11311	[v]problems related to lifestyle alcohol use	1
+9508	Eu10011	[x]acute alcoholic drunkenness	1
+28780	Eu10211	[x]alcohol addiction	1
+73876	U60H300	[x]alcohol deterrents caus adverse effects in therapeut use	1
+32927	Eu10800	[x]alcohol withdrawal-induced seizure	1
+26323	Eu10711	[x]alcoholic dementia nos	1
+6467	Eu10511	[x]alcoholic hallucinosis	1
+65932	Eu10512	[x]alcoholic jealousy	1
+30162	Eu10513	[x]alcoholic paranoia	1
+17607	Eu10514	[x]alcoholic psychosis nos	1
+37691	Eu10712	[x]chronic alcoholic brain syndrome	1
+5758	Eu10212	[x]chronic alcoholism	1
+17259	Eu10411	[x]delirium tremens, alcohol induced	1
+39738	U813.00	[x]evid alcoh invl determ by levl intox very sev alcoh intox	1
+73480	U811.00	[x]evid alcoh invol determ by level of intox mod alcoh intox	1
+44686	U812.00	[x]evid alcoh invol determ by level of intox sev alcoh intox	1
+105273	U810.00	[x]evid alcoh invol determ by levl of intox mild alcoh intox	1
+103698	U80z.00	[x]evid alcoh invol detrm by pres alcoh in bld levl not spec	1
+39726	U808.00	[x]eviden alcoh involv blood alcoh level 240mg/100ml or more	1
+54504	U805.00	[x]eviden of alcoh involv blood alcoh level 100-119mg/100ml	1
+32454	U806.00	[x]eviden of alcoh involv blood alcoh level 120-199mg/100ml	1
+47907	U807.00	[x]eviden of alcoh involv blood alcoh level 200-239mg/100ml	1
+57202	U801.00	[x]eviden of alcohl involv blood alcohl level 20-39mg/100ml	1
+59079	U802.00	[x]eviden of alcohl involv blood alcohl level 40-59mg/100ml	1
+57242	U803.00	[x]eviden of alcohl involv blood alcohl level 60-79mg/100ml	1
+53428	U804.00	[x]eviden of alcohl involv blood alcohl level 80-99mg/100ml	1
+12950	U800.00	[x]eviden of alcohl involv blood alcohl level <20 mg/100 ml	1
+11670	Eu10611	[x]korsakov's psychosis, alcohol induced	1
+62000	Eu10700	[x]men & behav dis due alcoh: resid & late-onset psychot dis	1
+64101	Eu10400	[x]men & behav dis due alcohl: withdrawl state with delirium	1
+45169	Eu10y00	[x]men & behav dis due to use alcohol: oth men & behav dis	1
+64389	Eu10z00	[x]ment & behav dis due use alcohol: unsp ment & behav dis	1
+44299	Eu10000	[x]mental & behav dis due to use alcohol: acute intoxication	1
+12353	Eu10500	[x]mental & behav dis due to use alcohol: psychotic disorder	1
+39799	Eu10600	[x]mental and behav dis due to use alcohol: amnesic syndrome	1
+39327	Eu10200	[x]mental and behav dis due to use alcohol: dependence syndr	1
+20514	Eu10300	[x]mental and behav dis due to use alcohol: withdrawal state	1
+21879	Eu10100	[x]mental and behav dis due to use of alcohol: harmful use	1
+5611	Eu10.00	[x]mental and behavioural disorders due to use of alcohol	1
+95410	SyuG000	[x]toxic effect of other alcohols	1
+3216	J611.00	acute alcoholic hepatitis	1
+5740	E230.00	acute alcoholic intoxication in alcoholism	1
+36296	E230z00	acute alcoholic intoxication in alcoholism nos	1
+40530	E230000	acute alcoholic intoxication, unspecified, in alcoholism	1
+21650	8H35.00	admitted to alcohol detoxification centre	1
+11140	ZG23100	advice on alcohol consumption	1
+102564	8CAM000	advised to abstain from alcohol consumption	1
+97309	8CAv.00	advised to contact primary care alcohol worker	1
+32964	66e0.00	alcohol abuse monitoring	1
+20762	E011.00	alcohol amnestic syndrome	1
+41920	E011z00	alcohol amnestic syndrome nos	1
+35330	9k11.00	alcohol consumption counselling	1
+47123	9k14.00	alcohol counselling by other agencies	1
+2084	E23..00	alcohol dependence syndrome	1
+6169	E23z.00	alcohol dependence syndrome nos	1
+57714	E230.11	alcohol dependence with acute alcoholic intoxication	1
+41983	Z191.00	alcohol detoxification	1
+2083	8BA8.00	alcohol detoxification	1
+12442	66e..00	alcohol disorder monitoring	1
+110494	8BAu.00	alcohol harm reduction programme	1
+38061	1B1c.00	alcohol induced hallucinations	1
+12982	136K.00	alcohol intake above recommended sensible limits	1
+94670	136W.00	alcohol misuse	1
+63529	9k12.00	alcohol misuse - enhanced service completed	1
+11740	9k1..00	alcohol misuse - enhanced services administration	1
+1399	E23..12	alcohol problem drinking	1
+95181	Z191211	alcohol reduction programme	1
+115844	8BAw.00	alcohol twelve step programme	1
+16225	E010.00	alcohol withdrawal delirium	1
+25110	E013.00	alcohol withdrawal hallucinosis	1
+46677	Z191100	alcohol withdrawal regime	1
+2082	E01y000	alcohol withdrawal syndrome	1
+104611	J670800	alcohol-induced acute pancreatitis	1
+24984	J671000	alcohol-induced chronic pancreatitis	1
+30604	F25B.00	alcohol-induced epilepsy	1
+65754	C150500	alcohol-induced pseudo-cushing's syndrome	1
+4915	G555.00	alcoholic cardiomyopathy	1
+4743	J612.00	alcoholic cirrhosis of liver	1
+27342	E012.11	alcoholic dementia nos	1
+36748	F11x011	alcoholic encephalopathy	1
+10691	J610.00	alcoholic fatty liver	1
+21713	J612000	alcoholic fibrosis and sclerosis of liver	1
+4506	J153.00	alcoholic gastritis	1
+17330	J613000	alcoholic hepatic failure	1
+7943	J617.00	alcoholic hepatitis	1
+7885	J613.00	alcoholic liver damage unspecified	1
+31742	F394100	alcoholic myopathy	1
+30404	E015.00	alcoholic paranoia	1
+2925	F375.00	alcoholic polyneuropathy	1
+16237	E01..00	alcoholic psychoses	1
+67651	E01z.00	alcoholic psychosis nos	1
+18156	13Y8.00	alcoholics anonymous	1
+2081	E23..11	alcoholism	1
+30460	Z4B1.00	alcoholism counselling	1
+29691	8G32.00	aversion therapy - alcoholism	1
+100989	4I91.11	breath alcohol level	1
+96053	9k1A.00	brief intervention for excessive alcohol consumptn completed	1
+97261	8IAF.00	brief intervention for excessive alcohol consumptn declined	1
+63457	ZR3f.11	cdp - comprehensive drinker profile	1
+33839	F144000	cerebellar ataxia due to alcoholism	1
+47555	F11x000	cerebral degeneration due to alcoholism	1
+37946	E012000	chronic alcoholic brain syndrome	1
+7602	J617000	chronic alcoholic hepatitis	1
+31443	E231.00	chronic alcoholism	1
+33635	E231z00	chronic alcoholism nos	1
+61750	ZR3f.00	comprehensive drinker profile	1
+56947	E230100	continuous acute alcoholic intoxication in alcoholism	1
+24064	E231100	continuous chronic alcoholism	1
+110671	Z191300	controlled drinking regime	1
+105144	67K6.00	cycle of change stage, alcohol	1
+97680	8IAJ.00	declined referral to specialist alcohol treatment service	1
+1476	E010.12	delirium tremens	1
+56410	7P22100	delivery of rehabilitation for alcohol addiction	1
+84218	13ZY.00	disqualified from driving due to excess alcohol	1
+20407	E014.11	drunkenness - pathological	1
+12271	E250.11	drunkenness nos	1
+22277	E010.11	dts - delirium tremens	1
+109701	9Nz9.00	emergency dept attendanc related to personl alcohl consumptn	1
+21624	E230200	episodic acute alcoholic intoxication in alcoholism	1
+26106	E231200	episodic chronic alcoholism	1
+102247	8IAt.00	extended interven for excessive alcohol consumption declined	1
+96054	9k1B.00	extended intervention for excessive alcohol consumptn complt	1
+30695	136T.00	harmful alcohol use	1
+19494	136S.00	hazardous alcohol use	1
+8999	136P.00	heavy drinker	1
+1618	1365.00	heavy drinker - 7-9u/day	1
+102448	136c.00	higher risk drinking	1
+109675	9EVD.00	hospital alcohol liaison team report received	1
+109800	9NzA.00	hospital attendance related to personal alcohol consumption	1
+108644	9NJz.00	in-house alcohol detoxification	1
+4500	E011000	korsakov's alcoholic psychosis	1
+11106	E011100	korsakov's alcoholic psychosis with peripheral neuritis	1
+17266	63C7.00	maternal alcohol abuse	1
+7746	E250.00	nondependent alcohol abuse	1
+28150	E250z00	nondependent alcohol abuse nos	1
+23610	E250100	nondependent alcohol abuse, continuous	1
+12974	E250200	nondependent alcohol abuse, episodic	1
+669	E250000	nondependent alcohol abuse, unspecified	1
+10161	2577.11	o/e - alcoholic breath	1
+24735	2577.00	o/e - breath - alcohol smell	1
+8363	G852300	oesophageal varices in alcoholic cirrhosis of the liver	1
+54505	E012.00	other alcoholic dementia	1
+33670	E01y.00	other alcoholic psychosis	1
+68111	E01yz00	other alcoholic psychosis nos	1
+57939	E014.00	pathological alcohol intoxication	1
+61383	Z191200	planned reduction of alcohol consumption	1
+96993	8HkJ.00	referral to alcohol brief intervention service	1
+9849	8H7p.00	referral to community alcohol team	1
+103459	8IEA.00	referral to community alcohol team declined	1
+12554	8HHe.00	referral to community drug and alcohol team	1
+94553	8HkG.00	referral to specialist alcohol treatment service	1
+111683	Z9KF400	removal of alcohol	1
+62299	ZRk9.11	sadd - short alcohol dependence data	1
+62300	ZRk9.00	short alcohol dependence data	1
+12976	1369.00	suspect alcohol abuse - denied	1
+9489	9NN2.00	under care of community alcohol team	1
+43193	E231000	unspecified chronic alcoholism	1
+12984	136Q.00	very heavy drinker	1
+12977	1366.00	very heavy drinker - >9u/day	1
+18636	E011200	wernicke-korsakov syndrome	1
+110382	9NgzH00	withdrawn from alcohol detoxification programme	1
+7123	ZV11300	[v]personal history of alcoholism	4
+59574	E230300	acute alcoholic intoxication in remission, in alcoholism	4
+24485	E231300	chronic alcoholism in remission	4
+8430	1462.00	h/o: alcoholism	4
+31569	E250300	nondependent alcohol abuse in remission	4

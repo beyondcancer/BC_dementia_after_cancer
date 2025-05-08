@@ -1,0 +1,19 @@
+prodcodeid	drugsubstancename	termfromemis	heavy_alcohol_consumption_drugs
+4341000033115	acamprosate calcium	acamprosate 333mg gastro-resistant tablets	1
+189941000033110	acamprosate calcium	campral ec 333mg tablets (merck serono ltd)	1
+70641000033112	disulfiram	antabuse 200mg tablets (actavis uk ltd)	1
+465541000033117	disulfiram	disulfiram 200mg tablets	1
+12187741000033119	disulfiram	disulfiram 250mg tablets	1
+12105941000033111	disulfiram	disulfiram 500mg tablets	1
+8322841000033117	nalmefene hydrochloride	nalmefene 18mg tablets	1
+8322941000033113	nalmefene hydrochloride	selincro 18mg tablets (lundbeck ltd)	1
+7859341000033113	naltrexone hydrochloride	adepend 50mg tablets (aop orphan ltd)	1
+957041000033113	naltrexone hydrochloride	nalorex 50mg tablets (bristol-myers squibb pharmaceuticals ltd)	1
+6529841000033117	naltrexone hydrochloride	naltrexone 1.5mg/5ml oral solution	1
+9216441000033118	naltrexone hydrochloride	naltrexone 2mg capsules	1
+4654641000033119	naltrexone hydrochloride	naltrexone 3mg capsules	1
+4266941000033111	naltrexone hydrochloride	naltrexone 4.5mg capsules	1
+956641000033117	naltrexone hydrochloride	naltrexone 50mg tablets	1
+6012641000033116	naltrexone hydrochloride	naltrexone 5mg/5ml oral solution	1
+6012741000033113	naltrexone hydrochloride	naltrexone 5mg/5ml oral suspension	1
+4023141000033119	naltrexone hydrochloride	opizone 50mg tablets (genus pharmaceuticals ltd)	1

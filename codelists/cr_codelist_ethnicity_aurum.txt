@@ -1,0 +1,264 @@
+medcodeid	cleansedreadcode	term	ethnicity
+141431000000111	9i21.00	scottish - ethnic category 2001 census	1
+2486161000000112	9t10.00	white - northern ireland ethnic category 2011 census	1
+141451000000116	9i24.00	northern irish - ethnic category 2001 census	1
+1780408016	9S14.00	other white british ethnic group	1
+2487321000000116	9t21.00	white: other british - scotland ethnic category 2011 census	1
+1564391000006113	EMISNQBR12	british	1
+1968051000006116	9t00.00	white:eng/welsh/scot/ni/brit - england and wales 2011 census	1
+158341000000117	9i0..00	british or mixed british - ethnic category 2001 census	1
+459726019	9S10.00	white british	1
+196641000006110	134B.00	race: caucasian	1
+1780407014	9S13.00	white scottish	1
+1063981000000117	9i00.00	white british - ethnic category 2001 census	1
+2487281000000112	9t20.00	white: scottish - scotland ethnic category 2011 census	1
+157281000000117	9i20.00	english - ethnic category 2001 census	1
+142691000000116	9i25.00	ulster scots - ethnic category 2001 census	1
+6846371000006111	^ESCTCA684637	caucasian	1
+285925010	9S1..00	white	1
+141441000000119	9i22.00	welsh - ethnic category 2001 census	1
+141461000000118	9i23.00	cornish - ethnic category 2001 census	1
+2484671000000118	9t01.00	white: irish - england and wales ethnic category 2011 census	1
+2487361000000112	9t22.00	white: irish - scotland ethnic category 2011 census	1
+1564961000006118	EMISNQIR3	irish	1
+285978014	9SA9.00	irish (nmo)	1
+1064041000000111	9i10.00	white irish - ethnic category 2001 census	1
+141301000000110	9i1..00	irish - ethnic category 2001 census	1
+459727011	9S11.00	white irish	1
+937411000006115	9i2T.00	other white or white unspecified ethnic category 2001 census	1
+937311000006113	9i2H.00	commonwealth (russian) indep states - ethn categ 2001 census	1
+138201000000110	9i2F.00	polish - ethnic category 2001 census	1
+142791000000111	9i2S.00	other mixed white - ethnic category 2001 census	1
+138191000000113	9i2E.00	gypsy/romany - ethnic category 2001 census	1
+138231000000116	9i2K.00	albanian - ethnic category 2001 census	1
+713341000000111	13y6.00	british israelite	1
+459728018	9S12.00	other white ethnic group	1
+142741000000118	9i2J.00	kosovan - ethnic category 2001 census	1
+285987017	9SAC.00	other european (nmo)	1
+157991000000110	9i2N.00	serbian - ethnic category 2001 census	1
+411594011	9SAA.11	greek (nmo)	1
+937371000006116	9i2P.00	other republics former yugoslavia - ethnic categ 2001 census	1
+1968251000006113	9t11.00	irish traveller - northern ireland ethnic cat 2011 census	1
+138171000000114	9i2C.00	irish traveller - ethnic category 2001 census	1
+142721000000113	9i2A.00	turkish cypriot - ethnic category 2001 census	1
+1968081000006112	9t03.00	white: other white backgrd- eng+wales ethnic cat 2011 census	1
+142751000000115	9i2L.00	bosnian - ethnic category 2001 census	1
+2645811000000115	9TC	roma ethnic group	1
+937391000006115	9i2R.00	oth white european/european unsp/mixed european 2001 census	1
+1968461000006111	9t25.00	white: other white ethnic grp- scotland ethnic cat 2011 cens	1
+156921000000110	9i29.00	turkish - ethnic category 2001 census	1
+141661000000115	9i26.00	cypriot (part not stated) - ethnic category 2001 census	1
+411595012	9SAA.12	greek cypriot (nmo)	1
+142761000000117	9i2M.00	croatian - ethnic category 2001 census	1
+937301000006110	9i2G.00	baltic estonian/latvian/lithuanian - ethn categ 2001 census	1
+141311000000112	9i2..00	other white background - ethnic category 2001 census	1
+138181000000111	9i2D.00	traveller - ethnic category 2001 census	1
+158481000000115	9i2B.00	italian - ethnic category 2001 census	1
+142711000000119	9i28.00	greek cypriot - ethnic category 2001 census	1
+1968441000006112	9t23.00	white: gypsy/irish traveller - scotland ethnic cat 2011 cens	1
+142701000000116	9i27.00	greek - ethnic category 2001 census	1
+411597016	9SAB.12	turkish cypriot (nmo)	1
+2487481000000113	9t24.00	white: polish - scotland ethnic category 2011 census	1
+459786016	9SI..00	irish traveller	1
+405071018	9SAB.00	turkish/turkish cypriot (nmo)	1
+405070017	9SAA.00	greek/greek cypriot (nmo)	1
+411596013	9SAB.11	turkish (nmo)	1
+142781000000114	9i2Q.00	mixed irish and other white - ethnic category 2001 census	1
+1968071000006114	9t02.00	white: gypsy/irish traveller - eng+wales eth cat 2011 census	1
+141321000000118	9i3..00	white and black caribbean - ethnic category 2001 census	1
+460153018	9SB5.00	black caribbean and white	1
+1968091000006110	9t04.00	mixed: white+black caribbean - eng+wales eth cat 2011 census	1
+1968261000006110	9t12.00	mixed: white and black caribbean - ni ethnic cat 2011 census	1
+141331000000116	9i4..00	white and black african - ethnic category 2001 census	1
+460154012	9SB6.00	black african and white	1
+1968101000006116	9t05.00	mixed: white+black african - eng+wales eth cat 2011 census	1
+196611000006111	134L.00	race: afro-caucasian	1
+1968271000006115	9t13.00	mixed: white and black african - ni ethnic cat 2011 census	1
+141341000000113	9i5..00	white and asian - ethnic category 2001 census	1
+285991010	9SB2.00	other ethnic, asian/white orig	1
+1968111000006118	9t06.00	mixed: white+asian - eng+wales ethnic category 2011 census	1
+1968281000006117	9t14.00	mixed: white and asian - ni ethnic category 2011 census	1
+157291000000115	9i62.00	black and white - ethnic category 2001 census	1
+285992015	9SB3.00	other ethnic, mixed white orig	1
+4740401000006118	^ESCTOT474040	other ethnic, other mixed origin	1
+141471000000113	9i60.00	black and asian - ethnic category 2001 census	1
+4740341000006112	^ESCTOT474034	other ethnic, black/white origin	1
+937511000006119	9i65.00	other mixed or mixed unspecified ethnic category 2001 census	1
+459729014	ESCTMI5	mixed ethnic census group	1
+285993013	9SB4.00	other ethnic, other mixed orig	1
+1968291000006119	9t15.00	mixed: other mixed/multiple ethnic backgrd - ni 2011 census	1
+285952017	9S51.00	other black - black/white orig	1
+285990011	9SB1.00	other ethnic, black/white orig	1
+285953010	9S52.00	other black - black/asian orig	1
+141481000000110	9i61.00	black and chinese - ethnic category 2001 census	1
+285989019	9SB..00	other ethnic, mixed origin	1
+1968471000006116	9t26.00	mixed/multiple ethnic grps: any- scot ethnic cat 2011 census	1
+141491000000112	9i63.00	chinese and white - ethnic category 2001 census	1
+4740361000006111	^ESCTOT474036	other ethnic, asian/white origin	1
+158361000000116	9i64.00	asian and chinese - ethnic category 2001 census	1
+141351000000111	9i6..00	other mixed background - ethnic category 2001 census	1
+4740381000006118	^ESCTOT474038	other ethnic, mixed white origin	1
+781081000006113	9T1D.00	indian	1
+1968131000006112	9t08.00	asian/asian brit: indian - eng+wales ethnic cat 2011 census	1
+1968301000006118	9t16.00	asian or asian british: indian - ni ethnic cat 2011 census	1
+157271000000119	9i7..00	indian or british indian - ethnic category 2001 census	1
+1564921000006112	EMISNQIN16	indian	1
+285954016	9S6..00	indian	1
+1968491000006115	9t28.00	asian: indian, indian scot/indian brit- scotland 2011 census	1
+250228011	1347.00	indian origin	1
+1968141000006119	9t09.00	asian/asian british:pakistani- eng+wales eth cat 2011 census	1
+141361000000114	9i8..00	pakistani or british pakistani - ethnic category 2001 census	1
+285955015	9S7..00	pakistani	1
+1565441000006111	EMISNQPA32	pakistani	1
+1968311000006115	9t17.00	asian/asian british: pakistani - ni ethnic cat 2011 census	1
+196721000006111	134M.00	race: pakistani	1
+1968481000006118	9t27.00	asian: pakistani/pakistani scot/pakistani brit- scot 2011	1
+1564291000006119	EMISNQBA5	bangladeshi	1
+1968501000006111	9t29.00	bangladeshi, bangladeshi scot or bangladeshi brit- scot 2011	1
+196631000006117	134I.00	race: bangladeshi	1
+285956019	9S8..00	bangladeshi	1
+1968321000006111	9t18.00	asian/asian british: bangladeshi - ni ethnic cat 2011 census	1
+937541000006115	9i9..00	bangladeshi or british bangladeshi - ethn categ 2001 census	1
+1968151000006117	9t0A.00	asian/asian brit: bangladeshi- eng+wales eth cat 2011 census	1
+286020010	9T1E.00	other asian	1
+405069018	9SA6.00	e afric asian/indo-carib (nmo)	1
+141541000000115	9iA3.00	east african asian - ethnic category 2001 census	1
+141521000000110	9iA1.00	punjabi - ethnic category 2001 census	1
+141571000000114	9iA7.00	caribbean asian - ethnic category 2001 census	1
+250243013	134K.00	race: west indian	1
+1968341000006116	9t1A.00	asian/asian british: other asian - ni ethnic cat 2011 census	1
+141381000000117	9iA..00	other asian background - ethnic category 2001 census	1
+937651000006117	9iAA.00	other asian or asian unspecified ethnic category 2001 census	1
+411584018	9SA6.12	indo-caribbean (nmo)	1
+411583012	9SA6.11	east african asian (nmo)	1
+136081000000111	9iA4.00	sri lankan - ethnic category 2001 census	1
+1968171000006110	9t0C.00	asian/asian brit: other asian- eng+wales eth cat 2011 census	1
+141531000000112	9iA2.00	kashmiri - ethnic category 2001 census	1
+141511000000116	9iA9.00	mixed asian - ethnic category 2001 census	1
+250231012	134A.00	west indian origin	1
+285977016	9SA8.00	other asian (nmo)	1
+459784018	9SH..00	other asian ethnic group	1
+141551000000117	9iA5.00	tamil - ethnic category 2001 census	1
+157301000000116	9iA6.00	sinhalese - ethnic category 2001 census	1
+285976013	9SA7.00	indian sub-continent (nmo)	1
+1968521000006118	9t2B.00	asian: other asian group - scotland ethnic cat 2011 census	1
+250224013	1343.00	asian origin	1
+141561000000119	9iA8.00	british asian - ethnic category 2001 census	1
+412016016	2263.11	o/e - asian origin	1
+1968361000006117	9t1C.00	black/afri/carib/black brit: caribbean- ni eth cat 2011 cens	1
+1968551000006110	9t2E.00	carib/black: caribbean/carib scot/carib brit- scotland 2011	1
+154401000000118	9iB..00	caribbean - ethnic category 2001 census	1
+5516681000006114	^ESCTBL551668	black caribbean/west india/guyana	1
+514611000006111	9S2..00	black caribbean	1
+1968191000006111	9t0E.00	black/african/caribbn/black brit: caribbean - eng+wales 2011	1
+1564491000006115	EMISNQCE3	central african	1
+1968181000006113	9t0D.00	black/african/carib/black brit: african- eng+wales 2011 cens	1
+285943014	9S44.00	black - other african country	1
+285971015	9SA5.00	other african countries (nmo)	1
+4917081000006119	^ESCTCE491708	central african republic	1
+141391000000115	9iC..00	african - ethnic category 2001 census	1
+1968351000006119	9t1B.00	black/afri/carib/black brit: african- ni eth cat 2011 census	1
+250223019	1342.00	african origin	1
+1968531000006115	9t2C.00	african: african/african scot/african brit - scotland 2011	1
+1565711000006118	EMISNQSO9	south african	1
+1968541000006113	9t2D.00	african: any other african - scotland ethnic cat 2011 census	1
+30683015	9S3..00	black african	1
+453110019	9S42.13	black guyana	1
+459782019	9SG..00	other black ethnic group	1
+411574019	9S43.12	black arab	1
+158351000000119	9iD..00	other black background - ethnic category 2001 census	1
+411580010	9SA3.13	guyana (nmo)	1
+411578016	9SA3.11	caribbean island (nmo)	1
+285948017	9S46.00	black indian sub-continent	1
+285950013	9S48.00	black black - other	1
+196601000006113	134H.00	race: afro-caribbean	1
+285932018	9S41.00	black british	1
+453109012	9S42.12	black west indian	1
+411573013	9S43.11	black north african	1
+285931013	9S4..00	black, other, non-mixed origin	1
+141591000000113	9iD0.00	somali - ethnic category 2001 census	1
+405067016	9SA3.00	caribbean i./w.i./guyana (nmo)	1
+937731000006115	9iD4.00	other black or black unspecified ethnic category 2001 census	1
+141601000000119	9iD1.00	nigerian - ethnic category 2001 census	1
+405064011	9S42.00	black caribbean/w.i./guyana	1
+1968571000006117	9t2G.00	carib/black: any other black/caribbean grp - scotland 2011	1
+158371000000111	9iD3.00	mixed black - ethnic category 2001 census	1
+285951012	9S5..00	black - other, mixed	1
+285949013	9S47.00	black - other asian	1
+405065012	9S43.00	black n african/arab/iranian	1
+514651000006112	9S45.00	black e afric asia/indo-caribb	1
+285930014	9S42.11	black caribbean	1
+411576017	9S45.11	black east african asian	1
+459730016	ESCTBL5	black - ethnic group	1
+411577014	9S45.12	black indo-caribbean	1
+411575018	9S43.13	black iranian	1
+157311000000119	9iD2.00	black british - ethnic category 2001 census	1
+411579012	9SA3.12	west indian (nmo)	1
+141401000000117	9iE..00	chinese - ethnic category 2001 census	1
+1968161000006115	9t0B.00	asian/asian brit: chinese - eng+wales ethnic cat 2011 census	1
+1968331000006114	9t19.00	asian/asian british: chinese - ni ethnic cat 2011 census	1
+1968511000006114	9t2A.00	asian: chinese - scotland ethnic category 2011 census	1
+56590016	9S9..00	chinese	1
+1968581000006119	9t2H.00	other ethnic grp: arab/arab scot/arab british- scotland 2011	1
+1968211000006112	9t0G.00	other ethnic group: arab - eng+wales ethnic cat 2011 census	1
+4740241000006117	^ESCTBR474024	british ethnic minority specified (nmo)	1
+411581014	9SA4.11	north african arab (nmo)	1
+141631000000113	9iF1.00	japanese - ethnic category 2001 census	1
+1968591000006116	9t2J.00	other ethnic grp: any other ethnic grp- scotland 2011 census	1
+138261000000114	9iFD.00	iranian - ethnic category 2001 census	1
+286022019	9T1Z.00	new zealand ethnic group nos	1
+286018012	9T1B.00	south east asian	1
+937871000006114	9iFB.00	mid east (excl israeli, iranian & arab) - eth cat 2001 cens	1
+141411000000115	9iF..00	other - ethnic category 2001 census	1
+456650013	9SC..00	vietnamese	1
+286017019	9T1A.00	other pacific ethnic group	1
+138241000000113	9iF6.00	jewish - ethnic category 2001 census	1
+142901000000119	9iFK.00	any other group - ethnic category 2001 census	1
+285959014	9SA1.00	brit. ethnic minor. spec.(nmo)	1
+1968221000006116	9t0H.00	other ethnic: any other grp - eng+wales eth cat 2011 census	1
+142881000000117	9iF4.00	buddhist - ethnic category 2001 census	1
+141651000000118	9iF3.00	malaysian - ethnic category 2001 census	1
+1968391000006113	9t1F.00	other ethnic group: any other grp- ni ethnic cat 2011 census	1
+937941000006111	9iFJ.00	mauritian/seychellois/maldivian/st helena eth cat 2001census	1
+1968381000006110	9t1E.00	other ethnic group: arab - ni ethnic category 2011 census	1
+405068014	9SA4.00	n african arab/iranian (nmo)	1
+138271000000119	9iFH.00	south and central american - ethnic category 2001 census	1
+285988010	9SAD.00	other ethnic nec (nmo)	1
+141641000000116	9iF2.00	filipino - ethnic category 2001 census	1
+142841000000113	9iFE.00	kurdish - ethnic category 2001 census	1
+138251000000111	9iF9.00	arab - ethnic category 2001 census	1
+4740261000006118	^ESCTBR474026	british ethnic minority unspecified (nmo)	1
+142811000000112	9iFA.00	north african - ethnic category 2001 census	1
+142851000000111	9iFF.00	moroccan - ethnic category 2001 census	1
+411582019	9SA4.12	iranian (nmo)	1
+142891000000115	9iF8.00	sikh - ethnic category 2001 census	1
+142861000000114	9iFG.00	latin american - ethnic category 2001 census	1
+141621000000111	9iF0.00	vietnamese - ethnic category 2001 census	1
+142831000000116	9iFC.00	israeli - ethnic category 2001 census	1
+138281000000117	9iF7.00	muslim - ethnic category 2001 census	1
+286021014	9T1Y.00	other new zealand ethnic group	1
+285958018	9SA..00	other ethnic non-mixed (nmo)	1
+459785017	9SJ..00	other ethnic group	1
+285960016	9SA2.00	brit. ethnic minor. unsp (nmo)	1
+157351000000115	9iF5.00	hindu - ethnic category 2001 census	1
+6270391000006119	^ESCTET627039	ethnic groups (1991 census) (united kingdom)	1
+2484511000000112	9t0..00	ethnic category - 2011 census england and wales	1
+2484551000000111	9t1..00	ethnic category - 2011 census northern ireland	1
+253628018	226..11	o/e - ethnic origin	1
+286006015	9T1..00	new zealand ethnic groups	1
+649261000006110	9S...00	ethnic groups (census)	1
+286003011	9SZ..00	ethnic groups (census) nos	1
+141421000000114	9iG..00	ethnic category not stated - 2001 census	1
+6591911000006117	^ESCTET659191	ethnic groups	1
+2484471000000115	9t...00	ethnic category - 2011 census	1
+6591901000006115	^ESCTET659190	ethnicity	1
+6270381000006117	^ESCTET627038	ethnic groups (1991 census) (uk)	1
+141291000000111	9i...00	ethnic category - 2001 census	1
+4740421000006111	^ESCTET474042	ethnicity / related nationality data	1
+253627011	226..00	o/e - ethnic group	1
+2484591000000115	9t2..00	ethnic category - 2011 census scotland	1
+456651012	9SD..00	ethnic group not given - patient refused	1
+456652017	9SE..00	ethnic group not recorded	1
+253635014	226Z.00	o/e - ethnic group nos	1
+286005016	9T...00	ethnicity and other related nationality data	1
+6364801000006112	^ESCTET636480	ethnic category	1

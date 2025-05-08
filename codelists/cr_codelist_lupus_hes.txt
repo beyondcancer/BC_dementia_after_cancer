@@ -1,0 +1,10 @@
+code	alt_code	description	lupus
+L93	L93	Lupus erythematosus	1
+L93.0	L930	Discoid lupus erythematosus	1
+L93.1	L931	Subacute cutaneous lupus erythematosus	1
+L93.2	L932	Other local lupus erythematosus	1
+M32	M32	Systemic lupus erythematosus	1
+M32.0	M320	Drug-induced systemic lupus erythematosus	1
+M32.1	M321	Systemic lupus erythematosus with organ or system involvement	1
+M32.8	M328	Other forms of systemic lupus erythematosus	1
+M32.9	M329	Systemic lupus erythematosus, unspecified	1

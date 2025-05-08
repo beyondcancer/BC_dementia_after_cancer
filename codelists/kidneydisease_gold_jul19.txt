@@ -1,0 +1,233 @@
+medcode	readcode	readterm	ckd_4_5	dialysis	transplant	ckd_1_2	ckd_3_5	kidney_ppv	kidney_flu
+512	K05..00	chronic renal failure	1				1	1	1
+1803	K011.00	nephrotic syndrome with membranous glomerulonephritis	1				1	1	1
+2471	K01x100	nephrotic syndrome in diabetes mellitus	1				1	1	1
+2994	7L1A100	peritoneal dialysis		1				1	1
+2995	G760.00	acquired arteriovenous fistula		1				1	1
+2996	7L1A200	haemodialysis nec		1				1	1
+2997	7B00.00	transplantation of kidney			1			1	1
+2999	K01..00	nephrotic syndrome	1				1	1	1
+3205	7A60100	creation of arteriovenous fistula nec		1				1	1
+5504	7B00z00	transplantation of kidney nos			1			1	1
+5911	ZV42000	[v]kidney transplanted			1			1	1
+6712	K050.00	end stage renal failure	1				1	1	1
+8037	7L1B000	insertion of ambulatory peritoneal dialysis catheter		1				1	1
+8330	K0D..00	end-stage renal disease	1				1	1	1
+9765	7A61400	ligation of acquired arteriovenous fistula		1				1	1
+9840	K010.00	nephrotic syndrome with proliferative glomerulonephritis	1				1	1	1
+11553	SP08300	kidney transplant failure and rejection			1			1	1
+11745	7B00100	transplantation of kidney from live donor			1			1	1
+11773	7L1A.11	dialysis for renal failure		1				1	1
+12479	1Z13.00	chronic kidney disease stage 4	1				1	1	1
+12566	1Z12.00	chronic kidney disease stage 3					1		1
+12585	1Z14.00	chronic kidney disease stage 5	1				1	1	1
+12586	1Z11.00	chronic kidney disease stage 2				1			
+16929	D215.00	anaemia secondary to renal failure	1				1	1	1
+17253	8L50.00	renal transplant planned			1			1	1
+17365	K01B.00	nephrotic syndrome  diffuse crescentic glomerulonephritis	1				1	1	1
+18774	TB00111	renal transplant with complication, without blame			1			1	1
+18779	7A61100	repair of acquired arteriovenous fistula		1				1	1
+19316	K016.00	nephrotic syndrome  diffuse membranous glomerulonephritis	1				1	1	1
+20073	7L1A000	renal dialysis		1				1	1
+21947	K017.00	nephrotic syn difus mesangial prolifertiv glomerulonephritis	1				1	1	1
+21989	K019.00	nephrotic syn diffuse mesangiocapillary glomerulonephritis	1				1	1	1
+22252	ZV45100	[v]renal dialysis status		1				1	1
+22852	K015.00	nephrotic syndrome  focal and segmental glomerular lesions	1				1	1	1
+23773	7L1B100	removal of ambulatory peritoneal dialysis catheter		1				1	1
+23913	K014.00	nephrotic syndrome  minor glomerular abnormality	1				1	1	1
+24151	7A60.00	arteriovenous shunt		1				1	1
+24361	7B00200	transplantation of kidney from cadaver			1			1	1
+25394	D215000	anaemia secondary to chronic renal failure	1				1	1	1
+25521	7A60112	creation of brachial-cephalic fistula		1				1	1
+26860	G752000	goodpasture's syndrome	1				1	1	1
+26862	7B06300	exploration of renal transplant			1			1	1
+27427	K01z.00	nephrotic syndrome nos	1				1	1	1
+28158	TB11.00	kidney dialysis with complication  without blame		1				1	1
+28269	7A60111	creation of radial-cephalic fistula		1				1	1
+28684	G233.00	hypertensive heart and renal disease with renal failure	1				1	1	1
+29013	1Z10.00	chronic kidney disease stage 1				1			
+29634	K013.00	nephrotic syndrome with minimal change glomerulonephritis	1				1	1	1
+30709	7L1C000	insertion of temporary peritoneal dialysis catheter		1				1	1
+30756	7L1A500	continuous ambulatory peritoneal dialysis		1				1	1
+31478	7A60300	removal of infected arteriovenous shunt		1				1	1
+31549	7L1A.00	compensation for renal failure		1				1	1
+32423	G222.00	hypertensive renal disease with renal failure	1				1	1	1
+35921	TA22.00	failure of sterile precautions during perfusion		1				1	1
+36442	7L1B.11	placement ambulatory dialysis apparatus - compens renal fail		1				1	1
+40349	K013.11	lipoid nephrosis	1				1	1	1
+41285	K0A1200	rapid progres neph syn diffuse membranous glomerulonephritis	1				1	1	1
+46145	ZV56011	[v]aftercare involving renal dialysis nos		1				1	1
+47672	K01x400	nephrotic syndrome in systemic lupus erythematosus	1				1	1	1
+47922	K01x000	nephrotic syndrome in amyloidosis	1				1	1	1
+48022	7L1Ay00	other specified compensation for renal failure		1				1	1
+48057	K0B5.00	renal tubulo-interstitial disordrs in transplant rejectn	1				1	1	1
+48121	7B01500	transplant nephrectomy			1			1	1
+49028	14S2.00	h/o: kidney recipient			1			1	1
+50200	K0A1600	rapid progressive nephritic syndrome  dense deposit disease	1				1	1	1
+50472	K018.00	nephrotic syn difus endocapilary proliftv glomerulonephritis	1				1	1	1
+51039	7B01200	bilateral nephrectomy			1			1	1
+53852	K05..12	end stage renal failure	1				1	1	1
+53940	Kyu2100	[x]other chronic renal failure	1				1	1	1
+54844	U612200	[x]failure sterile precautions dur kidney dialys/other perf		1				1	1
+54990	TB00100	kidney transplant with complication, without blame			1			1	1
+55151	7B00000	autotransplant of kidney			1			1	1
+56760	7L1B.00	placement ambulatory apparatus compensation renal failure		1				1	1
+56987	K01A.00	nephrotic syndrome  dense deposit disease	1				1	1	1
+57926	K013.12	steroid sensitive nephrotic syndrome	1				1	1	1
+57987	G234.00	hyperten heart&renal dis+both(congestv)heart and renal fail	1				1	1	1
+58060	K0A1300	rpd prog neph syn df mesangial prolifratv glomerulonephritis	1				1	1	1
+58164	K033.00	rapidly progressive nephritis unspecified	1				1	1	1
+58618	7A60z00	arteriovenous shunt nos		1				1	1
+58750	K01x300	nephrotic syndrome in polyarteritis nodosa	1				1	1	1
+59194	7L1By00	placement ambulatory apparatus- compensate renal failure os		1				1	1
+60302	7A60600	creation of graft fistula for dialysis		1				1	1
+60743	ZV56.00	[v]aftercare involving intermittent dialysis		1				1	1
+61814	K0A0700	acute nephrotic syndrm diffuse crescentic glomerulonephritis	1				1	1	1
+62320	K0A1700	rapid progres nephritic syn df crescentic glomerulonephritis	1				1	1	1
+63063	7A60000	insertion of arteriovenous prosthesis		1				1	1
+63190	7A60200	attention to arteriovenous shunt		1				1	1
+63305	7A60500	thrombectomy of arteriovenous fistula		1				1	1
+63786	K01w.00	congenital nephrotic syndrome	1				1	1	1
+64636	7L1Az00	compensation for renal failure nos		1				1	1
+64828	7L1A600	peritoneal dialysis nec		1				1	1
+65064	K023.00	chronic rapidly progressive glomerulonephritis	1				1	1	1
+65089	7L1Cz00	placement other apparatus- compensate for renal failure nos		1				1	1
+65398	7A60y00	other specified arteriovenous shunt		1				1	1
+66705	7B00111	allotransplantation of kidney from live donor			1			1	1
+66714	TB11.11	renal dialysis with complication  without blame		1				1	1
+69266	TA22000	failure of sterile precautions during kidney dialysis		1				1	1
+69427	TA02z00	accid cut puncture perf h'ge - perfusion nos		1				1	1
+69760	ZVu3G00	[x]other dialysis		1				1	1
+70712	SP08011	det.ren.func.after ren.transpl			1			1	1
+70874	7B00y00	other specified transplantation of kidney			1			1	1
+71124	7L1A300	haemofiltration		1				1	1
+71174	K0A1.00	rapidly progressive nephritic syndrome	1				1	1	1
+72004	7B01511	excision of rejected transplanted kidney			1			1	1
+72303	K01w000	finnish nephrosis syndrome	1				1	1	1
+83513	7L1C.00	placement other apparatus for compensation for renal failure		1				1	1
+88597	7L1A400	automated peritoneal dialysis		1				1	1
+89924	7B00300	allotransplantation of kidney from cadaver, heart-beating			1			1	1
+90952	7B0F100	pre-transplantation of kidney work-up  recipient			1			1	1
+93366	7B0F.00	interventions associated with transplantation of kidney			1			1	1
+94373	K01y.00	nephrotic syndrome with other pathological kidney lesions	1				1	1	1
+94789	1Z17.00	chronic kidney disease stage 1 with proteinuria				1			
+94793	1Z1B.00	chronic kidney disease stage 3 with proteinuria					1		1
+94965	1Z15.00	chronic kidney disease stage 3a					1		1
+95121	1Z1A.00	chronic kidney disease stage 2 without proteinuria				1			
+95122	1Z1H.00	chronic kidney disease stage 4 with proteinuria	1				1	1	1
+95123	1Z1C.00	chronic kidney disease stage 3 without proteinuria					1		1
+95145	1Z1B.11	ckd stage 3 with proteinuria					1		1
+95146	1Z19.00	chronic kidney disease stage 2 with proteinuria				1			
+95175	1Z1E.00	chronic kidney disease stage 3a without proteinuria					1		1
+95176	1Z1E.11	ckd stage 3a without proteinuria					1		1
+95177	1Z1G.00	chronic kidney disease stage 3b without proteinuria					1		1
+95178	1Z1F.00	chronic kidney disease stage 3b with proteinuria					1		1
+95179	1Z16.00	chronic kidney disease stage 3b					1		1
+95180	1Z1F.11	ckd stage 3b with proteinuria					1		1
+95188	1Z1C.11	ckd stage 3 without proteinuria					1		1
+95405	1Z1L.00	chronic kidney disease stage 5 without proteinuria	1				1	1	1
+95406	1Z1J.00	chronic kidney disease stage 4 without proteinuria	1				1	1	1
+95408	1Z1D.00	chronic kidney disease stage 3a with proteinuria					1		1
+95508	1Z1K.00	chronic kidney disease stage 5 with proteinuria	1				1	1	1
+95571	1Z1D.11	ckd stage 3a with proteinuria					1		1
+95572	1Z18.00	chronic kidney disease stage 1 without proteinuria				1			
+96131	7A60400	banding of arteriovenous fistula		1				1	1
+96133	7B00400	allotransplantation kidney from cadaver, heart non-beating			1			1	1
+96184	TA02000	accid cut puncture perf h'ge - kidney dialysis		1				1	1
+96347	7A61900	ligation of arteriovenous dialysis fistula		1				1	1
+97587	1Z1J.11	ckd stage 4 without proteinuria	1				1	1	1
+97683	1Z1L.11	ckd stage 5 without proteinuria	1				1	1	1
+97734	K0A1100	rapid progres nephritic syn focal+segmental glomerulr lesion	1				1	1	1
+97978	1Z1A.11	ckd stage 2 without proteinuria				1			
+97979	1Z19.11	ckd stage 2 with proteinuria				1			
+97980	1Z17.11	ckd stage 1 with proteinuria				1			
+98364	7B00211	allotransplantation of kidney from cadaver			1			1	1
+99160	1Z1K.11	ckd stage 5 with proteinuria	1				1	1	1
+99201	K01x200	nephrotic syndrome in malaria	1				1	1	1
+99312	1Z1H.11	ckd stage 4 with proteinuria	1				1	1	1
+99644	K012.00	nephrotic syndrome+membranoproliferative glomerulonephritis	1				1	1	1
+100205	K0E..00	acute-on-chronic renal failure	1				1	1	1
+100235	7A61111	ligation of acquired arteriovenous fistula		1				1	1
+100633	1Z1G.11	ckd stage 3b without proteinuria					1		1
+100693	Kyu1C00	[x]renal tubulo-interstitial disorders/transplant rejection			1			1	1
+101756	7L1A011	thomas intravascular shunt for dialysis		1				1	1
+102210	7L1f000	extracorporeal albumin haemodialysis		1				1	1
+103429	7B0F300	post-transplantation of kidney examination, recipient			1			1	1
+104049	7B0Fz00	interventions associated with transplantation of kidney nos			1			1	1
+104050	7B0Fy00	os interventions associated with transplantation of kidney			1			1	1
+104201	SP08H00	acute rejection of renal transplant			1			1	1
+104586	7L1B200	flushing of peritoneal dialysis catheter		1				1	1
+104619	K053.00	chronic kidney disease stage 3					1		1
+104630	SP08G00	acute rejection of renal transplant - grade iii			1			1	1
+104905	SP08D00	acute-on-chronic rejection of renal transplant			1			1	1
+104960	SP08E00	acute rejection of renal transplant - grade i			1			1	1
+104963	K054.00	chronic kidney disease stage 4	1				1	1	1
+105151	K055.00	chronic kidney disease stage 5	1				1	1	1
+105328	7B00212	cadaveric renal transplant			1			1	1
+105383	K052.00	chronic kidney disease stage 2				1			
+105392	K051.00	chronic kidney disease stage 1				1			
+105436	SP0G.00	anaphylactoid reaction due to haemodialysis		1				1	1
+105724	SP08N00	unexplained episode of renal transplant dysfunction			1			1	1
+105742	G72D200	aneurysm of anastomotic site of dialysis av fistula		1				1	1
+105760	G72C.00	ruptured aneurysm of dialysis vascular access		1				1	1
+105787	7B00600	xenograft renal transplant			1			1	1
+105811	SP08R00	renal transplant rejection			1			1	1
+105859	K0A8.00	rapidly progressive glomerulonephritis	1				1	1	1
+106301	SP08P00	stenosis of vein of transplanted kidney			1			1	1
+106620	SP08J00	chronic rejection of renal transplant			1			1	1
+106720	Gy21.00	thrombosis of dialysis arteriovenous fistula		1				1	1
+106866	SP08W00	vascular complication of renal transplant			1			1	1
+106975	Gy51.00	haemorrhage of dialysis arteriovenous fistula		1				1	1
+107000	SP08F00	acute rejection of renal transplant - grade ii			1			1	1
+107082	Gy31.00	occlusion of dialysis arteriovenous fistula		1				1	1
+107188	G72D.00	aneurysm of dialysis arteriovenous fistula		1				1	1
+107220	G72D100	aneurysm of needle site of dialysis arteriovenous fistula		1				1	1
+107260	Gy41.00	infection of dialysis arteriovenous fistula		1				1	1
+107719	7A61A00	ligation of arteriovenous dialysis graft		1				1	1
+107746	Gy1..00	stenosis of dialysis vascular access		1				1	1
+107752	SP08T00	urological complication of renal transplant			1			1	1
+107900	SP0E.00	disorders associated with peritoneal dialysis		1				1	1
+107901	7L1Cy00	placement other apparatus- compensate for renal failure os		1				1	1
+108116	Gy3..00	occlusion of dialysis vascular access		1				1	1
+108213	Gy40.00	infection of dialysis arteriovenous graft		1				1	1
+108423	Gy60.00	rupture of dialysis arteriovenous graft		1				1	1
+108437	SP08V00	very mild acute rejection of renal transplant			1			1	1
+108591	K01w100	drash syndrome	1				1	1	1
+108699	Gy10.00	stenosis of dialysis arteriovenous graft		1				1	1
+108759	Gy5..00	haemorrhage of dialysis vascular access		1				1	1
+108785	SP0F.00	haemodialysis first use syndrome		1				1	1
+108816	K01x.00	nephrotic syndrome in diseases ec	1				1	1	1
+108922	K01w112	wilms' tumour + nephrotic syndrome + pseudohermaphroditism	1				1	1	1
+109135	Gy30.00	occlusion of dialysis arteriovenous graft		1				1	1
+109455	7B00500	allotransplantation of kidney from cadaver nec			1			1	1
+109657	1Z1Y.00	ckd with gfr category g3b & albuminuria category a2					1		1
+109804	1Z1T.00	ckd with gfr category g3a & albuminuria category a1					1		1
+109805	1Z1V.00	ckd with gfr category g3a & albuminuria category a2					1		1
+109809	Gy2..00	thrombosis of dialysis vascular access		1				1	1
+109840	G752100	goodpasture's disease	1				1	1	1
+109884	SP0H.00	disorder associated with dialysis		1				1	1
+109904	1Z1b.00	ckd with gfr category g4 & albuminuria category a2	1				1	1	1
+109905	1Z1W.00	ckd with gfr category g3a & albuminuria category a3					1		1
+109945	K0A1400	rapid progres neph syn df endocapilary prolifv glomnephritis	1				1	1	1
+109963	1Z1X.00	ckd with gfr category g3b & albuminuria category a1					1		1
+109980	1Z1a.00	ckd with gfr category g4 & albuminuria category a1	1				1	1	1
+109981	1Z1e.00	ckd with gfr category g5 & albuminuria category a2	1				1	1	1
+109990	1Z1Z.00	ckd with gfr category g3b & albuminuria category a3					1		1
+110003	1Z1N.00	ckd with gfr category g1 & albuminuria category a2				1			
+110033	1Z1M.00	ckd with gfr category g1 & albuminuria category a1				1			
+110051	Gy4..00	infection of dialysis vascular access		1				1	1
+110072	Z919200	washing back through haemodialysis lines		1				1	1
+110095	G72D000	aneurysm of superficialised artery of dialysis av fistula		1				1	1
+110108	1Z1R.00	ckd with gfr category g2 & albuminuria category a2				1			
+110133	1Z1d.00	ckd with gfr category g5 & albuminuria category a1	1				1	1	1
+110251	1Z1S.00	ckd with gfr category g2 & albuminuria category a3				1			
+110269	1Z1Q.00	ckd with gfr category g2 & albuminuria category a1				1			
+110467	1Z1f.00	ckd with gfr category g5 & albuminuria category a3	1				1	1	1
+110484	1Z1P.00	ckd with gfr category g1 & albuminuria category a3				1			
+110626	1Z1c.00	ckd with gfr category g4 & albuminuria category a3	1				1	1	1
+110749	K01w200	congenital nephrotic syndrome with focal glomerulosclerosis	1				1	1	1
+111022	1Z18.11	ckd stage 1 without proteinuria				1			
+111103	SP0E100	thrombus in peritoneal dialysis catheter		1				1	1
+111370	K01wz00	congenital nephrotic syndrome nos	1				1	1	1
+111637	TA42000	mechanical failure of apparatus during kidney dialysis		1				1	1
+112548	K01w111	nephrotic syndrome with pseudohermaphroditism	1				1	1	1

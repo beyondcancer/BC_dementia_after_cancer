@@ -1,0 +1,59 @@
+medcodeid	term	bmi	weight	height
+252191014	Weight increasing		9	
+252192019	Weight decreasing		9	
+253669010	O/E - height			9
+253672015	O/E -height within 10% average			9
+253673013	O/E-height 10-20% over average			9
+253676017	O/E - height NOS			9
+253677014	O/E - weight		9	
+253679012	O/E -weight 10-20% below ideal		9	
+253680010	O/E - weight within 10% ideal		9	
+253687013	O/E - Underweight		9	
+253688015	O/E - weight NOS		9	
+253844013	Body mass index normal K/M2	9		
+253845014	Body mass index high K/M2	9		
+253846010	Body mass index low K/M2	9		
+253847018	Body mass index index 25-29 - overweight	9	9	
+253848011	Body mass index 30+ - obesity	9		
+317244017	[D]Failure to gain weight		9	
+356960015	Overweight		9	
+402435016	O/E - weight 10-20% over ideal		9	
+406169014	Weight steady		9	
+411922013	O/E - overweight		9	
+451201014	Weight monitoring		9	
+453856012	Body mass index less than 20	9		
+1780175010	Baseline weight		9	
+2159952010	[D]Underweight		9	
+2160062010	Body mass index 40+ - severely obese	9		
+2474325012	Body mass index 20-24 - normal	9		
+2536041016	Weight static		9	
+59281000006111	Weight screen		9	
+217781000000116	O/E - weight > 20% over ideal		9	
+271181000006113	O/E-height > 20% below average			9
+272151000006114	O/E -height > 20% over average			9
+272551000006116	O/E - weight > 20% below ideal		9	
+284561000006119	O/E - height 10-20% < average			9
+567001000000116	Counterweight programme		9	
+857681000006117	Weight reduction clinic		9	
+908721000006111	[RFC] Overweight/ underweight		9	
+909921000006118	[RFC] Weight problem		9	
+910251000006110	[RFC] Overweight		9	
+910261000006112	[RFC] Underweight		9	
+923831000006115	O/E - height			9
+923851000006110	O/E - weight		9	
+923861000006112	Body mass index	9		
+982581000006118	Weight (Over)		9	
+982591000006115	Weight (Under)		9	
+982601000006111	Height (Over)			9
+982611000006114	Height (Under)			9
+1750501000006114	Checking weight monitoring		9	
+1808061000006114	Body mass index less than 18.5	9		
+1808071000006119	Body mass index 18.5-24.9	9		
+1809441000006111	Weight change		9	
+1910911000006118	Reported weight		9	
+1910931000006112	Reported height			9
+2196071000000116	Baseline body mass index	9		
+2316211000000111	Unintentional weight gain		9	
+2350241000000116	Obese class I (body mass index 30.0 - 34.9)	9		
+2350261000000115	Obese class II (body mass index 35.0 - 39.9)	9		
+100716012	Body mass index	9		

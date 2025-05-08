@@ -1,0 +1,290 @@
+medcodeid	term	certlevel
+12456651000006117	[v]alcohol rehabilitation	1
+460926018	[v]alcohol rehabilitation	1
+362921000006118	[x]alcohol addiction	1
+362931000006115	[x]alcohol deterrents caus adverse effects in therapeut use	1
+362941000006113	[x]alcoholic dementia nos	1
+362961000006112	[x]alcoholic jealousy	1
+362971000006117	[x]alcoholic paranoia	1
+362981000006119	[x]alcoholic psychosis nos	1
+370961000006119	[x]chronic alcoholic brain syndrome	1
+370971000006114	[x]chronic alcoholism	1
+376451000006113	[x]delirium tremens, alcohol induced	1
+379981000006116	[x]evid alcoh invl determ by levl intox very sev alcoh intox	1
+379991000006118	[x]evid alcoh invol determ by level of intox mod alcoh intox	1
+380001000006112	[x]evid alcoh invol determ by level of intox sev alcoh intox	1
+380011000006110	[x]evid alcoh invol determ by levl of intox mild alcoh intox	1
+380021000006119	[x]evid alcoh invol detrm by pres alcoh in bld levl not spec	1
+380041000006114	[x]eviden alcoh involv blood alcoh level 240mg/100ml or more	1
+380051000006111	[x]eviden of alcoh involv blood alcoh level 100-119mg/100ml	1
+380061000006113	[x]eviden of alcoh involv blood alcoh level 120-199mg/100ml	1
+380071000006118	[x]eviden of alcoh involv blood alcoh level 200-239mg/100ml	1
+380091000006117	[x]eviden of alcohl involv blood alcohl level 20-39mg/100ml	1
+380101000006111	[x]eviden of alcohl involv blood alcohl level 40-59mg/100ml	1
+380111000006114	[x]eviden of alcohl involv blood alcohl level 60-79mg/100ml	1
+380121000006118	[x]eviden of alcohl involv blood alcohl level 80-99mg/100ml	1
+397201000006116	[x]men & behav dis due alcoh: resid & late-onset psychot dis	1
+397211000006118	[x]men & behav dis due alcohl: withdrawl state with delirium	1
+397241000006119	[x]men & behav dis due to use alcohol: oth men & behav dis	1
+397431000006111	[x]ment & behav dis due use alcohol: unsp ment & behav dis	1
+397611000006115	[x]mental & behav dis due to use alcohol: acute intoxication	1
+397801000006117	[x]mental and behav dis due to use alcohol: dependence syndr	1
+397811000006119	[x]mental and behav dis due to use alcohol: withdrawal state	1
+2740361000006119	aa - alcohol abuse	1
+17390014	acute alcoholic hepatitis	1
+295127018	acute alcoholic intoxication in alcoholism	1
+295132017	acute alcoholic intoxication in alcoholism nos	1
+295128011	acute alcoholic intoxication, unspecified, in alcoholism	1
+2658601000006116	acute alcoholic liver disease	1
+283559019	admitted to alcohol detoxification centre	1
+739501000000112	advised to contact primary care alcohol worker	1
+397881000006114	alcohol abuse	1
+405461000000114	alcohol abuse monitoring	1
+397791000006118	alcohol amnestic disorder	1
+476361000006114	alcohol amnestic syndrome	1
+294664016	alcohol amnestic syndrome nos	1
+4722771000006115	alcohol aversion therapy	1
+2532939017	alcohol consumption counselling	1
+2534258017	alcohol counselling by other agencies	1
+295136019	alcohol dependence	1
+500478011	alcohol dependence syndrome	1
+295144019	alcohol dependence syndrome nos	1
+295126010	alcohol dependence with acute alcoholic intoxication	1
+8088751000006117	alcohol dependence with alcohol induced disorder	1
+106878015	alcohol detoxification	1
+13929361000006112	alcohol detoxification	1
+1779661000006118	alcohol detoxification declined	1
+2474678017	alcohol disorder monitoring	1
+2612481000006116	alcohol hallucinosis	1
+2475831000000114	alcohol harm reduction programme	1
+7791901000006117	alcohol induced disorder	1
+8088741000006119	alcohol induced disorder co-occurrent and due to alcohol dependence	1
+2549849017	alcohol induced hallucinations	1
+250335018	alcohol intake above recommended sensible limits	1
+2796011000006111	alcohol intoxication delirium	1
+606991000000117	alcohol misuse	1
+226571000000116	alcohol misuse enhanced service completed	1
+236441000000113	alcohol misuse enhanced services administration	1
+476701000006114	alcohol myopathy	1
+502017010	alcohol problem drinking	1
+7613331000006116	alcohol reduction program	1
+7613321000006119	alcohol reduction programme	1
+852381000006110	alcohol reduction-maintain abstinence	1
+3073921000006112	alcohol rehabilitation	1
+2819381000006112	alcohol rehabilitation and detoxification	1
+2485391000000114	alcohol twelve step programme	1
+15243013	alcohol withdrawal delirium	1
+294669014	alcohol withdrawal hallucinosis	1
+294674018	alcohol withdrawal syndrome	1
+7849271000006113	alcohol withdrawal with perceptual disturbances and seizures	1
+5981291000006110	alcohol withdrawal-induced convulsion	1
+315091000000117	alcohol withdrawal-induced seizure	1
+353687012	alcohol-induced acute pancreatitis	1
+353698013	alcohol-induced chronic pancreatitis	1
+478024019	alcohol-induced epilepsy	1
+5110231000006116	alcohol-induced hypoglycaemia	1
+5110241000006114	alcohol-induced hypoglycemia	1
+295765017	alcohol-induced organic mental disorder	1
+7309181000006113	alcohol-induced pancreatitis	1
+14103017	alcohol-induced polyneuropathy	1
+356292013	alcohol-induced pseudo-cushing's syndrome	1
+476741000006111	alcohol-induced psychosis	1
+397621000006111	alcohol-induced psychosis	1
+5063221000006116	alcohol-related macrocytosis	1
+7858041000006119	alcohol-related neurological disorder	1
+4978041000006118	alcoholic	1
+3630171000006111	alcoholic amnestic syndrome	1
+138527014	alcoholic cardiomyopathy	1
+6221531000006118	alcoholic cerebellar degeneration	1
+6947461000006115	alcoholic cirrhosis	1
+476611000006116	alcoholic cirrhosis of liver	1
+346929012	alcoholic dementia	1
+297011014	alcoholic encephalopathy	1
+83834016	alcoholic fatty liver	1
+3315061000006110	alcoholic fatty liver disease	1
+353594015	alcoholic fibrosis and sclerosis of liver	1
+7821641000006116	alcoholic fibrosis of liver	1
+4525015	alcoholic gastritis	1
+362951000006110	alcoholic hallucinosis	1
+353595019	alcoholic hepatic failure	1
+353587018	alcoholic hepatitis	1
+3402361000006113	alcoholic ketoacidosis	1
+6947471000006110	alcoholic liver cirrhosis	1
+303399018	alcoholic liver damage	1
+886501000006115	alcoholic liver damage nos	1
+3165681000006118	alcoholic liver disease	1
+5612351000006115	alcoholic macrocytosis	1
+7309201000006114	alcoholic pancreatitis	1
+294672019	alcoholic paranoia	1
+2626161000006111	alcoholic peripheral neuropathy	1
+2626141000006112	alcoholic polyneuropathy	1
+294676016	alcoholic psychosis nos	1
+3315041000006111	alcoholic steatosis	1
+251195015	alcoholics anonymous	1
+12878014	alcoholism	1
+2614651000006115	alcoholism	1
+461112017	alcoholism counselling	1
+5564291000006118	alcoholism detoxication centre	1
+3165691000006115	ald - alcoholic liver disease	1
+3630161000006116	amnesic syndrome due to alcohol	1
+8458711000006115	ascites due to alcoholic cirrhosis	1
+852151000006117	audit score >5 alcohol dependence syndrome	1
+852161000006115	audit score >5 alcohol problem drinker	1
+283451018	aversion therapy - alcoholism	1
+4601331000006113	blood alcohol level	1
+8460501000006118	breath alcohol concentration	1
+1127841000000113	breath alcohol level	1
+1680121000006110	brief intervention for excessive alcohol consumption completed	1
+1704281000006117	brief intervention for excessive alcohol consumption declined	1
+5497631000006115	cannot stop drinking	1
+478046010	cerebellar ataxia due to alcoholism	1
+542611000006114	cerebral degeneration due to alcoholism	1
+5689781000006117	chronic alcohol abuse	1
+294668018	chronic alcoholic brain syndrome	1
+451124014	chronic alcoholic hepatitis	1
+7700651000006119	chronic alcoholic liver disease	1
+110629012	chronic alcoholism	1
+295143013	chronic alcoholism nos	1
+8048151000006113	chronic pancreatitis due to chronic alcoholism	1
+3916281000006114	combined alcohol and drug detoxification	1
+3510721000006113	combined alcohol and drug rehabilitation	1
+295129015	continuous acute alcoholic intoxication in alcoholism	1
+295139014	continuous chronic alcoholism	1
+4979061000006110	craving for alcohol	1
+1792751000000118	cycle of change stage, alcohol	1
+750531000000113	declined referral to specialist alcohol treatment service	1
+15244019	delirium tremens	1
+371501000000110	delivery of rehabilitation for alcohol addiction	1
+2502971000006115	dementia associated with alcoholism	1
+4978061000006119	dependent drinker	1
+3545831000006115	detoxication psychiatric therapy for alcoholism	1
+3545841000006113	detoxication therapy for alcoholism	1
+3859111000006117	dilated cardiomyopathy caused by alcohol	1
+3859091000006114	dilated cardiomyopathy secondary to alcohol	1
+480271000000113	disqualified from driving due to excess alcohol	1
+294670010	drunkenness - pathological	1
+507053019	dts - delirium tremens	1
+1947501000006118	emergency department attendance related to personal alcohol consumption	1
+295130013	episodic acute alcoholic intoxication in alcoholism	1
+295141010	episodic chronic alcoholism	1
+4533451000006113	excessive alcohol consumption	1
+4533461000006110	excessive alcohol use	1
+1680131000006113	extended intervention for excessive alcohol consumption completed	1
+1754191000006119	extended intervention for excessive alcohol consumption declined	1
+1745961000006111	extended intervention for excessive alcohol consumption declined	1
+4977991000006113	fairly heavy drinker	1
+7821631000006114	fibrosis of liver caused by alcohol	1
+299081000000114	harmful alcohol use	1
+2740831000000114	harmful use of alcohol	1
+299061000000117	hazardous alcohol use	1
+144179014	heavy drinker	1
+250314015	heavy drinker - 7-9u/day	1
+4978561000006112	heavy drinking session	1
+7267751000006119	high alcohol level in blood	1
+1738381000000119	higher risk drinking	1
+2364891000000111	hospital alcohol liaison team report received	1
+2454281000000112	hospital attendance related to personal alcohol consumption	1
+1878791000006112	in-house alcohol detoxification	1
+2298341000000114	in-house alcohol detoxification	1
+753331000006118	korsakov alcoholic psychosis	1
+294662017	korsakov's alcoholic psychosis with peripheral neuritis	1
+263572010	maternal alcohol abuse	1
+1973481000006115	mental & behav dis due to use alcohol: acute intoxication, pathological intoxication	1
+1972151000006110	mental & behav dis due to use alcohol: acute intoxication, uncomplicated	1
+1973411000006110	mental & behav dis due to use alcohol: acute intoxication, with coma	1
+1973441000006114	mental & behav dis due to use alcohol: acute intoxication, with convulsions	1
+1973241000006113	mental & behav dis due to use alcohol: acute intoxication, with delirium	1
+1972271000006112	mental & behav dis due to use alcohol: acute intoxication, with other medical complications	1
+1973321000006113	mental & behav dis due to use alcohol: acute intoxication, with perceptual distortions	1
+1975461000006114	mental & behav dis due to use alcohol: psychotic disorder, mixed	1
+1975181000006111	mental & behav dis due to use alcohol: psychotic disorder, predominantly delusional	1
+1975291000006117	mental & behav dis due to use alcohol: psychotic disorder, predominantly hallucinatory	1
+1975341000006119	mental & behav dis due to use alcohol: psychotic disorder, predominantly polymorphic	1
+1975141000006117	mental & behav dis due to use alcohol: psychotic disorder, schizophrenia-like	1
+1975591000006119	mental & behav dis due to use alcohol: resid & late-onset psychot dis, dementia	1
+1975511000006112	mental & behav dis due to use alcohol: resid & late-onset psychot dis, flashbacks	1
+1976111000006110	mental & behav dis due to use alcohol: resid & late-onset psychot dis, late-onset psychotic disorder	1
+1976071000006119	mental & behav dis due to use alcohol: resid & late-onset psychot dis, other persisting cognitive impairment	1
+1975541000006111	mental & behav dis due to use alcohol: resid & late-onset psychot dis, personality or behaviour disorder	1
+1975661000006111	mental & behav dis due to use alcohol: resid & late-onset psychot dis, residual affective disorder	1
+1974521000006117	mental & behav dis due to use alcohol: withdrawl state with delirium, with convulsions	1
+1974301000006117	mental & behav dis due to use alcohol: withdrawl state with delirium, without convulsions	1
+1974111000006117	mental and behav dis due to use alcohol: dependence syndr, continuous use	1
+1973701000006119	mental and behav dis due to use alcohol: dependence syndr, currently abstinent	1
+1973811000006113	mental and behav dis due to use alcohol: dependence syndr, currently abstinent, but in a protected environment	1
+1974021000006112	mental and behav dis due to use alcohol: dependence syndr, currently abstinent, but receiving treatment with aversive or blocking drugs	1
+1973871000006116	mental and behav dis due to use alcohol: dependence syndr, currently on a clinically supervised maintenance or replacement regime [controlled dependence]	1
+1974071000006113	mental and behav dis due to use alcohol: dependence syndr, currently using the substance [active dependence]	1
+1974141000006118	mental and behav dis due to use alcohol: dependence syndr, episodic use [dipsomania]	1
+1974191000006110	mental and behav dis due to use alcohol: withdrawal state, uncomplicated	1
+1974231000006117	mental and behav dis due to use alcohol: withdrawal state, with convulsions	1
+7706231000006114	mild alcohol dependence	1
+970411000006118	misuse of alcohol unspecified	1
+970401000006116	misuse of mixture of alcohol	1
+7725141000006111	moderate alcohol dependence	1
+882531000006110	non-dependent abuse of alcohol	1
+401797010	nondependent alcohol abuse	1
+295255012	nondependent alcohol abuse nos	1
+295252010	nondependent alcohol abuse, continuous	1
+295253017	nondependent alcohol abuse, episodic	1
+295251015	nondependent alcohol abuse, unspecified	1
+254306016	o/e - alcoholic breath	1
+254305017	o/e - breath - alcohol smell	1
+14146421000006116	oesophageal varices due to cirrhosis of liver caused by alcohol	1
+453265010	oesophageal varices in alcoholic cirrhosis of the liver	1
+401760017	other alcoholic dementia	1
+882221000006114	other alcoholic psychoses	1
+294673012	other alcoholic psychosis	1
+294675017	other alcoholic psychosis nos	1
+294671014	pathological alcohol intoxication	1
+3122331000006110	patient referral for alcoholism rehabilitation	1
+7849261000006118	perceptual disturbances and seizures co-occurrent and due to alcohol withdrawal	1
+5689771000006115	persistent alcohol abuse	1
+4978971000006113	persistent effect of alcohol	1
+4978031000006111	problem drinker	1
+1675391000006112	referral by community alcohol team	1
+831091000006115	referral to alcohol abuse team	1
+740641000000115	referral to alcohol brief intervention service	1
+831101000006114	referral to alcohol counsellor	1
+8259601000006117	referral to alcohol misuse clinic	1
+12117371000006112	referral to alcohol misuse service	1
+851931000006116	referral to alcohol recovery project	1
+13770661000006117	referral to alcoholism rehabilitation service	1
+1484890014	referral to community alcohol team	1
+1746481000000112	referral to community alcohol team declined	1
+2549646014	referral to community drug and alcohol team	1
+622961000000116	referral to specialist alcohol treatment service	1
+7264381000006117	referral to specialist alcohol treatment service declined by patient	1
+13996301000006113	seen by community alcohol team	1
+8121241000006115	seen by counsellor for alcohol misuse	1
+7710581000006113	severe alcohol dependence	1
+2950191000006118	smell of alcohol on breath	1
+2007461000006118	srh care activity - alcohol brief intervention	1
+4978171000006110	street drinker	1
+1538911000006119	structured alcohol intervention	1
+970391000006118	substance misuse of alcohol	1
+6455201000006114	substance use treatment: alcohol withdrawal	1
+6881361000006118	suspected alcohol abuse	1
+7518451000006115	thrombocytopaenia due to alcohol	1
+325596018	toxic effect of alcohol	1
+899411000006110	toxic effects of alcohol	1
+4978801000006113	unable to stop drinking before intoxication	1
+3890681000006118	uncomplicated alcohol withdrawal	1
+216585018	under care of community alcohol team	1
+342322012	very heavy drinker	1
+250316018	very heavy drinker - >9u/day	1
+4533231000006117	very heavy drinker - greater than 9 units/day	1
+4978431000006119	weekend drinker	1
+501294012	wernicke-korsakov syndrome	1
+7785371000006113	withdrawn from alcohol detoxification program	1
+2462911000000112	withdrawn from alcohol detoxification programme	1
+4533441000006111	xs - excessive alcohol consumption	1
+460276013	[v]personal history of alcoholism	4
+5886961000006112	abstinent alcoholic	4
+295131012	acute alcoholic intoxication in remission, in alcoholism	4
+295142015	chronic alcoholism in remission	4
+251626014	h/o: alcoholism	4
+6354581000006114	history of alcohol abuse	4
+12619041000006111	history of alcohol use	4
+4539891000006115	history of alcoholism	4
+295254011	nondependent alcohol abuse in remission	4

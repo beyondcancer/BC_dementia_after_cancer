@@ -1,0 +1,569 @@
+medcodeid	term	certlevel	depression_vspec
+1222477019	[d]postoperative depression	Definite	
+909681000006110	[rfc] depression	Definite	
+426891000006114	[x] single episode agitated depression without psychotic symptoms	Definite	
+366561000006119	[x]atypical depression	Definite	
+376701000006116	[x]depressive conduct disorder	Definite	
+376711000006118	[x]depressive disorder nos	Definite	
+401872015	[x]depressive episode, unspecified	Definite	
+379771000006116	[x]endogenous depression with psychotic symptoms	Definite	
+379781000006118	[x]endogenous depression without psychotic symptoms	Definite	
+396081000006116	[x]major depression, recurrent without psychotic symptoms	Definite	
+398351000006110	[x]mild anxiety depression	Definite	
+213641000000111	[x]mild depression	Definite	
+398561000006117	[x]mixed anxiety and depressive disorder	Definite	
+296138013	[x]moderate depressive episode	Definite	
+398841000006119	[x]monopolar depression nos	Definite	
+401871010	[x]other depressive episodes	Definite	
+296209016	[x]other mood affective disorders	Definite	
+296207019	[x]other persistent mood affective disorders	Definite	
+296199015	[x]other recurrent depressive disorders	Definite	
+401878016	[x]other recurrent mood affective disorders	Definite	
+401877014	[x]other single mood affective disorders	Definite	
+296218019	[x]other specified mood affective disorders	Definite	
+419841000006116	[x]persistant anxiety depression	Definite	
+296208012	[x]persistent mood affective disorder, unspecified	Definite	
+423611000006111	[x]prolonged single episode of reactive depression	Definite	
+424531000006118	[x]recurr depress disorder cur epi severe without psyc sympt	Definite	
+424541000006111	[x]recurr severe episodes/major depression+psychotic symptom	Definite	
+424561000006110	[x]recurrent brief depressive episodes	Definite	
+424571000006115	[x]recurrent depress disorder cur epi severe with psyc symp	Definite	
+401873013	[x]recurrent depressive disorder	Definite	
+296180012	[x]recurrent depressive disorder, current episode mild	Definite	
+296181011	[x]recurrent depressive disorder, current episode moderate	Definite	
+401876017	[x]recurrent depressive disorder, unspecified	Definite	
+424631000006119	[x]recurrent episodes of depressive reaction	Definite	
+424641000006112	[x]recurrent episodes of psychogenic depression	Definite	
+424651000006114	[x]recurrent episodes of reactive depression	Definite	
+424671000006116	[x]recurrent severe episodes of psychotic depression	Definite	
+1495055011	[x]right hemispheric organic affective disorder	Definite	
+425751000006115	[x]seasonal depressive disorder	Definite	
+401869010	[x]severe depressive episode with psychotic symptoms	Definite	
+401866015	[x]severe depressive episode without psychotic symptoms	Definite	
+426911000006111	[x]single episode of depressive reaction	Definite	
+426921000006115	[x]single episode of major depression and psychotic symptoms	Definite	
+426931000006117	[x]single episode of masked depression nos	Definite	
+426941000006110	[x]single episode of psychogenic depression	Definite	
+426961000006114	[x]single episode of psychotic depression	Definite	
+426971000006119	[x]single episode of reactive depression	Definite	
+426991000006118	[x]single episode vital depression w'out psychotic symptoms	Definite	
+401879012	[x]unspecified mood affective disorder	Definite	
+432511000006119	[x]vital depression, recurrent without psychotic symptoms	Definite	
+398851000006117	affective disorder	Definite	
+474171000006112	agitated depression	Definite	
+138421012	agitated depression	Definite	
+429581000006118	antidepressant drug adverse reaction	Definite	
+5024071000006118	anxiety depression	Definite	
+294655014	arteriosclerotic dementia with depression	Definite	
+294894013	atypical depressive disorder	Definite	
+8080011000006119	basdec - brief assessment schedule depression cards	Definite	
+525921000006119	brief depressive adjustment reaction	Definite	
+295494011	brief depressive reaction nos	Definite	
+295537016	chronic depression	Definite	
+2724681000006112	chronic major depressive disorder, single episode	Definite	
+2540711000006115	chronic recurrent major depressive disorder	Definite	
+12735821000006110	counselling for depression	Definite	
+8366861000006113	current view provisional problem description item 9 - depression/low mood	Definite	
+882671000006112	depression	Definite	
+5359021000006116	depression	Definite	
+376691000006116	depression	Definite	
+5359011000006112	depression - motion	Definite	
+2534096013	depression annual review	Definite	
+8245201000006115	depression care management	Definite	
+1823881000006110	depression confirmed	Definite	
+226581000000119	depression enhanced service completed	Definite	
+226411000000110	depression enhanced services administration	Definite	
+2534091015	depression interim review	Definite	
+1773563015	depression management programme	Definite	
+2534092010	depression medication review	Definite	
+882681000006110	depression nos	Definite	
+5248911000006110	depression worse in morning	Definite	
+5248931000006116	depression worse later in day	Definite	
+5024511000006118	depressive conduct disorder	Definite	
+295535012	depressive disorder	Definite	
+14013791000006119	depressive disorder caused by methamphetamine	Definite	
+12727931000006110	depressive disorder nec	Definite	
+376721000006114	depressive episode	Definite	
+13974501000006115	depressive episode	Definite	
+8308801000006112	did not attend depression review	Definite	
+379431000006113	dysthymia	Definite	
+441826016	endogenous depression	Definite	
+410861011	endogenous depression - recurrent	Definite	
+346972018	endogenous depression first episode	Definite	
+642461000006116	endogenous depression first episode	Definite	
+13974511000006117	episode of depression	Definite	
+999911000006111	excepted from depression quality indicators - informed dissent	Definite	
+999901000006113	excepted from depression quality indicators - patient unsuitable	Definite	
+294081000000110	exception reporting - depression quality indicators	Definite	
+13962531000006113	follow up for depression	Definite	
+6337501000006112	major depression	Definite	
+7882721000006118	major depression with psychotic features	Definite	
+401766011	major depression, single episode	Definite	
+6337491000006116	major depressive disorder	Definite	
+3094951000006111	major depressive disorder, single episode	Definite	
+3628471000006116	major depressive disorder, single episode with catatonic features	Definite	
+7127661000006118	major depressive disorder, single episode, severe with psychotic features	Definite	
+346973011	masked depression	Definite	
+1972411000006119	mental & behav dis due to cannabinoids: resid & late-onset psychot dis, residual affective disorder	Definite	
+1971591000006117	mental & behav dis due to seds/hypntcs: resid & late-onset psychot dis, residual affective disorder	Definite	
+1974911000006115	mental & behav dis due to tobacco: resid & late-onset psychot dis, residual affective disorder	Definite	
+1975661000006111	mental & behav dis due to use alcohol: resid & late-onset psychot dis, residual affective disorder	Definite	
+1973911000006118	mental & behav dis due to use cocaine: resid & late-onset psychot dis, residual affective disorder	Definite	
+1971681000006116	mental & behav dis due to use opioids: resid & late-onset psychot dis, residual affective disorder	Definite	
+1973671000006115	mental and behav dis due to hallucinogens: resid & late-onset psychot dis, residual affective disorder	Definite	
+1976041000006110	mental and behav dis due to other stimulants inc caffeine: resid/late-onset psycht dis, residual affective disorder	Definite	
+1973161000006117	mental and behav dis due to vol solvents: resid & late-onset psychotic dis, residual affective disorder	Definite	
+1974261000006114	mental and behav dis mlti drg use/oth psych subs: resid/late psychot dis, residual affective disorder	Definite	
+882811000006119	mild depression	Definite	
+296137015	mild depression	Definite	
+1975991000006112	mild depressive episode, with somatic syndrome	Definite	
+1975981000006114	mild depressive episode, without somatic syndrome	Definite	
+1715771000006112	mild major depression	Definite	
+294825017	mild major depression, single episode	Definite	
+9901161000006119	mild major depressive disorder co-occurrent with anxiety single episode	Definite	
+3149661000006117	mild recurrent major depression	Definite	
+7803731000006112	minimal major depression single episode	Definite	
+3286331000006115	minor depressive disorder	Definite	
+488211000006112	mixed anxiety and depressive disorder	Definite	
+1976491000006113	mixed anxiety and depressive reaction	Definite	
+6000711000006112	moderate depression	Definite	
+882821000006110	moderate depression	Definite	
+1976051000006112	moderate depressive episode, with somatic syndrome	Definite	
+1976021000006115	moderate depressive episode, without somatic syndrome	Definite	
+1715181000006114	moderate major depression	Definite	
+294826016	moderate major depression, single episode	Definite	
+9901261000006114	moderate major depressive disorder co-occurrent with anxiety single episode	Definite	
+2798691000006112	moderate recurrent major depression	Definite	
+7788661000006119	moderately severe depression	Definite	
+7803711000006118	moderately severe major depression single episode	Definite	
+2474715017	on depression register	Definite	
+1680571000006118	on full dose long term treatment depression - enh serv admin	Definite	
+681801000000113	on full dose long term treatment for depression	Definite	
+2877341000006116	organic affective disorder	Definite	
+1972111000006114	organic depressive disorder	Definite	
+1972121000006118	organic mixed affective disorder	Definite	
+1976411000006115	other recurrent mood affective disorders, recurrent brief depressive disorder	Definite	
+1976371000006116	other single mood affective disorders, mixed affective episode	Definite	
+2533375017	patient given advice about management of depression	Definite	
+3837121000006116	postoperative depression	Definite	
+295536013	postviral depression	Definite	
+294642013	presenile dementia with depression	Definite	
+2929931000006112	primary degenerative dementia of the alzheimer type, senile onset, with depression	Definite	
+202561000006114	prolonged depressive adjustment reaction	Definite	
+3700911000006115	psychotic depression	Definite	
+294918011	psychotic reactive depression	Definite	
+12626331000006116	qof (quality and outcomes framework) depression quality indicator-related care invitation	Definite	
+12734331000006115	qof (quality and outcomes framework) depression quality indicator-related care invitation using preferred method of communication	Definite	
+882401000006115	reactive (neurotic) depression	Definite	
+359121000006116	reactive depression	Definite	
+675861000006113	reactive depression (situational)	Definite	
+8465321000006112	reactive depression, prolonged single episode	Definite	
+3153071000006116	recurrent brief depressive disorder	Definite	
+294844012	recurrent depression	Definite	
+2730011000000110	recurrent depression with current moderate episode	Definite	
+2729751000000118	recurrent depression with current severe episode and psychotic features	Definite	
+2729991000000112	recurrent depression with current severe episode without psychotic features	Definite	
+1976231000006110	recurrent depressive disorder, current episode mild, with somatic syndrome	Definite	
+1976211000006116	recurrent depressive disorder, current episode mild, without somatic syndrome	Definite	
+1976271000006113	recurrent depressive disorder, current episode moderate, with somatic syndrome	Definite	
+1976251000006115	recurrent depressive disorder, current episode moderate, without somatic syndrome	Definite	
+3578851000006118	recurrent major depression	Definite	
+3578861000006116	recurrent major depressive disorder	Definite	
+294845013	recurrent major depressive episode nos	Definite	
+182721000006111	recurrent major depressive episodes	Definite	
+294837015	recurrent major depressive episodes, mild	Definite	
+294838013	recurrent major depressive episodes, moderate	Definite	
+182771000006112	recurrent major depressive episodes, severe	Definite	
+294840015	recurrent major depressive episodes, severe, with psychosis	Definite	
+294836012	recurrent major depressive episodes, unspecified	Definite	
+12127531000006113	recurrent mild major depressive disorder co-occurrent with anxiety	Definite	
+12127551000006118	recurrent moderate major depressive disorder co-occurrent with anxiety	Definite	
+424681000006118	recurrent reactive depressive episodes, severe, with psychosis	Definite	
+12127541000006115	recurrent severe major depressive disorder co-occurrent with anxiety	Definite	
+425411000006110	sad - seasonal affective disorder	Definite	
+369982012	seasonal affective disorder	Definite	
+5627831000006114	seasonal variation of mood	Definite	
+294646011	senile dementia with depression	Definite	
+882831000006113	severe depression	Definite	
+223741000000112	severe depression	Definite	
+1715191000006112	severe major depression with psychotic features	Definite	
+1715781000006110	severe major depression without psychotic features	Definite	
+142541000006115	severe major depression, single episode	Definite	
+7127651000006115	severe major depression, single episode, with psychotic features	Definite	
+3767531000006119	severe major depression, single episode, with psychotic features, mood-congruent	Definite	
+3743451000006110	severe major depression, single episode, without psychotic features	Definite	
+9901281000006116	severe major depressive disorder co-occurrent with anxiety single episode	Definite	
+7965191000006118	severe recurrent major depression	Definite	
+2957311000006113	severe recurrent major depression with psychotic features	Definite	
+3087971000006112	severe recurrent major depression without psychotic features	Definite	
+2659601000000116	signposting to depression self-help group	Definite	
+294832014	single major depressive episode nos	Definite	
+294828015	single major depressive episode, severe, with psychosis	Definite	
+294824018	single major depressive episode, unspecified	Definite	
+1488626018	symptoms of depression	Definite	
+351381000006119	[x] adverse reaction to antidepressant	Probable	
+351391000006116	[x] adverse reaction to antidepressants nos	Probable	
+359151000006113	[x] senile dementia, depressed or paranoid type	Probable	
+362781000006116	[x]affective psychosis nos	Probable	
+363271000006115	[x]anhedonia sexual	Probable	
+376741000006119	[x]depressive neurosis	Probable	
+417071000006110	[x]other unspec antidepres caus advers effect in therap use	Probable	
+424551000006113	[x]recurr severe episodes/psychogenic depressive psychosis	Probable	
+426951000006112	[x]single episode of psychogenic depressive psychosis	Probable	
+426981000006116	[x]single episode of reactive depressive psychosis	Probable	
+3265811000006112	adjustment disorder with anxious mood	Probable	
+1806431000006113	adjustment disorder with depressed mood	Probable	
+1230451012	adjustment reaction with anxious mood	Probable	
+464831000006111	adverse reaction to antidepressant	Probable	
+1012971000006119	adverse reaction to antidepressant drugs	Probable	
+331126017	adverse reaction to antidepressants nos	Probable	
+1013001000006117	adverse reaction to compound antidepressant preparations	Probable	
+1013011000006119	adverse reaction to other antidepressant drugs	Probable	
+1012981000006116	adverse reaction to tricyclic and related antidepressant drugs	Probable	
+6461861000006119	affective personality trait	Probable	
+294897018	affective psychosis	Probable	
+5231721000006112	affective seizure	Probable	
+2960601000006111	anhedonia	Probable	
+2143511000000118	antidepressant drug treatment changed	Probable	
+1730231000000110	antidepressant drug treatment started	Probable	
+1166201000000117	antidepressant drug treatment stopped	Probable	
+7508601000006115	antidepressant therapy	Probable	
+7650551000006117	assessment of mood	Probable	
+502727013	bereavement reaction	Probable	
+2597871000006110	blunting of mood	Probable	
+2801031000006112	changeable mood	Probable	
+5719101000006118	character trait finding of affective stability	Probable	
+4203811000006113	cheerful mood	Probable	
+5247211000006115	delusional mood	Probable	
+1972311000006112	dementia in alzheimer's dis, atypical or mixed type, other symptoms, predominantly depressive	Probable	
+1972131000006115	dementia in alzheimer's disease with early onset, other symptoms, predominantly depressive	Probable	
+1972201000006118	dementia in alzheimer's disease with late onset, other symptoms, predominantly depressive	Probable	
+1972451000006118	dementia in alzheimer's disease, unspecified, other symptoms, predominantly depressive	Probable	
+2164006016	depressed	Probable	
+3071801000006112	depressed	Probable	
+2164005017	depressed mood	Probable	
+8044941000006117	depressed mood in alzheimer's disease	Probable	
+3071791000006111	depressive illness	Probable	
+399961000006118	depressive neurosis	Probable	
+882421000006113	depressive personality	Probable	
+613791000006115	depressive psychoses	Probable	
+1494612017	depressive symptoms	Probable	
+7739881000006110	disruptive mood dysregulation disorder	Probable	
+3278001000006118	disturbance in mood	Probable	
+5248901000006112	diurnal variation of mood	Probable	
+3837791000006118	euthymic mood	Probable	
+6266001000006117	finding of level of mood	Probable	
+1759401000006119	honos-ld item 9 - problems with mood changes	Probable	
+1821311000006112	hopelessness	Probable	
+5964101000006113	hopelessness	Probable	
+7960801000006114	improved mood	Probable	
+5582621000006111	incongruity of mood	Probable	
+2801001000006116	labile in mood	Probable	
+5248491000006111	level of mood	Probable	
+4507241000006110	level of mood - normal	Probable	
+2164009011	low mood	Probable	
+13955721000006115	mdq - mood disorder questionnaire	Probable	
+1973961000006115	ment/behav dis mlti drug use/oth psyc sbs: psychotc dis, predominantly depressive symptoms	Probable	
+1972331000006118	mental & behav dis due to cannabinoids: psychotic disordr, predominantly depressive symptoms	Probable	
+1973041000006115	mental & behav dis due to hallucinogens: psychotic disord, predominantly depressive symptoms	Probable	
+1972941000006110	mental & behav dis due to seds/hypntcs: psychotic disordr, predominantly depressive symptoms	Probable	
+1975371000006110	mental & behav dis due to use alcohol: psychotic disorder, predominantly depressive symptoms	Probable	
+1973731000006110	mental & behav dis due to use cocaine: psychotic disorder, predominantly depressive symptoms	Probable	
+1971571000006118	mental & behav dis due to use opioids: psychotic disorder, predominantly depressive symptoms	Probable	
+1974761000006115	mental & behav dis due to use tobacco: psychotic disorder, predominantly depressive symptoms	Probable	
+1973111000006115	mental & behav dis due to vol solvents: psychotic disordr, predominantly depressive symptoms	Probable	
+1975651000006114	mental and behav dis due to other stimulants inc caffeine: psychotic dis, predominantly depressive symptoms	Probable	
+2504341000000111	mental health clustering tool summary assessments of risk and need rating a - agitated behaviour/expansive mood (historical)	Probable	
+1972911000006111	mixed cortical and subcortical vascular dementia, other symptoms, predominantly depressive	Probable	
+2646121000006115	moderate mood disorder	Probable	
+3886381000006110	mood	Probable	
+473201000006114	mood disorder	Probable	
+13955711000006111	mood disorder questionnaire	Probable	
+4127261000006111	mood finding	Probable	
+5248501000006115	mood level	Probable	
+6454071000006110	mood management	Probable	
+3826021000006118	mood raised	Probable	
+4944681000006111	mood stable	Probable	
+2801011000006118	mood swing	Probable	
+5717601000006115	moody	Probable	
+1972661000006119	multi-infarct dementia, other symptoms, predominantly depressive	Probable	
+253619019	o/e - depressed	Probable	
+8089331000006119	opioid-induced mood disorder due to opioid dependence	Probable	
+42181000006112	organic affective syndrome	Probable	
+404011000006112	organic mood disorder	Probable	
+295517015	other adjustment reaction with withdrawal	Probable	
+294902017	other affective psychosis nos	Probable	
+1973381000006112	other vascular dementia, other symptoms, predominantly depressive	Probable	
+294917018	reactive depressive psychosis	Probable	
+8089301000006110	reactive depressive psychosis, single episode	Probable	
+983861000006115	sad mood	Probable	
+7849101000006112	secondary mood disorder	Probable	
+294644014	senile dementia with depressive or paranoid features	Probable	
+294647019	senile dementia with depressive or paranoid features nos	Probable	
+4944701000006114	settled in mood	Probable	
+4941501000006118	sociable mood	Probable	
+4944711000006112	stability of mood	Probable	
+4944661000006118	unpredictable in mood	Probable	
+294898011	unspecified affective psychoses nos	Probable	
+1972071000006118	unspecified dementia, other symptoms, predominantly depressive	Probable	
+2801041000006119	unstable mood	Probable	
+5647971000006116	variability of mood	Probable	
+2801021000006114	variable mood	Probable	
+4944671000006113	volatile mood	Probable	
+1856161000006119	1st phq-9 done	Possible	
+1855191000006118	1st phq-9 missed	Possible	
+1856171000006114	2nd phq-9 completed	Possible	
+1856241000006110	2nd phq-9 letter 1	Possible	
+1856251000006112	2nd phq-9 letter 2	Possible	
+1856261000006114	2nd phq-9 letter 3	Possible	
+1855201000006115	2nd phq-9 missed	Possible	
+1695381000006115	4 item geriatric depression scale	Possible	
+302031000006118	[d]self neglect	Possible	
+908581000006115	[rfc] crying	Possible	
+910431000006116	[rfc] parental emotional support	Possible	
+461291016	[v]screening for depression	Possible	
+362401000006115	[x]acute reaction to stress	Possible	
+362441000006118	[x]acute stress reaction	Possible	
+371361000006114	[x]conduct disorder associated with emotional disorder	Possible	
+511661000000116	[x]emotional behavioural problems	Possible	
+398581000006110	[x]mixed disorder of conduct and emotions, unspecified	Possible	
+296710010	[x]mixed disorders of conduct and emotions	Possible	
+401912010	[x]other mixed disorders of conduct and emotions	Possible	
+296271019	[x]other reactions to severe stress	Possible	
+424051000006119	[x]psychogenic loss of appetite	Possible	
+296272014	[x]reaction to severe stress, unspecified	Possible	
+981611000006115	abnormal depressed feelings	Possible	
+295475018	acute fugue state due to acute stress reaction	Possible	
+295474019	acute panic state due to acute stress reaction	Possible	
+3592701000006118	acute reaction to stress	Possible	
+500650019	acute stress reaction	Possible	
+401810015	acute stress reaction nos	Possible	
+295476017	acute stupor state due to acute stress reaction	Possible	
+295504018	adjustment reaction with disturbance of other emotion nos	Possible	
+497343017	adjustment reaction with mixed disturbance of emotion	Possible	
+461761000006110	adjustment reaction with mixed disturbance of emotion and conduct	Possible	
+461821000006111	adjustment reaction, predominant disturbance other emotions	Possible	
+347026011	adolescent - emotional problem	Possible	
+7329781000006115	assessment using beck depression inventory	Possible	
+7317161000006112	assessment using hads (hospital anxiety and depression scale)	Possible	
+7317151000006110	assessment using hospital anxiety and depression scale	Possible	
+1771781000000111	assessment using whooley depression screen	Possible	
+285779010	attends stress monitoring	Possible	
+407321000000119	basdec (brief assessment schedule depression cards) score	Possible	
+5547911000006116	beck depression inventory	Possible	
+504361000006116	beck depression inventory	Possible	
+307111000000119	beck depression inventory ii score	Possible	
+7318301000006113	beck depression inventory score	Possible	
+5932981000006118	beck hopelessness scale	Possible	
+5547981000006111	behaviour and mood disturbance scale	Possible	
+407062014	c/o - feeling depressed	Possible	
+407066012	c/o - feeling unhappy	Possible	
+2533542012	cancer emotional and psychosocial support and advice	Possible	
+6845831000006112	cancer emotional and psychosocial support and education	Possible	
+5532721000006114	complaining of feeling depressed	Possible	
+5532751000006117	complaining of feeling unhappy	Possible	
+1911971000006119	concern expressed by carer: crying	Possible	
+4941541000006116	constantly crying	Possible	
+7227791000006116	controlled crying technique	Possible	
+369940013	cries easily	Possible	
+5531851000006118	crying associated with mood	Possible	
+252953013	crying, excessive	Possible	
+8367351000006116	current view provisional problem description item 11 score - extremes of mood	Possible	
+8367331000006111	current view provisional problem description item 9 score - depression/low mood	Possible	
+5549571000006113	depression anxiety scale	Possible	
+2549138014	depression anxiety stress scales anxiety score	Possible	
+2549495015	depression anxiety stress scales depression score	Possible	
+982251000006112	depression anxiety stress scales stress score	Possible	
+2549296017	depression anxiety stress scales stress score	Possible	
+8268161000006111	depression intensity scale circles score	Possible	
+406881000000111	depression monitoring administration	Possible	
+408521000000112	depression monitoring first letter	Possible	
+8214741000006117	depression monitoring invitation	Possible	
+8459471000006114	depression monitoring invitation email	Possible	
+8459491000006110	depression monitoring invitation sms (short message service) text message	Possible	
+408541000000117	depression monitoring second letter	Possible	
+408601000000116	depression monitoring telephone invitation	Possible	
+408561000000116	depression monitoring third letter	Possible	
+408581000000113	depression monitoring verbal invitation	Possible	
+613751000006114	depression screening	Possible	
+2391741000000112	depression screening declined	Possible	
+7729201000006119	depression screening using patient health questionnaire nine item score	Possible	
+7729191000006117	depression screening using phq-9 (patient health questionnaire 9) score	Possible	
+305421000000112	depression screening using questions	Possible	
+1773191000006118	depression screening using whooley questions	Possible	
+5549581000006111	depression self rating scale	Possible	
+51590017	dysphoric mood	Possible	
+1488793011	emotional and psychosocial support and advice	Possible	
+6551011000006112	emotional and psychosocial support and education	Possible	
+1491815016	emotional problem	Possible	
+6462391000006110	emotional problems	Possible	
+4505171000006116	emotional support	Possible	
+6442471000006110	emotional support assessment	Possible	
+853441000006118	emotional upset	Possible	
+453331012	emotional upset	Possible	
+647761000006114	epnds question 9 - crying	Possible	
+8269201000006111	eq-5d-5l (euroqol five dimension five level) anxiety depression score	Possible	
+2735531000000116	eq-5d-y (euroqol five dimension (youth)) feeling worried, sad or unhappy score	Possible	
+2139351000000110	euroqol five dimension five level anxiety depression score	Possible	
+6795701000006116	evaluation for signs and symptoms of mental/emotional health problems	Possible	
+742321000006111	feeling irritable	Possible	
+5964111000006111	feeling of hopelessness	Possible	
+317091018	feeling unhappy	Possible	
+5915591000006113	finding relating to crying	Possible	
+1839791000006119	gad-7 score - becoming easily annoyed or irritable	Possible	
+5551011000006114	gds - geriatric depression scale	Possible	
+11927071000006116	geriatric depression scale	Possible	
+915451000006116	geriatric depression scale - 0 points	Possible	
+915461000006119	geriatric depression scale - 1 point	Possible	
+915561000006118	geriatric depression scale - 10 points	Possible	
+915571000006113	geriatric depression scale - 11 points	Possible	
+915581000006111	geriatric depression scale - 12 points	Possible	
+915591000006114	geriatric depression scale - 13 points	Possible	
+915601000006118	geriatric depression scale - 14 points	Possible	
+915611000006115	geriatric depression scale - 15 points	Possible	
+915471000006114	geriatric depression scale - 2 points	Possible	
+915481000006112	geriatric depression scale - 3 points	Possible	
+915491000006110	geriatric depression scale - 4 points	Possible	
+915501000006119	geriatric depression scale - 5 points	Possible	
+915521000006112	geriatric depression scale - 6 points	Possible	
+915531000006110	geriatric depression scale - 7 points	Possible	
+915541000006117	geriatric depression scale - 8 points	Possible	
+915551000006115	geriatric depression scale - 9 points	Possible	
+915511000006116	geriatric depression scale - <6 points	Possible	
+7300501000006115	geriatric depression scale 4 item score	Possible	
+408926012	geriatric depression score	Possible	
+5551021000006118	geriatric depression score	Possible	
+801591000006116	geriatric depression screen score	Possible	
+5551621000006112	had - hospital anxiety and depression scale	Possible	
+1780507012	had scale: depression score	Possible	
+8368371000006110	hads (hospital anxiety and depression scale) declined	Possible	
+5551611000006116	hads - hospital anxiety and depression scale	Possible	
+408955016	ham-d (hamilton rating scale for depression) score	Possible	
+5551301000006113	hamilton rating scale for depression	Possible	
+5647821000006114	health of the nation outcome scale item 7 - depressed mood	Possible	
+1780516011	high risk of self neglect	Possible	
+852471000006116	high risk of self neglect	Possible	
+1995011000006112	honos (health of the nation outcome scales) for working age adults rating scale 7 - problems with depressed mood	Possible	
+8361611000006116	honos (health of the nation outcome scales) for working age adults rating scale 7 score - problems with depressed mood	Possible	
+8362571000006117	honos 65+ (health of the nation outcome scales 65+) rating scale 7 score - problems with depressive symptoms	Possible	
+8367831000006119	honos-ld (health of the nation outcome scales for people with learning disabilities) rating scale 9 score - problems associated with mood changes	Possible	
+11927061000006111	hospital anxiety and depression scale	Possible	
+408988011	hospital anxiety and depression scale	Possible	
+2518361000000115	hospital anxiety and depression scale declined	Possible	
+6651471000006117	hospital anxiety and depression scale: anxiety score	Possible	
+6651491000006116	hospital anxiety and depression scale: depression score	Possible	
+1146851000000112	howru rating score - feeling low or worried	Possible	
+408956015	hrsd - hamilton rating scale for depression	Possible	
+3515759010	insufficient intake of food and water with self neglect	Possible	
+745571000006112	irritable - symptom	Possible	
+959811000006113	irritable/agitated	Possible	
+981111000006112	irritable/agitated/aggressive	Possible	
+959421000006119	lacks emotional nurturance/support	Possible	
+1821471000006111	lacks emotional support	Possible	
+369972011	loss of capacity for enjoyment	Possible	
+369915018	loss of interest	Possible	
+734561000006117	loss of interest	Possible	
+2548573012	loss of interest in previously enjoyable activity	Possible	
+959761000006118	loss of interest/involvement in activities/self-care	Possible	
+1661451000000110	madrs (montgomery-asberg depression rating scale) score	Possible	
+11990101000006116	maudsley modified phq-9 score	Possible	
+8342821000006114	mixed disorder of conduct and emotions	Possible	
+701591000006118	mixed disturbance of conduct and emotion	Possible	
+295573011	mixed disturbance of conduct and emotion nos	Possible	
+852491000006115	moderate risk of self neglect	Possible	
+1780429013	moderate risk of self neglect	Possible	
+5553191000006119	mood adjective checklist	Possible	
+13955731000006117	mood disorder questionnaire score	Possible	
+3733211000006112	mood disorder, condition with depressive features	Possible	
+5252351000006113	neglect of personal hygiene	Possible	
+2587911000000119	neurological disorders depression inventory in epilepsy	Possible	
+253622017	o/e - irritable	Possible	
+295483012	other acute stress reaction nos	Possible	
+295477014	other acute stress reactions	Possible	
+1821021000006119	pcl-c - feeling irritable or having angry outbursts: a little bit	Possible	
+1821051000006111	pcl-c - feeling irritable or having angry outbursts: extremely	Possible	
+1821031000006116	pcl-c - feeling irritable or having angry outbursts: moderately	Possible	
+1821041000006114	pcl-c - feeling irritable or having angry outbursts: quite a bit	Possible	
+1820551000006112	pcl-c - having a physical reaction when something reminded you of a stressful experience from the past: a little bit	Possible	
+1820581000006116	pcl-c - having a physical reaction when something reminded you of a stressful experience from the past: extremely	Possible	
+1820561000006114	pcl-c - having a physical reaction when something reminded you of a stressful experience from the past: moderately	Possible	
+1820571000006119	pcl-c - having a physical reaction when something reminded you of a stressful experience from the past: quite a bit	Possible	
+1820771000006113	pcl-c - loss of interest in activities you used to enjoy: a little bit	Possible	
+1820801000006110	pcl-c - loss of interest in activities you used to enjoy: extremely	Possible	
+1820781000006111	pcl-c - loss of interest in activities you used to enjoy: moderately	Possible	
+1820791000006114	pcl-c - loss of interest in activities you used to enjoy: quite a bit	Possible	
+7803451000006113	phq-9 (patient health questionnaire 9) score	Possible	
+8233681000006111	phq-9 - patient health questionnaire 9	Possible	
+1008821000006112	phq9 score - feeling down or depressed or hopeless	Possible	
+1839531000006111	phq9 total score (depression severity grading)	Possible	
+1839561000006119	phq9 total score 10-14 (moderate depression)	Possible	
+1839571000006114	phq9 total score 15-19 (moderately severe depression)	Possible	
+1839581000006112	phq9 total score 20-27 (severe depression)	Possible	
+1839551000006116	phq9 total score 5-9 (mild depression)	Possible	
+44097017	poor concentration	Possible	
+4547301000006110	poor self-esteem	Possible	
+8035341000006119	positive screening for depression on phq-9 (patient health questionnaire 9)	Possible	
+5554901000006114	profile of mood states	Possible	
+954161000006116	psych monitoring: anhedonia absent	Possible	
+954151000006118	psych monitoring: anhedonia present	Possible	
+1776651000006114	reason for referral: emotional/behavioural problems	Possible	
+369924010	reduced concentration	Possible	
+369925011	reduced concentration span	Possible	
+2370061000000111	referral for depression self-help video	Possible	
+300711000000119	referral for guided self-help for depression	Possible	
+2391541000000115	referral for guided self-help for depression declined	Possible	
+1979201000006114	referred for emotional/psychological support	Possible	
+285780013	refuses stress monitoring	Possible	
+1787480011	risk of self neglect	Possible	
+959741000006117	sadness/hopelessness/decreased self-esteem	Possible	
+292101000006115	self-neglect	Possible	
+169463011	social withdrawal	Possible	
+424471000006119	stress and adjustment reaction	Possible	
+25271000000116	stress clinic administration	Possible	
+285783010	stress monitoring 1st letter	Possible	
+121781000006113	stress monitoring 3rd letter	Possible	
+16211000000113	stress monitoring admin.nos	Possible	
+21671000000115	stress monitoring administration	Possible	
+285790017	stress monitoring check done	Possible	
+285781012	stress monitoring default	Possible	
+285789014	stress monitoring deleted	Possible	
+4738841000006115	stress monitoring first letter	Possible	
+5999821000006111	stress monitoring invitation	Possible	
+121771000006110	stress monitoring second letter	Possible	
+5979531000006119	stress monitoring status	Possible	
+121841000006114	stress monitoring telephone invite	Possible	
+121851000006111	stress monitoring verbal invite	Possible	
+121871000006118	stress reaction causing mixed disturbance of emotion and conduct	Possible	
+1650771000000113	suspected depression	Possible	
+7483151000006113	suspected depressive disorder	Possible	
+1691271000000117	visual analogue mood scale	Possible	
+5558141000006117	who depression scale	Possible	
+7382831000006114	whooley depression screen	Possible	
+8257291000006118	whooley depression screen score	Possible	
+5558621000006117	zung self-rating depression scale	Possible	
+296198011	[x]recurrent depressive disorder, currently in remission	H/O	
+1755911000006110	[x]recurrent major depressive episodes, severe, with psychosis, psychosis in remission	H/O	
+1755901000006112	[x]single major depressive episode, severe, with psychosis, psychosis in remission	H/O	
+294621000000118	depression resolved	H/O	
+7515151000006115	depressive disorder in remission	H/O	
+251629019	h/o: depression	H/O	
+460274011	history of affective disorder	H/O	
+4539971000006110	history of depression	H/O	
+3513908018	history of dysthymia	H/O	
+345141000006111	history of mood disorder	H/O	
+3531371000006112	major depression in complete remission	H/O	
+3190221000006112	major depression in remission	H/O	
+142521000006110	major depression single episode, in partial remission	H/O	
+294843018	recurrent major depression in full remission	H/O	
+3033261000006113	recurrent major depression in partial remission	H/O	
+3606411000006115	recurrent major depression in remission	H/O	
+12127561000006116	recurrent major depressive disorder co-occurrent with anxiety in full remission	H/O	
+12127571000006111	recurrent major depressive disorder in partial remission co-occurrent with anxiety	H/O	
+8237831000006115	recurrent major depressive episodes, in partial remission	H/O	
+8237841000006113	recurrent major depressive episodes, in remission	H/O	
+8232591000006117	recurrent major depressive episodes, severe, with psychosis, psychosis in remission	H/O	
+182801000006114	recurrent major depressive episodes,partial/unspec remission	H/O	
+2474716016	removed from depression register	H/O	
+294831019	single episode of major depression in full remission	H/O	
+8237851000006110	single major depressive episode, in remission	H/O	
+8232571000006118	single major depressive episode, severe, with psychosis, psychosis in remission	H/O	

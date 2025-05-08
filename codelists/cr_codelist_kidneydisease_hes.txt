@@ -1,0 +1,10 @@
+code	alt_code	description	kidneydisease	desc
+N18.3	N183	Chronic kidney disease, stage 3	1	chronic kidney disease, stage 3
+N18.4	N184	Chronic kidney disease, stage 4	1	chronic kidney disease, stage 4
+N18.5	N185	Chronic kidney disease, stage 5	1	chronic kidney disease, stage 5
+T86.1	T861	Kidney transplant failure and rejection	1	kidney transplant failure and rejection
+Y84.1	Y841	Kidney dialysis	1	kidney dialysis
+Z49	Z49	Care involving dialysis	1	care involving dialysis
+Z49.0	Z490	Preparatory care for dialysis	1	preparatory care for dialysis
+Z49.1	Z491	Extracorporeal dialysis	1	extracorporeal dialysis
+Z49.2	Z492	Other dialysis	1	other dialysis

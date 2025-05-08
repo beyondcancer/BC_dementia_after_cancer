@@ -1,0 +1,332 @@
+prodcodeid	drugsubstancename	termfromemis	class	extra	depression_drugs
+592541000033118		fluoxetine hydrochloride liquid 20 mg/5 ml	SSRI	1	1
+1583241000033111	citalopram hydrobromide	cipramil 10mg tablets (lundbeck ltd)	SSRI	1	1
+259141000033116	citalopram hydrobromide	cipramil 20mg tablets (lundbeck ltd)	SSRI	1	1
+1583041000033115	citalopram hydrobromide	cipramil 40mg tablets (lundbeck ltd)	SSRI	1	1
+1583341000033118	citalopram hydrobromide	citalopram 10mg tablets	SSRI	1	1
+259241000033111	citalopram hydrobromide	citalopram 20mg tablets	SSRI	1	1
+1583141000033116	citalopram hydrobromide	citalopram 40mg tablets	SSRI	1	1
+1900741000033115	citalopram hydrochloride	cipramil 40mg/ml drops (lundbeck ltd)	SSRI	1	1
+1900641000033112	citalopram hydrochloride	citalopram 40mg/ml oral drops sugar free	SSRI	1	1
+2749641000033115	escitalopram oxalate	cipralex 10mg tablets (lundbeck ltd)	SSRI	1	1
+3928941000033119	escitalopram oxalate	cipralex 10mg/ml oral drops (lundbeck ltd)	SSRI	1	1
+2951441000033110	escitalopram oxalate	cipralex 20mg tablets (lundbeck ltd)	SSRI	1	1
+5128641000033118	escitalopram oxalate	cipralex 20mg/ml oral drops (lundbeck ltd)	SSRI	1	1
+3030541000033115	escitalopram oxalate	cipralex 5mg tablets (lundbeck ltd)	SSRI	1	1
+2749541000033116	escitalopram oxalate	escitalopram 10mg tablets	SSRI	1	1
+3928841000033110	escitalopram oxalate	escitalopram 10mg/ml oral drops sugar free	SSRI	1	1
+2951341000033116	escitalopram oxalate	escitalopram 20mg tablets	SSRI	1	1
+5128541000033119	escitalopram oxalate	escitalopram 20mg/ml oral drops sugar free	SSRI	1	1
+3030341000033110	escitalopram oxalate	escitalopram 5mg tablets	SSRI	1	1
+1923141000033118	fluoxetine hydrochloride	felicium 20mg capsules (opus pharmaceuticals ltd)	SSRI	1	1
+11603841000033119	fluoxetine hydrochloride	fluoxetine 10mg capsules	SSRI	1	1
+6496341000033116	fluoxetine hydrochloride	fluoxetine 10mg tablets	SSRI	1	1
+13740541000033117	fluoxetine hydrochloride	fluoxetine 10mg tablets (imported)	SSRI	1	1
+577841000033114	fluoxetine hydrochloride	fluoxetine 20mg capsules	SSRI	1	1
+9120641000033112	fluoxetine hydrochloride	fluoxetine 20mg dispersible tablets sugar free	SSRI	1	1
+2770641000033114	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution	SSRI	1	1
+5749441000033115	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution sugar free	SSRI	1	1
+11707441000033119	fluoxetine hydrochloride	fluoxetine 30mg capsules	SSRI	1	1
+13740641000033116	fluoxetine hydrochloride	fluoxetine 30mg capsules (imported)	SSRI	1	1
+11707541000033118	fluoxetine hydrochloride	fluoxetine 40mg capsules	SSRI	1	1
+579041000033111	fluoxetine hydrochloride	fluoxetine 60mg capsules	SSRI	1	1
+9120741000033115	fluoxetine hydrochloride	olena 20mg dispersible tablets (advanz pharma)	SSRI	1	1
+2602041000033119	fluoxetine hydrochloride	oxactin 20mg capsules (discovery pharmaceuticals)	SSRI	1	1
+1112441000033114	fluoxetine hydrochloride	prozac 20mg capsules (eli lilly and company ltd)	SSRI	1	1
+1129541000033110	fluoxetine hydrochloride	prozac 20mg/5ml liquid (eli lilly and company ltd)	SSRI	1	1
+1111941000033111	fluoxetine hydrochloride	prozac 60mg capsules (eli lilly and company ltd)	SSRI	1	1
+4498641000033115	fluoxetine hydrochloride	prozep 20mg/5ml oral solution (rosemont pharmaceuticals ltd)	SSRI	1	1
+2770541000033113	fluoxetine hydrochloride	prozit 20mg/5ml oral solution (pinewood healthcare)	SSRI	1	1
+2710441000033119	fluoxetine hydrochloride	ranflutin 20mg capsules (ranbaxy (uk) ltd)	SSRI	1	1
+561941000033115	fluvoxamine maleate	faverin 100mg tablets (viatris uk healthcare ltd)	SSRI	1	1
+563341000033115	fluvoxamine maleate	faverin 50mg tablets (viatris uk healthcare ltd)	SSRI	1	1
+592841000033116	fluvoxamine maleate	fluvoxamine 100mg tablets	SSRI	1	1
+595541000033113	fluvoxamine maleate	fluvoxamine 50mg tablets	SSRI	1	1
+4079041000033115	paroxetine hydrochloride	paroxetine 10mg tablets	SSRI	1	1
+1662441000033114	paroxetine hydrochloride	paroxetine 10mg/5ml oral suspension sugar free	SSRI	1	1
+1042141000033117	paroxetine hydrochloride	paroxetine 20mg tablets	SSRI	1	1
+1042241000033112	paroxetine hydrochloride	paroxetine 30mg tablets	SSRI	1	1
+11755441000033119	paroxetine hydrochloride	paroxetine 40mg tablets	SSRI	1	1
+4079141000033116	paroxetine hydrochloride	seroxat 10mg tablets (glaxosmithkline uk ltd)	SSRI	1	1
+1278341000033111	paroxetine hydrochloride	seroxat 20mg tablets (glaxosmithkline uk ltd)	SSRI	1	1
+1686141000033119	paroxetine hydrochloride	seroxat 20mg/10ml liquid (glaxosmithkline uk ltd)	SSRI	1	1
+1278441000033117	paroxetine hydrochloride	seroxat 30mg tablets (glaxosmithkline uk ltd)	SSRI	1	1
+854141000033113	sertraline hydrochloride	lustral 100mg tablets (viatris uk healthcare ltd)	SSRI	1	1
+854241000033118	sertraline hydrochloride	lustral 50mg tablets (viatris uk healthcare ltd)	SSRI	1	1
+1278741000033112	sertraline hydrochloride	sertraline 100mg tablets	SSRI	1	1
+5975341000033119	sertraline hydrochloride	sertraline 100mg/5ml oral suspension	SSRI	1	1
+13743641000033113	sertraline hydrochloride	sertraline 25mg tablets	SSRI	1	1
+12900941000033117	sertraline hydrochloride	sertraline 25mg/5ml oral suspension	SSRI	1	1
+1278841000033119	sertraline hydrochloride	sertraline 50mg tablets	SSRI	1	1
+4148341000033116	sertraline hydrochloride	sertraline 50mg/5ml oral suspension	SSRI	1	1
+1524841000033116		viloxazine hydrochloride tablets 50 mg	SNRI	1	1
+3226841000033112	duloxetine hydrochloride	cymbalta 30mg gastro-resistant capsules (eli lilly and company ltd)	SNRI	1	1
+3226941000033116	duloxetine hydrochloride	cymbalta 60mg gastro-resistant capsules (eli lilly and company ltd)	SNRI	1	1
+12475941000033119	duloxetine hydrochloride	depalta 30mg gastro-resistant capsules (disposable medical equipment ltd)	SNRI	1	1
+12476041000033112	duloxetine hydrochloride	depalta 60mg gastro-resistant capsules (disposable medical equipment ltd)	SNRI	1	1
+10701841000033115	duloxetine hydrochloride	duciltia 30mg gastro-resistant capsules (aristo pharma ltd)	SNRI	1	1
+10701941000033111	duloxetine hydrochloride	duciltia 60mg gastro-resistant capsules (aristo pharma ltd)	SNRI	1	1
+13898741000033115	duloxetine hydrochloride	duloxetine 120mg gastro-resistant capsules	SNRI	1	1
+3177641000033112	duloxetine hydrochloride	duloxetine 20mg gastro-resistant capsules	SNRI	1	1
+3226641000033111	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules	SNRI	1	1
+3177741000033115	duloxetine hydrochloride	duloxetine 40mg gastro-resistant capsules	SNRI	1	1
+3226741000033119	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules	SNRI	1	1
+13898641000033112	duloxetine hydrochloride	duloxetine 90mg gastro-resistant capsules	SNRI	1	1
+12989441000033115	duloxetine hydrochloride	dutor 30mg gastro-resistant capsules (torrent pharma (uk) ltd)	SNRI	1	1
+3177841000033113	duloxetine hydrochloride	yentreve 20mg gastro-resistant capsules (eli lilly and company ltd)	SNRI	1	1
+3177941000033117	duloxetine hydrochloride	yentreve 40mg gastro-resistant capsules (eli lilly and company ltd)	SNRI	1	1
+496741000033118	reboxetine mesilate	edronax 4mg tablets (pfizer ltd)	SNRI	1	1
+1165641000033115	reboxetine mesilate	reboxetine 4mg tablets	SNRI	1	1
+5813141000033117	venlafaxine hydrochloride	alventa xl 150mg capsules (consilient health ltd)	SNRI	1	1
+5813341000033119	venlafaxine hydrochloride	alventa xl 75mg capsules (consilient health ltd)	SNRI	1	1
+9300841000033114	venlafaxine hydrochloride	amphero xl 150mg capsules (viatris uk healthcare ltd)	SNRI	1	1
+9300741000033116	venlafaxine hydrochloride	amphero xl 75mg capsules (viatris uk healthcare ltd)	SNRI	1	1
+8265641000033113	venlafaxine hydrochloride	bonilux xl 150mg capsules (sandoz ltd)	SNRI	1	1
+8265541000033112	venlafaxine hydrochloride	bonilux xl 75mg capsules (sandoz ltd)	SNRI	1	1
+5896441000033118	venlafaxine hydrochloride	depefex xl 150mg capsules (chiesi ltd)	SNRI	1	1
+5896341000033112	venlafaxine hydrochloride	depefex xl 75mg capsules (chiesi ltd)	SNRI	1	1
+499041000033111	venlafaxine hydrochloride	efexor 37.5mg tablets (wyeth pharmaceuticals)	SNRI	1	1
+499241000033115	venlafaxine hydrochloride	efexor 50mg tablets (wyeth pharmaceuticals)	SNRI	1	1
+499141000033110	venlafaxine hydrochloride	efexor 75mg tablets (wyeth pharmaceuticals)	SNRI	1	1
+498541000033113	venlafaxine hydrochloride	efexor xl 150mg capsules (viatris uk healthcare ltd)	SNRI	1	1
+10730141000033114	venlafaxine hydrochloride	efexor xl 225mg capsules (viatris uk healthcare ltd)	SNRI	1	1
+498441000033112	venlafaxine hydrochloride	efexor xl 75mg capsules (viatris uk healthcare ltd)	SNRI	1	1
+5234141000033115	venlafaxine hydrochloride	foraven xl 150mg capsules (forum products ltd)	SNRI	1	1
+5234041000033119	venlafaxine hydrochloride	foraven xl 75mg capsules (forum products ltd)	SNRI	1	1
+12901241000033119	venlafaxine hydrochloride	majoven xl 150mg capsules (bristol laboratories ltd)	SNRI	1	1
+12901141000033114	venlafaxine hydrochloride	majoven xl 75mg capsules (bristol laboratories ltd)	SNRI	1	1
+5889641000033110	venlafaxine hydrochloride	mentaven xl 150mg capsules (arrow generics ltd)	SNRI	1	1
+4957941000033115	venlafaxine hydrochloride	politid xl 150mg capsules (accord healthcare ltd)	SNRI	1	1
+4957841000033111	venlafaxine hydrochloride	politid xl 75mg capsules (accord healthcare ltd)	SNRI	1	1
+5329041000033111	venlafaxine hydrochloride	ranfaxine xl 150mg capsules (ranbaxy (uk) ltd)	SNRI	1	1
+5328941000033119	venlafaxine hydrochloride	ranfaxine xl 75mg capsules (ranbaxy (uk) ltd)	SNRI	1	1
+4817341000033115	venlafaxine hydrochloride	rodomel xl 150mg capsules (teva uk ltd)	SNRI	1	1
+4817441000033114	venlafaxine hydrochloride	rodomel xl 75mg capsules (teva uk ltd)	SNRI	1	1
+8298641000033115	venlafaxine hydrochloride	sunveniz xl 150mg tablets (sun pharmaceutical industries europe b.v.)	SNRI	1	1
+8298741000033112	venlafaxine hydrochloride	sunveniz xl 75mg tablets (sun pharmaceutical industries europe b.v.)	SNRI	1	1
+4897241000033112	venlafaxine hydrochloride	tardcaps xl 150mg capsules (ixl pharma ltd)	SNRI	1	1
+4897141000033117	venlafaxine hydrochloride	tardcaps xl 75mg capsules (ixl pharma ltd)	SNRI	1	1
+4817641000033111	venlafaxine hydrochloride	tifaxin xl 150mg capsules (genus pharmaceuticals ltd)	SNRI	1	1
+4817741000033119	venlafaxine hydrochloride	tifaxin xl 75mg capsules (genus pharmaceuticals ltd)	SNRI	1	1
+5574741000033114	venlafaxine hydrochloride	tonpular xl 150mg capsules (wockhardt uk ltd)	SNRI	1	1
+5574641000033117	venlafaxine hydrochloride	tonpular xl 75mg capsules (wockhardt uk ltd)	SNRI	1	1
+4937141000033116	venlafaxine hydrochloride	vaxalin xl 150mg capsules (ratiopharm uk ltd)	SNRI	1	1
+4937041000033115	venlafaxine hydrochloride	vaxalin xl 75mg capsules (ratiopharm uk ltd)	SNRI	1	1
+4936741000033119	venlafaxine hydrochloride	venaxx xl 150mg capsules (advanz pharma)	SNRI	1	1
+4936641000033111	venlafaxine hydrochloride	venaxx xl 75mg capsules (advanz pharma)	SNRI	1	1
+12194541000033118	venlafaxine hydrochloride	vencarm xl 150mg capsules (aspire pharma ltd)	SNRI	1	1
+12194641000033117	venlafaxine hydrochloride	vencarm xl 225mg capsules (aspire pharma ltd)	SNRI	1	1
+12194741000033114	venlafaxine hydrochloride	vencarm xl 37.5mg capsules (aspire pharma ltd)	SNRI	1	1
+12194841000033116	venlafaxine hydrochloride	vencarm xl 75mg capsules (aspire pharma ltd)	SNRI	1	1
+5812641000033119	venlafaxine hydrochloride	venlablue xl 150mg capsules (zentiva pharma uk ltd)	SNRI	1	1
+8885541000033117	venlafaxine hydrochloride	venlablue xl 37.5mg capsules (zentiva pharma uk ltd)	SNRI	1	1
+5812541000033115	venlafaxine hydrochloride	venlablue xl 75mg capsules (zentiva pharma uk ltd)	SNRI	1	1
+12605441000033117	venlafaxine hydrochloride	venladex xl 150mg tablets (dexcel-pharma ltd)	SNRI	1	1
+12605541000033116	venlafaxine hydrochloride	venladex xl 225mg tablets (dexcel-pharma ltd)	SNRI	1	1
+12605341000033111	venlafaxine hydrochloride	venladex xl 75mg tablets (dexcel-pharma ltd)	SNRI	1	1
+1509241000033110	venlafaxine hydrochloride	venlafaxine 150mg modified-release capsules	SNRI	1	1
+4823641000033111	venlafaxine hydrochloride	venlafaxine 150mg modified-release tablets	SNRI	1	1
+10730041000033110	venlafaxine hydrochloride	venlafaxine 225mg modified-release capsules	SNRI	1	1
+5052741000033119	venlafaxine hydrochloride	venlafaxine 225mg modified-release tablets	SNRI	1	1
+13318341000033119	venlafaxine hydrochloride	venlafaxine 300mg modified-release tablets	SNRI	1	1
+8885441000033118	venlafaxine hydrochloride	venlafaxine 37.5mg modified-release capsules	SNRI	1	1
+6161741000033111	venlafaxine hydrochloride	venlafaxine 37.5mg modified-release tablets	SNRI	1	1
+1512241000033119	venlafaxine hydrochloride	venlafaxine 37.5mg tablets	SNRI	1	1
+6000441000033115	venlafaxine hydrochloride	venlafaxine 37.5mg/5ml oral solution	SNRI	1	1
+13916241000033115	venlafaxine hydrochloride	venlafaxine 37.5mg/5ml oral solution sugar free	SNRI	1	1
+4498541000033116	venlafaxine hydrochloride	venlafaxine 37.5mg/5ml oral suspension	SNRI	1	1
+1512441000033118	venlafaxine hydrochloride	venlafaxine 50mg tablets	SNRI	1	1
+1509341000033117	venlafaxine hydrochloride	venlafaxine 75mg modified-release capsules	SNRI	1	1
+4823541000033110	venlafaxine hydrochloride	venlafaxine 75mg modified-release tablets	SNRI	1	1
+1512341000033112	venlafaxine hydrochloride	venlafaxine 75mg tablets	SNRI	1	1
+5008041000033112	venlafaxine hydrochloride	venlafaxine 75mg/5ml oral solution	SNRI	1	1
+13916341000033113	venlafaxine hydrochloride	venlafaxine 75mg/5ml oral solution sugar free	SNRI	1	1
+8867941000033118	venlafaxine hydrochloride	venlafaxine 75mg/5ml oral suspension	SNRI	1	1
+5052941000033116	venlafaxine hydrochloride	venlalic xl 150mg tablets (ethypharm uk ltd)	SNRI	1	1
+5052841000033112	venlafaxine hydrochloride	venlalic xl 225mg tablets (ethypharm uk ltd)	SNRI	1	1
+13318441000033113	venlafaxine hydrochloride	venlalic xl 300mg tablets (ethypharm uk ltd)	SNRI	1	1
+6161841000033118	venlafaxine hydrochloride	venlalic xl 37.5mg tablets (ethypharm uk ltd)	SNRI	1	1
+5053041000033114	venlafaxine hydrochloride	venlalic xl 75mg tablets (ethypharm uk ltd)	SNRI	1	1
+6029641000033116	venlafaxine hydrochloride	venlaneo xl 150mg capsules (kent pharma (uk) ltd)	SNRI	1	1
+6029741000033113	venlafaxine hydrochloride	venlaneo xl 75mg capsules (kent pharma (uk) ltd)	SNRI	1	1
+12390341000033114	venlafaxine hydrochloride	venlasov xl 150mg capsules (sovereign medical ltd)	SNRI	1	1
+12389941000033119	venlafaxine hydrochloride	venlasov xl 75mg capsules (sovereign medical ltd)	SNRI	1	1
+4899641000033119	venlafaxine hydrochloride	vensir xl 150mg capsules (morningside healthcare ltd)	SNRI	1	1
+11693641000033117	venlafaxine hydrochloride	vensir xl 225mg capsules (morningside healthcare ltd)	SNRI	1	1
+4899541000033115	venlafaxine hydrochloride	vensir xl 75mg capsules (morningside healthcare ltd)	SNRI	1	1
+12641541000033113	venlafaxine hydrochloride	venzip xl 150mg capsules (milpharm ltd)	SNRI	1	1
+12641641000033114	venlafaxine hydrochloride	venzip xl 75mg capsules (milpharm ltd)	SNRI	1	1
+4896741000033115	venlafaxine hydrochloride	vexarin xl 150mg capsules (viatris uk healthcare ltd)	SNRI	1	1
+4896841000033113	venlafaxine hydrochloride	vexarin xl 75mg capsules (viatris uk healthcare ltd)	SNRI	1	1
+4897041000033116	venlafaxine hydrochloride	viepax 37.5mg tablets (dexcel-pharma ltd)	SNRI	1	1
+4896941000033117	venlafaxine hydrochloride	viepax 75mg tablets (dexcel-pharma ltd)	SNRI	1	1
+4823841000033112	venlafaxine hydrochloride	viepax xl 150mg tablets (dexcel-pharma ltd)	SNRI	1	1
+4823741000033119	venlafaxine hydrochloride	viepax xl 75mg tablets (dexcel-pharma ltd)	SNRI	1	1
+4824641000033113	venlafaxine hydrochloride	winfex xl 75mg capsules (zentiva pharma uk ltd)	SNRI	1	1
+43541000033117		amitriptyline hydrochloride capsules 25 mg	TCA	1	1
+43641000033116		amitriptyline hydrochloride capsules 50 mg	TCA	1	1
+43741000033113		amitriptyline hydrochloride capsules 75 mg	TCA	1	1
+50041000033116		amitriptyline hydrochloride injection 10mg/ml	TCA	1	1
+51941000033114		amitriptyline hydrochloride mixture sugar free 10 mg/5 ml	TCA	1	1
+43441000033118		amitriptyline sr capsules 75 mg	TCA	1	1
+61141000033117		amoxapine tablets 150 mg	TCA	1	1
+60841000033118		amoxapine tablets 25 mg	TCA	1	1
+173741000033115		butriptyline tablets 25 mg	TCA	1	1
+275441000033113		clomipramine hydrochloride injection 12.5mg/ml	TCA	1	1
+430141000033112		desipramine tablets 25 mg	TCA	1	1
+754141000033110		imipramine hydrochloride syrup 25 mg/5 ml	TCA	1	1
+774341000033110		iprindole tablets 15 mg	TCA	1	1
+774441000033116		iprindole tablets 30 mg	TCA	1	1
+983141000033114		nortriptyline liquid 10mg/5 ml	TCA	1	1
+1135641000033111		protriptyline hydrochloride tablets 10 mg	TCA	1	1
+1135741000033119		protriptyline hydrochloride tablets 5 mg	TCA	1	1
+60441000033116	amitriptyline hydrochloride	amitriptyline 10mg tablets	TCA	1	1
+5490141000033118	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral solution	TCA	1	1
+10332441000033118	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral solution sugar free	TCA	1	1
+5888641000033118	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral suspension	TCA	1	1
+45841000033119	amitriptyline hydrochloride	amitriptyline 25mg modified-release capsules	TCA	1	1
+60641000033119	amitriptyline hydrochloride	amitriptyline 25mg tablets	TCA	1	1
+55441000033119	amitriptyline hydrochloride	amitriptyline 25mg/5ml oral solution sugar free	TCA	1	1
+45941000033110	amitriptyline hydrochloride	amitriptyline 50mg modified-release capsules	TCA	1	1
+60541000033115	amitriptyline hydrochloride	amitriptyline 50mg tablets	TCA	1	1
+55541000033118	amitriptyline hydrochloride	amitriptyline 50mg/5ml oral solution sugar free	TCA	1	1
+819741000033117	amitriptyline hydrochloride	lentizol 25mg modified-release capsules (pfizer ltd)	TCA	1	1
+819841000033110	amitriptyline hydrochloride	lentizol 50mg modified-release capsules (pfizer ltd)	TCA	1	1
+3180541000033117	amitriptyline hydrochloride/ perphenazine	amitriptyline 10mg / perphenazine 2mg tablets	TCA	1	1
+3180441000033118	amitriptyline hydrochloride/ perphenazine	amitriptyline 25mg / perphenazine 2mg tablets	TCA	1	1
+1473341000033117	amitriptyline hydrochloride/ perphenazine	triptafen tablets (advanz pharma)	TCA	1	1
+1473441000033111	amitriptyline hydrochloride/ perphenazine	triptafen-m tablets (mercury pharma group ltd)	TCA	1	1
+61041000033116	amoxapine	amoxapine 100mg tablets	TCA	1	1
+60941000033114	amoxapine	amoxapine 50mg tablets	TCA	1	1
+87641000033116	amoxapine	asendis 100mg tablets (mercury pharma group ltd)	TCA	1	1
+87941000033111	amoxapine	asendis 50mg tablets (mercury pharma group ltd)	TCA	1	1
+61941000033115	clomipramine hydrochloride	anafranil 10mg capsules (novartis pharmaceuticals uk ltd)	TCA	1	1
+62041000033114	clomipramine hydrochloride	anafranil 25mg capsules (novartis pharmaceuticals uk ltd)	TCA	1	1
+68641000033117	clomipramine hydrochloride	anafranil 25mg/5ml syrup (novartis pharmaceuticals uk ltd)	TCA	1	1
+62141000033113	clomipramine hydrochloride	anafranil 50mg capsules (novartis pharmaceuticals uk ltd)	TCA	1	1
+70241000033114	clomipramine hydrochloride	anafranil sr 75mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+262041000033115	clomipramine hydrochloride	clomipramine 10mg capsules	TCA	1	1
+262141000033116	clomipramine hydrochloride	clomipramine 25mg capsules	TCA	1	1
+284741000033110	clomipramine hydrochloride	clomipramine 25mg/5ml oral solution	TCA	1	1
+262241000033111	clomipramine hydrochloride	clomipramine 50mg capsules	TCA	1	1
+4431541000033115	clomipramine hydrochloride	clomipramine 50mg/5ml oral suspension	TCA	1	1
+285741000033111	clomipramine hydrochloride	clomipramine 75mg modified-release tablets	TCA	1	1
+3088941000033118	dosulepin hydrochloride	dosulepin 25mg capsules	TCA	1	1
+3089141000033114	dosulepin hydrochloride	dosulepin 25mg/5ml oral solution	TCA	1	1
+5891041000033116	dosulepin hydrochloride	dosulepin 25mg/5ml oral suspension	TCA	1	1
+3089041000033110	dosulepin hydrochloride	dosulepin 75mg tablets	TCA	1	1
+3089241000033119	dosulepin hydrochloride	dosulepin 75mg/5ml oral solution	TCA	1	1
+5992241000033114	dosulepin hydrochloride	dosulepin 75mg/5ml oral suspension	TCA	1	1
+472141000033110	dosulepin hydrochloride	dothapax 25 capsules (ashbourne pharmaceuticals ltd)	TCA	1	1
+479641000033111	dosulepin hydrochloride	dothapax 75 tablets (ashbourne pharmaceuticals ltd)	TCA	1	1
+1111641000033116	dosulepin hydrochloride	prepadine 25mg capsules (teva uk ltd)	TCA	1	1
+1135941000033116	dosulepin hydrochloride	prepadine 75mg tablets (teva uk ltd)	TCA	1	1
+1111541000033117	dosulepin hydrochloride	prothiaden 25mg capsules (teofarma s.r.l.)	TCA	1	1
+1135541000033110	dosulepin hydrochloride	prothiaden 75mg tablets (teofarma s.r.l.)	TCA	1	1
+473041000033119	doxepin hydrochloride	doxepin 10mg capsules	TCA	1	1
+473141000033115	doxepin hydrochloride	doxepin 25mg capsules	TCA	1	1
+473241000033110	doxepin hydrochloride	doxepin 50mg capsules	TCA	1	1
+4954041000033114	doxepin hydrochloride	doxepin 50mg/5ml oral solution	TCA	1	1
+473341000033117	doxepin hydrochloride	doxepin 75mg capsules	TCA	1	1
+4010441000033114	doxepin hydrochloride	sinepin 25mg capsules (marlborough pharmaceuticals ltd)	TCA	1	1
+4010541000033110	doxepin hydrochloride	sinepin 50mg capsules (marlborough pharmaceuticals ltd)	TCA	1	1
+1294541000033115	doxepin hydrochloride	sinequan 10mg capsules (pfizer ltd)	TCA	1	1
+1294641000033119	doxepin hydrochloride	sinequan 25mg capsules (pfizer ltd)	TCA	1	1
+1294741000033111	doxepin hydrochloride	sinequan 50mg capsules (pfizer ltd)	TCA	1	1
+1294841000033118	doxepin hydrochloride	sinequan 75mg capsules (pfizer ltd)	TCA	1	1
+938841000033118	fluphenazine hydrochloride/ nortriptyline hydrochloride	motipress tablets (sanofi-synthelabo ltd)	TCA	1	1
+938941000033114	fluphenazine hydrochloride/ nortriptyline hydrochloride	motival 10mg/500microgram tablets (sanofi)	TCA	1	1
+3179941000033111	fluphenazine hydrochloride/ nortriptyline hydrochloride	nortriptyline 10mg / fluphenazine 500microgram tablets	TCA	1	1
+755541000033119	imipramine hydrochloride	imipramine 10mg tablets	TCA	1	1
+754241000033115	imipramine hydrochloride	imipramine 25mg tablets	TCA	1	1
+5328741000033117	imipramine hydrochloride	imipramine 25mg/5ml oral solution	TCA	1	1
+5454141000033118	imipramine hydrochloride	imipramine 25mg/5ml oral solution sugar free	TCA	1	1
+1450841000033117	imipramine hydrochloride	tofranil 25mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+1449441000033113	imipramine hydrochloride	tofranil 25mg/5ml syrup (novartis pharmaceuticals uk ltd)	TCA	1	1
+2215541000033118	lofepramine hydrochloride	feprapax 70mg tablets (ashbourne pharmaceuticals ltd)	TCA	1	1
+626241000033115	lofepramine hydrochloride	gamanil 70mg tablets (merck serono ltd)	TCA	1	1
+850141000033116	lofepramine hydrochloride	lofepramine 70mg tablets	TCA	1	1
+5996641000033111	lofepramine hydrochloride	lofepramine 70mg/5ml oral solution	TCA	1	1
+5996741000033119	lofepramine hydrochloride	lofepramine 70mg/5ml oral suspension	TCA	1	1
+849241000033115	lofepramine hydrochloride	lofepramine 70mg/5ml oral suspension sugar free	TCA	1	1
+2078841000033114	lofepramine hydrochloride	lomont 70mg/5ml oral suspension (rosemont pharmaceuticals ltd)	TCA	1	1
+853441000033119	maprotiline hydrochloride	ludiomil 10mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+853541000033118	maprotiline hydrochloride	ludiomil 25mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+853641000033117	maprotiline hydrochloride	ludiomil 50mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+853741000033114	maprotiline hydrochloride	ludiomil 75mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+870441000033114	maprotiline hydrochloride	maprotiline 10mg tablets	TCA	1	1
+870741000033119	maprotiline hydrochloride	maprotiline 25mg tablets	TCA	1	1
+870841000033112	maprotiline hydrochloride	maprotiline 50mg tablets	TCA	1	1
+870941000033116	maprotiline hydrochloride	maprotiline 75mg tablets	TCA	1	1
+38741000033119	nortriptyline hydrochloride	allegron 10mg tablets (king pharmaceuticals ltd)	TCA	1	1
+38841000033112	nortriptyline hydrochloride	allegron 25mg tablets (king pharmaceuticals ltd)	TCA	1	1
+979241000033110	nortriptyline hydrochloride	nortriptyline 10mg capsules	TCA	1	1
+989141000033111	nortriptyline hydrochloride	nortriptyline 10mg tablets	TCA	1	1
+11072841000033114	nortriptyline hydrochloride	nortriptyline 10mg/5ml oral solution	TCA	1	1
+13300841000033111	nortriptyline hydrochloride	nortriptyline 10mg/5ml oral solution sugar free	TCA	1	1
+12257841000033117	nortriptyline hydrochloride	nortriptyline 10mg/5ml oral suspension	TCA	1	1
+979341000033117	nortriptyline hydrochloride	nortriptyline 25mg capsules	TCA	1	1
+989241000033116	nortriptyline hydrochloride	nortriptyline 25mg tablets	TCA	1	1
+13300941000033115	nortriptyline hydrochloride	nortriptyline 25mg/5ml oral solution sugar free	TCA	1	1
+12292341000033116	nortriptyline hydrochloride	nortriptyline 50mg tablets	TCA	1	1
+1396741000033112	trimipramine maleate	surmontil 10mg tablets (sanofi)	TCA	1	1
+1396841000033119	trimipramine maleate	surmontil 25mg tablets (sanofi)	TCA	1	1
+1389441000033112	trimipramine maleate	surmontil 50mg capsules (sanofi)	TCA	1	1
+1471341000033116	trimipramine maleate	trimipramine 10mg tablets	TCA	1	1
+1471441000033110	trimipramine maleate	trimipramine 25mg tablets	TCA	1	1
+1454741000033115	trimipramine maleate	trimipramine 50mg capsules	TCA	1	1
+787141000033110	isocarboxazid	isocarboxazid 10mg tablets	MAOI	1	1
+955241000033110	phenelzine sulfate	nardil 15mg tablets (neon healthcare ltd)	MAOI	1	1
+13719241000033117	phenelzine sulfate	phenelzine 15mg capsules	MAOI	1	1
+13747441000033117	phenelzine sulfate	phenelzine 15mg capsules (imported)	MAOI	1	1
+13747541000033116	phenelzine sulfate	phenelzine 15mg capsules (special order)	MAOI	1	1
+1079341000033111	phenelzine sulfate	phenelzine 15mg tablets	MAOI	1	1
+1469441000033116	tranylcypromine sulfate	tranylcypromine 10mg tablets	MAOI	1	1
+868841000033115	moclobemide	manerix 150mg tablets (viatris uk healthcare ltd)	RIMA	1	1
+868941000033111	moclobemide	manerix 300mg tablets (viatris uk healthcare ltd)	RIMA	1	1
+937241000033118	moclobemide	moclobemide 150mg tablets	RIMA	1	1
+937841000033119	moclobemide	moclobemide 300mg tablets	RIMA	1	1
+10617341000033110	vortioxetine hydrobromide	brintellix 10mg tablets (lundbeck ltd)	SMS	1	1
+10617441000033116	vortioxetine hydrobromide	brintellix 20mg tablets (lundbeck ltd)	SMS	1	1
+10617241000033117	vortioxetine hydrobromide	brintellix 5mg tablets (lundbeck ltd)	SMS	1	1
+10617041000033113	vortioxetine hydrobromide	vortioxetine 10mg tablets	SMS	1	1
+10617141000033112	vortioxetine hydrobromide	vortioxetine 20mg tablets	SMS	1	1
+10616941000033112	vortioxetine hydrobromide	vortioxetine 5mg tablets	SMS	1	1
+966341000033118		nefazodone hydrochloride tablets (starter pack) 14 x 50 mg, 14 x 100 mg, 28 x 200 mg	Atypical	1	1
+5077041000033116	agomelatine	agomelatine 25mg tablets	Atypical	1	1
+5077141000033117	agomelatine	valdoxan 25mg tablets (servier laboratories ltd)	Atypical	1	1
+917541000033110	mianserin hydrochloride	mianserin 10mg tablets	Atypical	1	1
+917641000033111	mianserin hydrochloride	mianserin 20mg tablets	Atypical	1	1
+917741000033119	mianserin hydrochloride	mianserin 30mg tablets	Atypical	1	1
+3029641000033112	mirtazapine	mirtazapine 15mg orodispersible tablets	Atypical	1	1
+3256741000033118	mirtazapine	mirtazapine 15mg tablets	Atypical	1	1
+3058741000033113	mirtazapine	mirtazapine 15mg/ml oral solution sugar free	Atypical	1	1
+2974841000033114	mirtazapine	mirtazapine 30mg orodispersible tablets	Atypical	1	1
+919641000033115	mirtazapine	mirtazapine 30mg tablets	Atypical	1	1
+3029741000033115	mirtazapine	mirtazapine 45mg orodispersible tablets	Atypical	1	1
+3256841000033111	mirtazapine	mirtazapine 45mg tablets	Atypical	1	1
+1558041000033118	mirtazapine	zispin 30mg tablets (organon laboratories ltd)	Atypical	1	1
+3029841000033113	mirtazapine	zispin soltab 15mg orodispersible tablets (organon pharma (uk) ltd)	Atypical	1	1
+3078541000033115	mirtazapine	zispin soltab 30mg orodispersible tablets (organon pharma (uk) ltd)	Atypical	1	1
+3029941000033117	mirtazapine	zispin soltab 45mg orodispersible tablets (organon pharma (uk) ltd)	Atypical	1	1
+489741000033113	nefazodone hydrochloride	dutonin 100mg tablets (bristol-myers squibb pharmaceuticals ltd)	Atypical	1	1
+489841000033115	nefazodone hydrochloride	dutonin 200mg tablets (bristol-myers squibb pharmaceuticals ltd)	Atypical	1	1
+966141000033116	nefazodone hydrochloride	nefazodone 100mg tablets	Atypical	1	1
+966241000033111	nefazodone hydrochloride	nefazodone 200mg tablets	Atypical	1	1
+923241000033113	trazodone hydrochloride	molipaxin 100mg capsules (zentiva pharma uk ltd)	Atypical	1	1
+938741000033111	trazodone hydrochloride	molipaxin 150mg tablets (zentiva pharma uk ltd)	Atypical	1	1
+923041000033117	trazodone hydrochloride	molipaxin 50mg capsules (zentiva pharma uk ltd)	Atypical	1	1
+929541000033113	trazodone hydrochloride	molipaxin 50mg/5ml oral liquid (sanofi)	Atypical	1	1
+929841000033110	trazodone hydrochloride	molipaxin cr 150mg tablets (aventis pharma)	Atypical	1	1
+1455241000033113	trazodone hydrochloride	trazodone 100mg capsules	Atypical	1	1
+13444341000033112	trazodone hydrochloride	trazodone 100mg tablets	Atypical	1	1
+12476541000033119	trazodone hydrochloride	trazodone 100mg/5ml oral solution sugar free	Atypical	1	1
+1462241000033110	trazodone hydrochloride	trazodone 150mg modified-release tablets	Atypical	1	1
+1473641000033113	trazodone hydrochloride	trazodone 150mg tablets	Atypical	1	1
+1454641000033112	trazodone hydrochloride	trazodone 50mg capsules	Atypical	1	1
+13444241000033119	trazodone hydrochloride	trazodone 50mg tablets	Atypical	1	1
+1461941000033113	trazodone hydrochloride	trazodone 50mg/5ml oral solution sugar free	Atypical	1	1
+8248041000033117	tryptophan	optimax 500mg capsules (special order)	Atypical	1	1
+1008941000033114	tryptophan	optimax 500mg tablets (esteve pharmaceuticals ltd)	Atypical	1	1
+8247941000033115	tryptophan	tryptophan 500mg capsules	Atypical	1	1
+1474141000033117	tryptophan	tryptophan 500mg tablets	Atypical	1	1

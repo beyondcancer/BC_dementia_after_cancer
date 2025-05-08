@@ -1,0 +1,45 @@
+icd	description	dementia_hes	type
+F00	dementia in alzheimer's disease	1	Alzheimer
+F00.0	dementia in alzheimer's disease with early onset	1	Alzheimer
+F00.1	dementia in alzheimer's disease with late onset	1	Alzheimer
+F00.2	dementia in alzheimer's disease, atypical or mixed type	1	Alzheimer
+F00.9	dementia in alzheimer's disease, unspecified	1	Alzheimer
+F01	vascular dementia	1	Vascular
+F01.0	vascular dementia of acute onset	1	Vascular
+F01.1	multi-infarct dementia	1	Vascular
+F01.2	subcortical vascular dementia	1	Vascular
+F01.3	mixed cortical and subcortical vascular dementia	1	Vascular
+F01.8	other vascular dementia	1	Vascular
+F01.9	vascular dementia, unspecified	1	Vascular
+F02	dementia in other diseases classified elsewhere	1	Dementia in diseases classified elsewhere
+F02.0	dementia in pick's disease	1	Frontotemporal dementia
+F02.1	dementia in creutzfeldt-jakob disease	1	Dementia in diseases classified elsewhere
+F02.2	dementia in huntington's disease	1	Dementia in diseases classified elsewhere
+F02.3	dementia in parkinson's disease	1	Dementia in diseases classified elsewhere
+F02.4	dementia in human immunodeficiency virus [hiv] disease	1	Dementia in diseases classified elsewhere
+F02.8	dementia in other specified diseases classified elsewhere	1	Dementia in diseases classified elsewhere
+F03	unspecified dementia	1	Dementia Unspecified
+G30	alzheimer's disease	1	Alzheimer
+G30.0	alzheimer's disease with early onset	1	Alzheimer
+G30.1	alzheimer's disease with late onset	1	Alzheimer
+G30.8	other alzheimer's disease	1	Alzheimer
+G30.9	alzheimer's disease, unspecified	1	Alzheimer
+G31	other degenerative diseases of nervous system, not elsewhere classified	1	Dementia Unspecified
+G31.0	circumscribed brain atrophy	1	Dementia Unspecified
+G31.1	senile degeneration of brain, not elsewhere classified	1	Dementia Unspecified
+G31.2	degeneration of nervous system due to alcohol	1	Alcohol-related dementia
+G31.8	other specified degenerative diseases of nervous system	1	Dementia Unspecified
+G31.9	degenerative disease of nervous system, unspecified	1	Dementia Unspecified
+331	Alzheimer’s disease	1	Alzheimer
+290.4	Vascular dementia	1	Vascular
+331.1	Frontotemporal dementia	1	Frontotemporal dementia
+291.1	Alcohol-induced persisting amnestic disorder	1	Dementia in diseases classified elsewhere
+291.2	Alcohol-induced persisting dementia	1	Dementia in diseases classified elsewhere
+290	Senile dementia, uncomplicated	1	Dementia Unspecified
+290.2	Senile dementia with delusional or depressive features	1	Dementia Unspecified
+290.3	Senile dementia with delirium	1	Dementia Unspecified
+290.8	Other specified senile psychotic conditions	1	Dementia Unspecified
+290.9	Unspecified senile psychotic condition	1	Dementia Unspecified
+294.1	Dementia in conditions classified elsewhere	1	Dementia Unspecified
+294.8	Other persistent mental disorders due to conditions classified elsewhere	1	Dementia Unspecified
+331.2	Senile degeneration of brain	1	Dementia Unspecified

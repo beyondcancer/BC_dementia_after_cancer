@@ -1,0 +1,177 @@
+medcode	readterm
+36337	[v]convalescence after psychotherapy or mental dis treatment
+30217	[v]psychotherapy, not elsewhere classified
+40414	[v]psychotherapy/other treatment-mental disorder follow-up
+106800	accepted by psychological talking therapy service
+102525	anti-criminal psychotherapy
+47583	beck's cognitive therapy
+35029	behaviour therapy
+101766	behavioural activation therapy
+110249	behavioural parent training
+40614	behavioural psychotherapy
+70037	brief focal psychodynamic therapy
+30012	cbt - cognitive - behaviour therapy
+113612	cbtp - cognitive behavioural therapy for psychosis
+48988	child psychotherapy
+107039	child psychotherapy
+23099	child referral-school psychol.
+70038	child-based psychoanalytic psychotherapy
+8557	cognitive - behaviour therapy
+36843	cognitive analytic therapy
+11924	cognitive and behavioural therapy
+68422	cognitive approach
+56437	cognitive approach
+63503	cognitive behaviour therapy declined
+22045	cognitive behavioural language therapy
+47588	cognitive behavioural therapy
+102640	cognitive behavioural therapy by multidisciplinary team
+107523	cognitive behavioural therapy by unidisciplinary team
+47578	cognitive behavioural therapy nos
+111200	cognitive behavioural therapy parenting programme
+48526	cognitive neuropsychological language therapy
+59726	cognitive restructuring
+28363	cognitive therapy
+21982	cognitive therapy approach
+22133	cognitive therapy approach
+40688	cognitive-behaviour therapy
+11369	cognitive-behaviour therapy
+29990	cognitive-behavioural therapy approach
+71760	cognitively-based interventions to modify behaviour
+64818	computerised cognitive behavioural therapy
+95484	couple psychotherapy
+64447	daily life psychotherapy
+71547	daily life psychotherapy nos
+72339	day psychotherapy programme
+42935	desensitisation - behaviour therapy
+113978	desensitisation - phobia
+107928	dialectical behaviour therapy
+46625	did not attend cognitive behaviour therapy
+102691	did not attend psychotherapy appointment
+11133	discharge by mental health counsellor
+25305	discharge by nurse behavioural therapist
+46595	discharge by nurse psychotherapist
+22736	discharge by psychotherapist
+32560	discharge from psychotherapy service
+103931	dynamic interpersonal therapy
+93619	educational psychotherapy
+22036	explorative psychotherapy
+59443	exposure - behaviour therapy
+107134	flooding - obsessional compulsive disorder
+115778	focal psychodynamic therapy
+97716	functional psychotherapy
+63147	functional psychotherapy nos
+35531	general psychotherapy
+55300	generic cognitive behavioural therapy
+71972	generic psychosexual therapy
+61644	group analytic psychotherapy
+106684	group cognitive behavioural therapy
+2766	group psychotherapy
+91396	group psychotherapy
+102394	guided self help cognitive behavioural therapy
+106372	humanistic psychotherapy
+100992	improving access to psychological therapies pro phobia scale
+71660	integrative psychotherapy
+103650	interpersonal psychotherapy
+36359	long-term psychodynamic psychotherapy
+24157	mental therapy follow-up
+96358	narrative family psychotherapy
+36361	other psychotherapy
+36313	other psychotherapy nos
+93663	other specified cognitive behavioural therapy
+110265	paradoxical intention behaviour therapy
+108214	parent-infant psychotherapy
+13677	private referral to psychiatrist
+34532	private referral to psychogeriatrician
+105357	private referral to psychologist
+20535	psych. treatment change
+36007	psych.treatment started
+21317	psych.treatment stopped
+56419	psycho./socio.- therapy nos
+10605	psychoanalytic and psychodynamic therapy
+59306	psychoanalytical - psychodynamic therapy
+40552	psychodynamic psychotherapy
+61125	psychodynamic-interpersonal psychotherapy
+21600	psychological counselling
+6750	psychological counselling
+47134	psychological therapy declined
+102334	psychological therapy started
+1526	psychosexual counselling
+48285	psychosexual therapy
+90484	psychotherapeutic approaches using specific settings
+70122	psychotherapeutic programmes
+606	psychotherapy
+19711	psychotherapy
+91190	psychotherapy (specialty)
+1587	psychotherapy - behavioural
+6986	psychotherapy - cognitive
+21037	psychotherapy - psychodynamic
+38337	psychotherapy/sociotherapy
+107692	rational emotive therapy
+93630	referral by mental health service
+99630	referral for cognitive behavioural therapy
+110811	referral for mental health assessment
+111053	referral for mental health assessment declined
+41071	referral for mental health self-help literature
+11071	referral to child and adolescent psychiatrist
+12285	referral to child and adolescent psychiatry service
+10026	referral to child psychiatrist
+18872	referral to child psychiatrist
+10236	referral to community mental health team
+112543	referral to community mental health team declined
+94200	referral to educational psychologist
+97570	referral to forensic psychiatrist
+51055	referral to forensic psychiatrist
+105244	referral to iapt (imp acc to psych thera) programme declined
+97420	referral to improving access to psychological therapies prog
+36728	referral to liaison psychiatrist
+10828	referral to mental health counsellor
+11449	referral to mental health crisis team
+12053	referral to mental health team
+13703	referral to non nhs mental health community service
+30861	referral to nurse behavioural therapist
+34538	referral to nurse psychotherapist
+12365	referral to older age community mental health team
+12447	referral to primary care mental health gateway worker
+41040	referral to primary care mental health graduate worker
+84212	referral to primary care mental health team
+9868	referral to psychiatric nurse
+10002	referral to psychiatrist
+110142	referral to psychiatrist declined
+40894	referral to psychiatrist for mental handicap
+71384	referral to psycho-educational group
+5338	referral to psychogeriatrician
+11270	referral to psychologist
+110621	referral to psychology service declined
+13680	referral to psychosexual clinic
+26178	referral to psychosis early intervention service
+10669	referral to psychotherapist
+11958	referral to psychotherapist
+44910	referral to rehabilitation psychiatrist
+71968	relationship orientated psychosexual therapy
+72374	ret - rational emotive therapy
+69125	rogerian psychotherapy
+11425	seen by mental health counsellor
+10229	seen by nurse behavioural therapist
+107763	seen by nurse behavioural therapist
+21821	seen by nurse psychotherapist
+11482	seen by psychotherapist
+97178	seen by psychotherapist
+110455	seen by trainee psychotherapist
+104017	short-term psychodynamic therapy
+115322	signposting to improving access to psychological therapies
+40743	specific task orientated psychotherapy
+68782	stimulative psychotherapy
+100765	stimulus control - behaviour therapy
+69173	strategic family psychotherapy
+33270	structural family psychotherapy
+55437	structural psychotherapy
+92759	structural psychotherapy
+69745	supportive expressive psychodynamic psychotherapy
+96337	systematic desensitisation - behaviour therapy
+104406	systemic family psychotherapy
+113099	systemic psychotherapy
+32602	under care of mental health counsellor
+32711	under care of nurse behavioural therapist
+46585	under care of nurse psychotherapist
+32538	under care of psychotherapist
+95936	urgent referral to psychiatrist

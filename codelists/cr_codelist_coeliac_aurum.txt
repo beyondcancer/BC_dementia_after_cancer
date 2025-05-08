@@ -1,0 +1,31 @@
+medcodeid	observations	term	coeliac	certlevel
+1651921000000116	200	coeliac disease annual review declined	1	1
+1119251000000112	2000	coeliac disease autoantibody profile positive	1	1
+1655221000000112	100	coeliac disease monitoring invitation third letter	1	1
+3992891000006113	30	adult form of coeliac disease	1	1
+1747701000006119	50	coeliac disease monitoring	1	1
+1689381000000112	3000	coeliac disease monitoring	1	1
+1689421000000115	5000	coeliac disease annual review	1	1
+1745891000006111	2	coeliac disease annual review declined	1	1
+1772803017	500000	coeliac disease	1	1
+303686010	300	congenital coeliac disease	1	1
+1747711000006116	100	coeliac disease annual review	1	1
+1745851000006117	1000	coeliac disease monitoring 1st letter	1	1
+1651881000000110	20	coeliac disease monitoring telephone invitation	1	1
+1745841000006119	100	coeliac disease monitoring administration	1	1
+3230021000006111	1	gee-herter disease	1	1
+1651841000000119	1000	coeliac disease monitoring invitation	1	1
+131661000006114	80	sprue - nontropical	1	1
+303690012	9000	coeliac disease nos	1	1
+221181000000119	30	gee - herter disease	1	1
+1745881000006113	30	coeliac disease monitoring phone invite	1	1
+6567821000006113	7	gluten-sensitive enteropathy	1	1
+1655141000000110	2000	coeliac disease monitoring invitation first letter	1	1
+1785538011	3000	gluten enteropathy	1	1
+6567681000006113	3	cd - coeliac disease	1	1
+5741741000006110	30	coeliac disease diet education	1	1
+6567671000006110	3	celiac disease	1	1
+1745861000006115	300	coeliac disease monitoring 2nd letter	1	1
+1745871000006110	200	coeliac disease monitoring 3rd letter	1	1
+303687018	1000	acquired coeliac disease	1	1
+1655181000000119	300	coeliac disease monitoring invitation second letter	1	1

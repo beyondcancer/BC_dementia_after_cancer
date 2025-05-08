@@ -1,0 +1,27 @@
+icd	alt_code	usage	usage_uk	description	modifier_4	modifier_5	qualifiers	gender_mask	min_age	max_age	tree_description	depression_hes
+F32	F32	DEFAULT	3	Depressive episode								1
+F32.0	F320	DEFAULT	3	Mild depressive episode								1
+F32.1	F321	DEFAULT	3	Moderate depressive episode								1
+F32.2	F322	DEFAULT	3	Severe depressive episode without psychotic symptoms								1
+F32.3	F323	DEFAULT	3	Severe depressive episode with psychotic symptoms								1
+F32.8	F328	DEFAULT	3	Other depressive episodes								1
+F32.9	F329	DEFAULT	3	Depressive episode, unspecified								1
+F33	F33	DEFAULT	3	Recurrent depressive disorder								1
+F33.0	F330	DEFAULT	3	Recurrent depressive disorder, current episode mild								1
+F33.1	F331	DEFAULT	3	Recurrent depressive disorder, current episode moderate								1
+F33.2	F332	DEFAULT	3	Recurrent depressive disorder, current episode severe without psychotic symptoms								1
+F33.3	F333	DEFAULT	3	Recurrent depressive disorder, current episode severe with psychotic symptoms								1
+F33.4	F334	DEFAULT	3	Recurrent depressive disorder, currently in remission								1
+F33.8	F338	DEFAULT	3	Other recurrent depressive disorders								1
+F33.9	F339	DEFAULT	3	Recurrent depressive disorder, unspecified								1
+F34	F34	DEFAULT	3	Persistent mood [affective] disorders								1
+F34.0	F340	DEFAULT	3	Cyclothymia								1
+F34.1	F341	DEFAULT	3	Dysthymia								1
+F34.8	F348	DEFAULT	3	Other persistent mood [affective] disorders								1
+F34.9	F349	DEFAULT	3	Persistent mood [affective] disorder, unspecified								1
+F38	F38	DEFAULT	3	Other mood [affective] disorders								1
+F38.0	F380	DEFAULT	3	Other single mood [affective] disorders								1
+F38.1	F381	DEFAULT	3	Other recurrent mood [affective] disorders								1
+F38.8	F388	DEFAULT	3	Other specified mood [affective] disorders								1
+F41.2	F412	DEFAULT	3	Mixed anxiety and depressive disorder								1
+F92.0	F920	DEFAULT	3	Depressive conduct disorder								1

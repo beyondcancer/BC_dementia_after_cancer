@@ -1,0 +1,66 @@
+medcode	readcode	clinevents	readterm	certlevel
+93715	Nyu1100	53	[x]other seropositive rheumatoid arthritis	1
+70221	Nyu1200	53	[x]other specified rheumatoid arthritis	1
+106440	Nyu1000	1	[x]rheumatoid arthritis+involvement/other organs or systems	1
+56202	Nyu1G00	73	[x]seropositive rheumatoid arthritis, unspecified	1
+23834	N005.00	921	adult still's disease	1
+32001	N04y200	227	adult-onset still's disease	1
+56838	N04y011	14	caplan's syndrome	1
+102088	7P20300	3	delivery of rehabilitation for rheumatoid arthritis	1
+103829	38DZ000	478	disease activity score 28 joint in rheumatoid arthritis	1
+100187	38DZ.00	1424	disease activity score in rheumatoid arthritis	1
+23552	N041.00	540	felty's syndrome	1
+28853	N04y012	405	fibrosing alveolitis associated with rheumatoid arthritis	1
+8350	N040T00	6500	flare of rheumatoid arthritis	1
+31209	F396400	37	myopathy due to rheumatoid arthritis	1
+33264	2G27.00	84	o/e-hands-rheumatoid spindling	1
+44203	N040100	52	other rheumatoid arthritis of spine	1
+49227	N042.00	48	other rheumatoid arthropathy + visceral/systemic involvement	1
+62401	F371200	38	polyneuropathy in rheumatoid arthritis	1
+17412	66H..13	21492	rheumatoid arthrit. monitoring	1
+844	N040.00	332535	rheumatoid arthritis	1
+31054	N040S00	669	rheumatoid arthritis - multiple joint	1
+27603	N04..00	4472	rheumatoid arthritis and other inflammatory polyarthropathy	1
+105507	66HB000	150095	rheumatoid arthritis annual review	1
+107340	9mM..00	1236	rheumatoid arthritis monitoring invitation	1
+107435	9mM0.00	19215	rheumatoid arthritis monitoring invitation first letter	1
+107575	9mM1.00	6792	rheumatoid arthritis monitoring invitation second letter	1
+107676	9mM2.00	3281	rheumatoid arthritis monitoring invitation third letter	1
+114896	9mM5.00	97	rheumatoid arthritis monitoring sms invitation	1
+107797	9mM4.00	1344	rheumatoid arthritis monitoring telephone invitation	1
+107606	9mM3.00	270	rheumatoid arthritis monitoring verbal invitation	1
+51238	N040K00	20	rheumatoid arthritis of 1st mtp joint	1
+100914	N040400	5	rheumatoid arthritis of acromioclavicular joint	1
+51239	N040F00	92	rheumatoid arthritis of ankle	1
+44743	N040000	36	rheumatoid arthritis of cervical spine	1
+63198	N040A00	25	rheumatoid arthritis of dip joint of finger	1
+63365	N040600	6	rheumatoid arthritis of distal radio-ulnar joint	1
+59738	N040500	48	rheumatoid arthritis of elbow	1
+49067	N040B00	56	rheumatoid arthritis of hip	1
+107112	N040M00	11	rheumatoid arthritis of ip joint of toe	1
+50863	N040D00	232	rheumatoid arthritis of knee	1
+99414	N040L00	6	rheumatoid arthritis of lesser mtp joint	1
+42299	N040800	122	rheumatoid arthritis of mcp joint	1
+71784	N040J00	16	rheumatoid arthritis of other tarsal joint	1
+41941	N040900	61	rheumatoid arthritis of pip joint of finger	1
+100776	N040C00	10	rheumatoid arthritis of sacro-iliac joint	1
+21358	N040200	76	rheumatoid arthritis of shoulder	1
+107963	N040300	1	rheumatoid arthritis of sternoclavicular joint	1
+73619	N040G00	22	rheumatoid arthritis of subtalar joint	1
+70658	N040H00	8	rheumatoid arthritis of talonavicular joint	1
+107791	N040E00	1	rheumatoid arthritis of tibio-fibular joint	1
+48832	N040700	157	rheumatoid arthritis of wrist	1
+37431	N042z00	56	rheumatoid arthropathy + visceral/systemic involvement nos	1
+18155	N040Q00	89	rheumatoid bursitis	1
+43816	G5yA.00	49	rheumatoid carditis	1
+9954	H570.00	372	rheumatoid lung	1
+31724	N04y000	226	rheumatoid lung	1
+46436	N042100	55	rheumatoid lung disease	1
+49787	G5y8.00	8	rheumatoid myocarditis	1
+5723	N042200	2464	rheumatoid nodule	1
+53621	N040R00	213	rheumatoid nodule	1
+30548	N040N00	300	rheumatoid vasculitis	1
+6916	N040P00	10689	seronegative rheumatoid arthritis	1
+9707	N047.00	1311	seropositive errosive rheumatoid arthritis	1
+12019	N04X.00	5472	seropositive rheumatoid arthritis, unspecified	1
+6639	14G1.00	11833	h/o: rheumatoid arthritis	4

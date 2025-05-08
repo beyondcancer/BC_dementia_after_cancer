@@ -1,0 +1,49 @@
+medcode	readcode	clinevents	readterm	certlevel
+63580	Jyu4.00	9	[x]noninfective enteritis and colitis	1
+69959	Jyu4000	145	[x]other crohn's disease	1
+103290	Jyu4200	16	[x]other specified noninfective gastroenteritis+colitis	1
+53743	Jyu4100	247	[x]other ulcerative colitis	1
+20480	N031100	399	arthropathy in crohn's disease	1
+17641	N031000	124	arthropathy in ulcerative colitis	1
+96919	J437.00	18914	colitis	1
+6538	J401z11	5683	crohn's colitis	1
+593	J40..11	127310	crohn's disease	1
+59994	J40z.11	897	crohn's disease nos	1
+39278	J400400	213	crohn's disease of the ileum nos	1
+66238	J400300	153	crohn's disease of the ileum unspecified	1
+20688	J401z00	503	crohn's disease of the large bowel nos	1
+9359	J400z00	421	crohn's disease of the small bowel nos	1
+28476	J400200	1150	crohn's disease of the terminal ileum	1
+3848	J43..12	1315	enterocolitis	1
+39037	J401200	427	exacerbation of crohn's disease of large intestine	1
+36913	J400500	1455	exacerbation of crohn's disease of small intestine	1
+22516	J410400	2206	exacerbation of ulcerative colitis	1
+5133	J41..00	5124	idiopathic proctocolitis	1
+15207	J41z.00	1228	idiopathic proctocolitis nos	1
+1796	J4...12	28457	inflammatory bowel disease	1
+110283	8Cc5.11	24	management of ibd (inflammatory bowel disease)	1
+107313	8Cc5.00	589	management of inflammatory bowel disease	1
+42477	J4z..00	753	non-infective gastroenteritis nos	1
+12377	J4zz.00	4563	non-infective gastroenteritis nos	1
+9788	J4z2.00	1964	non-infective ileitis nos	1
+5473	J4...00	5035	noninfective enteritis and colitis	1
+24550	J41y.00	65	other idiopathic proctocolitis	1
+43090	J41yz00	63	other idiopathic proctocolitis nos	1
+20343	J43z.00	1740	other non-infective gastroenteritis and colitis nos	1
+42531	J43..00	22121	other non-infective inflammatory gastroenteritis and colitis	1
+11775	J435.00	2055	pouchitis	1
+11286	J40..00	18784	regional enteritis - crohn's disease	1
+15773	J402.00	177	regional ileocolitis	1
+29435	J431300	164	toxic colitis	1
+40061	J57y900	355	ulceration of colon	1
+30433	J411.00	273	ulcerative (chronic) enterocolitis	1
+42822	J412.00	46	ulcerative (chronic) ileocolitis	1
+704	J410100	117775	ulcerative colitis	1
+1784	J41..12	45524	ulcerative colitis and/or proctitis	1
+48732	J410000	60	ulcerative ileocolitis	1
+104259	J413.00	1092	ulcerative pancolitis	1
+8347	J410300	4512	ulcerative proctitis	1
+6650	J410.00	9714	ulcerative proctocolitis	1
+33456	J410z00	238	ulcerative proctocolitis nos	1
+24858	J410200	248	ulcerative rectosigmoiditis	1
+5749	14C4.11	6832	h/o: ulcerative colitis	4

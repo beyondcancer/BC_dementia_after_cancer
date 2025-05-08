@@ -1,0 +1,18 @@
+medcode	readcode	clinevents	readterm	coeliac	certlevel
+63195	J690100	143	acquired coeliac disease	1	1
+1515	J690.00	79137	coeliac disease	1	1
+102617	6648000	342	coeliac disease annual review	1	1
+103379	8IAp.00	24	coeliac disease annual review declined	1	1
+98297	68W4.00	629	coeliac disease autoantibody profile positive	1	1
+102315	6648.00	3078	coeliac disease monitoring	1	1
+106282	9mB..00	397	coeliac disease monitoring invitation	1	1
+106326	9mB1.00	282	coeliac disease monitoring invitation first letter	1	1
+113254	9mB2.00	37	coeliac disease monitoring invitation second letter	1	1
+116070	9mB0.00	1	coeliac disease monitoring telephone invitation	1	1
+44310	J690z00	1252	coeliac disease nos	1	1
+68680	J690.11	3	coeliac rickets	1	1
+62397	J690000	41	congenital coeliac disease	1	1
+45925	ZC2C200	614	dietary advice for coeliac disease	1	1
+57966	J690.12	2	gee - herter disease	1	1
+3509	J690.13	2211	gluten enteropathy	1	1
+16365	J690.14	44	sprue - nontropical	1	1

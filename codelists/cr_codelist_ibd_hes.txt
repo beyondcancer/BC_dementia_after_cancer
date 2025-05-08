@@ -1,0 +1,20 @@
+code	alt_code	description	ibd
+K50	K50	Crohn disease [regional enteritis]	1
+K50.0	K500	Crohn disease of small intestine	1
+K50.1	K501	Crohn disease of large intestine	1
+K50.8	K508	Other Crohn disease	1
+K50.9	K509	Crohn disease, unspecified	1
+K51	K51	Ulcerative colitis	1
+K51.0	K510	Ulcerative (chronic) pancolitis	1
+K51.2	K512	Ulcerative (chronic) proctitis	1
+K51.3	K513	Ulcerative (chronic) rectosigmoiditis	1
+K51.5	K515	Left sided colitis	1
+K51.8	K518	Other ulcerative colitis	1
+K51.9	K519	Ulcerative colitis, unspecified	1
+K52	K52	Other noninfective gastroenteritis and colitis	1
+K52.0	K520	Gastroenteritis and colitis due to radiation	1
+K52.1	K521	Toxic gastroenteritis and colitis	1
+K52.2	K522	Allergic and dietetic gastroenteritis and colitis	1
+K52.3	K523	Indeterminate colitis	1
+K52.8	K528	Other specified noninfective gastroenteritis and colitis	1
+K52.9	K529	Noninfective gastroenteritis and colitis, unspecified	1

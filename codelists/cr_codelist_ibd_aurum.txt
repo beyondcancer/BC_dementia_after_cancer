@@ -1,0 +1,85 @@
+medcodeid	observations	term	certlevel
+8035641000006112	1	history of crohns disease	4
+7294371000006118	1	chronic ulcerative colitis	1
+5084521000006118	50	terminal ileitis	1
+585591000006118	20000	non-infective enteritis and colitis	1
+6204981000006116	1	idiopathic chronic inflammatory bowel disease	1
+906051000006118	400	[rfc] crohns disease	1
+2532958014	2000	exacerbation of crohn's disease of small intestine	1
+3350551000006117	100	ileitis	1
+886291000006112	10000	regional enteritis - crohn	1
+309744019	2000	arthropathy in crohn's disease	1
+3316771000006110	1	granulomatous colitis	1
+906191000006113	90	[rfc] ulcerative colitis	1
+396357012	5000	crohn's disease of large bowel	1
+2559781000006115	50	crohn's disease of rectum	1
+76750016	2000	ulceration of colon	1
+2726621000006117	6	severe chronic ulcerative colitis	1
+2559801000006116	10	crohn's proctitis	1
+601031000006119	40000	cc - crohn's colitis	1
+3316811000006110	2	crohns disease, colon	1
+85901000006116	300	ulcerative (chronic) ileocolitis	1
+3047421000006110	100	crohns disease	1
+106758018	80000	colitis	1
+72962011	3000	enterocolitis	1
+198441000000117	7000	ileal pouchitis	1
+85931000006112	100000	ulcerative colitis and/or proctitis	1
+302962016	2000	idiopathic proctocolitis nos	1
+2269901000000115	800	management of ibd (inflammatory bowel disease)	1
+496249010	30000	ulcerative proctitis	1
+302946010	600	regional ileocolitis	1
+303762015	2000	[x]other ulcerative colitis	1
+2872721013	8000	ulcerative pancolitis	1
+2579429013	20000	idiopathic proctocolitis	1
+70682016	200	toxic colitis	1
+7502561000006118	1	ulcerative colitis in remission	1
+6853131000006115	1	exacerbation of crohn disease of small intestine	1
+400051000006118	300	[x]noninfective enteritis and colitis	1
+886281000006114	500	noninfective enteritis/colitis	1
+1222351011	4000	crohn's disease nos	1
+396366011	4000	other non-infective gastroenteritis and colitis nos	1
+6853111000006114	1	exacerbation of crohn disease of large intestine	1
+415991000006119	500	[x]other specified noninfective gastroenteritis+colitis	1
+601091000006115	20000	crohn's disease of terminal ileum	1
+302940016	5000	crohn's disease of ileum	1
+396367019	6000	non-infective gastroenteritis nos	1
+302956014	2000	ulcerative proctocolitis nos	1
+3774141000006118	1	mild chronic ulcerative colitis	1
+3316751000006117	400	crohn's disease of colon	1
+3414681000006119	3	crohn's disease of duodenum	1
+309743013	700	arthropathy in ulcerative colitis	1
+2532953017	8000	exacerbation of ulcerative colitis	1
+435370011	30000	ulcerative proctocolitis	1
+5574431000006111	2	history of ulcerative colitis	4
+4808981000006112	3	arthropathy in crohn disease	1
+496332018	1000	ulcerative rectosigmoiditis	1
+1816421000006112	600	left sided ulcerative colitis	1
+7060771000006117	1	crohn disease in remission	1
+56765016	700000	crohn's disease	1
+7489581000006113	9	history of inflammatory bowel disease	4
+302939018	1000	crohn's disease of the ileum unspecified	1
+107644019	900000	ulcerative colitis	1
+303761010	700	[x]other crohn's disease	1
+4785581000006112	20	crohn disease of terminal ileum	1
+302959019	400	other idiopathic proctocolitis	1
+3047411000006119	100	crohn disease	1
+302953018	200	ulcerative ileocolitis	1
+3420891000006119	3	crohns disease, small intestine	1
+85891000006115	4000	ulcerative enterocolitis	1
+3351341000006118	70	ulcerative colitis confined to rectum and sigmoid colon	1
+179501000006113	200000	crohn's regional enteritis	1
+3346691000006114	5	ulcerative colitis confined to rectum	1
+302941017	7000	crohn's disease of small intestine	1
+2269891000000116	900	management of inflammatory bowel disease	1
+302961011	200	other idiopathic proctocolitis nos	1
+2532950019	2000	exacerbation of crohn's disease of large intestine	1
+3047391000006119	4	cd - crohn's disease	1
+3553391000006113	3	uc - ulcerative colitis	1
+2891431000006118	70	ibd - inflammatory bowel disease	1
+7260561000006112	3	chronic ulcerative pancolitis	1
+303360014	400	ulceration of intestine	1
+411543016	20000	h/o: ulcerative colitis	4
+3346671000006113	200	chronic ulcerative proctitis	1
+3113541000006111	90	crohn's ileitis	1
+41137017	100000	inflammatory bowel disease	1
+3113551000006113	1	crohn disease of ileum	1

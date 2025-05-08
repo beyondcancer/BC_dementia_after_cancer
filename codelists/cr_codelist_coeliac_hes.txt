@@ -1,0 +1,9 @@
+code	alt_code	description	coeliac
+K90	K90	Intestinal malabsorption	1
+K90.0	K900	Coeliac disease	1
+K90.1	K901	Tropical sprue	1
+K90.2	K902	Blind loop syndrome, not elsewhere classified	1
+K90.3	K903	Pancreatic steatorrhoea	1
+K90.4	K904	Malabsorption due to intolerance, not elsewhere classified	1
+K90.8	K908	Other intestinal malabsorption	1
+K90.9	K909	Intestinal malabsorption, unspecified	1

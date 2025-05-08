@@ -1,0 +1,114 @@
+medcode	readcode	readterm	dementia	type	certlevel	nonspecific
+8195	Eu00z11	[x]alzheimer's dementia unspec	1	1		
+46762	Eu00111	[x]alzheimer's disease type 1	1	1		
+61528	Eu00013	[x]alzheimer's disease type 2	1	1		
+30706	Eu00200	[x]dementia in alzheimer's dis, atypical or mixed type	1	1		
+7664	Eu00.00	[x]dementia in alzheimer's disease	1	1		
+49263	Eu00000	[x]dementia in alzheimer's disease with early onset	1	1		
+38678	Eu00100	[x]dementia in alzheimer's disease with late onset	1	1		
+29386	Eu00z00	[x]dementia in alzheimer's disease, unspecified	1	1		
+59122	Fyu3000	[x]other alzheimer's disease	1	1		
+25704	Eu00011	[x]presenile dementia,alzheimer's type	1	1		
+43346	Eu00113	[x]primary degen dementia of alzheimer's type, senile onset	1	1		
+60059	Eu00012	[x]primary degen dementia, alzheimer's type, presenile onset	1	1		
+11379	Eu00112	[x]senile dementia,alzheimer's type	1	1		
+1917	F110.00	alzheimer's disease	1	1		
+16797	F110000	alzheimer's disease with early onset	1	1		
+32057	F110100	alzheimer's disease with late onset	1	1		
+9565	Eu01.11	[x]arteriosclerotic dementia	1	2		
+31016	Eu01300	[x]mixed cortical and subcortical vascular dementia	1	2		
+11175	Eu01100	[x]multi-infarct dementia	1	2		
+55313	Eu01y00	[x]other vascular dementia	1	2		
+8934	Eu01200	[x]subcortical vascular dementia	1	2		
+6578	Eu01.00	[x]vascular dementia	1	2		
+46488	Eu01000	[x]vascular dementia of acute onset	1	2		
+19393	Eu01z00	[x]vascular dementia, unspecified	1	2		
+19477	E004.00	arteriosclerotic dementia	1	2		
+42279	E004z00	arteriosclerotic dementia nos	1	2		
+56912	E004100	arteriosclerotic dementia with delirium	1	2		
+43292	E004300	arteriosclerotic dementia with depression	1	2		
+55467	E004200	arteriosclerotic dementia with paranoia	1	2		
+68194	F21y211	binswanger's encephalopathy	1	2		1
+54744	F11x200	cerebral degeneration due to cerebrovascular disease	1	2		1
+8634	E004.11	multi infarct dementia	1	2		
+43089	E004000	uncomplicated arteriosclerotic dementia	1	2		
+26270	Eu02500	[x]lewy body dementia 	1	3		
+7572	F116.00	lewy body disease 	1	3		
+28402	Eu02000	[x]dementia in pick's disease	1	4		
+11136	F111.00	pick's disease	1	4		
+26323	Eu10711	[x]alcoholic dementia nos	1	5		
+57993	Eu03.11	[x]korsakov's psychosis, nonalcoholic	1	5		1
+27342	E012.11	alcoholic dementia nos	1	5		
+47555	F11x000	cerebral degeneration due to alcoholism	1	5		1
+37946	E012000	chronic alcoholic brain syndrome	1	5		1
+54505	E012.00	other alcoholic dementia	1	5		
+54106	Eu02100	[x]dementia in creutzfeldt-jakob disease	1	6		
+37014	Eu02200	[x]dementia in huntington's disease	1	6		
+12621	Eu02.00	[x]dementia in other diseases classified elsewhere	1	6		
+64267	Eu02y00	[x]dementia in other specified diseases classif elsewhere	1	6		
+9509	Eu02300	[x]dementia in parkinson's disease	1	6		
+48531	F11x700	cerebral degeneration due to jakob - creutzfeldt disease	1	6		1
+96860	F11x900	cerebral degeneration in parkinson's disease	1	6		1
+3591	F134.00	huntington's chorea	1	6		
+38286	A411.00	jakob-creutzfeldt disease	1	6		
+70709	4L49.00	prion protein markers for creutzfeldt-jakob disease	1	6		
+109288	A411000	sporadic creutzfeldt-jakob disease	1	6		
+70957	F11x400	CEREBRAL DEGENERATION DUE TO NEOPLASTIC DISEASE	1	7		
+41185	Eu02400	[X]Dementia in human immunodef virus [HIV] disease	1	7		
+48501	Eu02z11	[x] presenile dementia nos	1	7		
+47619	Eu02z12	[x] presenile psychosis nos	1	7		1
+34944	Eu02z13	[x] primary degenerative dementia nos	1	7		
+4357	Eu02z14	[x] senile dementia nos	1	7		
+27759	Eu02z16	[x] senile dementia, depressed or paranoid type	1	7		
+27935	Eu02z15	[x] senile psychosis nos	1	7		1
+4693	Eu02z00	[x] unspecified dementia	1	7		
+53446	Eu04100	[x]delirium superimposed on dementia	1	7		
+55838	Eu01111	[x]predominantly cortical dementia	1	7		
+109047	8BPa.00	antipsychotic drug therapy for dementia	1	7		
+2731	F11z.11	cerebral atrophy	1	7		1
+99684	F11x800	cerebral degeneration due to multifocal leucoencephalopathy	1	7		1
+47658	F11x500	cerebral degeneration due to myxoedema	1	7		1
+24581	F11x600	cerebral degeneration due to vitamin b12 deficiency	1	7		1
+93372	F103.00	cerebral degeneration in diseases ec	1	7		1
+97422	F11x.00	cerebral degeneration in other disease ec	1	7		1
+5651	F11z.00	cerebral degeneration nos	1	7		1
+44592	F11xz00	cerebral degeneration other disease nos	1	7		1
+109790	8CMe000	dementia advance care plan	1	7		
+108228	8CSA.00	dementia advance care plan agreed	1	7		
+108391	8IAe000	dementia advance care plan declined	1	7		
+110075	8IAe200	dementia advance care plan review declined	1	7		
+12710	6AB..00	dementia annual review	1	7		
+106311	8CMZ.00	dementia care plan	1	7		
+109731	8CMZ000	dementia care plan agreed	1	7		
+109786	8CMZ200	dementia care plan declined	1	7		
+110123	8CMZ300	dementia care plan review declined	1	7		
+109708	8CMZ100	dementia care plan reviewed	1	7		
+25386	E041.00	dementia in conditions ec	1	7		
+109737	8BM0200	dementia medication review	1	7		
+62132	E02y100	drug-induced dementia	1	7		
+104534	F118.00	frontotemporal degeneration	1	7		1
+55222	ZS7C500	language disorder of dementia	1	7		
+34976	F11y.00	other cerebral degeneration	1	7		1
+31524	F11yz00	other cerebral degeneration nos	1	7		1
+31892	F11..00	other cerebral degenerations	1	7		1
+51494	E00y.11	presbyophrenic psychosis	1	7		1
+15165	E001.00	presenile dementia	1	7		
+38438	E001z00	presenile dementia nos	1	7		
+49513	E001100	presenile dementia with delirium	1	7		
+27677	E001300	presenile dementia with depression	1	7		
+30032	E001200	presenile dementia with paranoia	1	7		
+52673	A413.00	progressive multifocal leucoencephalopathy	1	7		1
+49541	A413.11	progressive multifocal leukoencephalopathy	1	7		1
+108268	8CMG200	review of dementia advance care plan	1	7		
+33353	F11y000	reye's syndrome	1	7		
+29512	F112.00	senile degeneration of brain	1	7		1
+1916	E00..11	senile dementia	1	7		
+37015	E003.00	senile dementia with delirium	1	7		
+21887	E002100	senile dementia with depression	1	7		
+44674	E002.00	senile dementia with depressive or paranoid features	1	7		
+41089	E002z00	senile dementia with depressive or paranoid features nos	1	7		
+18386	E002000	senile dementia with paranoia	1	7		
+2882	E00z.00	senile or presenile psychoses nos	1	7		1
+1350	E00..12	senile/presenile dementia	1	7		
+42602	E001000	uncomplicated presenile dementia	1	7		
+7323	E000.00	uncomplicated senile dementia	1	7		

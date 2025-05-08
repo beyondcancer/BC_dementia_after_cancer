@@ -1,0 +1,225 @@
+icd	alt_code	description	opcs	cvdgrouped
+K408		Other specified saphenous vein graft replacement of coronary artery	K408	1
+K412		Autograft replacement of two coronary arteries NEC	K412	1
+K40		Saphenous vein graft replacement of coronary artery	K40	1
+K411		Autograft replacement of one coronary artery NEC	K411	1
+K429		Unspecified allograft replacement of coronary artery	K429	1
+K46		Other bypass of coronary artery	K46	1
+K428		Other specified allograft replacement of coronary artery	K428	1
+K414		Autograft replacement of four or more coronary arteries NEC	K414	1
+K419		Unspecified other autograft replacement of coronary artery	K419	1
+K418		Other specified other autograft replacement of coronary artery	K418	1
+K469		Unspecified other bypass of coronary artery	K469	1
+K402		Saphenous vein graft replacement of two coronary arteries	K402	1
+K413		Autograft replacement of three coronary arteries NEC	K413	1
+K234		Revascularisation of wall of heart	K234	1
+K424		Allograft replacement of four or more coronary arteries	K424	1
+K493		Percutaneous transluminal balloon angioplasty of bypass graft of coronary artery	K493	1
+K403		Saphenous vein graft replacement of three coronary arteries	K403	1
+K41		Other autograft replacement of coronary artery	K41	1
+K42		Allograft replacement of coronary artery	K42	1
+K409		Unspecified saphenous vein graft replacement of coronary artery	K409	1
+K468		Other specified other bypass of coronary artery	K468	1
+K421		Allograft replacement of one coronary artery	K421	1
+K423		Allograft replacement of three coronary arteries	K423	1
+K422		Allograft replacement of two coronary arteries	K422	1
+K404		Saphenous vein graft replacement of four or more coronary arteries	K404	1
+K401		Saphenous vein graft replacement of one coronary artery	K401	1
+G46	G46	Vascular syndromes of brain in cerebrovascular diseases		1
+G46.8	G468	Other vascular syndromes of brain in cerebrovascular diseases		1
+I01.8	I018	Other acute rheumatic heart disease		1
+I01.9	I019	Acute rheumatic heart disease, unspecified		1
+I05	I05	Rheumatic mitral valve diseases		1
+I05.0	I050	Mitral stenosis		1
+I05.1	I051	Rheumatic mitral insufficiency		1
+I05.2	I052	Mitral stenosis with insufficiency		1
+I05.8	I058	Other mitral valve diseases		1
+I05.9	I059	Mitral valve disease, unspecified		1
+I06	I06	Rheumatic aortic valve diseases		1
+I06.0	I060	Rheumatic aortic stenosis		1
+I06.1	I061	Rheumatic aortic insufficiency		1
+I06.2	I062	Rheumatic aortic stenosis with insufficiency		1
+I06.8	I068	Other rheumatic aortic valve diseases		1
+I06.9	I069	Rheumatic aortic valve disease, unspecified		1
+I07	I07	Rheumatic tricuspid valve diseases		1
+I07.0	I070	Tricuspid stenosis		1
+I07.1	I071	Tricuspid insufficiency		1
+I07.2	I072	Tricuspid stenosis with insufficiency		1
+I07.8	I078	Other tricuspid valve diseases		1
+I07.9	I079	Tricuspid valve disease, unspecified		1
+I08	I08	Multiple valve diseases		1
+I08.0	I080	Disorders of both mitral and aortic valves		1
+I08.1	I081	Disorders of both mitral and tricuspid valves		1
+I08.2	I082	Disorders of both aortic and tricuspid valves		1
+I08.3	I083	Combined disorders of mitral, aortic and tricuspid valves		1
+I08.8	I088	Other multiple valve diseases		1
+I08.9	I089	Multiple valve disease, unspecified		1
+I09	I09	Other rheumatic heart diseases		1
+I09.8	I098	Other specified rheumatic heart diseases		1
+I09.9	I099	Rheumatic heart disease, unspecified		1
+I11	I11	Hypertensive heart disease		1
+I11.0	I110	Hypertensive heart disease with (congestive) heart failure		1
+I11.9	I119	Hypertensive heart disease without (congestive) heart failure		1
+I13	I13	Hypertensive heart and renal disease		1
+I13.0	I130	Hypertensive heart and renal disease with (congestive) heart failure		1
+I13.1	I131	Hypertensive heart and renal disease with renal failure		1
+I13.2	I132	Hypertensive heart and renal disease with both (congestive) heart failure and renal failure		1
+I13.9	I139	Hypertensive heart and renal disease, unspecified		1
+I20	I20	Angina pectoris		1
+I20.0	I200	Unstable angina		1
+I20.1	I201	Angina pectoris with documented spasm		1
+I20.8	I208	Other forms of angina pectoris		1
+I20.9	I209	Angina pectoris, unspecified		1
+I21	I21	Acute myocardial infarction		1
+I21.0	I210	Acute transmural myocardial infarction of anterior wall		1
+I21.1	I211	Acute transmural myocardial infarction of inferior wall		1
+I21.2	I212	Acute transmural myocardial infarction of other sites		1
+I21.3	I213	Acute transmural myocardial infarction of unspecified site		1
+I21.4	I214	Acute subendocardial myocardial infarction		1
+I21.9	I219	Acute myocardial infarction, unspecified		1
+I24	I24	Other acute ischaemic heart diseases		1
+I24.8	I248	Other forms of acute ischaemic heart disease		1
+I24.9	I249	Acute ischaemic heart disease, unspecified		1
+I25	I25	Chronic ischaemic heart disease		1
+I25.0	I250	Atherosclerotic cardiovascular disease, so described		1
+I25.1	I251	Atherosclerotic heart disease		1
+I25.5	I255	Ischaemic cardiomyopathy		1
+I25.8	I258	Other forms of chronic ischaemic heart disease		1
+I25.9	I259	Chronic ischaemic heart disease, unspecified		1
+I26	I26	Pulmonary embolism		1
+I26.0	I260	Pulmonary embolism with mention of acute cor pulmonale		1
+I26.9	I269	Pulmonary embolism without mention of acute cor pulmonale		1
+I27	I27	Other pulmonary heart diseases		1
+I27.1	I271	Kyphoscoliotic heart disease		1
+I27.8	I278	Other specified pulmonary heart diseases		1
+I27.9	I279	Pulmonary heart disease, unspecified		1
+I30	I30	Acute pericarditis		1
+I30.0	I300	Acute nonspecific idiopathic pericarditis		1
+I30.1	I301	Infective pericarditis		1
+I30.8	I308	Other forms of acute pericarditis		1
+I30.9	I309	Acute pericarditis, unspecified		1
+I31	I31	Other diseases of pericardium		1
+I31.0	I310	Chronic adhesive pericarditis		1
+I31.1	I311	Chronic constrictive pericarditis		1
+I31.2	I312	Haemopericardium, not elsewhere classified		1
+I31.3	I313	Pericardial effusion (noninflammatory)		1
+I31.8	I318	Other specified diseases of pericardium		1
+I31.9	I319	Disease of pericardium, unspecified		1
+I32	I32	Pericarditis in diseases classified elsewhere		1
+I32.0	I320	Pericarditis in bacterial diseases classified elsewhere		1
+I32.1	I321	Pericarditis in other infectious and parasitic diseases classified elsewhere		1
+I32.8	I328	Pericarditis in other diseases classified elsewhere		1
+I34	I34	Nonrheumatic mitral valve disorders		1
+I34.0	I340	Mitral (valve) insufficiency		1
+I34.1	I341	Mitral (valve) prolapse		1
+I34.2	I342	Nonrheumatic mitral (valve) stenosis		1
+I34.8	I348	Other nonrheumatic mitral valve disorders		1
+I34.9	I349	Nonrheumatic mitral valve disorder, unspecified		1
+I35	I35	Nonrheumatic aortic valve disorders		1
+I35.0	I350	Aortic (valve) stenosis		1
+I35.1	I351	Aortic (valve) insufficiency		1
+I35.2	I352	Aortic (valve) stenosis with insufficiency		1
+I35.8	I358	Other aortic valve disorders		1
+I35.9	I359	Aortic valve disorder, unspecified		1
+I36	I36	Nonrheumatic tricuspid valve disorders		1
+I36.0	I360	Nonrheumatic tricuspid (valve) stenosis		1
+I36.1	I361	Nonrheumatic tricuspid (valve) insufficiency		1
+I36.2	I362	Nonrheumatic tricuspid (valve) stenosis with insufficiency		1
+I36.8	I368	Other nonrheumatic tricuspid valve disorders		1
+I36.9	I369	Nonrheumatic tricuspid valve disorder, unspecified		1
+I37	I37	Pulmonary valve disorders		1
+I37.0	I370	Pulmonary valve stenosis		1
+I37.1	I371	Pulmonary valve insufficiency		1
+I37.2	I372	Pulmonary valve stenosis with insufficiency		1
+I37.8	I378	Other pulmonary valve disorders		1
+I37.9	I379	Pulmonary valve disorder, unspecified		1
+I39	I39	Endocarditis and heart valve disorders in diseases classified elsewhere		1
+I42	I42	Cardiomyopathy		1
+I42.0	I420	Dilated cardiomyopathy		1
+I42.1	I421	Obstructive hypertrophic cardiomyopathy		1
+I42.2	I422	Other hypertrophic cardiomyopathy		1
+I42.3	I423	Endomyocardial (eosinophilic) disease		1
+I42.4	I424	Endocardial fibroelastosis		1
+I42.5	I425	Other restrictive cardiomyopathy		1
+I42.6	I426	Alcoholic cardiomyopathy		1
+I42.7	I427	Cardiomyopathy due to drugs and other external agents		1
+I42.8	I428	Other cardiomyopathies		1
+I42.9	I429	Cardiomyopathy, unspecified		1
+I43	I43	Cardiomyopathy in diseases classified elsewhere		1
+I43.0	I430	Cardiomyopathy in infectious and parasitic diseases classified elsewhere		1
+I43.1	I431	Cardiomyopathy in metabolic diseases		1
+I43.2	I432	Cardiomyopathy in nutritional diseases		1
+I43.8	I438	Cardiomyopathy in other diseases classified elsewhere		1
+I46	I46	Cardiac arrest		1
+I46.0	I460	Cardiac arrest with successful resuscitation		1
+I46.1	I461	Sudden cardiac death, so described		1
+I46.9	I469	Cardiac arrest, unspecified		1
+I48	I48X	Atrial fibrillation and flutter		1
+I49	I49	Other cardiac arrhythmias		1
+I49.0	I490	Ventricular fibrillation and flutter		1
+I49.1	I491	Atrial premature depolarization		1
+I49.2	I492	Junctional premature depolarization		1
+I49.3	I493	Ventricular premature depolarization		1
+I49.4	I494	Other and unspecified premature depolarization		1
+I49.5	I495	Sick sinus syndrome		1
+I49.8	I498	Other specified cardiac arrhythmias		1
+I49.9	I499	Cardiac arrhythmia, unspecified		1
+I50	I50	Heart failure		1
+I50.0	I500	Congestive heart failure		1
+I50.1	I501	Left ventricular failure		1
+I50.9	I509	Heart failure, unspecified		1
+I51	I51	Complications and ill-defined descriptions of heart disease		1
+I51.6	I516	Cardiovascular disease, unspecified		1
+I51.8	I518	Other ill-defined heart diseases		1
+I51.9	I519	Heart disease, unspecified		1
+I52	I52	Other heart disorders in diseases classified elsewhere		1
+I52.8	I528	Other heart disorders in other diseases classified elsewhere		1
+I60	I60	Subarachnoid haemorrhage		1
+I60.0	I600	Subarachnoid haemorrhage from carotid siphon and bifurcation		1
+I60.1	I601	Subarachnoid haemorrhage from middle cerebral artery		1
+I60.2	I602	Subarachnoid haemorrhage from anterior communicating artery		1
+I60.3	I603	Subarachnoid haemorrhage from posterior communicating artery		1
+I60.4	I604	Subarachnoid haemorrhage from basilar artery		1
+I60.5	I605	Subarachnoid haemorrhage from vertebral artery		1
+I60.6	I606	Subarachnoid haemorrhage from other intracranial arteries		1
+I60.7	I607	Subarachnoid haemorrhage from intracranial artery, unspecified		1
+I60.8	I608	Other subarachnoid haemorrhage		1
+I60.9	I609	Subarachnoid haemorrhage, unspecified		1
+I61	I61	Intracerebral haemorrhage		1
+I61.0	I610	Intracerebral haemorrhage in hemisphere, subcortical		1
+I61.1	I611	Intracerebral haemorrhage in hemisphere, cortical		1
+I61.2	I612	Intracerebral haemorrhage in hemisphere, unspecified		1
+I61.3	I613	Intracerebral haemorrhage in brain stem		1
+I61.4	I614	Intracerebral haemorrhage in cerebellum		1
+I61.5	I615	Intracerebral haemorrhage, intraventricular		1
+I61.6	I616	Intracerebral haemorrhage, multiple localized		1
+I61.8	I618	Other intracerebral haemorrhage		1
+I61.9	I619	Intracerebral haemorrhage, unspecified		1
+I63	I63	Cerebral infarction		1
+I63.0	I630	Cerebral infarction due to thrombosis of precerebral arteries		1
+I63.1	I631	Cerebral infarction due to embolism of precerebral arteries		1
+I63.2	I632	Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries		1
+I63.3	I633	Cerebral infarction due to thrombosis of cerebral arteries		1
+I63.4	I634	Cerebral infarction due to embolism of cerebral arteries		1
+I63.5	I635	Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries		1
+I63.6	I636	Cerebral infarction due to cerebral venous thrombosis, nonpyogenic		1
+I63.8	I638	Other cerebral infarction		1
+I63.9	I639	Cerebral infarction, unspecified		1
+I64	I64X	Stroke, not specified as haemorrhage or infarction		1
+I67	I67	Other cerebrovascular diseases		1
+I67.8	I678	Other specified cerebrovascular diseases		1
+I67.9	I679	Cerebrovascular disease, unspecified		1
+I68	I68	Cerebrovascular disorders in diseases classified elsewhere		1
+I68.8	I688	Other cerebrovascular disorders in diseases classified elsewhere		1
+I69	I69	Sequelae of cerebrovascular disease		1
+I69.8	I698	Sequelae of other and unspecified cerebrovascular diseases		1
+I73.1	I731	Thromboangiitis obliterans [Buerger]		1
+I73.8	I738	Other specified peripheral vascular diseases		1
+I73.9	I739	Peripheral vascular disease, unspecified		1
+I80.1	I801	Phlebitis and thrombophlebitis of femoral vein		1
+I80.2	I802	Phlebitis and thrombophlebitis of other deep vessels of lower extremities		1
+I80.3	I803	Phlebitis and thrombophlebitis of lower extremities, unspecified		1
+I98	I98	Other disorders of circulatory system in diseases classified elsewhere		1
+I98.8	I988	Other specified disorders of circulatory system in diseases classified elsewhere		1
+P00.3	P003	Fetus and newborn affected by other maternal circulatory and respiratory diseases		1
+Z03.5	Z035	Observation for other suspected cardiovascular diseases		1

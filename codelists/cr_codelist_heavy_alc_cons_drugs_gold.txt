@@ -1,0 +1,39 @@
+prodcode	bnftext	ingredient	productname	heavy_alcohol_consumption_drugs
+60240	unknown		disulfiram 500mg tablets	1
+78854	substance dependence - alcohol dependence	acamprosate calcium	acamprosate 333mg gastro-resistant tablets (a a h pharmaceuticals ltd)	1
+2598	substance dependence - alcohol dependence	acamprosate calcium	acamprosate 333mg gastro-resistant tablets	1
+5628	substance dependence - alcohol dependence	acamprosate calcium	campral ec 333mg gastro-resistant tablet (lipha pharmaceuticals ltd)	1
+82525	substance dependence - alcohol dependence	acamprosate calcium	campral ec 333mg tablets (waymade healthcare plc)	1
+78794	substance dependence - alcohol dependence	acamprosate calcium	acamprosate 333mg gastro-resistant tablets (viatris uk healthcare ltd)	1
+6759	substance dependence - alcohol dependence	acamprosate calcium	campral ec 333mg tablets (merck serono ltd)	1
+69570	substance dependence - alcohol dependence	disulfiram	disulfiram 500mg tablets	1
+70528	substance dependence - alcohol dependence	disulfiram	disulfiram 200mg tablets (alliance healthcare (distribution) ltd)	1
+2269	substance dependence - alcohol dependence	disulfiram	antabuse 200mg tablets (actavis uk ltd)	1
+69396	substance dependence - alcohol dependence	disulfiram	disulfiram 250mg tablets	1
+871	substance dependence - alcohol dependence	disulfiram	disulfiram 200mg tablets	1
+65691	substance dependence - alcohol dependence	disulfiram	antabuse 250mg tablets (imported (united states))	1
+60514	substance dependence - alcohol dependence	disulfiram	esperal 500mg tablets (idis world medicines)	1
+56720	substance dependence - alcohol dependence	nalmefene hydrochloride	nalmefene 18mg tablets	1
+57225	substance dependence - alcohol dependence	nalmefene hydrochloride	selincro 18mg tablets (lundbeck ltd)	1
+40875	-/substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone hc 3mg capsule	1
+78851	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 1mg/5ml oral solution	1
+52377	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 5mg/5ml oral suspension	1
+75044	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 1.5mg capsules	1
+33375	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 4.5mg capsules	1
+43429	-/substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone hc capsule	1
+43428	-/substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 4.5mg capsule (martindale pharmaceuticals ltd)	1
+76268	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 3mg capsules (part viiid drug tariff special order)	1
+52550	substance dependence - opioid dependence	naltrexone hydrochloride	adepend 50mg tablets (aop orphan ltd)	1
+54568	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 3.5mg capsules	1
+77959	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 1mg capsules	1
+68454	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 3mg/5ml oral solution	1
+50961	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 3mg capsules	1
+71074	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 50mg tablets (accord healthcare ltd)	1
+81699	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 2mg capsules	1
+75140	-/substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone hc oral solution	1
+52378	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 5mg/5ml oral solution	1
+18073	substance dependence - opioid dependence	naltrexone hydrochloride	nalorex 50mg tablets (bristol-myers squibb pharmaceuticals ltd)	1
+80492	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 50mg tablets (a a h pharmaceuticals ltd)	1
+47593	-/substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone hc 3mg tablet	1
+6755	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 50mg tablets	1
+79981	substance dependence - opioid dependence	naltrexone hydrochloride	naltrexone 1.5mg/5ml oral solution	1

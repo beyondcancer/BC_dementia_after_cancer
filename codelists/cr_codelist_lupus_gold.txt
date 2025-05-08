@@ -1,0 +1,26 @@
+medcode	readterm	readcode	lupus	certlevel
+2667	discoid lupus erythematosus	m154100	1	1
+4125	lupus erythematosus	m154.00	1	1
+7522	lupus erythematosus nos	m154z00	1	1
+7871	systemic lupus erythematosus	n000.00	1	1
+11920	systemic lupus erythematosus with pericarditis	n000400	1	1
+20007	disseminated lupus erythematosus	n000000	1	1
+22205	lupus nephritis	k01x411	1	1
+25390	subacute cutaneous lupus erythematosus	m154700	1	1
+29519	systemic lupus erythematosus with organ or sys involv	n000300	1	1
+31564	lung disease with systemic lupus erythematosus	h57y400	1	1
+33449	lupus erythematosus chronicus	m154000	1	1
+36942	drug-induced systemic lupus erythematosus	n000200	1	1
+40797	lupus erythematosus migrans	m154200	1	1
+42719	systemic lupus erythematosus nos	n000z00	1	1
+44984	lupus erythematosus tumidus	m154500	1	1
+46148	lupus erythematosus profundus	m154400	1	1
+47672	nephrotic syndrome in systemic lupus erythematosus	k01x400	1	1
+51798	systemic lupus activity measure	zrq8.00	1	1
+58706	[x]other forms of systemic lupus erythematosus	nyu4300	1	1
+63955	lupus erythematosus unguium mutilans	m154600	1	1
+65391	lupus erythematosus nodularis	m154300	1	1
+94751	eyelid discoid lupus erythematosus	f4d3300	1	1
+99435	neonatal lupus erythematosus	n000500	1	1
+101433	cerebral lupus	n000600	1	1
+108072	myopathy due to disseminated lupus erythematosus	f396100	1	1

@@ -1,0 +1,155 @@
+medcode	readterm	smokstatus
+33	never smoked tobacco	non-smoker
+60	current non-smoker	non-smoker
+90	ex smoker	ex-smoker
+93	cigarette smoker	current smoker
+776	stopped smoking	ex-smoker
+1822	very heavy smoker - 40+cigs/d	current smoker
+1823	smoker	current smoker
+1878	moderate smoker - 10-19 cigs/d	current smoker
+2111	health ed. - smoking	current smoker
+3568	heavy smoker - 20-39 cigs/day	current smoker
+6359	nicotine withdrawal	current or ex-smoker
+7622	smoking cessation advice	current or ex-smoker
+9045	advice on smoking	current smoker
+9833	nicotine replacement therapy	current or ex-smoker
+10184	pregnancy smoking advice	current smoker
+10211	smoking cessation milestones	ex-smoker
+10558	current smoker	current smoker
+10742	referral to stop-smoking clinic	current or ex-smoker
+10898	smoking free weeks	ex-smoker
+11356	seen by smoking cessation advisor	current or ex-smoker
+11527	dna - did not attend smoking cessation clinic	current smoker
+11713	pack years	current or ex-smoker
+11788	non-smoker	non-smoker
+12240	trying to give up smoking	current or ex-smoker
+12878	date ceased smoking	ex-smoker
+12941	occasional smoker	current smoker
+12942	smoker - amount smoked	current smoker
+12943	cigar smoker	current smoker
+12944	light smoker - 1-9 cigs/day	current smoker
+12945	rolls own cigarettes	current smoker
+12946	ex-smoker - amount unknown	ex-smoker
+12947	pipe smoker	current smoker
+12951	smoking restarted	current smoker
+12952	smoking started	current smoker
+12953	attends stop smoking monitor.	current or ex-smoker
+12954	[v]tobacco use	current smoker
+12955	ex-moderate smoker (10-19/day)	ex-smoker
+12956	ex-heavy smoker (20-39/day)	ex-smoker
+12957	ex-light smoker (1-9/day)	ex-smoker
+12958	trivial smoker - < 1 cig/day	current smoker
+12959	ex-very heavy smoker (40+/day)	ex-smoker
+12960	tobacco consumption nos	current smoker
+12961	ex-trivial smoker (<1/day)	ex-smoker
+12962	tobacco consumption unknown	current smoker
+12963	cigar consumption	current smoker
+12964	keeps trying to stop smoking	current smoker
+12965	cigarette consumption	current smoker
+12966	smoking reduced	current smoker
+12967	pipe tobacco consumption	current smoker
+13351	passive smoker	non-smoker
+16717	smokers' cough	current smoker
+18573	referral to smoking cessation advisor	current or ex-smoker
+18926	lifestyle advice regarding smoking	current smoker
+19485	stop smoking monitor.chck done	current or ex-smoker
+19488	ex cigar smoker	ex-smoker
+21637	stop smoking monitor admin.nos	current or ex-smoker
+24529	nicotine replacement therapy refused	current smoker
+25106	nicotine replacement therapy provided free	current or ex-smoker
+26470	ex pipe smoker	ex-smoker
+28834	anti-smoking monitoring admin.	current or ex-smoker
+30423	thinking about stopping smoking	current smoker
+30762	not interested in stopping smoking	current smoker
+31114	ready to stop smoking	current smoker
+32083	stop smoking clinic admin.	current or ex-smoker
+32572	over the counter nicotine replacement therapy	current or ex-smoker
+32687	tobacco dependence	current smoker
+34126	negotiated date for cessation of smoking	current smoker
+35055	[v]tobacco abuse counselling	current smoker
+38112	smoking cessation programme start date	current smoker
+40417	stop smoking monitor default	current or ex-smoker
+40418	refuses stop smoking monitor	current smoker
+41042	smoking cessation advice provided by community pharmacist	current or ex-smoker
+41979	smoking restarted	current smoker
+42288	pack years	current or ex-smoker
+42722	stop smoking monitor 1st lettr	current or ex-smoker
+43433	toxic effect of tobacco and nicotine	current smoker
+46300	cigarette pack-years	current or ex-smoker
+46321	reason for restarting smoking	current smoker
+47273	motives for smoking scale	current smoker
+49418	rfs - reasons for smoking scale	current smoker
+52503	no smokers in the household	non-smoker
+53101	stop smoking monitor verb.inv.	current or ex-smoker
+56144	[x]mental and behav dis due to use of tobacco: harmful use	current smoker
+57639	bupropion refused	current smoker
+58597	stop smoking monitor phone inv	current or ex-smoker
+59866	reasons for smoking scale	current smoker
+60720	stop smoking monitor 2nd lettr	current or ex-smoker
+61905	[x]mental and behavioural disorder due to use of tobacco	current smoker
+62686	minutes from waking to first tobacco consumption	current smoker
+63016	[x]bupropion causing adverse effects in therapeutic use	current or ex-smoker
+63299	ftnd - fagerstrom test for nicotine dependence	current smoker
+63666	fagerstrom test for nicotine dependence	current smoker
+63717	bupropion contraindicated	current or ex-smoker
+63901	stop smoking monitoring delete	current or ex-smoker
+66387	stop smoking monitor 3rd lettr	current or ex-smoker
+66409	nicotine replacement therapy contraindicated	current or ex-smoker
+67178	nicotine replacement therapy provided by community pharmacis	current or ex-smoker
+68658	tobacco dependence nos	current smoker
+70746	tobacco dependence, continuous	current smoker
+72700	[v]personal history of tobacco abuse	current or ex-smoker
+72706	tobacco dependence in remission	ex-smoker
+74907	smoking cessation therapy	current or ex-smoker
+81440	nicotine replacement therapy using nicotine patches	current or ex-smoker
+85247	nicotine replacement therapy using nicotine inhalator	current or ex-smoker
+85975	nicotine replacement therapy using nicotine gum	current or ex-smoker
+89464	nicotine replacement therapy using nicotine lozenges	current or ex-smoker
+90522	smoking cessation therapy nos	current or ex-smoker
+91513	occasions for smoking scale	current smoker
+91708	other specified smoking cessation therapy	current or ex-smoker
+94958	smoking cessation drug therapy	current or ex-smoker
+95610	tobacco dependence, unspecified	current smoker
+96992	smoking cessation - enhanced services administration	current or ex-smoker
+97210	ex-cigarette smoker	ex-smoker
+97643	fagerstrom test for nicotine dependence	current smoker
+97973	maternal tobacco abuse	current smoker
+98137	brief intervention for smoking cessation	current or ex-smoker
+98154	referral to nhs stop smoking service	current or ex-smoker
+98177	non-smoker annual review - enhanced services administration	non-smoker
+98245	stop smoking face to face follow-up	current or ex-smoker
+98347	current smoker annual review - enhanced services admin	current smoker
+98447	ex-smoker annual review - enhanced services administration	ex-smoker
+98493	smoking cessatn monitor template complet - enhanc serv admin	current or ex-smoker
+99838	recently stopped smoking	ex-smoker
+100099	smoking cessation advice declined	current smoker
+100495	ex roll-up cigarette smoker	ex-smoker
+100963	ex-smoker annual review	ex-smoker
+101210	consent given for smoking cessation data sharing	current or ex-smoker
+101325	declin cons follow-up evaluation after smoking cess interven	current or ex-smoker
+101338	failed attempt to stop smoking	current smoker
+101385	consent given for follow-up by smoking cessation team	current or ex-smoker
+101634	consent given follow-up after smoking cessation intervention	current or ex-smoker
+101764	practice based smoking cessation programme start date	current or ex-smoker
+101851	declined consent for follow-up by smoking cessation team	current or ex-smoker
+101854	declined consent for smoking cessation data sharing	current or ex-smoker
+101878	non-smoker annual review	non-smoker
+102361	referral for smoking cessation service offered	current smoker
+102951	lost to smoking cessation follow-up	current or ex-smoker
+103507	stop smoking service opportunity signposted	current smoker
+104086	stop smoking invitation first sms text message	current smoker
+104185	smoking cessation drug therapy declined	current smoker
+104230	smoking cessation programme declined	current smoker
+104310	current smoker annual review	current smoker
+105572	stop smoking invitation short message service text message	current smoker
+105710	smoking cessation 12 week follow-up	current or ex-smoker
+106359	referral to smoking cessation service	current smoker
+106384	stop smoking invitation second sms text message	current smoker
+106385	stop smoking invitation third sms text message	current smoker
+106391	referral to smoking cessation service declined	current smoker
+107792	[x]mental and behav dis due to use tobacco: dependence syndr	current smoker
+109587	smoke nos from conflagration in store	current smoker
+109716	issue of nicotine replacement therapy voucher	current smoker
+110692	varenicline smoking cessation therapy offered	current smoker
+111853	[x]mental & behav dis due to use tobacco: acute intoxication	current smoker
+112529	[x]mental & behav dis due to use tobacco: psychotic disorder	current smoker

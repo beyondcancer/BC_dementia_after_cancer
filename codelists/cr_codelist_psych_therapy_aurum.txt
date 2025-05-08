@@ -1,0 +1,311 @@
+medcodeid	term
+972651000006116	** cognitive behaviour therapy for psychiatric problems
+973001000006117	** intro to psychotherapy - psychodynamic principles & practice
+973081000006114	** psychiatric nursing - a therapeutic approach
+972921000006115	** theories of psychotherapy
+907691000006117	[rfc] psycho-sexual counselling
+338151000006117	[v]convalescence after psychotherapy or mental dis treatment
+346961000006118	[v]psychotherapy or other treatment for mental disorder follow-up
+460929013	[v]psychotherapy, not elsewhere classified
+2233241000000116	accepted by psychological talking therapy service
+8461481000006117	admission to psychiatric inpatient unit gate kept by crisis resolution and home treatment team
+283471010	anti-criminal psychotherapy
+2733641000000113	assessment using iapt (improving access to psychological therapies) programme phobia scale
+8338421000006113	assessment using improving access to psychological therapies programme work and social adjustment scale
+500671000006113	aversive psychotherapy
+12738261000006114	bct - behavioural couples therapy
+8095551000006116	behaviour desensitisation therapy
+4929861000006119	behaviour therapist
+2838057012	behavioural activation therapy
+1949431000006118	behavioural family therapy
+2501191000006113	behavioural psychotherapy
+5997331000006110	behavioural therapist nurse
+2501091000006112	behavioural therapy
+6649371000006114	brief solution focused psychotherapy
+5935011000006117	cbt - cognitive - behavior therapy
+5935041000006118	cbt - cognitive - behaviour therapy
+2502581000000119	cbtp - cognitive behavioural therapy for psychosis
+2696043019	child psychotherapy
+401499014	child referral - clinical psychologist
+5990861000006114	child referral - school psychologist
+218881000000114	child referral-school psychol.
+5935001000006115	cognitive - behaviour therapy
+4981491000006119	cognitive and behavioral therapy
+4981481000006117	cognitive and behavioural therapy
+303261000000119	cognitive behaviour therapy declined
+1949471000006115	cognitive behavioural integrative therapy
+6007431000006111	cognitive behavioural language therapy
+1554781000006115	cognitive behavioural therapy
+2674396013	cognitive behavioural therapy by multidisciplinary team
+372421000000112	cognitive behavioural therapy by unidisciplinary team
+7766271000006113	cognitive behavioural therapy for psychosis
+372381000000115	cognitive behavioural therapy nos
+2278751000000116	cognitive behavioural therapy parenting programme
+2475003019	cognitive-behaviour therapy
+14072351000006113	cognitive-behaviour therapy
+5935031000006111	cognitive-behavioural therapy approach
+2695950014	computerised cognitive behavioural therapy
+7101731000006116	computerized cognitive behavioral therapy
+7234861000006113	couple psychotherapy
+283463011	daily life psychotherapy
+283465016	daily life psychotherapy nos
+12680711000006115	dbt - dialectical behaviour therapy
+3545831000006115	detoxication psychiatric therapy for alcoholism
+6718451000006115	dialectical behavior therapy
+1885591000006117	dialectical behaviour therapy
+303291000000113	did not attend cognitive behaviour therapy
+1949361000006116	did not attend psychological therapy
+1691951000000117	did not attend psychotherapy appointment
+1949371000006111	did not complete psychological therapy
+5955661000006112	discharge by mental health counsellor
+5957051000006110	discharge by nurse behavioural therapist
+5957331000006117	discharge by psychotherapist
+5958651000006119	discharge from psychotherapy service
+8236961000006118	dna (did not attend) psychotherapy appointment
+8059921000006111	dna cognitive behaviour therap
+7240311000006112	educational psychotherapy
+11932161000006114	end date of pt unavailability to attend psychological therapy
+1806361000006110	exposure - behaviour therapy
+4153171000006118	family psychotherapy
+4153151000006111	family psychotherapy procedure
+2503401000000118	focal psychodynamic therapy
+6718591000006113	formal psychological therapy
+283447015	functional psychotherapy
+283448013	functional psychotherapy nos
+283442014	general psychotherapy
+5904431000006111	generic cognitive behavioural therapy
+2223621000000112	group cognitive behavioural therapy
+126496013	group psychotherapy
+1178851000000114	guided self help cognitive behavioural therapy
+7289191000006117	guided self-help cognitive behavioral therapy
+7289181000006115	guided self-help cognitive behavioural therapy
+1595851000006113	hosp acknowledge receipt of referral to (mental health)
+447209013	humanistic psychotherapy
+1721191000006118	iapt (improving access to psych therapies) prgrmme phobia scale
+1752451000006111	iapt (improving access to psychological therapies programme) phobia scale - certain situations because of a fear of having a panic attack or other distressing symptoms score
+1752461000006113	iapt (improving access to psychological therapies programme) phobia scale - certain situations because of a fear of particular objects or activities score
+1752441000006114	iapt (improving access to psychological therapies programme) phobia scale - social situations due to a fear of being embarrassed or making a fool of myself score
+12736121000006114	iapt (improving access to psychological therapies) assessment peq (patient experience questionnaire)
+12736191000006111	iapt (improving access to psychological therapies) assessment peq (patient experience questionnaire) satisfaction question 1 score
+1987231000006119	iapt (improving access to psychological therapies) high intensity therapy
+1987221000006117	iapt (improving access to psychological therapies) low intensity therapy
+8121881000006110	iapt (improving access to psychological therapies) programme phobia scale
+12736201000006114	iapt (improving access to psychological therapies) treatment peq (patient experience questionnaire) question 1 score
+12736211000006112	iapt (improving access to psychological therapies) treatment peq (patient experience questionnaire) question 2 score
+12736221000006116	iapt (improving access to psychological therapies) treatment peq (patient experience questionnaire) question 3 score
+12736231000006118	iapt (improving access to psychological therapies) treatment peq (patient experience questionnaire) question 4 score
+12736241000006111	iapt (improving access to psychological therapies) treatment peq (patient experience questionnaire) question 5 score
+12736251000006113	iapt (improving access to psychological therapies) treatment peq (patient experience questionnaire) question 6 score
+1678551000006115	improving access to psychological therapies programme inclusion and employment questionnaire
+1678571000006113	improving access to psychological therapies programme patient experience questionnaire part 1
+1678581000006111	improving access to psychological therapies programme patient experience questionnaire part 2
+1752431000006116	improving access to psychological therapies programme phobia scale
+11929421000006117	improving access to psychological therapies programme phobia scale - certain situations because of a fear of having a panic attack or other distressing symptoms
+11929431000006119	improving access to psychological therapies programme phobia scale - certain situations because of a fear of particular objects or activities
+11929411000006113	improving access to psychological therapies programme phobia scale - social situations due to a fear of being embarrassed or making a fool of myself
+11928791000006117	improving access to psychological therapies programme work and social adjustment scale
+1922851000006116	improving access to psychological therapies programme work and social adjustment scale - home management score
+1922871000006114	improving access to psychological therapies programme work and social adjustment scale - private leisure activities score
+1922881000006112	improving access to psychological therapies programme work and social adjustment scale - relationships score
+11931241000006114	improving access to psychological therapies programme work and social adjustment scale - social leisure activities
+1922861000006119	improving access to psychological therapies programme work and social adjustment scale - social leisure activities score
+1922841000006118	improving access to psychological therapies programme work and social adjustment scale - work score
+1678561000006118	improving access to psychological therapies programme work and social adjustment scale score
+1840601000006111	individual cognitive behavioural therapy
+447210015	integrative psychotherapy
+2840445010	interpersonal psychotherapy
+5904601000006118	long-term psychodynamic psychotherapy
+1575081000006115	mental health counselling referral
+5995491000006113	mental health counselling service
+5997501000006112	mental health counsellor
+6515091000006112	mental health functional therapies
+8434221000006114	mental health tom (therapy outcome measure) wellbeing score
+283787014	mental therapy follow-up
+1949491000006119	mentalisation based therapy
+12627201000006118	mentalisation based therapy
+7994371000006119	mha - referral to a mental health review tribunal under the mental health act 1983 (england and wales)
+1840681000006119	neuropsychological therapy
+1949341000006115	not suitable for psychological therapies
+283476017	other psychotherapy
+283481014	other psychotherapy nos
+372461000000116	other specified cognitive behavioural therapy
+643051000000113	paradoxical intention behaviour therapy
+2272461000000111	parent-infant psychotherapy
+1841211000006117	patient accepted for psychological talking therapies
+2016571000006112	patient awaiting psychological treatment
+3504041000006114	patient referral for psychiatric aftercare
+3822171000006115	patient referral for psychotherapy
+1949401000006114	patient unavailable to attend psychological therapy
+11932201000006115	patient unavailable to attend psychological therapy - in prison
+11932181000006116	patient unavailable to attend psychological therapy - physical health reasons
+284118012	private referral to psychiatrist
+284122019	private referral to psychogeriatrician
+1809231000006117	private referral to psychologist
+2171001000000114	private referral to psychologist
+264609019	psych. treatment change
+3748121000006119	psychiatric telephone consultation or therapy with patient
+3003111000006113	psychiatric therapeutic procedure
+3003121000006117	psychiatric therapy
+4635821000006112	psychiatric treatment changed
+199081000006117	psychiatric treatment started
+199091000006119	psychiatric treatment stopped
+283511019	psycho./socio.- therapy nos
+5904531000006110	psychoanalytic and psychodynamic therapy
+4937711000006115	psychodynamic and/or supportive psychotherapeutic intervention
+6041621000006111	psychodynamic psychotherapy
+265051018	psychological counselling
+923771000006114	psychological counselling
+6515081000006114	psychological therapies
+1949381000006114	psychological therapy completed
+406921000000117	psychological therapy declined
+1707211000000114	psychological therapy started
+1949571000006116	psychological therapy summary report
+923781000006112	psychosexual counselling
+265052013	psychosexual counselling
+5662591000006118	psychotherapeutic, behavioural and/or communication procedure
+4929931000006118	psychotherapist
+125425011	psychotherapy
+1488617016	psychotherapy (specialty)
+283444010	psychotherapy - behavioural
+283445011	psychotherapy - cognitive
+2476490014	psychotherapy - psychodynamic
+2448691000000115	psychotherapy care plan
+905121000006118	psychotherapy referral
+5996681000006118	psychotherapy service
+397204015	psychotherapy/sociotherapy
+1776951000006118	reason for referral: psychological conditions
+2618281000000113	recommendation to self-refer for psychological treatment
+11639631000006119	recommendation to use digital cognitive behavioural therapy for insomnia
+1851691000006114	referral accepted by child and adolescent mental health service
+5948531000006112	referral by child and adolescent psychiatrist
+8025811000006112	referral by community mental health nurse
+5950071000006118	referral by community psychiatric nurse
+5947031000006117	referral by mental health counsellor
+541121000000111	referral by mental health service
+5948511000006118	referral by psychiatrist
+5948591000006111	referral by psychogeriatrician
+7102511000006112	referral by psychologist
+5950271000006112	referral by psychotherapist
+1851621000006112	referral declined by child and adolescent mental health service
+1159091000000119	referral for cognitive behavioural therapy
+12115591000006111	referral for cognitive behavioural therapy for psychosis
+12621591000006119	referral for digital cognitive behavioural therapy for insomnia
+1807511000006115	referral for emergency psychiatric assessment (mha)
+1807501000006118	referral for emergency psychiatric assessment (voluntary)
+8262821000006114	referral for high intensity cognitive behavioural therapy
+308391000000113	referral for mental health assessment
+2391461000000118	referral for mental health assessment declined
+5953291000006117	referral for mental health counseling
+5953281000006115	referral for mental health counselling
+300741000000118	referral for mental health self-help literature
+5953441000006110	referral for mental illness domiciliary visit
+6888621000006110	referral for neuropsychological testing
+1595581000006115	referral received by typist (mental health)
+1595771000006112	referral sent (mental health)
+7994391000006118	referral to a mental health review tribunal by the secretary of state under section 67 of the mental health act 1983 (england and wales)
+7994361000006114	referral to a mental health review tribunal under the mental health act 1983 (england and wales)
+1575411000006119	referral to child & adolescent psychiatrist
+8316291000006117	referral to child and adolescent mental health service occupational therapy service
+5954281000006117	referral to child and adolescent psychiatrist
+970901000006112	referral to child and adolescent psychiatry service
+449030016	referral to child and adolescent psychiatry service
+2476451010	referral to child psychiatrist
+8194711000006119	referral to cognitive behavioural therapist
+62431000000119	referral to community mental health team
+2391501000000118	referral to community mental health team declined
+184681000006114	referral to community psychiatric nurse
+621581000000112	referral to educational psychologist
+831131000006118	referral to elderly mental health team
+449266014	referral to forensic psychiatrist
+5951981000006113	referral to forensic psychiatry service
+8286911000006112	referral to health psychologist
+8124361000006111	referral to iapt (improving access to psychological therapies) programme
+1845121000006118	referral to iapt (improving access to psychological therapies) programme declined
+14308121000006111	referral to iapt (improving access to psychological therapies) programme offered
+1704111000006118	referral to improving access to psychological therapies programme
+8110161000006111	referral to independent mental capacity advocacy service
+8251591000006112	referral to independent mental health advocate
+5954311000006115	referral to liaison psychiatrist
+5951991000006111	referral to liaison psychiatry service
+5952001000006113	referral to mental handicap psychiatry service
+5953271000006118	referral to mental health counseling service
+5953261000006113	referral to mental health counselling service
+5953721000006113	referral to mental health counsellor
+63241000000119	referral to mental health crisis team
+8028621000006113	referral to mental health early intervention service
+8028631000006111	referral to mental health early intervention team
+8230721000006112	referral to mental health in-reach team
+14308071000006111	referral to mental health link worker
+1805471000006118	referral to mental health service
+1958061000006112	referral to mental health service - administrative referral
+1958081000006119	referral to mental health service - cimhs follow-up
+1958101000006110	referral to mental health service - cimhs initial assessment
+1805491000006117	referral to mental health service - command referral
+1805501000006113	referral to mental health service - medical referral
+1961351000006114	referral to mental health service - mental health screen
+1805511000006111	referral to mental health service - other referral
+1958091000006116	referral to mental health service - suitability assessment
+1958071000006117	referral to mental health service - training referral
+1994341000006112	referral to mental health service declined
+2733921000000110	referral to mental health service declined
+1926131000006117	referral to mental health services deferred until alcohol misuse resolved
+1926121000006115	referral to mental health services deferred until substance misuse resolved
+1484899010	referral to mental health team
+300621000000119	referral to non nhs mental health community service
+5954751000006118	referral to nurse behavioural therapist
+5954771000006111	referral to nurse psychotherapist
+5952031000006117	referral to old age psychiatry service
+300651000000112	referral to older age community mental health team
+303801000000117	referral to primary care mental health gateway worker
+303831000000111	referral to primary care mental health graduate worker
+479691000000110	referral to primary care mental health team
+5954811000006111	referral to psychiatric nurse
+1807491000006114	referral to psychiatrist
+2391621000000111	referral to psychiatrist declined
+5954321000006111	referral to psychiatrist for mental handicap
+4724391000006111	referral to psychiatrist for the elderly mentally ill
+5952921000006116	referral to psychiatry day hospital
+4724331000006112	referral to psychiatry service
+2549709018	referral to psycho-educational group
+5952941000006111	referral to psychogeriatric day hospital
+5952011000006111	referral to psychogeriatric service
+283618015	referral to psychogeriatrician
+8261571000006115	referral to psychological wellbeing practitioner
+5978881000006112	referral to psychologist
+5990851000006112	referral to psychology service
+2498261000000117	referral to psychology service declined
+2533414012	referral to psychosexual clinic
+300931000000113	referral to psychosis early intervention service
+1575891000006114	referral to psychotherapist
+449329018	referral to psychotherapist
+3822181000006117	referral to psychotherapy service
+5954341000006116	referral to rehabilitation psychiatrist
+1595661000006114	referral typed (mental health)
+8097291000006118	relationship psychosexual therapy
+1771221000006114	seen by high intensity cognitive behavioural therapy worker
+5942961000006112	seen by mental health counsellor
+5944491000006117	seen by nurse behavioral therapist
+448267014	seen by nurse behavioural therapist
+1840881000006115	seen by nurse behavioural therapist
+5944501000006113	seen by nurse psychotherapist
+448291017	seen by psychotherapist
+5946371000006119	seen by psychotherapy service
+1840891000006117	seen by trainee psychotherapist
+2236671000000118	seen by trainee psychotherapist
+1987291000006115	self-referral to iapt (improving access to psychological therapies) programme
+1805481000006115	self-referral to mental health service
+3530931000006115	sexual psychotherapy
+2691933019	short-term psychodynamic therapy
+1771551000006115	short-term psychodynamic therapy
+2652271000000116	signposting to iapt (improving access to psychological therapies) service
+1962911000006118	source of community referral: mental health service
+2007321000006118	srh care activity - psychosexual therapy
+283455010	stimulative psychotherapy
+283462018	stimulative psychotherapy nos
+1949351000006118	suitable for psychological therapies
+1775621000000119	systemic psychotherapy
+1806301000006114	trauma-focused cognitive-behaviour therapy
+5940511000006115	under care of mental health counsellor
+5942071000006116	under care of nurse behavioural therapist
+5942391000006117	under care of psychotherapist
+666611000000117	urgent referral to psychiatrist

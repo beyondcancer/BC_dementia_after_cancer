@@ -1,0 +1,162 @@
+medcodeid	term
+1011861000006110	adverse reaction to antihypertensive drugs
+1011871000006115	adverse reaction to vasodilator antihypertensive drugs
+1011881000006117	adverse reaction to centrally acting antihypertensive drugs
+108730018	malignant hypertensive renal disease
+11777411000006113	renal disease due to hypertension
+12487991000006113	hypertensive treatm.changed
+12488211000006112	hypertension treatm. started
+12488221000006116	hypertension treatm.stopped
+12496011	hypertensive retinopathy
+12726231000006115	adverse reaction to other antihypertensives
+12726241000006113	adverse reaction to antihypertensives nos
+131046010	malignant essential hypertension
+1409014	benign hypertensive renal disease
+146259010	secondary pulmonary hypertension
+151161000006115	secondary malignant hypertension
+1529013	blind hypertensive eye
+158241000006117	secondary hypertension nos
+1706551000000114	hypertension 9 month review
+1749291000006113	thromboembolic pulmonary hypertension
+1780252014	hypertension treatment refused
+1780253016	hypertension six month review
+1780318013	moderate hypertension control
+1780319017	hypertension annual review
+1806071000006118	stage 1 hypertension
+1806081000006115	stage 2 hypertension
+1806141000006113	severe hypertension
+1823901000006112	hypertension confirmed
+1846941000006119	stage 1 hypertension (nice - nat ins for hth clin excl 2011)
+1846961000006115	severe hypertension (nat inst for health clinical ex 2011)
+1846991000006111	stage 2 hypertension (nice - nat ins for hth clin excl 2011)
+1908711000006115	stage 1 hyperten (nice 2011) without evidnce end organ damge
+1908721000006111	stage 1 hyperten (nice 2011) with evidnce end organ damge
+19411000006110	other pre-exist hypertension in preg/childb/puerp + p/n comp
+19421000006119	other pre-exist hypertension in preg/childb/puerp-not deliv
+19431000006116	other pre-existing hypertension in preg/childb/puerp - deliv
+19441000006114	other pre-existing hypertension in preg/childb/puerp nos
+19451000006111	other pre-existing hypertension in preg/childb/puerp unspec
+1992471000006116	vte risk assessment - uncontrolled systolic hypertension
+2011000033113	antihypertensive drugs
+2115801000000110	hypertension self-management plan review
+2117971000000119	hypertension self-management plan agreed
+212961000006118	pre-eclampsia or eclampsia + pre-existing hypertension nos
+213081000006118	pre-exist 2ndry hypertens comp preg childbth and puerperium
+213111000006112	pre-exist hypertension compl preg childbirth and puerperium
+2159168015	patient on maximal tolerated antihypertensive therapy
+2193021000000110	severe hypertension
+2193031000000112	stage 1 hypertension
+2193971000000110	hypertension resistant to drug therapy
+2297871000000111	pulmonary arterial hypertension drugs band 1
+2297911000000113	pulmonary arterial hypertension drugs band 2
+2297951000000112	pulmonary arterial hypertension drugs band 3
+2297991000000116	pulmonary arterial hypertension drugs band 4
+2474335018	hypertension clinical management plan
+2478822013	secondary benign renovascular hypertension
+251674014	h/o: hypertension
+264471012	good hypertension control
+264472017	poor hypertension control
+264473010	hypertension:follow-up default
+264485019	hypertension treatm. started
+264486018	hypertensive treatm.changed
+264487010	hypertension treatm.stopped
+2645973019	chronic peripheral venous hypertension
+2681651000006116	pulmonary hypertensive arterial disease
+2681661000006119	hypertensive pulmonary arterial disease
+28311000033116	vasodilator antihypertensive drugs
+28411000033112	centrally acting antihypertensive drugs
+299676019	secondary malignant renovascular hypertension
+299677011	secondary malignant hypertension nos
+299678018	secondary benign hypertension
+299680012	secondary benign hypertension nos
+299681011	hypertension secondary to endocrine disorders
+299682016	secondary hypertension nos
+299683014	secondary renovascular hypertension nos
+299684015	hypertension secondary to drug
+299686018	other specified hypertensive disease
+299687010	hypertensive disease nos
+300869017	[x]hypertensive diseases
+300870016	[x]other secondary hypertension
+300871017	[x]hypertension secondary to other renal disorders
+305764016	other pre-existing hypertension in preg/childbirth/puerp
+305818015	pre-eclampsia or eclampsia with pre-existing hypertension
+3117411000006118	high blood pressure
+3117421000006114	hypertensive vascular disease
+3117431000006112	hypertensive vascular degeneration
+3117451000006117	bp - high blood pressure
+3117461000006115	systemic arterial hypertension
+3117471000006110	hbp - high blood pressure
+3117481000006113	ht - hypertension
+3117491000006111	high blood pressure disorder
+3117501000006115	bp+ - hypertension
+3117511000006117	htn - hypertension
+3117521000006113	hypertensive disorder, systemic arterial
+3119661000006114	hypertensive nephropathy
+3135013	benign essential hypertension
+324338010	other hypertensive agent poisoning
+324342013	hypertensive agent poisoning nos
+331291010	adverse reaction to other antihypertensives
+331302012	adverse reaction to antihypertensives nos
+3468501000006117	systemic primary arterial hypertension
+350517010	thromboembolic pulmonary hypertension
+350601000000116	high cost hypertension drugs
+351341000000118	high cost hypertension drugs nos
+351361000000117	other specified high cost hypertension drugs
+351381000000114	primary pulmonary hypertension drugs band 1
+351401000000114	primary pulmonary hypertension drugs band 2
+351421000000117	primary pulmonary hypertension drugs band 3
+351441000000112	primary pulmonary hypertension drugs band 4
+351481000006111	[x] adverse reaction to antihypertensives nos
+356121000006111	[x] adverse reaction to other antihypertensives
+3642801000006112	malignant hypertension
+3654631000006113	pulmonary hypertension
+3654641000006115	pht - pulmonary hypertension
+3693711000006119	benign secondary renovascular hypertension
+3784371000006115	accelerated essential hypertension
+3898601000006112	pre-existing hypertension in obstetric context
+3898611000006110	pre-existing hypertension complicating pregnancy
+3950631000006119	accelerated secondary hypertension
+395751018	essential hypertension nos
+395753015	hypertensive renal disease nos
+39871000006113	oth pre-exist hypert in preg/childb/puerp -del with p/n comp
+404471000006113	[x]oth antihyperten drug caus advers eff in therap use, nec
+4199551000006110	antihypertensive poisoning
+4199561000006112	poisoning caused by antihypertensive agent
+422681000006111	[x]poisoning by other antihypertensive drugs, nec
+4356081000006115	hypertension due to renovascular disease
+43850011	primary pulmonary hypertension
+443764015	on treatment for hypertension
+451424017	antihypertensive therapy
+4540441000006117	history of hypertension
+4634851000006119	treatment for hypertension started
+4634871000006112	hypertensive treatment changed
+4634891000006113	treatment for hypertension stopped
+47076011	renal hypertension
+4775791000006113	malignant secondary renovascular hypertension
+4775831000006118	hypertension secondary to endocrine disorder
+4775861000006110	hypertension caused by drug
+5057801000006113	chronic thromboembolic pulmonary hypertension
+523801000006119	bp - hypertensive disease
+530161000000111	trial reduction of antihypertensive therapy
+530221000000112	trial withdrawal of antihypertensive therapy
+53452019	secondary hypertension
+535591000000118	trial withdrawal of antihypertensive therapy declined
+535651000000113	trial reduction of antihypertensive therapy declined
+64168014	hypertensive disease
+64172013	high blood pressure
+64282015	hypertensive renal disease
+790031000006119	hypertension annual review
+790121000006116	hypertension nos
+80224019	diastolic hypertension
+8286321000006117	resistant hypertension
+8286581000006114	stage 2 hypertension
+84111015	hypertensive encephalopathy
+84112010	hypertensive crisis
+884121000006111	malignant hypertension
+887811000006117	preg.+ pre-existing hypertensn
+905451000006118	[rfc] pulmonary embolism/pulmonary hypertension
+909441000006118	[rfc] hypertension
+93494011	systolic hypertension
+940001000006110	hypertension medication review
+99042012	essential hypertension
+99047018	primary hypertension

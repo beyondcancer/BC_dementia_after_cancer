@@ -1,0 +1,105 @@
+prodcode	ingredient	productname	extra	drugsdementia
+79119	donepezil hydrochloride	donepezil 10mg tablets (teva uk ltd)	1	Yes
+74058	donepezil hydrochloride	aricept 10mg tablets (waymade healthcare plc)	1	Yes
+72953	donepezil hydrochloride	donepezil 10mg tablets (mawdsley-brooks & company ltd)	1	Yes
+79754	donepezil hydrochloride	donepezil 10mg tablets (actavis uk ltd)	1	Yes
+75603	donepezil hydrochloride	donepezil 5mg tablets (macleods pharma uk ltd)	1	Yes
+80977	donepezil hydrochloride	donepezil 5mg tablets (ranbaxy (uk) ltd)	1	Yes
+79120	donepezil hydrochloride	donepezil 10mg tablets (phoenix healthcare distribution ltd)	1	Yes
+72855	donepezil hydrochloride	donepezil 5mg tablets (actavis uk ltd)	1	Yes
+82310	donepezil hydrochloride	donepezil 10mg tablets (pfizer ltd)	1	Yes
+82302	donepezil hydrochloride	donepezil 5mg tablets (pfizer ltd)	1	Yes
+73865	donepezil hydrochloride	donepezil 10mg orodispersible tablets (de pharmaceuticals)	1	Yes
+79432	galantamine hydrobromide	galantamine 8mg tablets (a a h pharmaceuticals ltd)	1	Yes
+77319	galantamine hydrobromide	zeebral xl 16mg capsules (teva uk ltd)	1	Yes
+83594	galantamine hydrobromide	reminyl xl 8mg capsules (de pharmaceuticals)	1	Yes
+78024	galantamine hydrobromide	galzemic 4mg/ml oral solution (zentiva pharma uk ltd)	1	Yes
+81971	memantine hydrochloride	valios 20mg orodispersible tablets sugar free (dr reddy's laboratories (uk) ltd)	1	Yes
+83226	memantine hydrochloride	memantine 5mg tablets (lupin healthcare (uk) ltd)	1	Yes
+86538	memantine hydrochloride	memantine 20mg tablets (accord healthcare ltd)	1	Yes
+83370	memantine hydrochloride	memantine 10mg tablets (dawa ltd)	1	Yes
+85105	memantine hydrochloride	memantine 10mg/ml oral solution sugar free (rosemont pharmaceuticals ltd)	1	Yes
+83674	memantine hydrochloride	memantine 10mg tablets (viatris uk healthcare ltd)	1	Yes
+82072	memantine hydrochloride	memantine 10mg tablets (niche generics ltd)	1	Yes
+80637	memantine hydrochloride	memantine 10mg/ml oral solution sugar free (teva uk ltd)	1	Yes
+82073	memantine hydrochloride	memantine 20mg tablets (niche generics ltd)	1	Yes
+80554	memantine hydrochloride	memantine 5mg tablets	1	Yes
+83261	memantine hydrochloride	valios 10mg orodispersible tablets sugar free (dr reddy's laboratories (uk) ltd)	1	Yes
+35179	donepezil hydrochloride	donepezil 5mg orodispersible tablets sugar free		Yes
+56600	donepezil hydrochloride	donepezil 5mg tablets (zentiva pharma uk ltd)		Yes
+2931	donepezil hydrochloride	donepezil 10mg tablets		Yes
+58947	donepezil hydrochloride	donepezil 10mg tablets (accord healthcare ltd)		Yes
+60107	donepezil hydrochloride	donepezil 5mg tablets (alliance healthcare (distribution) ltd)		Yes
+2930	donepezil hydrochloride	donepezil 5mg tablets		Yes
+58709	donepezil hydrochloride	donepezil 10mg tablets (a a h pharmaceuticals ltd)		Yes
+67593	donepezil hydrochloride	donepezil 10mg tablets (zentiva pharma uk ltd)		Yes
+53922	donepezil hydrochloride	donepezil 10mg orodispersible tablets (consilient health ltd)		Yes
+5247	donepezil hydrochloride	aricept 10mg tablets (eisai ltd)		Yes
+71960	donepezil hydrochloride	donepezil 5mg tablets (accord healthcare ltd)		Yes
+72614	donepezil hydrochloride	donepezil 5mg tablets (viatris uk healthcare ltd)		Yes
+53842	donepezil hydrochloride	aricept 5mg tablets (waymade healthcare plc)		Yes
+5400	donepezil hydrochloride	aricept 5mg tablets (eisai ltd)		Yes
+35088	donepezil hydrochloride	donepezil 10mg orodispersible tablets sugar free		Yes
+68802	donepezil hydrochloride	donepezil 5mg tablets (waymade healthcare plc)		Yes
+48442	donepezil hydrochloride	donepezil 5mg orodispersible tablets		Yes
+36848	donepezil hydrochloride	aricept evess 5mg orodispersible tablets (eisai ltd)		Yes
+61676	donepezil hydrochloride	donepezil 1mg/ml oral solution sugar free		Yes
+59871	donepezil hydrochloride	donepezil 10mg/5ml oral suspension		Yes
+48443	donepezil hydrochloride	donepezil 10mg orodispersible tablets		Yes
+65534	donepezil hydrochloride	donepezil 5mg orodispersible tablets sugar free (a a h pharmaceuticals ltd)		Yes
+63217	donepezil hydrochloride	donepezil 5mg tablets (a a h pharmaceuticals ltd)		Yes
+37188	donepezil hydrochloride	aricept evess 10mg orodispersible tablets (eisai ltd)		Yes
+61476	galantamine hydrobromide	acumor xl 24mg capsules (viatris uk healthcare ltd)		Yes
+24088	galantamine hydrobromide	reminyl xl 24mg capsules (takeda uk ltd)		Yes
+56421	galantamine hydrobromide	gatalin xl 8mg capsules (aspire pharma ltd)		Yes
+7329	galantamine hydrobromide	galantamine 20mg/5ml oral solution sugar free		Yes
+7361	galantamine hydrobromide	galantamine 24mg modified-release capsules		Yes
+59993	galantamine hydrobromide	galzemic xl 16mg capsules (zentiva pharma uk ltd)		Yes
+72344	galantamine hydrobromide	lotprosin xl 16mg capsules (accord healthcare ltd)		Yes
+60493	galantamine hydrobromide	galzemic xl 24mg capsules (zentiva pharma uk ltd)		Yes
+62925	galantamine hydrobromide	acumor xl 16mg capsules (viatris uk healthcare ltd)		Yes
+63360	galantamine hydrobromide	luventa xl 16mg capsules (fontus health ltd)		Yes
+11635	galantamine hydrobromide	galantamine 12mg tablets		Yes
+60192	galantamine hydrobromide	galzemic xl 8mg capsules (zentiva pharma uk ltd)		Yes
+61920	galantamine hydrobromide	luventa xl 8mg capsules (fontus health ltd)		Yes
+48015	galantamine hydrobromide	galsya xl 24mg capsules (consilient health ltd)		Yes
+10255	galantamine hydrobromide	galantamine 8mg modified-release capsules		Yes
+63405	galantamine hydrobromide	galsya xl 16mg capsules (consilient health ltd)		Yes
+20140	galantamine hydrobromide	reminyl xl 16mg capsules (takeda uk ltd)		Yes
+11654	galantamine hydrobromide	galantamine 8mg tablets		Yes
+48482	galantamine hydrobromide	galsya xl 8mg capsules (consilient health ltd)		Yes
+5334	galantamine hydrobromide	reminyl 12mg tablets (shire pharmaceuticals ltd)		Yes
+55720	galantamine hydrobromide	gatalin xl 24mg capsules (aspire pharma ltd)		Yes
+18062	galantamine hydrobromide	reminyl 8mg tablets (shire pharmaceuticals ltd)		Yes
+9854	galantamine hydrobromide	reminyl 4mg tablets (shire pharmaceuticals ltd)		Yes
+62868	galantamine hydrobromide	gazylan xl 24mg capsules (teva uk ltd)		Yes
+62867	galantamine hydrobromide	gazylan xl 16mg capsules (teva uk ltd)		Yes
+61921	galantamine hydrobromide	luventa xl 24mg capsules (fontus health ltd)		Yes
+65573	galantamine hydrobromide	gazylan xl 8mg capsules (teva uk ltd)		Yes
+29288	galantamine hydrobromide	reminyl 4mg/ml oral solution (takeda uk ltd)		Yes
+14309	galantamine hydrobromide	galantamine 16mg modified-release capsules		Yes
+18587	galantamine hydrobromide	reminyl xl 8mg capsules (takeda uk ltd)		Yes
+56709	galantamine hydrobromide	gatalin xl 16mg capsules (aspire pharma ltd)		Yes
+10187	galantamine hydrobromide	galantamine 4mg tablets		Yes
+70503	memantine hydrochloride	memantine 20mg soluble tablets sugar free		Yes
+69595	memantine hydrochloride	marixino 20mg tablets (consilient health ltd)		Yes
+65333	memantine hydrochloride	memantine 10mg/ml oral solution sugar free (alliance healthcare (distribution) ltd)		Yes
+68845	memantine hydrochloride	memantine 10mg/ml oral solution sugar free (a a h pharmaceuticals ltd)		Yes
+39362	memantine hydrochloride	ebixa tablets treatment initiation pack (lundbeck ltd)		Yes
+38976	memantine hydrochloride	memantine 5mg+10mg+15mg+20mg tablet		Yes
+66934	memantine hydrochloride	memantine 10mg orodispersible tablets sugar free		Yes
+18800	memantine hydrochloride	ebixa 10mg tablets (lundbeck ltd)		Yes
+39240	memantine hydrochloride	memantine 20mg tablets		Yes
+68792	memantine hydrochloride	memantine 10mg/ml oral solution sugar free (healthcare pharma ltd)		Yes
+61385	memantine hydrochloride	nemdatine 10mg tablets (actavis uk ltd)		Yes
+64982	memantine hydrochloride	memantine 20mg tablets (teva uk ltd)		Yes
+66899	memantine hydrochloride	memantine 20mg orodispersible tablets sugar free		Yes
+61618	memantine hydrochloride	nemdatine 20mg tablets (actavis uk ltd)		Yes
+57139	memantine hydrochloride	ebixa 10mg tablets (de pharmaceuticals)		Yes
+71187	memantine hydrochloride	memantine 10mg tablets (a a h pharmaceuticals ltd)		Yes
+11837	memantine hydrochloride	memantine 10mg/ml oral solution sugar free		Yes
+39363	memantine hydrochloride	ebixa 20mg tablets (lundbeck ltd)		Yes
+69971	memantine hydrochloride	memantine 10mg/ml oral solution sugar free (zentiva pharma uk ltd)		Yes
+9966	memantine hydrochloride	ebixa 5mg/0.5ml pump actuation oral solution (lundbeck ltd)		Yes
+70496	memantine hydrochloride	memantine 10mg soluble tablets sugar free		Yes
+6225	memantine hydrochloride	memantine 10mg tablets		Yes

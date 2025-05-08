@@ -1,0 +1,46 @@
+medcodeid	cleansedreadcode	term	lupus	certlevel
+25612013	M154400	lupus erythematosus profundus	1	1
+92208011	N000.00	systemic lupus erythematosus	1	1
+92209015	N000000	disseminated lupus erythematosus	1	1
+114310015	K01x411	lupus nephritis	1	1
+158372014	N000500	neonatal lupus erythematosus	1	1
+158442019	N000611	systemic lupus erythematosus encephalitis	1	1
+297639014	F396100	myopathy due to disseminated lupus erythematosus	1	1
+301721015	H57y400	lung disease with systemic lupus erythematosus	1	1
+308697013	M154.00	lupus erythematosus	1	1
+308700012	M154000	lupus erythematosus chronicus	1	1
+308701011	M154100	discoid lupus erythematosus	1	1
+308704015	M154200	lupus erythematosus migrans	1	1
+308705019	M154300	lupus erythematosus nodularis	1	1
+308706018	M154500	lupus erythematosus tumidus	1	1
+308707010	M154600	lupus erythematosus unguium mutilans	1	1
+308709013	M154z00	lupus erythematosus nos	1	1
+309383019	Myu7800	cutaneous lupus erythematosus	1	1
+309405011	N000200	drug-induced systemic lupus erythematosus	1	1
+309408013	N000z00	systemic lupus erythematosus nos	1	1
+312579010	Nyu4300	[x]other forms of systemic lupus erythematosus	1	1
+359447015	M154700	subacute cutaneous lupus erythematosus	1	1
+453243010	N000400	systemic lupus erythematosus with pericarditis	1	1
+512234017	N000600	cerebral lupus	1	1
+114251000006118	N000300	systemic lupus erythematosus with organ/system involvement	1	1
+177301000006114	K0B4000	renal tubulo-interstitial disorder in systemic lupus erythematosus	1	1
+660871000006118	F4D3300	eyelid discoid lupus erythematosus	1	1
+677561000006119	K01x400	nephrotic syndrome in systemic lupus erythematosus	1	1
+1728151000006118		systemic lupus erythematosus encephalitis	1	1
+2739071000006115		lupus profundus	1	1
+3400601000006117		sle - systemic lupus erythematosus	1	1
+3789511000006117		discoid lupus eyelid	1	1
+4805601000006115		lupus	1	1
+4805631000006111		dle - discoid lupus erythematosus	1	1
+5124671000006119		lichen planus-lupus erythematosus overlap	1	1
+5128081000006119		chronic discoid lupus erythematosus	1	1
+5128101000006110		chilblain lupus erythematosus	1	1
+5140881000006110		lupus panniculitis	1	1
+5140921000006119		scle - subacute cutaneous lupus erythematosus	1	1
+5141731000006114		lupus vasculitis	1	1
+5557071000006111		systemic lupus activity measure	1	1
+6681821000006113		acute systemic lupus erythematosus	1	1
+6681971000006115		discoid lupus erythematosus of scalp	1	1
+7511501000006112		systemic lupus erythematosus in remission	1	1
+7586981000006119		maternal history of systemic lupus erythematosus	1	1
+8320771000006119		systemic lupus erythematosus/sjogren's overlap syndrome	1	1

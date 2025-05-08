@@ -1,0 +1,292 @@
+medcode	readcode	readterm	certlevel
+29527	R007z13	[d]postoperative depression	Definite
+5987	Eu32z14	[x] reactive depression nos	Definite
+10720	Eu32y11	[x]atypical depression	Definite
+543	Eu32z11	[x]depression nos	Definite
+32845	Eu92000	[x]depressive conduct disorder	Definite
+3291	Eu32z12	[x]depressive disorder nos	Definite
+4639	Eu32.00	[x]depressive episode	Definite
+2970	Eu32z00	[x]depressive episode, unspecified	Definite
+7953	Eu34100	[x]dysthymia	Definite
+23731	Eu33311	[x]endogenous depression with psychotic symptoms	Definite
+11329	Eu33211	[x]endogenous depression without psychotic symptoms	Definite
+98346	Eu32500	[x]major depression, mild	Definite
+98252	Eu32600	[x]major depression, moderately severe	Definite
+11252	Eu33212	[x]major depression, recurrent without psychotic symptoms	Definite
+98417	Eu32800	[x]major depression, severe with psychotic symptoms	Definite
+98414	Eu32700	[x]major depression, severe without psychotic symptoms	Definite
+7749	Eu41211	[x]mild anxiety depression	Definite
+10667	Eu32400	[x]mild depression	Definite
+11717	Eu32000	[x]mild depressive episode	Definite
+30688	Eu3y011	[x]mixed affective episode	Definite
+11913	Eu41200	[x]mixed anxiety and depressive disorder	Definite
+9211	Eu32100	[x]moderate depressive episode	Definite
+36616	Eu33z11	[x]monopolar depression nos	Definite
+5726	Eu3..00	[x]mood - affective disorders	Definite
+7737	Eu34113	[x]neurotic depression	Definite
+6854	Eu32y00	[x]other depressive episodes	Definite
+28008	Eu3y.00	[x]other mood affective disorders	Definite
+50243	Eu34y00	[x]other persistent mood affective disorders	Definite
+47731	Eu33y00	[x]other recurrent depressive disorders	Definite
+29921	Eu3y100	[x]other recurrent mood affective disorders	Definite
+50998	Eu3y000	[x]other single mood affective disorders	Definite
+29579	Eu3yy00	[x]other specified mood affective disorders	Definite
+15220	Eu34114	[x]persistant anxiety depression	Definite
+39767	Eu34z00	[x]persistent mood affective disorder, unspecified	Definite
+42857	Eu34.00	[x]persistent mood affective disorders	Definite
+28248	Eu32z13	[x]prolonged single episode of reactive depression	Definite
+33469	Eu33200	[x]recurr depress disorder cur epi severe without psyc sympt	Definite
+32941	Eu33313	[x]recurr severe episodes/major depression+psychotic symptom	Definite
+19054	Eu3y111	[x]recurrent brief depressive episodes	Definite
+47009	Eu33300	[x]recurrent depress disorder cur epi severe with psyc symp	Definite
+3292	Eu33.00	[x]recurrent depressive disorder	Definite
+29784	Eu33000	[x]recurrent depressive disorder, current episode mild	Definite
+29520	Eu33100	[x]recurrent depressive disorder, current episode moderate	Definite
+44300	Eu33z00	[x]recurrent depressive disorder, unspecified	Definite
+8851	Eu33.11	[x]recurrent episodes of depressive reaction	Definite
+19696	Eu33.12	[x]recurrent episodes of psychogenic depression	Definite
+8902	Eu33.13	[x]recurrent episodes of reactive depression	Definite
+16861	Eu33315	[x]recurrent severe episodes of psychotic depression	Definite
+37764	Eu33316	[x]recurrent severe episodes/reactive depressive psychosis	Definite
+45419	Eu06y11	[x]right hemispheric organic affective disorder	Definite
+8826	Eu33.15	[x]sad - seasonal affective disorder	Definite
+28756	Eu33.14	[x]seasonal depressive disorder	Definite
+12099	Eu32300	[x]severe depressive episode with psychotic symptoms	Definite
+9667	Eu32200	[x]severe depressive episode without psychotic symptoms	Definite
+41989	Eu32211	[x]single episode agitated depressn w'out psychotic symptoms	Definite
+22806	Eu32212	[x]single episode major depression w'out psychotic symptoms	Definite
+9055	Eu32.11	[x]single episode of depressive reaction	Definite
+24117	Eu32311	[x]single episode of major depression and psychotic symptoms	Definite
+56609	Eu32y12	[x]single episode of masked depression nos	Definite
+18510	Eu32.12	[x]single episode of psychogenic depression	Definite
+24112	Eu32313	[x]single episode of psychotic depression	Definite
+7604	Eu32.13	[x]single episode of reactive depression	Definite
+59386	Eu32213	[x]single episode vital depression w'out psychotic symptoms	Definite
+37090	Eu3z.00	[x]unspecified mood affective disorder	Definite
+73991	Eu33214	[x]vital depression, recurrent without psychotic symptoms	Definite
+1055	E135.00	agitated depression	Definite
+5879	E112.11	agitated depression	Definite
+655	E200300	anxiety with depression	Definite
+43292	E004300	arteriosclerotic dementia with depression	Definite
+27491	E11y200	atypical depressive disorder	Definite
+1533	E290.00	brief depressive reaction	Definite
+36246	E290z00	brief depressive reaction nos	Definite
+4323	E2B1.00	chronic depression	Definite
+65435	9k40.00	depression - enhanced service completed	Definite
+30583	9k4..00	depression - enhanced services administration	Definite
+12399	9H90.00	depression annual review	Definite
+30405	9H92.00	depression interim review	Definite
+44848	8BK0.00	depression management programme	Definite
+12122	9H91.00	depression medication review	Definite
+324	E2B..00	depressive disorder nec	Definite
+595	E112.14	endogenous depression	Definite
+6932	E113.11	endogenous depression - recurrent	Definite
+6950	E112.13	endogenous depression first episode	Definite
+6546	E112.12	endogenous depression first episode	Definite
+43239	9hC1.00	excepted from depression quality indicators: informed dissen	Definite
+28970	9hC0.00	excepted from depression quality indicators: patient unsuita	Definite
+48970	9hC..00	exception reporting: depression quality indicators	Definite
+9183	E11z200	masked depression	Definite
+1131	E204.00	neurotic depression reactive type	Definite
+42931	9HA0.00	on depression register	Definite
+96995	9kQ..00	on full dose long term treatment depression - enh serv admin	Definite
+30483	8CAa.00	patient given advice about management of depression	Definite
+2972	E2B0.00	postviral depression	Definite
+27677	E001300	presenile dementia with depression	Definite
+16632	E291.00	prolonged depressive reaction	Definite
+17770	E130.11	psychotic reactive depression	Definite
+6482	E113700	recurrent depression	Definite
+15099	E113.00	recurrent major depressive episode	Definite
+25563	E113z00	recurrent major depressive episode nos	Definite
+29342	E113100	recurrent major depressive episodes, mild	Definite
+14709	E113200	recurrent major depressive episodes, moderate	Definite
+25697	E113300	recurrent major depressive episodes, severe, no psychosis	Definite
+24171	E113400	recurrent major depressive episodes, severe, with psychosis	Definite
+35671	E113000	recurrent major depressive episodes, unspecified	Definite
+10825	E118.00	seasonal affective disorder	Definite
+21887	E002100	senile dementia with depression	Definite
+10610	E112.00	single major depressive episode	Definite
+7011	E112z00	single major depressive episode nos	Definite
+16506	E112100	single major depressive episode, mild	Definite
+15155	E112200	single major depressive episode, moderate	Definite
+32159	E112400	single major depressive episode, severe, with psychosis	Definite
+15219	E112300	single major depressive episode, severe, without psychosis	Definite
+34390	E112000	single major depressive episode, unspecified	Definite
+9796	1B1U.00	symptoms of depression	Definite
+46796	U609211	[x] adverse reaction to antidepressant	Probable
+55631	U609213	[x] adverse reaction to antidepressants nos	Probable
+27759	Eu02z16	[x] senile dementia, depressed or paranoid type	Probable
+31633	Eu3z.11	[x]affective psychosis nos	Probable
+24483	Eu52111	[x]anhedonia sexual	Probable
+8584	Eu34111	[x]depressive neurosis	Probable
+24000	Eu05300	[x]organic mood [affective] disorders	Probable
+31557	U609200	[x]other unspec antidepres caus advers effect in therap use	Probable
+31757	Eu33314	[x]recurr severe episodes/psychogenic depressive psychosis	Probable
+52678	Eu32312	[x]single episode of psychogenic depressive psychosis	Probable
+28863	Eu32314	[x]single episode of reactive depressive psychosis	Probable
+33618	U609000	[x]tricyc/tetracyc antidepres caus advers eff therapeut use	Probable
+56924	E292400	adjustment reaction with anxious mood	Probable
+7569	TJ90.00	adverse reaction to antidepressants	Probable
+39808	TJ90z00	adverse reaction to antidepressants nos	Probable
+14656	E11..00	affective psychoses	Probable
+108741	6658000	antidepressant drug treatment changed	Probable
+102632	6659000	antidepressant drug treatment started	Probable
+100179	665A000	antidepressant drug treatment stopped	Probable
+10734	E290011	bereavement reaction	Probable
+1996	1B17.00	depressed	Probable
+10015	1BT..00	depressed mood	Probable
+2560	E11..12	depressive psychoses	Probable
+10438	1B1U.11	depressive symptoms	Probable
+8928	1BT..11	low mood	Probable
+1908	2257.00	o/e - depressed	Probable
+24510	E03y200	organic affective syndrome	Probable
+19921	E29y500	other adjustment reaction with withdrawal	Probable
+33425	E11zz00	other affective psychosis nos	Probable
+41992	E11z.00	other and unspecified affective psychoses	Probable
+8478	E130.00	reactive depressive psychosis	Probable
+26028	1BT..12	sad mood	Probable
+44674	E002.00	senile dementia with depressive or paranoid features	Probable
+41089	E002z00	senile dementia with depressive or paranoid features nos	Probable
+5751	1683.00	tired all the time	Probable
+54607	E11z000	unspecified affective psychoses nos	Probable
+2777	R2y3.11	[d] self neglect	Possible
+106997	R037.00	[d]insufficient intake of food and water due to self neglect	Possible
+7230	Ry18.00	[d]self neglect	Possible
+4876	ZV79000	[v]screening for depression	Possible
+10535	Eu43012	[x]acute reaction to stress	Possible
+11607	Eu43000	[x]acute stress reaction	Possible
+95346	Eu92y11	[x]conduct disorder associated with emotional disorder	Possible
+91580	Eu92.11	[x]emotional behavioural problems	Possible
+6511	Eu92z00	[x]mixed disorder of conduct and emotions, unspecified	Possible
+4919	Eu92.00	[x]mixed disorders of conduct and emotions	Possible
+7305	Eu92y00	[x]other mixed disorders of conduct and emotions	Possible
+21753	Eu43y00	[x]other reactions to severe stress	Possible
+17203	Eu50y12	[x]psychogenic loss of appetite	Possible
+11098	Eu43.00	[x]reaction to severe stress, and adjustment disorders	Possible
+31515	Eu43z00	[x]reaction to severe stress, unspecified	Possible
+42737	E281.00	acute fugue state due to acute stress reaction	Possible
+11940	E280.00	acute panic state due to acute stress reaction	Possible
+276	E28..00	acute reaction to stress	Possible
+26138	E28z.00	acute stress reaction nos	Possible
+15551	E282.00	acute stupor state due to acute stress reaction	Possible
+45603	E294.00	adjustment reaction with disturbance emotion and conduct	Possible
+15665	E292z00	adjustment reaction with disturbance of other emotion nos	Possible
+48588	E292y00	adjustment reaction with mixed disturbance of emotion	Possible
+24212	E292.00	adjustment reaction, predominant disturbance other emotions	Possible
+3347	E2D..11	adolescent - emotional problem	Possible
+103903	6891000	assessment using whooley depression screen	Possible
+63249	9ON1.00	attends stress monitoring	Possible
+91400	388l.00	basdec - brief assessment schedule depression cards score	Possible
+26080	ZR2A.11	bdi - beck depression inventory	Possible
+113683	ZR2h.11	bdrs - brief depression rating scale	Possible
+26224	ZR2A.00	beck depression inventory	Possible
+26817	388g.00	beck depression inventory second edition score	Possible
+42839	ZR2B.00	beck hopelessness scale	Possible
+28442	ZR2G.00	behaviour and mood disturbance scale	Possible
+38058	ZR2h.00	brief depression rating scale	Possible
+4824	1B17.11	c/o - feeling depressed	Possible
+2930	1B17.12	c/o - feeling unhappy	Possible
+54313	8O83.00	cancer emotional and psychosocial support and advice	Possible
+40431	1B1P000	cries easily	Possible
+2831	1B1I.00	crying, excessive	Possible
+52655	ZR7..00	depression anxiety scale	Possible
+19163	388b.00	depression anxiety stress scales anxiety score	Possible
+9970	388Z.00	depression anxiety stress scales depression score	Possible
+41066	388a.00	depression anxiety stress scales stress score	Possible
+51258	9Ov..00	depression monitoring administration	Possible
+71009	9Ov0.00	depression monitoring first letter	Possible
+72966	9Ov1.00	depression monitoring second letter	Possible
+85852	9Ov4.00	depression monitoring telephone invite	Possible
+91105	9Ov2.00	depression monitoring third letter	Possible
+88644	9Ov3.00	depression monitoring verbal invite	Possible
+4740	6891.00	depression screen	Possible
+109182	8IH3100	depression screening declined	Possible
+12450	6896.00	depression screening using questions	Possible
+54999	ZR8..00	depression self rating scale	Possible
+56130	ZR8..11	dsrs - depression self rating scale	Possible
+48349	1S40.00	dysphoric mood	Possible
+25832	8O82.00	emotional and psychosocial support and advice	Possible
+1449	1B1J.00	emotional problem	Possible
+30345	Z9M7.00	emotional support	Possible
+3502	1B1J.11	emotional upset	Possible
+108928	38GJ000	euroqol five dimension five level anxiety depression score	Possible
+101422	16ZB100	feeling low or worried	Possible
+35320	ZRL6.11	gds - geriatric depression scale	Possible
+26374	ZRL6.00	geriatric depression scale	Possible
+18315	388K.00	geriatric depression scale	Possible
+39131	ZRL6.12	geriatric depression score	Possible
+35398	ZRLr.11	had - hospital anxiety and depression scale	Possible
+19409	388P.00	had scale: depression score	Possible
+24820	ZRLr.12	hads - hospital anxiety and depression scale	Possible
+101250	38Dp.00	hamd - hamilton rating scale for depression	Possible
+42836	ZRLU.11	hamd - hamilton rating scale for depression	Possible
+42975	ZRLU.00	hamilton rating scale for depression	Possible
+96038	ZRLfI00	health of the nation outcome scale item 7 - depressed mood	Possible
+55288	ZRLfH00	health of the nation outcome scale item 7 - depressed mood	Possible
+57950	14ON.00	high risk of self neglect	Possible
+59794	ZRLn.00	hopelessness scale	Possible
+19630	388J.00	hospital anxiety and depression scale	Possible
+19245	ZRLr.00	hospital anxiety and depression scale	Possible
+110350	8IE5100	hospital anxiety and depression scale declined	Possible
+44927	ZRLU.12	hrsd - hamilton rating scale for depression	Possible
+109588	38Dp.11	hrsd - hamilton rating scale for depression	Possible
+3667	1B15.00	irritable	Possible
+6142	1B15.11	irritable - symptom	Possible
+22885	Z7C5111	lack of concentration	Possible
+56034	ZRVM.00	leeds scale for the self-assessment of anxiety & depression	Possible
+25435	1BQ..00	loss of capacity for enjoyment	Possible
+53148	1BU..00	loss of hope for the future	Possible
+30740	1BP..00	loss of interest	Possible
+59869	1BP0.00	loss of interest in previously enjoyable activity	Possible
+64584	ZRaH.11	macl - mood affective checklist	Possible
+101423	38Dq.00	madrs - montgomery-asberg depression rating scale	Possible
+41599	E2C4.00	mixed disturbance of conduct and emotion	Possible
+6121	E2C4z00	mixed disturbance of conduct and emotion nos	Possible
+57949	14OM.00	moderate risk of self neglect	Possible
+34275	ZRaH.00	mood affective checklist	Possible
+32226	Z787400	neglect of personal hygiene	Possible
+1149	225A.00	o/e - irritable	Possible
+29707	E283z00	other acute stress reaction nos	Possible
+38640	E283.00	other acute stress reactions	Possible
+83565	8IA1.00	patient health questionnaire (phq-9) declined	Possible
+13583	388f.00	patient health questionnaire (phq-9) score	Possible
+100194	ZRby.11	poms - profile of mood states	Possible
+10378	1BW..00	poor concentration	Possible
+2147	1B1N.00	poor self esteem	Possible
+44287	ZRby.00	profile of mood states	Possible
+10741	1BR..00	reduced concentration	Possible
+38194	Z7C5300	reduced concentration span	Possible
+42988	1BR0.00	reduced concentration span	Possible
+32841	8HHq.00	referral for guided self-help for depression	Possible
+112682	8IH5200	referral for guided self-help for depression declined	Possible
+51349	9ON2.00	refuses stress monitoring	Possible
+26195	14OK.00	risk of self neglect	Possible
+37942	ZRrc.11	sds - zung self-rating depression scale	Possible
+32593	Z787.00	self-neglect	Possible
+12303	13HL.14	social withdrawal	Possible
+58610	9ON..11	stress clinic administration	Possible
+35648	9ON4.00	stress monitoring 1st letter	Possible
+56220	9ON5.00	stress monitoring 2nd letter	Possible
+106542	9ON6.00	stress monitoring 3rd letter	Possible
+35808	9ON..00	stress monitoring admin.	Possible
+70751	9ONZ.00	stress monitoring admin.nos	Possible
+37248	9ONA.00	stress monitoring check done	Possible
+96504	9ON3.00	stress monitoring default	Possible
+57856	9ON9.00	stress monitoring deleted	Possible
+96503	9ON8.00	stress monitoring phone invite	Possible
+99737	9ON7.00	stress monitoring verbal inv.	Possible
+23869	E284.00	stress reaction causing mixed disturbance of emotion/conduct	Possible
+100977	1JJ..00	suspected depression	Possible
+106647	3880100	visual analogue mood scale	Possible
+102465	ZRrI.00	wakefield self-assessment depression inventory	Possible
+89707	ZRrY.00	who depression scale	Possible
+56982	ZRrc.00	zung self-rating depression scale	Possible
+15117	ZV11100	[v]personal history of affective disorder	H/O
+22116	Eu33400	[x]recurrent depressive disorder, currently in remission	H/O
+19439	212S.00	depression resolved	H/O
+2716	1465.00	h/o: depression	H/O
+55384	E113600	recurrent major depressive episodes, in full remission	H/O
+56273	E113500	recurrent major depressive episodes,partial/unspec remission	H/O
+44936	9HA1.00	removed from depression register	H/O
+57409	E112600	single major depressive episode, in full remission	H/O
+43324	E112500	single major depressive episode, partial or unspec remission	H/O

@@ -1,0 +1,72 @@
+prodcodeid	drugsubstancename	termfromemis	extra	drugsdementia
+81041000033119	donepezil hydrochloride	aricept 10mg tablets (eisai ltd)		Yes
+81141000033115	donepezil hydrochloride	aricept 5mg tablets (eisai ltd)		Yes
+4022341000033112	donepezil hydrochloride	aricept evess 10mg orodispersible tablets (eisai ltd)		Yes
+4022241000033119	donepezil hydrochloride	aricept evess 5mg orodispersible tablets (eisai ltd)		Yes
+4022141000033114	donepezil hydrochloride	donepezil 10mg orodispersible tablets sugar free		Yes
+479941000033116	donepezil hydrochloride	donepezil 10mg tablets		Yes
+9302241000033114	donepezil hydrochloride	donepezil 1mg/ml oral solution sugar free		Yes
+4022041000033110	donepezil hydrochloride	donepezil 5mg orodispersible tablets sugar free		Yes
+480041000033117	donepezil hydrochloride	donepezil 5mg tablets		Yes
+7690441000033111	galantamine hydrobromide	acumor xl 16mg capsules (viatris uk healthcare ltd)		Yes
+7690141000033115	galantamine hydrobromide	acumor xl 24mg capsules (viatris uk healthcare ltd)		Yes
+7690641000033113	galantamine hydrobromide	acumor xl 8mg capsules (viatris uk healthcare ltd)		Yes
+10217441000033118	galantamine hydrobromide	consion xl 16mg capsules (dr reddy's laboratories (uk) ltd)		Yes
+10217541000033117	galantamine hydrobromide	consion xl 24mg capsules (dr reddy's laboratories (uk) ltd)		Yes
+10217341000033112	galantamine hydrobromide	consion xl 8mg capsules (dr reddy's laboratories (uk) ltd)		Yes
+8305441000033119	galantamine hydrobromide	elmino xl 16mg capsules (zentiva pharma uk ltd)		Yes
+8306941000033118	galantamine hydrobromide	elmino xl 24mg capsules (zentiva pharma uk ltd)		Yes
+2191541000033117	galantamine hydrobromide	galantamine 12mg tablets		Yes
+3293641000033110	galantamine hydrobromide	galantamine 16mg modified-release capsules		Yes
+2801441000033112	galantamine hydrobromide	galantamine 20mg/5ml oral solution sugar free		Yes
+3293741000033118	galantamine hydrobromide	galantamine 24mg modified-release capsules		Yes
+2191341000033112	galantamine hydrobromide	galantamine 4mg tablets		Yes
+3293541000033114	galantamine hydrobromide	galantamine 8mg modified-release capsules		Yes
+2191441000033118	galantamine hydrobromide	galantamine 8mg tablets		Yes
+6435941000033119	galantamine hydrobromide	galsya xl 16mg capsules (consilient health ltd)		Yes
+6436041000033112	galantamine hydrobromide	galsya xl 24mg capsules (consilient health ltd)		Yes
+6435841000033110	galantamine hydrobromide	galsya xl 8mg capsules (consilient health ltd)		Yes
+12603841000033115	galantamine hydrobromide	galzemic 4mg/ml oral solution (zentiva pharma uk ltd)		Yes
+11825841000033115	galantamine hydrobromide	galzemic xl 16mg capsules (zentiva pharma uk ltd)		Yes
+11825941000033111	galantamine hydrobromide	galzemic xl 24mg capsules (zentiva pharma uk ltd)		Yes
+11825741000033113	galantamine hydrobromide	galzemic xl 8mg capsules (zentiva pharma uk ltd)		Yes
+8127341000033119	galantamine hydrobromide	gatalin xl 16mg capsules (aspire pharma ltd)		Yes
+8127441000033113	galantamine hydrobromide	gatalin xl 24mg capsules (aspire pharma ltd)		Yes
+8127241000033112	galantamine hydrobromide	gatalin xl 8mg capsules (aspire pharma ltd)		Yes
+9699241000033110	galantamine hydrobromide	gazylan xl 16mg capsules (teva uk ltd)		Yes
+9699441000033111	galantamine hydrobromide	gazylan xl 24mg capsules (teva uk ltd)		Yes
+9699541000033112	galantamine hydrobromide	gazylan xl 8mg capsules (teva uk ltd)		Yes
+8243041000033111	galantamine hydrobromide	lotprosin xl 16mg capsules (accord healthcare ltd)		Yes
+8243141000033110	galantamine hydrobromide	lotprosin xl 24mg capsules (accord healthcare ltd)		Yes
+8242941000033118	galantamine hydrobromide	lotprosin xl 8mg capsules (accord healthcare ltd)		Yes
+9679341000033110	galantamine hydrobromide	luventa xl 16mg capsules (fontus health ltd)		Yes
+9679141000033112	galantamine hydrobromide	luventa xl 24mg capsules (fontus health ltd)		Yes
+9679241000033117	galantamine hydrobromide	luventa xl 8mg capsules (fontus health ltd)		Yes
+2191841000033115	galantamine hydrobromide	reminyl 12mg tablets (shire pharmaceuticals ltd)		Yes
+2191641000033116	galantamine hydrobromide	reminyl 4mg tablets (shire pharmaceuticals ltd)		Yes
+2801541000033113	galantamine hydrobromide	reminyl 4mg/ml oral solution (takeda uk ltd)		Yes
+2191741000033113	galantamine hydrobromide	reminyl 8mg tablets (shire pharmaceuticals ltd)		Yes
+3293941000033115	galantamine hydrobromide	reminyl xl 16mg capsules (takeda uk ltd)		Yes
+3294041000033118	galantamine hydrobromide	reminyl xl 24mg capsules (takeda uk ltd)		Yes
+3293841000033111	galantamine hydrobromide	reminyl xl 8mg capsules (takeda uk ltd)		Yes
+6529341000033114	galantamine hydrobromide	zeebral xl 16mg capsules (teva uk ltd)		Yes
+6529441000033115	galantamine hydrobromide	zeebral xl 24mg capsules (teva uk ltd)		Yes
+6529241000033116	galantamine hydrobromide	zeebral xl 8mg capsules (teva uk ltd)		Yes
+12331841000033119	memantine hydrochloride	alzhok 10mg soluble tablets (glenmark pharmaceuticals europe ltd)		Yes
+12331941000033110	memantine hydrochloride	alzhok 20mg soluble tablets (glenmark pharmaceuticals europe ltd)		Yes
+2835541000033117	memantine hydrochloride	ebixa 10mg tablets (lundbeck ltd)		Yes
+4607941000033110	memantine hydrochloride	ebixa 20mg tablets (lundbeck ltd)		Yes
+2835641000033116	memantine hydrochloride	ebixa 5mg/0.5ml pump actuation oral solution (lundbeck ltd)		Yes
+11721041000033114	memantine hydrochloride	marixino 10mg tablets (consilient health ltd)		Yes
+11720941000033116	memantine hydrochloride	marixino 20mg tablets (consilient health ltd)		Yes
+11492741000033118	memantine hydrochloride	memantine 10mg orodispersible tablets sugar free		Yes
+12331641000033115	memantine hydrochloride	memantine 10mg soluble tablets sugar free		Yes
+2835341000033112	memantine hydrochloride	memantine 10mg tablets		Yes
+2835441000033118	memantine hydrochloride	memantine 10mg/ml oral solution sugar free		Yes
+11492841000033111	memantine hydrochloride	memantine 20mg orodispersible tablets sugar free		Yes
+12331741000033112	memantine hydrochloride	memantine 20mg soluble tablets sugar free		Yes
+4607841000033119	memantine hydrochloride	memantine 20mg tablets		Yes
+8535641000033114	memantine hydrochloride	nemdatine 10mg tablets (actavis uk ltd)		Yes
+8535741000033117	memantine hydrochloride	nemdatine 20mg tablets (actavis uk ltd)		Yes
+11492941000033115	memantine hydrochloride	valios 10mg orodispersible tablets sugar free (dr reddy's laboratories (uk) ltd)		Yes
+11493041000033113	memantine hydrochloride	valios 20mg orodispersible tablets sugar free (dr reddy's laboratories (uk) ltd)		Yes

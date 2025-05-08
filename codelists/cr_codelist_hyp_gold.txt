@@ -1,0 +1,94 @@
+medcode	readcode	readterm	ethnicity	lupus	psoriasis	ra	cancer	hypertension	cmi_temp	chemo	leuk	stem_cell	aplastic	spleen	cmi_perm	HIV	organ_tx	diab_perm	neuro	dementia	learning	asthma	chronicresp	ckd	liver	vte	cerebrovascular	chronic_cardiac
+204	G2...00	hypertensive disease						1																				
+245	G410.00	primary pulmonary hypertension						1																				
+351	G20..11	high blood pressure						1																				
+799	G20..00	essential hypertension						1																				
+1894	G201.00	benign essential hypertension						1																				
+2666	14A2.00	h/o: hypertension						1																				
+3425	662O.00	on treatment for hypertension						1																				
+3712	G20z.11	hypertension nos						1																				
+3979	G672.00	hypertensive encephalopathy						1																				
+4372	G202.00	systolic hypertension						1																				
+4668	G22..00	hypertensive renal disease						1																				
+6702	F421300	hypertensive retinopathy						1																				
+7057	G2z..00	hypertensive disease nos						1																				
+7329	G24..00	secondary hypertension						1																				
+8732	G2...11	bp - hypertensive disease						1																				
+10818	G20z.00	essential hypertension nos						1																				
+11056	8BL0.00	patient on maximal tolerated antihypertensive therapy						1																				
+12680	8CR4.00	hypertension clinical management plan						1																				
+12948	662H.00	hypertension treatm.stopped						1																				
+13188	662G.00	hypertensive treatm.changed						1																				
+15106	G22z.00	hypertensive renal disease nos						1																				
+15377	G200.00	malignant essential hypertension						1																				
+16059	G24z.00	secondary hypertension nos						1																				
+16565	6627.00	good hypertension control						1																				
+18057	8B26.00	antihypertensive therapy						1																				
+18482	662c.00	hypertension six month review						1																				
+18590	662b.00	moderate hypertension control						1																				
+18765	G2y..00	other specified hypertensive disease						1																				
+19070	662d.00	hypertension annual review						1																				
+20497	TJC7z00	adverse reaction to antihypertensives nos						1																				
+21660	TJC7.00	adverse reaction to other antihypertensives						1																				
+21826	662F.00	hypertension treatm. started						1																				
+22333	8I3N.00	hypertension treatment refused						1																				
+25371	G241000	secondary benign renovascular hypertension						1																				
+26347	G8y3.00	chronic peripheral venous hypertension						1																				
+27511	6628.00	poor hypertension control						1																				
+29310	G22z.11	renal hypertension						1																				
+30770	U60C511	[x] adverse reaction to other antihypertensives						1																				
+30776	6629.00	hypertension:follow-up default						1																				
+31341	G24z100	hypertension secondary to drug						1																				
+31387	G24z000	secondary renovascular hypertension nos						1																				
+31755	G240.00	secondary malignant hypertension						1																				
+31816	G672.11	hypertensive crisis						1																				
+34065	G41y000	secondary pulmonary hypertension						1																				
+34744	G244.00	hypertension secondary to endocrine disorders						1																				
+37086	F404200	blind hypertensive eye						1																				
+39649	G220.00	malignant hypertensive renal disease						1																				
+42229	G24zz00	secondary hypertension nos						1																				
+43664	L127.00	pre-eclampsia or eclampsia with pre-existing hypertension						1																				
+43935	G221.00	benign hypertensive renal disease						1																				
+44350	U60C51A	[x] adverse reaction to antihypertensives nos						1																				
+44549	L128.00	pre-exist hypertension compl preg childbirth and puerperium						1																				
+51635	G241z00	secondary benign hypertension nos						1																				
+52621	L128200	pre-exist 2ndry hypertens comp preg childbth and puerperium						1																				
+55603	7Q01000	primary pulmonary hypertension drugs band 1						1																				
+57288	G241.00	secondary benign hypertension						1																				
+59383	G240000	secondary malignant renovascular hypertension						1																				
+62432	L122z00	other pre-existing hypertension in preg/childb/puerp nos						1																				
+63164	U60C500	[x]oth antihyperten drug caus advers eff in therap use, nec						1																				
+63260	SLC6z00	hypertensive agent poisoning nos						1																				
+63946	7Q01100	primary pulmonary hypertension drugs band 2						1																				
+65081	7Q01200	primary pulmonary hypertension drugs band 3						1																				
+66567	L122.00	other pre-existing hypertension in preg/childbirth/puerp						1																				
+69753	Gyu2.00	[x]hypertensive diseases						1																				
+72030	L122100	other pre-existing hypertension in preg/childb/puerp - deliv						1																				
+72226	SLC6.00	other hypertensive agent poisoning						1																				
+73293	G240z00	secondary malignant hypertension nos						1																				
+73586	L122000	other pre-existing hypertension in preg/childb/puerp unspec						1																				
+83473	G203.00	diastolic hypertension						1																				
+85944	7Q01.00	high cost hypertension drugs						1																				
+90875	7Q01300	primary pulmonary hypertension drugs band 4						1																				
+93055	L127z00	pre-eclampsia or eclampsia + pre-existing hypertension nos						1																				
+95359	662r.00	trial withdrawal of antihypertensive therapy						1																				
+96743	L122300	other pre-exist hypertension in preg/childb/puerp-not deliv						1																				
+97533	Gyu2100	[x]hypertension secondary to other renal disorders						1																				
+99259	662q.00	trial reduction of antihypertensive therapy						1																				
+101649	7Q01y00	other specified high cost hypertension drugs						1																				
+102406	662P000	hypertension 9 month review						1																				
+102444	G41y100	thromboembolic pulmonary hypertension						1																				
+102458	Gyu2000	[x]other secondary hypertension						1																				
+105274	G28..00	stage 2 hypertension (nice - nat ins for hth clin excl 2011)						1																				
+105316	G25..11	stage 1 hypertension						1																				
+105371	G25..00	stage 1 hypertension (nice - nat ins for hth clin excl 2011)						1																				
+105480	G27..00	hypertension resistant to drug therapy						1																				
+105487	G26..11	severe hypertension						1																				
+105989	G26..00	severe hypertension (nat inst for health clinical ex 2011)						1																				
+106279	8IA5.00	trial withdrawal of antihypertensive therapy declined						1																				
+107704	G20..12	primary hypertension						1																				
+108136	G250.00	stage 1 hyperten (nice 2011) without evidnce end organ damge						1																				
+109611	661M600	hypertension self-management plan agreed						1																				
+109797	G251.00	stage 1 hyperten (nice 2011) with evidnce end organ damge						1																				
+110631	661N600	hypertension self-management plan review						1																				
+112611	SyuFT00	[x]poisoning by other antihypertensive drugs, nec						1																				

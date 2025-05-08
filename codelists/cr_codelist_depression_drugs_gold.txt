@@ -1,0 +1,997 @@
+prodcode	bnftext	ingredient	productname	class	extra	depression_drugs
+85516	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (medihealth (northern) ltd)	SSRI	1	1
+75697	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (phoenix healthcare distribution ltd)	SSRI	1	1
+85308	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (sovereign medical ltd)	SSRI	1	1
+73417	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (pliva pharma ltd)	SSRI	1	1
+75702	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (kent pharma (uk) ltd)	SSRI	1	1
+82670	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (sovereign medical ltd)	SSRI	1	1
+74753	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 30mg tablets	SSRI	1	1
+79784	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	cipramil 10mg tablets (waymade healthcare plc)	SSRI	1	1
+83078	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (medreich plc)	SSRI	1	1
+75075	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (alliance healthcare (distribution) ltd)	SSRI	1	1
+80370	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (tillomed laboratories ltd)	SSRI	1	1
+81067	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (noumed life sciences ltd)	SSRI	1	1
+84264	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (medreich plc)	SSRI	1	1
+85525	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 5mg tablets (a a h pharmaceuticals ltd)	SSRI	1	1
+80821	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 20mg tablets (mawdsley-brooks & company ltd)	SSRI	1	1
+81987	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 10mg tablets (accord healthcare ltd)	SSRI	1	1
+82346	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 10mg tablets (sigma pharmaceuticals plc)	SSRI	1	1
+74858	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 10mg tablets (waymade healthcare plc)	SSRI	1	1
+74993	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 10mg tablets (brown & burk uk ltd)	SSRI	1	1
+74785	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 10mg tablets (de pharmaceuticals)	SSRI	1	1
+72773	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 20mg tablets (teva uk ltd)	SSRI	1	1
+80453	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 20mg tablets (a a h pharmaceuticals ltd)	SSRI	1	1
+83378	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 10mg tablets (necessity supplies ltd)	SSRI	1	1
+80820	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 20mg tablets (de pharmaceuticals)	SSRI	1	1
+75688	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (genesis pharmaceuticals ltd)	SSRI	1	1
+77881	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 10mg capsules (medreich plc)	SSRI	1	1
+73414	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution (pinewood healthcare)	SSRI	1	1
+77381	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg capsules (dowelhurst ltd)	SSRI	1	1
+79494	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 60mg capsules (a a h pharmaceuticals ltd)	SSRI	1	1
+75247	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 60mg capsules (advanz pharma)	SSRI	1	1
+81906	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 10mg tablets (endo ventures ltd)	SSRI	1	1
+78889	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 40mg capsules (medreich plc)	SSRI	1	1
+80702	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg/5ml liquid (lexon (uk) ltd)	SSRI	1	1
+79590	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 30mg capsules (medreich plc)	SSRI	1	1
+75068	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 40mg capsules (alliance healthcare (distribution) ltd)	SSRI	1	1
+79506	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (bristol laboratories ltd)	SSRI	1	1
+75943	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg/5ml liquid (necessity supplies ltd)	SSRI	1	1
+75645	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 2.5mg/5ml oral solution	SSRI	1	1
+75799	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (almus pharmaceuticals ltd)	SSRI	1	1
+74886	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 2mg/5ml oral solution	SSRI	1	1
+75054	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine oral liquid	SSRI	1	1
+83463	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 30mg tablets (almus pharmaceuticals ltd)	SSRI	1	1
+85550	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 40mg tablets (crescent pharma ltd)	SSRI	1	1
+78843	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 30mg/5ml oral solution	SSRI	1	1
+76946	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 10mg tablets (a a h pharmaceuticals ltd)	SSRI	1	1
+84572	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 10mg tablets (alliance healthcare (distribution) ltd)	SSRI	1	1
+84646	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 10mg tablets (de pharmaceuticals)	SSRI	1	1
+73668	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 20mg tablets (almus pharmaceuticals ltd)	SSRI	1	1
+82506	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 20mg tablets (waymade healthcare plc)	SSRI	1	1
+79383	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 30mg tablet (neo laboratories ltd)	SSRI	1	1
+79381	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 30mg tablet (sovereign medical ltd)	SSRI	1	1
+74588	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 20mg tablets (de pharmaceuticals)	SSRI	1	1
+73589	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 20mg tablets (lexon (uk) ltd)	SSRI	1	1
+83981	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 20mg tablets (sandoz ltd)	SSRI	1	1
+77650	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 20mg tablets (mawdsley-brooks & company ltd)	SSRI	1	1
+76772	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 30mg tablets (mawdsley-brooks & company ltd)	SSRI	1	1
+81854	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 10mg tablets (teva uk ltd)	SSRI	1	1
+82578	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 30mg tablets (waymade healthcare plc)	SSRI	1	1
+86493	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	lustral 50mg tablets (lexon (uk) ltd)	SSRI	1	1
+79163	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (kent pharma (uk) ltd)	SSRI	1	1
+77607	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 10mg/5ml oral suspension	SSRI	1	1
+82384	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	lustral 100mg tablets (lexon (uk) ltd)	SSRI	1	1
+85763	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (genesis pharmaceuticals ltd)	SSRI	1	1
+83101	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 25mg tablets (zentiva pharma uk ltd)	SSRI	1	1
+85140	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (de pharmaceuticals)	SSRI	1	1
+77538	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg/5ml oral suspension (drug tariff special order)	SSRI	1	1
+85420	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (flamingo pharma (uk) ltd)	SSRI	1	1
+75405	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg/5ml oral solution	SSRI	1	1
+82497	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	lustral 50mg tablets (dowelhurst ltd)	SSRI	1	1
+85005	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (dr reddy's laboratories (uk) ltd)	SSRI	1	1
+85369	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 5mg/5ml oral suspension	SSRI	1	1
+86037	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 25mg tablets (a a h pharmaceuticals ltd)	SSRI	1	1
+85007	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (medreich plc)	SSRI	1	1
+84470	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (consilient health ltd)	SSRI	1	1
+77385	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	lustral 50mg tablets (de pharmaceuticals)	SSRI	1	1
+84538	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (dowelhurst ltd)	SSRI	1	1
+77707	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 75mg/5ml oral suspension	SSRI	1	1
+81991	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (relonchem ltd)	SSRI	1	1
+78278	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 12.5mg tablets	SSRI	1	1
+86199	unknown	sertraline hydrochloride	sertraline 50mg tablets (almus pharmaceuticals ltd)	SSRI	1	1
+73759	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 20mg/5ml oral suspension	SSRI	1	1
+82884	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 25mg tablets	SSRI	1	1
+82495	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	lustral 100mg tablets (dowelhurst ltd)	SSRI	1	1
+86466	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (dr reddy's laboratories (uk) ltd)	SSRI	1	1
+82195	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 25mg/5ml oral solution	SSRI	1	1
+78626	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 15mg/5ml oral suspension	SSRI	1	1
+83668	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 25mg/5ml oral suspension (drug tariff special order)	SSRI	1	1
+84537	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (waymade healthcare plc)	SSRI	1	1
+75952	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (tillomed laboratories ltd)	SSRI	1	1
+73962	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (wockhardt uk ltd)	SSRI	1	1
+85194	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (focus pharmaceuticals ltd)	SSRI	1	1
+84656	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline oral solution	SSRI	1	1
+2408	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	cipramil 40mg tablets (lundbeck ltd)	SSRI		1
+56009	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (arrow generics ltd)	SSRI		1
+63441	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (rivopharm (uk) ltd)	SSRI		1
+53394	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (alliance healthcare (distribution) ltd)	SSRI		1
+46977	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (actavis uk ltd)	SSRI		1
+32546	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	paxoran 10mg tablet (ranbaxy (uk) ltd)	SSRI		1
+476	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets	SSRI		1
+34499	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (sandoz ltd)	SSRI		1
+26016	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (sandoz ltd)	SSRI		1
+34466	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (sandoz ltd)	SSRI		1
+45286	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (niche generics ltd)	SSRI		1
+34970	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (niche generics ltd)	SSRI		1
+34586	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (a a h pharmaceuticals ltd)	SSRI		1
+33720	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (ivax pharmaceuticals uk ltd)	SSRI		1
+43519	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablet (neo laboratories ltd)	SSRI		1
+52824	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (pliva pharma ltd)	SSRI		1
+53787	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (bristol laboratories ltd)	SSRI		1
+34822	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (zentiva pharma uk ltd)	SSRI		1
+52354	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (de pharmaceuticals)	SSRI		1
+67	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets	SSRI		1
+59193	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (ranbaxy (uk) ltd)	SSRI		1
+64423	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (accord healthcare ltd)	SSRI		1
+34966	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (teva uk ltd)	SSRI		1
+55033	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (de pharmaceuticals)	SSRI		1
+63953	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	cipramil 20mg tablets (de pharmaceuticals)	SSRI		1
+70790	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (milpharm ltd)	SSRI		1
+34498	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablet (neo laboratories ltd)	SSRI		1
+45304	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (teva uk ltd)	SSRI		1
+34436	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (viatris uk healthcare ltd)	SSRI		1
+34871	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (actavis uk ltd)	SSRI		1
+71848	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg/5ml oral suspension	SSRI		1
+34356	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (a a h pharmaceuticals ltd)	SSRI		1
+3861	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	cipramil 10mg tablets (lundbeck ltd)	SSRI		1
+69571	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (accord healthcare ltd)	SSRI		1
+52408	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (kent pharma (uk) ltd)	SSRI		1
+36746	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (a a h pharmaceuticals ltd)	SSRI		1
+52607	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (bristol laboratories ltd)	SSRI		1
+60839	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (almus pharmaceuticals ltd)	SSRI		1
+67097	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (accord healthcare ltd)	SSRI		1
+42660	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (almus pharmaceuticals ltd)	SSRI		1
+45223	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (niche generics ltd)	SSRI		1
+46926	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (zentiva pharma uk ltd)	SSRI		1
+48026	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (almus pharmaceuticals ltd)	SSRI		1
+71005	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (de pharmaceuticals)	SSRI		1
+60568	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (waymade healthcare plc)	SSRI		1
+49165	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (alliance healthcare (distribution) ltd)	SSRI		1
+59650	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (milpharm ltd)	SSRI		1
+56355	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (waymade healthcare plc)	SSRI		1
+34603	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets (viatris uk healthcare ltd)	SSRI		1
+34413	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (zentiva pharma uk ltd)	SSRI		1
+41528	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (teva uk ltd)	SSRI		1
+4770	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 40mg tablets	SSRI		1
+1712	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	cipramil 20mg tablets (lundbeck ltd)	SSRI		1
+32848	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (actavis uk ltd)	SSRI		1
+29756	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	paxoran 20mg tablet (ranbaxy (uk) ltd)	SSRI		1
+60888	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (sigma pharmaceuticals plc)	SSRI		1
+54827	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg/5ml oral suspension	SSRI		1
+34415	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (viatris uk healthcare ltd)	SSRI		1
+52100	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 10mg tablets (arrow generics ltd)	SSRI		1
+58476	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (milpharm ltd)	SSRI		1
+34722	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablet (neo laboratories ltd)	SSRI		1
+72373	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrobromide	citalopram 20mg tablets (ranbaxy (uk) ltd)	SSRI		1
+815	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrochloride	cipramil 40mg/ml drops (lundbeck ltd)	SSRI		1
+513	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrochloride	citalopram 40mg/ml oral drops sugar free	SSRI		1
+56292	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrochloride	citalopram 40mg/ml oral drops sugar free (actavis uk ltd)	SSRI		1
+72124	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrochloride	citalopram 40mg/ml oral drops sugar free (teva uk ltd)	SSRI		1
+57936	selective serotonin re-uptake inhibitors (ssri)	citalopram hydrochloride	citalopram 40mg/ml oral drops sugar free (a a h pharmaceuticals ltd)	SSRI		1
+63916	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 10mg tablets (actavis uk ltd)	SSRI		1
+648	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 10mg tablets (lundbeck ltd)	SSRI		1
+6360	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 20mg tablets (lundbeck ltd)	SSRI		1
+20152	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 10mg/ml oral drops sugar free	SSRI		1
+26056	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 10mg/ml oral drops (lundbeck ltd)	SSRI		1
+603	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 10mg tablets	SSRI		1
+6218	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 20mg tablets	SSRI		1
+6405	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 5mg tablets	SSRI		1
+785	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 5mg tablets (lundbeck ltd)	SSRI		1
+41062	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	cipralex 20mg/ml oral drops (lundbeck ltd)	SSRI		1
+40726	selective serotonin re-uptake inhibitors (ssri)	escitalopram oxalate	escitalopram 20mg/ml oral drops sugar free	SSRI		1
+67736	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (dr reddy's laboratories (uk) ltd)	SSRI		1
+62335	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	olena 20mg dispersible tablets (advanz pharma)	SSRI		1
+61335	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg capsules (mawdsley-brooks & company ltd)	SSRI		1
+252	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg/5ml liquid (eli lilly and company ltd)	SSRI		1
+42107	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (niche generics ltd)	SSRI		1
+67769	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (strides pharma uk ltd)	SSRI		1
+22	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules	SSRI		1
+42803	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution (ivax pharmaceuticals uk ltd)	SSRI		1
+34202	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (genus pharmaceuticals ltd)	SSRI		1
+67092	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (waymade healthcare plc)	SSRI		1
+45224	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (sandoz ltd)	SSRI		1
+19470	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (ranbaxy (uk) ltd)	SSRI		1
+38890	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsule (milpharm ltd)	SSRI		1
+67562	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 40mg capsules	SSRI		1
+34849	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (tillomed laboratories ltd)	SSRI		1
+45329	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (actavis uk ltd)	SSRI		1
+42499	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 10mg tablets	SSRI		1
+418	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg capsules (eli lilly and company ltd)	SSRI		1
+69685	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution sugar free (morningside healthcare ltd)	SSRI		1
+69941	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 10mg capsules (a a h pharmaceuticals ltd)	SSRI		1
+59358	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (milpharm ltd)	SSRI		1
+69525	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (medreich plc)	SSRI		1
+37256	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozep 20mg/5ml oral solution (rosemont pharmaceuticals ltd)	SSRI		1
+67496	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 30mg capsules	SSRI		1
+2548	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution	SSRI		1
+67888	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 60mg capsules (kent pharma (uk) ltd)	SSRI		1
+34856	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 60mg capsules (viatris uk healthcare ltd)	SSRI		1
+67431	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 10mg capsules	SSRI		1
+62155	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (phoenix healthcare distribution ltd)	SSRI		1
+48220	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg capsules (lexon (uk) ltd)	SSRI		1
+30258	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution (teva uk ltd)	SSRI		1
+45316	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (wockhardt uk ltd)	SSRI		1
+4075	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 60mg capsules	SSRI		1
+36893	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution sugar free	SSRI		1
+19183	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (a a h pharmaceuticals ltd)	SSRI		1
+71852	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (accord healthcare ltd)	SSRI		1
+33071	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	felicium 20mg capsules (opus pharmaceuticals ltd)	SSRI		1
+60619	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution (kent pharma (uk) ltd)	SSRI		1
+60138	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg orodispersible tablets sugar free	SSRI		1
+60534	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg dispersible tablets sugar free	SSRI		1
+33410	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (zentiva pharma uk ltd)	SSRI		1
+34456	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (teva uk ltd)	SSRI		1
+69542	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg capsules (necessity supplies ltd)	SSRI		1
+33779	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozit 20mg/5ml oral solution (pinewood healthcare)	SSRI		1
+45247	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (fannin (uk) ltd)	SSRI		1
+68266	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution sugar free (accord healthcare ltd)	SSRI		1
+34216	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg/5ml oral solution (a a h pharmaceuticals ltd)	SSRI		1
+34294	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (ivax pharmaceuticals uk ltd)	SSRI		1
+67758	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg capsules (de pharmaceuticals)	SSRI		1
+4907	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 60mg capsules (eli lilly and company ltd)	SSRI		1
+29786	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	ranflutin 20mg capsules (ranbaxy (uk) ltd)	SSRI		1
+60962	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (alliance healthcare (distribution) ltd)	SSRI		1
+66744	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (morningside healthcare ltd)	SSRI		1
+57532	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	prozac 20mg capsules (waymade healthcare plc)	SSRI		1
+14740	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	oxactin 20mg capsules (discovery pharmaceuticals)	SSRI		1
+34288	selective serotonin re-uptake inhibitors (ssri)	fluoxetine hydrochloride	fluoxetine 20mg capsules (viatris uk healthcare ltd)	SSRI		1
+2897	selective serotonin re-uptake inhibitors (ssri)	fluvoxamine maleate	faverin 50mg tablets (viatris uk healthcare ltd)	SSRI		1
+2290	selective serotonin re-uptake inhibitors (ssri)	fluvoxamine maleate	fluvoxamine 100mg tablets	SSRI		1
+12123	selective serotonin re-uptake inhibitors (ssri)	fluvoxamine maleate	faverin 100mg tablets (viatris uk healthcare ltd)	SSRI		1
+44861	selective serotonin re-uptake inhibitors (ssri)	fluvoxamine maleate	fluvoxamine 100mg tablets (actavis uk ltd)	SSRI		1
+2880	selective serotonin re-uptake inhibitors (ssri)	fluvoxamine maleate	fluvoxamine 50mg tablets	SSRI		1
+43518	selective serotonin re-uptake inhibitors (ssri)	fluvoxamine maleate	fluvoxamine 100mg tablets (ivax pharmaceuticals uk ltd)	SSRI		1
+48045	selective serotonin re-uptake inhibitors (ssri)	fluvoxamine maleate	fluvoxamine 100mg tablets (a a h pharmaceuticals ltd)	SSRI		1
+841	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 20mg tablets (glaxosmithkline uk ltd)	SSRI		1
+34587	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 30mg tablets (a a h pharmaceuticals ltd)	SSRI		1
+32899	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 20mg tablets (accord healthcare ltd)	SSRI		1
+50	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 20mg tablets	SSRI		1
+35021	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 10mg tablets	SSRI		1
+527	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 10mg/5ml oral suspension sugar free	SSRI		1
+59288	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 10mg tablets (accord healthcare ltd)	SSRI		1
+1575	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 30mg tablets (glaxosmithkline uk ltd)	SSRI		1
+67259	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 10mg/5ml oral solution	SSRI		1
+34351	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 20mg tablets (ivax pharmaceuticals uk ltd)	SSRI		1
+40165	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 30mg tablets (accord healthcare ltd)	SSRI		1
+55023	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 20mg tablets (medreich plc)	SSRI		1
+68325	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 40mg tablets	SSRI		1
+33978	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 20mg tablets (viatris uk healthcare ltd)	SSRI		1
+55537	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 30mg tablets (lexon (uk) ltd)	SSRI		1
+64785	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 30mg tablets (alliance healthcare (distribution) ltd)	SSRI		1
+40892	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 20mg tablets (genus pharmaceuticals ltd)	SSRI		1
+66292	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 10mg tablets (waymade healthcare plc)	SSRI		1
+35112	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 10mg tablets (glaxosmithkline uk ltd)	SSRI		1
+1397	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 30mg tablets	SSRI		1
+3601	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	seroxat 20mg/10ml liquid (glaxosmithkline uk ltd)	SSRI		1
+34419	selective serotonin re-uptake inhibitors (ssri)	paroxetine hydrochloride	paroxetine 20mg tablets (a a h pharmaceuticals ltd)	SSRI		1
+65771	selective serotonin re-uptake inhibitors (ssri)	sertraline	sertraline 200mg/5ml oral suspension (special order)	SSRI		1
+4352	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	lustral 100mg tablets (viatris uk healthcare ltd)	SSRI		1
+58723	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (accord healthcare ltd)	SSRI		1
+45915	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (almus pharmaceuticals ltd)	SSRI		1
+59600	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (almus pharmaceuticals ltd)	SSRI		1
+62693	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (bristol laboratories ltd)	SSRI		1
+1612	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	lustral 50mg tablets (viatris uk healthcare ltd)	SSRI		1
+488	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets	SSRI		1
+69725	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (crescent pharma ltd)	SSRI		1
+54081	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 25mg/5ml oral suspension	SSRI		1
+55488	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (teva uk ltd)	SSRI		1
+44944	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (teva uk ltd)	SSRI		1
+62692	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (bristol laboratories ltd)	SSRI		1
+32401	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (a a h pharmaceuticals ltd)	SSRI		1
+66560	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (viatris uk healthcare ltd)	SSRI		1
+54826	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 150mg/5ml oral suspension	SSRI		1
+62819	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 12.5mg/5ml oral suspension	SSRI		1
+66413	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (ranbaxy (uk) ltd)	SSRI		1
+69898	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (sandoz ltd)	SSRI		1
+62927	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (wockhardt uk ltd)	SSRI		1
+62950	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (accord healthcare ltd)	SSRI		1
+42387	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (actavis uk ltd)	SSRI		1
+55146	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (a a h pharmaceuticals ltd)	SSRI		1
+68756	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (sandoz ltd)	SSRI		1
+61503	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (actavis uk ltd)	SSRI		1
+67730	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (ranbaxy (uk) ltd)	SSRI		1
+69726	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (crescent pharma ltd)	SSRI		1
+49519	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg/5ml oral suspension	SSRI		1
+54933	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (pliva pharma ltd)	SSRI		1
+58664	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (viatris uk healthcare ltd)	SSRI		1
+7328	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg/5ml oral suspension	SSRI		1
+727	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets	SSRI		1
+63481	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 50mg tablets (milpharm ltd)	SSRI		1
+67928	selective serotonin re-uptake inhibitors (ssri)	sertraline hydrochloride	sertraline 100mg tablets (milpharm ltd)	SSRI		1
+82903	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duciltia 30mg gastro-resistant capsules (aristo pharma ltd)	SNRI	1	1
+79275	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (aspire pharma ltd)	SNRI	1	1
+73298	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	depalta 30mg gastro-resistant capsules (disposable medical equipment ltd)	SNRI	1	1
+85745	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	cymbalta 30mg gastro-resistant capsules (necessity supplies ltd)	SNRI	1	1
+80840	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (consilient health ltd)	SNRI	1	1
+79628	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (dr reddy's laboratories (uk) ltd)	SNRI	1	1
+82572	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	cymbalta 30mg gastro-resistant capsules (waymade healthcare plc)	SNRI	1	1
+74190	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duciltia 60mg gastro-resistant capsules (aristo pharma ltd)	SNRI	1	1
+76857	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg/5ml oral suspension	SNRI	1	1
+82035	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (wockhardt uk ltd)	SNRI	1	1
+78777	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (waymade healthcare plc)	SNRI	1	1
+82340	urinary incontinence	duloxetine hydrochloride	duloxetine 20mg gastro-resistant capsules (waymade healthcare plc)	SNRI	1	1
+83880	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (hbs healthcare ltd)	SNRI	1	1
+73868	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (aspire pharma ltd)	SNRI	1	1
+82860	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	cymbalta 60mg gastro-resistant capsules (necessity supplies ltd)	SNRI	1	1
+81423	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (zentiva pharma uk ltd)	SNRI	1	1
+74907	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (creo pharma ltd)	SNRI	1	1
+74774	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg/5ml oral suspension	SNRI	1	1
+84231	urinary incontinence	duloxetine hydrochloride	duloxetine 40mg gastro-resistant capsules (a a h pharmaceuticals ltd)	SNRI	1	1
+84007	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (tillomed laboratories ltd)	SNRI	1	1
+85830	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (milpharm ltd)	SNRI	1	1
+73540	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	depalta 60mg gastro-resistant capsules (disposable medical equipment ltd)	SNRI	1	1
+85073	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (accord healthcare ltd)	SNRI	1	1
+79768	urinary incontinence	duloxetine hydrochloride	duloxetine 40mg gastro-resistant capsules (accord healthcare ltd)	SNRI	1	1
+84981	other antidepressants	duloxetine hydrochloride	duloxetine 120mg gastro-resistant capsules	SNRI	1	1
+84977	other antidepressants	duloxetine hydrochloride	duloxetine 90mg gastro-resistant capsules	SNRI	1	1
+82430	urinary incontinence	duloxetine hydrochloride	duloxetine 40mg gastro-resistant capsules (waymade healthcare plc)	SNRI	1	1
+80331	other antidepressants	venlafaxine hydrochloride	venlafaxine 300mg modified-release tablets	SNRI	1	1
+86424	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg modified-release capsules (morningside healthcare ltd)	SNRI	1	1
+84573	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (waymade healthcare plc)	SNRI	1	1
+75263	other antidepressants	venlafaxine hydrochloride	venzip xl 75mg capsules (milpharm ltd)	SNRI	1	1
+86256	other antidepressants	venlafaxine hydrochloride	efexor 75mg tablets (lexon (uk) ltd)	SNRI	1	1
+75894	other antidepressants	venlafaxine hydrochloride	efexor xl 75mg capsules (lexon (uk) ltd)	SNRI	1	1
+73667	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (actavis uk ltd)	SNRI	1	1
+79124	other antidepressants	venlafaxine hydrochloride	winfex xl 75mg capsules (zentiva pharma uk ltd)	SNRI	1	1
+75848	other antidepressants	venlafaxine hydrochloride	winfex xl 150mg capsules (zentiva pharma uk ltd)	SNRI	1	1
+76727	other antidepressants	venlafaxine hydrochloride	venzip xl 150mg capsules (milpharm ltd)	SNRI	1	1
+74011	other antidepressants	venlafaxine hydrochloride	efexor xl 75mg capsules (dowelhurst ltd)	SNRI	1	1
+85195	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg tablets (zentiva pharma uk ltd)	SNRI	1	1
+85975	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg modified-release tablets (dexcel-pharma ltd)	SNRI	1	1
+81158	other antidepressants	venlafaxine hydrochloride	foraven xl 150mg capsules (forum products ltd)	SNRI	1	1
+80721	other antidepressants	venlafaxine hydrochloride	majoven xl 37.5mg capsules (bristol laboratories ltd)	SNRI	1	1
+76771	other antidepressants	venlafaxine hydrochloride	efexor xl 75mg capsules (waymade healthcare plc)	SNRI	1	1
+78585	other antidepressants	venlafaxine hydrochloride	viepax xl 225mg tablets (dexcel-pharma ltd)	SNRI	1	1
+83355	other antidepressants	venlafaxine hydrochloride	majoven xl 75mg capsules (bristol laboratories ltd)	SNRI	1	1
+81253	other antidepressants	venlafaxine hydrochloride	efexor xl 150mg capsules (lexon (uk) ltd)	SNRI	1	1
+85602	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg/5ml oral solution sugar free	SNRI	1	1
+80541	other antidepressants	venlafaxine hydrochloride	venlalic xl 300mg tablets (ethypharm uk ltd)	SNRI	1	1
+83069	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (dexcel-pharma ltd)	SNRI	1	1
+74516	other antidepressants	venlafaxine hydrochloride	venladex xl 225mg tablets (dexcel-pharma ltd)	SNRI	1	1
+84186	other antidepressants	venlafaxine hydrochloride	efexor 37.5mg tablets (de pharmaceuticals)	SNRI	1	1
+86410	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg tablets (almus pharmaceuticals ltd)	SNRI	1	1
+85606	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg/5ml oral solution sugar free	SNRI	1	1
+73658	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg tablets (actavis uk ltd)	SNRI	1	1
+74010	other antidepressants	venlafaxine hydrochloride	efexor xl 150mg capsules (necessity supplies ltd)	SNRI	1	1
+77089	other antidepressants	venlafaxine hydrochloride	efexor 75mg tablets (waymade healthcare plc)	SNRI	1	1
+75525	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (almus pharmaceuticals ltd)	SNRI	1	1
+86526	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg tablets (bristol laboratories ltd)	SNRI	1	1
+69752	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (creo pharma ltd)	SNRI		1
+68096	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (zentiva pharma uk ltd)	SNRI		1
+65618	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (a a h pharmaceuticals ltd)	SNRI		1
+7122	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules	SNRI		1
+67564	urinary incontinence	duloxetine hydrochloride	duloxetine 20mg gastro-resistant capsules (accord healthcare ltd)	SNRI		1
+13151	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	cymbalta 30mg gastro-resistant capsules (eli lilly and company ltd)	SNRI		1
+69428	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (alliance healthcare (distribution) ltd)	SNRI		1
+63763	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (a a h pharmaceuticals ltd)	SNRI		1
+51383	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (sigma pharmaceuticals plc)	SNRI		1
+70063	urinary incontinence	duloxetine hydrochloride	duloxetine 20mg gastro-resistant capsules (a a h pharmaceuticals ltd)	SNRI		1
+7147	urinary incontinence	duloxetine hydrochloride	duloxetine 40mg gastro-resistant capsules	SNRI		1
+14849	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	cymbalta 60mg gastro-resistant capsules (eli lilly and company ltd)	SNRI		1
+70405	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (teva uk ltd)	SNRI		1
+66412	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (de pharmaceuticals)	SNRI		1
+65892	other antidepressants/treatment of diabetic nephropathy and neuropathy/urinary incontinence	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (mawdsley-brooks & company ltd)	SNRI		1
+72211	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (dr reddy's laboratories (uk) ltd)	SNRI		1
+70728	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (alliance healthcare (distribution) ltd)	SNRI		1
+69965	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (consilient health ltd)	SNRI		1
+66405	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (de pharmaceuticals)	SNRI		1
+65165	urinary incontinence	duloxetine hydrochloride	duloxetine 20mg gastro-resistant capsules (de pharmaceuticals)	SNRI		1
+7153	urinary incontinence	duloxetine hydrochloride	duloxetine 20mg gastro-resistant capsules	SNRI		1
+65809	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (actavis uk ltd)	SNRI		1
+14803	urinary incontinence	duloxetine hydrochloride	yentreve 40mg gastro-resistant capsules (eli lilly and company ltd)	SNRI		1
+16969	urinary incontinence	duloxetine hydrochloride	yentreve 20mg gastro-resistant capsules (eli lilly and company ltd)	SNRI		1
+6895	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules	SNRI		1
+71669	urinary incontinence	duloxetine hydrochloride	duloxetine 20mg gastro-resistant capsules (zentiva pharma uk ltd)	SNRI		1
+62688	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (sigma pharmaceuticals plc)	SNRI		1
+65888	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (actavis uk ltd)	SNRI		1
+63216	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	cymbalta 60mg gastro-resistant capsules (mawdsley-brooks & company ltd)	SNRI		1
+64442	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 60mg gastro-resistant capsules (teva uk ltd)	SNRI		1
+63370	other antidepressants/treatment of diabetic nephropathy and neuropathy	duloxetine hydrochloride	duloxetine 30mg gastro-resistant capsules (mawdsley-brooks & company ltd)	SNRI		1
+15163	other antidepressants	reboxetine mesilate	edronax 4mg tablets (pfizer ltd)	SNRI		1
+2356	other antidepressants	reboxetine mesilate	reboxetine 4mg tablets	SNRI		1
+45818	other antidepressants	venlafaxine hydrochloride	venlalic xl 37.5mg tablets (ethypharm uk ltd)	SNRI		1
+45806	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg modified-release tablets	SNRI		1
+63268	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg/5ml oral suspension	SNRI		1
+40517	other antidepressants	venlafaxine hydrochloride	vexarin xl 150mg capsules (viatris uk healthcare ltd)	SNRI		1
+40059	other antidepressants	venlafaxine hydrochloride	venlalic xl 75mg tablets (ethypharm uk ltd)	SNRI		1
+70420	other antidepressants	venlafaxine hydrochloride	vencarm xl 150mg capsules (aspire pharma ltd)	SNRI		1
+70315	other antidepressants	venlafaxine hydrochloride	vencarm xl 75mg capsules (aspire pharma ltd)	SNRI		1
+60549	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg modified-release capsules (kent pharma (uk) ltd)	SNRI		1
+2654	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg modified-release capsules	SNRI		1
+55424	other antidepressants	venlafaxine hydrochloride	venlafaxine	SNRI		1
+70495	other antidepressants	venlafaxine hydrochloride	vencarm xl 225mg capsules (aspire pharma ltd)	SNRI		1
+63859	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg tablets (waymade healthcare plc)	SNRI		1
+71257	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg modified-release capsules (de pharmaceuticals)	SNRI		1
+470	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg modified-release capsules	SNRI		1
+48199	other antidepressants	venlafaxine hydrochloride	ranfaxine xl 75mg capsules (ranbaxy (uk) ltd)	SNRI		1
+66437	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg tablets (de pharmaceuticals)	SNRI		1
+41314	other antidepressants	venlafaxine hydrochloride	rodomel xl 150mg capsules (teva uk ltd)	SNRI		1
+70931	other antidepressants	venlafaxine hydrochloride	venlasov xl 75mg capsules (sovereign medical ltd)	SNRI		1
+51361	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (ranbaxy (uk) ltd)	SNRI		1
+41033	other antidepressants	venlafaxine hydrochloride	rodomel xl 75mg capsules (teva uk ltd)	SNRI		1
+65666	other antidepressants	venlafaxine hydrochloride	venlafaxine 225mg modified-release capsules	SNRI		1
+13237	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg/5ml oral suspension	SNRI		1
+45959	other antidepressants	venlafaxine hydrochloride	depefex xl 75mg capsules (chiesi ltd)	SNRI		1
+40062	other antidepressants	venlafaxine hydrochloride	venlalic xl 150mg tablets (ethypharm uk ltd)	SNRI		1
+58726	other antidepressants	venlafaxine hydrochloride	venladex xl 150mg tablets (dexcel-pharma ltd)	SNRI		1
+43968	other antidepressants	venlafaxine hydrochloride	foraven xl 75mg capsules (forum products ltd)	SNRI		1
+52516	other antidepressants	venlafaxine hydrochloride	alventa xl 150mg capsules (consilient health ltd)	SNRI		1
+39360	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg modified-release tablets	SNRI		1
+59563	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg modified-release capsules (kent pharma (uk) ltd)	SNRI		1
+39359	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg modified-release tablets	SNRI		1
+58837	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg modified-release capsules	SNRI		1
+52074	other antidepressants	venlafaxine hydrochloride	alventa xl 75mg capsules (consilient health ltd)	SNRI		1
+67563	other antidepressants	venlafaxine hydrochloride	vensir xl 225mg capsules (morningside healthcare ltd)	SNRI		1
+39809	other antidepressants	venlafaxine hydrochloride	tifaxin xl 150mg capsules (genus pharmaceuticals ltd)	SNRI		1
+61236	other antidepressants	venlafaxine hydrochloride	bonilux xl 150mg capsules (sandoz ltd)	SNRI		1
+40917	other antidepressants	venlafaxine hydrochloride	viepax 75mg tablets (dexcel-pharma ltd)	SNRI		1
+69819	other antidepressants	venlafaxine hydrochloride	vencarm xl 37.5mg capsules (aspire pharma ltd)	SNRI		1
+40514	other antidepressants	venlafaxine hydrochloride	venaxx xl 150mg capsules (advanz pharma)	SNRI		1
+59035	other antidepressants	venlafaxine hydrochloride	venlablue xl 37.5mg capsules (zentiva pharma uk ltd)	SNRI		1
+60449	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg tablets (a a h pharmaceuticals ltd)	SNRI		1
+623	other antidepressants	venlafaxine hydrochloride	efexor 37.5mg tablets (wyeth pharmaceuticals)	SNRI		1
+67271	other antidepressants	venlafaxine hydrochloride	efexor 37.5mg tablets (waymade healthcare plc)	SNRI		1
+40407	other antidepressants	venlafaxine hydrochloride	venlalic xl 225mg tablets (ethypharm uk ltd)	SNRI		1
+44937	other antidepressants	venlafaxine hydrochloride	venlaneo xl 75mg capsules (kent pharma (uk) ltd)	SNRI		1
+40277	other antidepressants	venlafaxine hydrochloride	vensir xl 75mg capsules (morningside healthcare ltd)	SNRI		1
+70806	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg modified-release capsules (de pharmaceuticals)	SNRI		1
+57751	other antidepressants	venlafaxine hydrochloride	tonpular xl 150mg capsules (wockhardt uk ltd)	SNRI		1
+51699	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg/5ml oral solution	SNRI		1
+59753	other antidepressants	venlafaxine hydrochloride	sunveniz xl 150mg tablets (sun pharmaceutical industries europe b.v.)	SNRI		1
+40054	other antidepressants	venlafaxine hydrochloride	venlafaxine 225mg modified-release tablets	SNRI		1
+40515	other antidepressants	venlafaxine hydrochloride	venaxx xl 75mg capsules (advanz pharma)	SNRI		1
+62734	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg/5ml oral suspension	SNRI		1
+50081	other antidepressants	venlafaxine hydrochloride	venlablue xl 150mg capsules (zentiva pharma uk ltd)	SNRI		1
+71806	other antidepressants	venlafaxine hydrochloride	amphero xl 75mg capsules (viatris uk healthcare ltd)	SNRI		1
+70353	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (de pharmaceuticals)	SNRI		1
+60843	other antidepressants	venlafaxine hydrochloride	sunveniz xl 75mg tablets (sun pharmaceutical industries europe b.v.)	SNRI		1
+1474	other antidepressants	venlafaxine hydrochloride	efexor xl 75mg capsules (viatris uk healthcare ltd)	SNRI		1
+60895	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (teva uk ltd)	SNRI		1
+301	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets	SNRI		1
+65899	other antidepressants	venlafaxine hydrochloride	efexor xl 225mg capsules (viatris uk healthcare ltd)	SNRI		1
+67288	other antidepressants	venlafaxine hydrochloride	efexor 75mg tablets (dowelhurst ltd)	SNRI		1
+56457	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg tablets (teva uk ltd)	SNRI		1
+49511	other antidepressants	venlafaxine hydrochloride	venlablue xl 75mg capsules (zentiva pharma uk ltd)	SNRI		1
+9182	other antidepressants	venlafaxine hydrochloride	efexor 75mg tablets (wyeth pharmaceuticals)	SNRI		1
+50934	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg/5ml oral solution	SNRI		1
+71932	other antidepressants	venlafaxine hydrochloride	venlasov xl 150mg capsules (sovereign medical ltd)	SNRI		1
+45664	other antidepressants	venlafaxine hydrochloride	depefex xl 150mg capsules (chiesi ltd)	SNRI		1
+43334	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg modified-release capsules (sandoz ltd)	SNRI		1
+40817	other antidepressants	venlafaxine hydrochloride	tardcaps xl 150mg capsules (ixl pharma ltd)	SNRI		1
+68876	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg modified-release capsules (mawdsley-brooks & company ltd)	SNRI		1
+59923	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (bristol laboratories ltd)	SNRI		1
+44936	other antidepressants	venlafaxine hydrochloride	venlaneo xl 150mg capsules (kent pharma (uk) ltd)	SNRI		1
+53326	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg/5ml oral solution	SNRI		1
+6274	unknown	venlafaxine hydrochloride	efexor 50mg tablets (wyeth pharmaceuticals)	SNRI		1
+39770	other antidepressants	venlafaxine hydrochloride	tifaxin xl 75mg capsules (genus pharmaceuticals ltd)	SNRI		1
+1222	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg tablets	SNRI		1
+40764	other antidepressants	venlafaxine hydrochloride	viepax 37.5mg tablets (dexcel-pharma ltd)	SNRI		1
+65738	other antidepressants	venlafaxine hydrochloride	efexor 37.5mg tablets (sigma pharmaceuticals plc)	SNRI		1
+2617	unknown	venlafaxine hydrochloride	venlafaxine 50mg tablets	SNRI		1
+40049	other antidepressants	venlafaxine hydrochloride	viepax xl 150mg tablets (dexcel-pharma ltd)	SNRI		1
+68050	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (alliance healthcare (distribution) ltd)	SNRI		1
+43203	other antidepressants	venlafaxine hydrochloride	venlafaxine 75mg modified-release capsules (sandoz ltd)	SNRI		1
+51280	other antidepressants	venlafaxine hydrochloride	efexor xl 150mg capsules (waymade healthcare plc)	SNRI		1
+42600	other antidepressants	venlafaxine hydrochloride	vexarin xl 75mg capsules (viatris uk healthcare ltd)	SNRI		1
+56662	other antidepressants	venlafaxine hydrochloride	venlafaxine 37.5mg tablets (a a h pharmaceuticals ltd)	SNRI		1
+52716	other antidepressants	venlafaxine hydrochloride	tonpular xl 75mg capsules (wockhardt uk ltd)	SNRI		1
+5710	other antidepressants	venlafaxine hydrochloride	efexor xl 150mg capsules (viatris uk healthcare ltd)	SNRI		1
+40092	other antidepressants	venlafaxine hydrochloride	vensir xl 150mg capsules (morningside healthcare ltd)	SNRI		1
+40815	other antidepressants	venlafaxine hydrochloride	tardcaps xl 75mg capsules (ixl pharma ltd)	SNRI		1
+71782	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg modified-release capsules (mawdsley-brooks & company ltd)	SNRI		1
+40048	other antidepressants	venlafaxine hydrochloride	viepax xl 75mg tablets (dexcel-pharma ltd)	SNRI		1
+43673	other antidepressants	venlafaxine hydrochloride	politid xl 150mg capsules (accord healthcare ltd)	SNRI		1
+55501	other antidepressants	venlafaxine hydrochloride	venlafaxine 150mg modified-release capsule (hillcross pharmaceuticals ltd)	SNRI		1
+41299	other antidepressants	venlafaxine hydrochloride	politid xl 75mg capsules (accord healthcare ltd)	SNRI		1
+58681	other antidepressants	venlafaxine hydrochloride	venladex xl 75mg tablets (dexcel-pharma ltd)	SNRI		1
+873	unknown		amitriptyline 100 mg tab	TCA	1	1
+7784	unknown		imipramine 50 mg tab	TCA	1	1
+13496	unknown		amitriptyline 200 mg tab	TCA	1	1
+23497	unknown		amitriptyline 300 mg tab	TCA	1	1
+30738	unknown		amitriptyline s/f	TCA	1	1
+3771	unknown		amitriptyline 75 mg tab	TCA	1	1
+8250	unknown		amitriptyline s/f 25 mg/5ml syr	TCA	1	1
+2533	unknown		trimipramine 50 mg tab	TCA	1	1
+27876	unknown		amitriptyline	TCA	1	1
+3668	unknown		imipramine 100 mg tab	TCA	1	1
+7475	unknown		amoxapine 25 mg tab	TCA	1	1
+20712	unknown		amitriptyline s/r	TCA	1	1
+10649	unknown		imipramine 75 mg tab	TCA	1	1
+25036	unknown		clomipramine hydrochloride	TCA	1	1
+25070	unknown		lofepramine	TCA	1	1
+25045	unknown		trimipramine	TCA	1	1
+3195	unknown		clomipramine 25 mg tab	TCA	1	1
+12194	unknown		nortriptyline 10 mg eli	TCA	1	1
+4149	unknown		protriptyline hcl 10 mg tab	TCA	1	1
+22872	unknown		doxepin hcl	TCA	1	1
+7573	unknown		imipramine 25 mg cap	TCA	1	1
+20379	unknown		maprotiline hcl 75 mg tab	TCA	1	1
+25085	unknown		trimipramine	TCA	1	1
+77167	tricyclic and related antidepressants	amitriptyline hydrochloride	amitriptyline 25mg tablets (ranbaxy (uk) ltd)	TCA	1	1
+78221	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets (de pharmaceuticals)	TCA	1	1
+76952	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 5mg/5ml oral suspension	TCA	1	1
+83516	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg/5ml oral suspension	TCA	1	1
+76927	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 2.5mg/5ml oral solution	TCA	1	1
+83079	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (medihealth (northern) ltd)	TCA	1	1
+79826	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral solution sugar free (a a h pharmaceuticals ltd)	TCA	1	1
+80135	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (northstar healthcare unlimited company)	TCA	1	1
+77497	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 75mg/5ml oral solution	TCA	1	1
+82403	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets (arrow generics ltd)	TCA	1	1
+83377	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg/5ml oral solution sugar free (accord healthcare ltd)	TCA	1	1
+76839	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (genesis pharmaceuticals ltd)	TCA	1	1
+76298	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral solution sugar free (wockhardt uk ltd)	TCA	1	1
+77229	unknown	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral solution sugar free (rosemont pharmaceuticals ltd)	TCA	1	1
+79766	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (genesis pharmaceuticals ltd)	TCA	1	1
+84344	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (bristol laboratories ltd)	TCA	1	1
+84748	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg/5ml oral solution sugar free (a a h pharmaceuticals ltd)	TCA	1	1
+79401	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 100mg/5ml oral solution	TCA	1	1
+78364	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg/5ml oral solution sugar free (alliance healthcare (distribution) ltd)	TCA	1	1
+3351	unknown	amoxapine	amoxapine 50mg tablets	TCA	1	1
+15380	tricyclic and related antidepressants	amoxapine	asendis 25mg tablet (wyeth pharmaceuticals)	TCA	1	1
+55289	unknown	amoxapine	asendis 50mg tablets (mercury pharma group ltd)	TCA	1	1
+21357	tricyclic and related antidepressants	amoxapine	asendis 100mg tablet (wyeth pharmaceuticals)	TCA	1	1
+24723	tricyclic and related antidepressants	amoxapine	asendis 150mg tablet (wyeth pharmaceuticals)	TCA	1	1
+3652	tricyclic and related antidepressants	amoxapine	amoxapine 100mg tablets	TCA	1	1
+17319	tricyclic and related antidepressants	amoxapine	amoxapine 25mg tablets	TCA	1	1
+4411	tricyclic and related antidepressants	amoxapine	amoxapine 150mg tablets	TCA	1	1
+14398	tricyclic and related antidepressants	amoxapine	asendis 50mg tablet (wyeth pharmaceuticals)	TCA	1	1
+32457	tricyclic and related antidepressants	butriptyline hydrochloride	butriptyline 50mg tablets	TCA	1	1
+18932	tricyclic and related antidepressants	butriptyline hydrochloride	evadyne 25mg tablet (wyeth pharmaceuticals)	TCA	1	1
+12227	tricyclic and related antidepressants	butriptyline hydrochloride	butriptyline 25mg tablets	TCA	1	1
+79276	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 25mg capsules (viatris uk healthcare ltd)	TCA	1	1
+81617	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 25mg capsules (actavis uk ltd)	TCA	1	1
+83470	unknown	clomipramine hydrochloride	clomipramine 25mg capsules (almus pharmaceuticals ltd)	TCA	1	1
+78057	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 5mg/5ml oral solution	TCA	1	1
+83468	unknown	clomipramine hydrochloride	clomipramine 10mg capsules (almus pharmaceuticals ltd)	TCA	1	1
+77227	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 50mg capsules (waymade healthcare plc)	TCA	1	1
+78324	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 50mg capsules (viatris uk healthcare ltd)	TCA	1	1
+7981	tricyclic and related antidepressants/neuropathic pain	desipramine	desipramine 25mg tablets	TCA	1	1
+7979	tricyclic and related antidepressants/neuropathic pain	desipramine	pertofran 25mg tablet (novartis pharmaceuticals uk ltd)	TCA	1	1
+84526	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg/5ml oral suspension	TCA	1	1
+76317	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (strides pharma uk ltd)	TCA	1	1
+81126	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (strides pharma uk ltd)	TCA	1	1
+77130	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 10mg/5ml oral solution	TCA	1	1
+7059	tricyclic and related antidepressants	doxepin hydrochloride	doxepin 75mg capsules	TCA	1	1
+14519	tricyclic and related antidepressants	doxepin hydrochloride	sinequan 75mg capsules (pfizer ltd)	TCA	1	1
+35258	tricyclic and related antidepressants	doxepin hydrochloride	sinepin 25mg capsules (marlborough pharmaceuticals ltd)	TCA	1	1
+3554	tricyclic and related antidepressants	doxepin hydrochloride	doxepin 25mg capsules	TCA	1	1
+5073	tricyclic and related antidepressants	doxepin hydrochloride	doxepin 50mg capsules	TCA	1	1
+35493	tricyclic and related antidepressants	doxepin hydrochloride	sinepin 50mg capsules (marlborough pharmaceuticals ltd)	TCA	1	1
+40777	tricyclic and related antidepressants	doxepin hydrochloride	doxepin 25mg/5ml oral suspension	TCA	1	1
+73363	tricyclic and related antidepressants	doxepin hydrochloride	doxepin 50mg/5ml oral solution	TCA	1	1
+81337	tricyclic and related antidepressants	doxepin hydrochloride	doxepin 50mg/5ml oral suspension	TCA	1	1
+12125	tricyclic and related antidepressants	doxepin hydrochloride	sinequan 50mg capsules (pfizer ltd)	TCA	1	1
+3842	tricyclic and related antidepressants	doxepin hydrochloride	doxepin 10mg capsules	TCA	1	1
+10413	tricyclic and related antidepressants	doxepin hydrochloride	sinequan 10mg capsules (pfizer ltd)	TCA	1	1
+12129	tricyclic and related antidepressants	doxepin hydrochloride	sinequan 25mg capsules (pfizer ltd)	TCA	1	1
+80885	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 25mg tablets (kent pharma (uk) ltd)	TCA	1	1
+82911	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 25mg tablets (alliance healthcare (distribution) ltd)	TCA	1	1
+83472	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 25mg tablets (almus pharmaceuticals ltd)	TCA	1	1
+81638	tricyclic and related antidepressants/drugs for urinary frequency, enuresis, and incontinence	imipramine hydrochloride	imipramine 25mg tablet (celltech pharma europe ltd)	TCA	1	1
+27476	tricyclic and related antidepressants	iprindole	iprindole hc 15mg	TCA	1	1
+24700	tricyclic and related antidepressants	iprindole	prondol 15mg tablet (wyeth pharmaceuticals)	TCA	1	1
+27733	tricyclic and related antidepressants	iprindole	iprindole hc 30mg	TCA	1	1
+31672	tricyclic and related antidepressants	iprindole	prondol 30mg tablet (wyeth pharmaceuticals)	TCA	1	1
+79397	tricyclic and related antidepressants	lofepramine	lofepramine oral solution	TCA	1	1
+83942	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (alliance healthcare (distribution) ltd)	TCA	1	1
+74586	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (almus pharmaceuticals ltd)	TCA	1	1
+77717	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg/5ml oral suspension sugar free (a a h pharmaceuticals ltd)	TCA	1	1
+13558	unknown	maprotiline hydrochloride	ludiomil 75mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+20405	unknown	maprotiline hydrochloride	maprotiline 75mg tablets	TCA	1	1
+8549	unknown	maprotiline hydrochloride	maprotiline 25mg tablets	TCA	1	1
+12222	unknown	maprotiline hydrochloride	ludiomil 10mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+10645	unknown	maprotiline hydrochloride	ludiomil 25mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+16727	unknown	maprotiline hydrochloride	maprotiline 10mg tablets	TCA	1	1
+14410	unknown	maprotiline hydrochloride	ludiomil 50mg tablets (novartis pharmaceuticals uk ltd)	TCA	1	1
+12100	tricyclic and related antidepressants	maprotiline hydrochloride	maprotiline 50mg tablets	TCA	1	1
+83536	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 25mg/5ml oral solution sugar free	TCA	1	1
+80352	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 10mg tablets (accord healthcare ltd)	TCA	1	1
+81306	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 25mg capsules	TCA	1	1
+80546	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 10mg/5ml oral solution sugar free	TCA	1	1
+85885	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 10mg tablets (advanz pharma)	TCA	1	1
+83498	tricyclic and related antidepressants	nortriptyline hydrochloride	allegron 25mg tablets (lexon (uk) ltd)	TCA	1	1
+78224	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 25mg tablets (waymade healthcare plc)	TCA	1	1
+81199	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 10mg capsules	TCA	1	1
+7816	tricyclic and related antidepressants/neuropathic pain	protriptyline hydrochloride	concordin 5 tablet (merck sharp & dohme ltd)	TCA	1	1
+11187	tricyclic and related antidepressants/neuropathic pain	protriptyline hydrochloride	protriptyline 10mg tablet	TCA	1	1
+60929	tricyclic and related antidepressants	protriptyline hydrochloride	protriptyline 5mg tablets	TCA	1	1
+7756	tricyclic and related antidepressants/neuropathic pain	protriptyline hydrochloride	protriptyline 5mg tablet	TCA	1	1
+7755	tricyclic and related antidepressants/neuropathic pain	protriptyline hydrochloride	concordin 10 tablet (merck sharp & dohme ltd)	TCA	1	1
+65987	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (crescent pharma ltd)	TCA		1
+71042	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (arrow generics ltd)	TCA		1
+65879	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (sigma pharmaceuticals plc)	TCA		1
+24134	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (kent pharma (uk) ltd)	TCA		1
+4690	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg/5ml oral solution sugar free	TCA		1
+2985	unknown	amitriptyline hydrochloride	lentizol 50mg modified-release capsules (pfizer ltd)	TCA		1
+42394	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 25mg tablet (crosspharma ltd)	TCA		1
+34197	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 25mg tablet (berk pharmaceuticals ltd)	TCA		1
+59161	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (waymade healthcare plc)	TCA		1
+83	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets	TCA		1
+64647	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (de pharmaceuticals)	TCA		1
+32439	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 25mg tablet (sussex pharmaceutical ltd)	TCA		1
+64141	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 5mg/5ml oral solution	TCA		1
+55139	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (alliance healthcare (distribution) ltd)	TCA		1
+8332	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	tryptizol 50mg tablet (merck sharp & dohme ltd)	TCA		1
+6312	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg/5ml oral solution sugar free	TCA		1
+67127	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg/5ml oral solution sugar free (de pharmaceuticals)	TCA		1
+60410	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg/5ml oral solution sugar free (wockhardt uk ltd)	TCA		1
+7751	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	tryptizol 25mg tablet (merck sharp & dohme ltd)	TCA		1
+64330	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets (almus pharmaceuticals ltd)	TCA		1
+45242	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 10mg tablet (sussex pharmaceutical ltd)	TCA		1
+27008	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	domical 50mg tablet (berk pharmaceuticals ltd)	TCA		1
+57107	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (phoenix healthcare distribution ltd)	TCA		1
+3777	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 10mg/5ml sugar free oral solution	TCA		1
+2525	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 75mg modified-release capsules	TCA		1
+487	unknown	amitriptyline hydrochloride	amitriptyline 25mg modified-release capsules	TCA		1
+8831	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	tryptizol mr 75mg modified-release capsule (merck sharp & dohme ltd)	TCA		1
+66579	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (mawdsley-brooks & company ltd)	TCA		1
+55491	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (almus pharmaceuticals ltd)	TCA		1
+34503	tricyclic and related antidepressants	amitriptyline hydrochloride	amitriptyline 25mg tablets (ivax pharmaceuticals uk ltd)	TCA		1
+24141	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (actavis uk ltd)	TCA		1
+66572	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (sigma pharmaceuticals plc)	TCA		1
+34129	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (wockhardt uk ltd)	TCA		1
+8726	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	tryptizol 10mg tablet (merck sharp & dohme ltd)	TCA		1
+54877	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (accord healthcare ltd)	TCA		1
+41729	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 25mg tablet (celltech pharma europe ltd)	TCA		1
+24145	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (actavis uk ltd)	TCA		1
+48065	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline oral solution	TCA		1
+2486	unknown	amitriptyline hydrochloride	lentizol 25mg modified-release capsules (pfizer ltd)	TCA		1
+49	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets	TCA		1
+24680	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	elavil 10mg tablet (ddsa pharmaceuticals ltd)	TCA		1
+34634	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets (accord healthcare ltd)	TCA		1
+24147	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (teva uk ltd)	TCA		1
+8878	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	tryptizol 10mg/5ml sugar free oral solution (merck sharp and dohme ltd)	TCA		1
+1888	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets	TCA		1
+64000	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral solution sugar free	TCA		1
+40396	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 50mg tablet (berk pharmaceuticals ltd)	TCA		1
+52867	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (accord healthcare ltd)	TCA		1
+69712	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets (sigma pharmaceuticals plc)	TCA		1
+34182	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets (kent pharma (uk) ltd)	TCA		1
+46818	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral suspension	TCA		1
+24152	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (teva uk ltd)	TCA		1
+20026	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	domical 25mg tablet (berk pharmaceuticals ltd)	TCA		1
+33624	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets (teva uk ltd)	TCA		1
+46801	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral solution	TCA		1
+34251	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg/5ml oral solution sugar free (rosemont pharmaceuticals ltd)	TCA		1
+34916	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 10mg tablet (berk pharmaceuticals ltd)	TCA		1
+45233	tricyclic and related antidepressants	amitriptyline hydrochloride	amitriptyline 10mg tablets (ivax pharmaceuticals uk ltd)	TCA		1
+57972	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (alliance healthcare (distribution) ltd)	TCA		1
+34782	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (a a h pharmaceuticals ltd)	TCA		1
+34474	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 25mg tablet (regent laboratories ltd)	TCA		1
+59820	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg/5ml oral solution sugar free (wockhardt uk ltd)	TCA		1
+70300	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral solution sugar free (alliance healthcare (distribution) ltd)	TCA		1
+60355	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (phoenix healthcare distribution ltd)	TCA		1
+65439	tricyclic and related antidepressants	amitriptyline hydrochloride	amitriptyline 25mg tablets (sandoz ltd)	TCA		1
+34224	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg/5ml oral solution sugar free (rosemont pharmaceuticals ltd)	TCA		1
+66578	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (mawdsley-brooks & company ltd)	TCA		1
+70991	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (arrow generics ltd)	TCA		1
+46970	tricyclic and related antidepressants	amitriptyline hydrochloride	amitriptyline 50mg tablets (ivax pharmaceuticals uk ltd)	TCA		1
+33090	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (a a h pharmaceuticals ltd)	TCA		1
+34274	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets (a a h pharmaceuticals ltd)	TCA		1
+34107	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 50mg tablets (wockhardt uk ltd)	TCA		1
+61835	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (de pharmaceuticals)	TCA		1
+26213	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	domical 10mg tablet (berk pharmaceuticals ltd)	TCA		1
+34731	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (kent pharma (uk) ltd)	TCA		1
+22070	tricyclic and related antidepressants/neuropathic pain	amitriptyline hydrochloride	amitriptyline 10mg/5ml oral solution (rosemont pharmaceuticals ltd)	TCA		1
+34401	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 10mg tablets (wockhardt uk ltd)	TCA		1
+4682	unknown	amitriptyline hydrochloride	amitriptyline 50mg modified-release capsules	TCA		1
+42078	tricyclic and related antidepressants/neuropathic pain/prophylaxis of migraine	amitriptyline hydrochloride	amitriptyline 25mg tablets (almus pharmaceuticals ltd)	TCA		1
+595	tricyclic and related antidepressants	amitriptyline hydrochloride/perphenazine	amitriptyline 25mg / perphenazine 2mg tablets	TCA		1
+16323	antipsychotic products/tricyclic and related antidepressants	amitriptyline hydrochloride/perphenazine	perphenazine 2mg with amitriptyline 10mg tablet	TCA		1
+1208	tricyclic and related antidepressants	amitriptyline hydrochloride/perphenazine	triptafen tablets (advanz pharma)	TCA		1
+6894	antipsychotic products/tricyclic and related antidepressants	amitriptyline hydrochloride/perphenazine	perphenazine 2mg with amitriptyline 25mg tablet	TCA		1
+38827	unknown	amitriptyline hydrochloride/perphenazine	triptafen-m tablets (mercury pharma group ltd)	TCA		1
+3490	unknown	amitriptyline hydrochloride/perphenazine	amitriptyline 10mg / perphenazine 2mg tablets	TCA		1
+1453	antipsychotic products/tricyclic and related antidepressants	amitriptyline hydrochloride/perphenazine	triptafen m 2mg+10mg tablet (goldshield pharmaceuticals ltd)	TCA		1
+64458	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 25mg/5ml oral suspension	TCA		1
+8661	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 75mg modified-release tablets	TCA		1
+34866	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 10mg capsules (a a h pharmaceuticals ltd)	TCA		1
+41597	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 50mg capsules (ivax pharmaceuticals uk ltd)	TCA		1
+65804	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 50mg capsules (teva uk ltd)	TCA		1
+7894	tricyclic and related antidepressants	clomipramine hydrochloride	anafranil sr 75mg tablets (novartis pharmaceuticals uk ltd)	TCA		1
+8720	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 25mg/5ml oral solution	TCA		1
+38274	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 50mg/5ml oral suspension	TCA		1
+53161	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 50mg/5ml oral solution	TCA		1
+7693	tricyclic and related antidepressants	clomipramine hydrochloride	anafranil 50mg capsules (novartis pharmaceuticals uk ltd)	TCA		1
+43561	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 10mg capsules (teva uk ltd)	TCA		1
+3194	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 10mg capsules	TCA		1
+3657	tricyclic and related antidepressants	clomipramine hydrochloride	anafranil 25mg capsules (novartis pharmaceuticals uk ltd)	TCA		1
+53187	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 50mg capsules (kent pharma (uk) ltd)	TCA		1
+45318	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 50mg capsules (a a h pharmaceuticals ltd)	TCA		1
+65762	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 25mg capsules (waymade healthcare plc)	TCA		1
+3670	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 25mg capsules	TCA		1
+34245	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 25mg capsules (a a h pharmaceuticals ltd)	TCA		1
+41628	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 10mg capsules (ivax pharmaceuticals uk ltd)	TCA		1
+62620	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 10mg capsules (viatris uk healthcare ltd)	TCA		1
+68665	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 10mg capsules (almus pharmaceuticals ltd)	TCA		1
+45350	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 25mg capsules (teva uk ltd)	TCA		1
+41563	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 25mg capsules (ivax pharmaceuticals uk ltd)	TCA		1
+7515	tricyclic and related antidepressants	clomipramine hydrochloride	anafranil 10mg capsules (novartis pharmaceuticals uk ltd)	TCA		1
+3925	tricyclic and related antidepressants	clomipramine hydrochloride	clomipramine 50mg capsules	TCA		1
+8719	tricyclic and related antidepressants	clomipramine hydrochloride	anafranil 25mg/5ml syrup (novartis pharmaceuticals uk ltd)	TCA		1
+29875	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (viatris uk healthcare ltd)	TCA		1
+1940	tricyclic and related antidepressants	dosulepin hydrochloride	dothapax 25 capsules (ashbourne pharmaceuticals ltd)	TCA		1
+15632	tricyclic and related antidepressants	dosulepin hydrochloride	dothapax 75 tablets (ashbourne pharmaceuticals ltd)	TCA		1
+71059	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (sovereign medical ltd)	TCA		1
+42734	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (almus pharmaceuticals ltd)	TCA		1
+74	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets	TCA		1
+33164	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (sandoz ltd)	TCA		1
+23426	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (a a h pharmaceuticals ltd)	TCA		1
+51758	tricyclic and related antidepressants	dosulepin hydrochloride	prothiaden 25mg capsules (stephar (u.k.) ltd)	TCA		1
+44853	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (kent pharma (uk) ltd)	TCA		1
+30376	tricyclic and related antidepressants	dosulepin hydrochloride	thaden 25mg capsules (opus pharmaceuticals ltd)	TCA		1
+34643	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (almus pharmaceuticals ltd)	TCA		1
+21819	tricyclic and related antidepressants	dosulepin hydrochloride	prepadine 75mg tablets (teva uk ltd)	TCA		1
+10948	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg/5ml oral solution sugar free	TCA		1
+57926	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg/5ml oral solution	TCA		1
+31826	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (ivax pharmaceuticals uk ltd)	TCA		1
+6054	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg/5ml oral solution sugar free	TCA		1
+1169	tricyclic and related antidepressants	dosulepin hydrochloride	prothiaden 25mg capsules (teofarma s.r.l.)	TCA		1
+2320	tricyclic and related antidepressants	dosulepin hydrochloride	prothiaden 75mg tablets (teofarma s.r.l.)	TCA		1
+71023	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg/5ml oral solution sugar free (special order)	TCA		1
+34641	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (sovereign medical ltd)	TCA		1
+34058	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (teva uk ltd)	TCA		1
+21820	tricyclic and related antidepressants	dosulepin hydrochloride	prepadine 25mg capsules (teva uk ltd)	TCA		1
+19186	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (actavis uk ltd)	TCA		1
+21157	tricyclic and related antidepressants	dosulepin hydrochloride	thaden 75mg tablets (opus pharmaceuticals ltd)	TCA		1
+62681	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (sandoz ltd)	TCA		1
+84	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules	TCA		1
+34745	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (actavis uk ltd)	TCA		1
+32121	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (a a h pharmaceuticals ltd)	TCA		1
+67728	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (alliance healthcare (distribution) ltd)	TCA		1
+34525	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 75mg tablets (viatris uk healthcare ltd)	TCA		1
+34223	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (teva uk ltd)	TCA		1
+19168	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg/5ml mixture	TCA		1
+43024	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 100mg/5ml oral solution	TCA		1
+50722	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg/5ml oral solution	TCA		1
+45737	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg/5ml oral solution (rosemont pharmaceuticals ltd)	TCA		1
+31824	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsules (ivax pharmaceuticals uk ltd)	TCA		1
+67990	tricyclic and related antidepressants	dosulepin hydrochloride	prothiaden 25mg capsules (sigma pharmaceuticals plc)	TCA		1
+70838	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg capsule (celltech pharma europe ltd)	TCA		1
+70593	tricyclic and related antidepressants	dosulepin hydrochloride	dosulepin 25mg/5ml oral suspension	TCA		1
+33074	tricyclic and related antidepressants/drugs for urinary frequency, enuresis, and incontinence	imipramine hydrochloride	praminil 10mg tablet (ddsa pharmaceuticals ltd)	TCA		1
+1809	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 25mg tablets	TCA		1
+70287	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 10mg tablets (sigma pharmaceuticals plc)	TCA		1
+42247	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 25mg/5ml oral solution sugar free	TCA		1
+1310	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 10mg tablets	TCA		1
+67935	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 10mg tablets (almus pharmaceuticals ltd)	TCA		1
+34355	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 25mg tablets (accord healthcare ltd)	TCA		1
+7910	tricyclic and related antidepressants	imipramine hydrochloride	tofranil 25mg tablets (novartis pharmaceuticals uk ltd)	TCA		1
+41408	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 25mg tablets (teva uk ltd)	TCA		1
+56501	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	tofranil 25mg tablets (lexon (uk) ltd)	TCA		1
+34872	tricyclic and related antidepressants/drugs for urinary frequency, enuresis, and incontinence	imipramine hydrochloride	imipramine 25mg tablet (c p pharmaceuticals ltd)	TCA		1
+34222	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 10mg tablets (accord healthcare ltd)	TCA		1
+2579	tricyclic and related antidepressants/drugs for urinary frequency, enuresis, and incontinence	imipramine hydrochloride	tofranil 10mg tablet (novartis pharmaceuticals uk ltd)	TCA		1
+4404	unknown	imipramine hydrochloride	tofranil 25mg/5ml syrup (novartis pharmaceuticals uk ltd)	TCA		1
+8055	unknown	imipramine hydrochloride	imipramine 25mg/5ml oral solution	TCA		1
+34813	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 25mg tablets (a a h pharmaceuticals ltd)	TCA		1
+32863	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 10mg tablets (teva uk ltd)	TCA		1
+41681	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 10mg tablets (a a h pharmaceuticals ltd)	TCA		1
+71253	tricyclic and related antidepressants/nocturnal enuresis	imipramine hydrochloride	imipramine 10mg tablets (de pharmaceuticals)	TCA		1
+56229	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg/5ml oral solution	TCA		1
+34578	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (ivax pharmaceuticals uk ltd)	TCA		1
+56703	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (sandoz ltd)	TCA		1
+34046	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (a a h pharmaceuticals ltd)	TCA		1
+43534	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg/5ml oral suspension (rosemont pharmaceuticals ltd)	TCA		1
+67742	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (viatris uk healthcare ltd)	TCA		1
+68657	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (kent pharma (uk) ltd)	TCA		1
+66100	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (de pharmaceuticals)	TCA		1
+25444	tricyclic and related antidepressants	lofepramine hydrochloride	lomont 70mg/5ml oral suspension (rosemont pharmaceuticals ltd)	TCA		1
+60591	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (teva uk ltd)	TCA		1
+71067	unknown	lofepramine hydrochloride	lofepramine 70mg tablets (almus pharmaceuticals ltd)	TCA		1
+2093	tricyclic and related antidepressants	lofepramine hydrochloride	gamanil 70mg tablets (merck serono ltd)	TCA		1
+34950	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (accord healthcare ltd)	TCA		1
+34672	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets (sterwin medicines)	TCA		1
+41627	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablet (teva uk ltd)	TCA		1
+58450	tricyclic and related antidepressants	lofepramine hydrochloride	feprapax 70mg tablets (ashbourne pharmaceuticals ltd)	TCA		1
+114	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg tablets	TCA		1
+4218	tricyclic and related antidepressants	lofepramine hydrochloride	lofepramine 70mg/5ml oral suspension sugar free	TCA		1
+69317	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 50mg tablets	TCA		1
+3183	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 10mg tablets	TCA		1
+48216	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 25mg tablets (a a h pharmaceuticals ltd)	TCA		1
+17183	tricyclic and related antidepressants/neuropathic pain	nortriptyline hydrochloride	aventyl 10mg capsule (eli lilly and company ltd)	TCA		1
+39145	tricyclic and related antidepressants/neuropathic pain	nortriptyline hydrochloride	nortriptyline 10mg/5ml liquid	TCA		1
+68228	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 10mg/5ml oral suspension	TCA		1
+8640	tricyclic and related antidepressants	nortriptyline hydrochloride	allegron 25mg tablets (king pharmaceuticals ltd)	TCA		1
+72626	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 10mg/5ml oral solution	TCA		1
+66201	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 25mg tablets (sigma pharmaceuticals plc)	TCA		1
+7677	tricyclic and related antidepressants	nortriptyline hydrochloride	allegron 10mg tablets (king pharmaceuticals ltd)	TCA		1
+55970	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 10mg tablets (king pharmaceuticals ltd)	TCA		1
+4118	tricyclic and related antidepressants/neuropathic pain	nortriptyline hydrochloride	nortriptyline 10mg capsule	TCA		1
+12549	tricyclic and related antidepressants/neuropathic pain	nortriptyline hydrochloride	aventyl 10mg/5ml liquid (eli lilly and company ltd)	TCA		1
+63276	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 25mg tablets (alliance healthcare (distribution) ltd)	TCA		1
+12353	tricyclic and related antidepressants/neuropathic pain	nortriptyline hydrochloride	aventyl 25mg capsule (eli lilly and company ltd)	TCA		1
+3903	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 25mg tablets	TCA		1
+65237	tricyclic and related antidepressants/nocturnal enuresis	nortriptyline hydrochloride	nortriptyline 10mg tablets (a a h pharmaceuticals ltd)	TCA		1
+7678	tricyclic and related antidepressants/neuropathic pain	nortriptyline hydrochloride	nortriptyline 25mg capsule	TCA		1
+65445	tricyclic and related antidepressants	trimipramine maleate	trimipramine 50mg capsules (a a h pharmaceuticals ltd)	TCA		1
+66919	tricyclic and related antidepressants	trimipramine maleate	trimipramine 50mg capsules (waymade healthcare plc)	TCA		1
+57978	tricyclic and related antidepressants	trimipramine maleate	trimipramine 25mg tablets (waymade healthcare plc)	TCA		1
+3196	tricyclic and related antidepressants	trimipramine maleate	trimipramine 50mg capsules	TCA		1
+65213	tricyclic and related antidepressants	trimipramine maleate	trimipramine 50mg/5ml oral solution	TCA		1
+8928	tricyclic and related antidepressants	trimipramine maleate	surmontil 10mg tablets (sanofi)	TCA		1
+2531	tricyclic and related antidepressants	trimipramine maleate	surmontil 50mg capsules (sanofi)	TCA		1
+42228	tricyclic and related antidepressants	trimipramine maleate	trimipramine 10mg tablets (a a h pharmaceuticals ltd)	TCA		1
+53808	tricyclic and related antidepressants	trimipramine maleate	trimipramine 10mg tablets (phoenix healthcare distribution ltd)	TCA		1
+4310	tricyclic and related antidepressants	trimipramine maleate	trimipramine 10mg tablets	TCA		1
+66493	tricyclic and related antidepressants	trimipramine maleate	trimipramine 25mg/5ml oral suspension	TCA		1
+2039	tricyclic and related antidepressants	trimipramine maleate	trimipramine 25mg tablets	TCA		1
+45226	tricyclic and related antidepressants	trimipramine maleate	trimipramine 25mg tablets (a a h pharmaceuticals ltd)	TCA		1
+2532	tricyclic and related antidepressants	trimipramine maleate	surmontil 25mg tablets (sanofi)	TCA		1
+18290	monoamine-oxidase inhibitors (maoi)	iproniazide	marsilid 25mg tablet (roche products ltd)	MAOI	1	1
+25945	monoamine-oxidase inhibitors (maoi)	iproniazide	iproniazid 25mg	MAOI	1	1
+82839	monoamine-oxidase inhibitors (maoi)	phenelzine sulfate	phenelzine 15mg capsules	MAOI	1	1
+41731	monoamine-oxidase inhibitors (maoi)	isocarboxazid	isocarboxazid 10mg tablet (cambridge laboratories ltd)	MAOI		1
+12207	monoamine-oxidase inhibitors (maoi)	isocarboxazid	isocarboxazid 10mg tablets	MAOI		1
+12503	monoamine-oxidase inhibitors (maoi)	isocarboxazid	marplan 10mg tablet (cambridge laboratories ltd)	MAOI		1
+4321	monoamine-oxidase inhibitors (maoi)	phenelzine sulfate	phenelzine 15mg tablets	MAOI		1
+3349	monoamine-oxidase inhibitors (maoi)	phenelzine sulfate	nardil 15mg tablets (neon healthcare ltd)	MAOI		1
+10787	monoamine-oxidase inhibitors (maoi)	tranylcypromine sulfate	parnate 10mg tablet (goldshield pharmaceuticals ltd)	MAOI		1
+41654	monoamine-oxidase inhibitors (maoi)	tranylcypromine sulfate	tranylcypromine 10mg tablets (advanz pharma)	MAOI		1
+3783	monoamine-oxidase inhibitors (maoi)	tranylcypromine sulfate	tranylcypromine 10mg tablets	MAOI		1
+84842	reversible monoamine-oxidase inhibitors	moclobemide	moclobemide 150mg tablets (sandoz ltd)	RIMA	1	1
+67305	reversible monoamine-oxidase inhibitors	moclobemide	moclobemide 150mg tablets (sigma pharmaceuticals plc)	RIMA		1
+41747	reversible monoamine-oxidase inhibitors	moclobemide	moclobemide 150mg tablets (teva uk ltd)	RIMA		1
+5187	reversible monoamine-oxidase inhibitors	moclobemide	moclobemide 300mg tablets	RIMA		1
+5832	reversible monoamine-oxidase inhibitors	moclobemide	manerix 300mg tablets (viatris uk healthcare ltd)	RIMA		1
+9206	reversible monoamine-oxidase inhibitors	moclobemide	manerix 150mg tablets (viatris uk healthcare ltd)	RIMA		1
+2883	reversible monoamine-oxidase inhibitors	moclobemide	moclobemide 150mg tablets	RIMA		1
+65482	other antidepressants	vortioxetine hydrobromide	vortioxetine 5mg tablets	SMS		1
+69992	other antidepressants	vortioxetine hydrobromide	brintellix 5mg tablets (lundbeck ltd)	SMS		1
+69991	other antidepressants	vortioxetine hydrobromide	brintellix 20mg tablets (lundbeck ltd)	SMS		1
+67874	other antidepressants	vortioxetine hydrobromide	brintellix 10mg tablets (lundbeck ltd)	SMS		1
+65483	other antidepressants	vortioxetine hydrobromide	vortioxetine 10mg tablets	SMS		1
+66890	other antidepressants	vortioxetine hydrobromide	vortioxetine 20mg tablets	SMS		1
+3353	unknown		l-tryptophan 500 mg cap	Atypical	1	1
+31168	unknown		mirtazapine	Atypical	1	1
+79252	other antidepressants	mirtazapine	mirtazapine 45mg orodispersible tablets (alliance healthcare (distribution) ltd)	Atypical	1	1
+80953	other antidepressants	mirtazapine	mirtazapine 30mg tablet (kent pharmaceuticals ltd)	Atypical	1	1
+82510	other antidepressants	mirtazapine	zispin soltab 30mg orodispersible tablets (waymade healthcare plc)	Atypical	1	1
+77488	other antidepressants	mirtazapine	mirtazapine 30mg tablets (arrow generics ltd)	Atypical	1	1
+74557	other antidepressants	mirtazapine	mirtazapine 15mg tablets (sigma pharmaceuticals plc)	Atypical	1	1
+80893	other antidepressants	mirtazapine	zispin soltab 30mg orodispersible tablets (mawdsley-brooks & company ltd)	Atypical	1	1
+82469	other antidepressants	mirtazapine	mirtazapine 15mg tablets (genesis pharmaceuticals ltd)	Atypical	1	1
+84696	other antidepressants	mirtazapine	mirtazapine 30mg tablets (viatris uk healthcare ltd)	Atypical	1	1
+77865	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (phoenix healthcare distribution ltd)	Atypical	1	1
+82206	other antidepressants	mirtazapine	mirtazapine 15mg tablets (noumed life sciences ltd)	Atypical	1	1
+86314	other antidepressants	mirtazapine	mirtazapine 15mg tablets (northstar healthcare unlimited company)	Atypical	1	1
+79008	other antidepressants	mirtazapine	mirtazapine 30mg orodispersible tablets (teva uk ltd)	Atypical	1	1
+76187	other antidepressants	mirtazapine	mirtazapine 30mg orodispersible tablets (viatris uk healthcare ltd)	Atypical	1	1
+84387	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (medreich plc)	Atypical	1	1
+86095	other antidepressants	mirtazapine	mirtazapine 15mg tablets (phoenix healthcare distribution ltd)	Atypical	1	1
+81914	other antidepressants	mirtazapine	mirtazapine 15mg/ml oral solution sugar free (alliance healthcare (distribution) ltd)	Atypical	1	1
+82070	other antidepressants	mirtazapine	mirtazapine 30mg tablets (ennogen healthcare ltd)	Atypical	1	1
+82520	other antidepressants	mirtazapine	zispin soltab 15mg orodispersible tablets (waymade healthcare plc)	Atypical	1	1
+82682	other antidepressants	mirtazapine	mirtazapine 15mg tablets (relonchem ltd)	Atypical	1	1
+82326	other antidepressants	mirtazapine	mirtazapine 30mg tablets (medreich plc)	Atypical	1	1
+77377	other antidepressants	mirtazapine	zispin 30mg tablets (dowelhurst ltd)	Atypical	1	1
+82245	other antidepressants	mirtazapine	mirtazapine 75mg/5ml oral suspension	Atypical	1	1
+78654	other antidepressants	mirtazapine	mirtazapine 30mg tablets (milpharm ltd)	Atypical	1	1
+4554	selective serotonin re-uptake inhibitors (ssri)	nefazodone hydrochloride	nefazodone 100mg tablets	Atypical	1	1
+4011	selective serotonin re-uptake inhibitors (ssri)	nefazodone hydrochloride	nefazodone 200mg tablets	Atypical	1	1
+4297	selective serotonin re-uptake inhibitors (ssri)	nefazodone hydrochloride	dutonin 200mg tablets (bristol-myers squibb pharmaceuticals ltd)	Atypical	1	1
+9534	other antidepressants	nefazodone hydrochloride	nefazodone starter pack	Atypical	1	1
+63827	unknown	nefazodone hydrochloride	dutonin 50mg tablets (bristol-myers squibb pharmaceuticals ltd)	Atypical	1	1
+67757	unknown	nefazodone hydrochloride	nefazodone 50mg tablets	Atypical	1	1
+3391	selective serotonin re-uptake inhibitors (ssri)	nefazodone hydrochloride	dutonin 100mg tablets (bristol-myers squibb pharmaceuticals ltd)	Atypical	1	1
+76480	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 150mg tablets (alliance healthcare (distribution) ltd)	Atypical	1	1
+81210	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg tablets	Atypical	1	1
+83013	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 25mg/5ml oral solution	Atypical	1	1
+85939	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg/5ml oral solution sugar free (alliance healthcare (distribution) ltd)	Atypical	1	1
+73419	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 150mg tablets (a a h pharmaceuticals ltd)	Atypical	1	1
+73639	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 100mg capsules (accord healthcare ltd)	Atypical	1	1
+81245	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 100mg tablets	Atypical	1	1
+80399	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg/5ml oral suspension	Atypical	1	1
+73636	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 150mg tablets (actavis uk ltd)	Atypical	1	1
+77474	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg/5ml oral solution sugar free (zentiva pharma uk ltd)	Atypical	1	1
+77915	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 150mg tablets (accord healthcare ltd)	Atypical	1	1
+54686	other antidepressants	tryptophan	tryptophan 500mg capsules	Atypical	1	1
+20504	other antidepressants	tryptophan	optimax wv tablet (e. merck)	Atypical	1	1
+5611	other antidepressants	tryptophan	optimax 500mg tablets (esteve pharmaceuticals ltd)	Atypical	1	1
+54747	other antidepressants	tryptophan	optimax 500mg capsules (special order)	Atypical	1	1
+4422	other antidepressants	tryptophan	tryptophan 500mg tablets	Atypical	1	1
+12221	other antidepressants	tryptophan	pacitron 500mg tablet (rorer pharmaceuticals ltd)	Atypical	1	1
+40494	other antidepressants	agomelatine	agomelatine 25mg tablets	Atypical		1
+40295	other antidepressants	agomelatine	valdoxan 25mg tablets (servier laboratories ltd)	Atypical		1
+8585	tricyclic and related antidepressants	mianserin hydrochloride	bolvidon 30mg tablet (organon laboratories ltd)	Atypical		1
+47363	tricyclic and related antidepressants	mianserin hydrochloride	mianserin 20mg tablet (berk pharmaceuticals ltd)	Atypical		1
+4329	unknown	mianserin hydrochloride	mianserin 20mg tablets	Atypical		1
+12192	tricyclic and related antidepressants	mianserin hydrochloride	norval 30mg tablet (bencard)	Atypical		1
+8144	tricyclic and related antidepressants	mianserin hydrochloride	bolvidon 20mg tablet (organon laboratories ltd)	Atypical		1
+6255	tricyclic and related antidepressants	mianserin hydrochloride	mianserin 30mg tablets	Atypical		1
+3083	tricyclic and related antidepressants	mianserin hydrochloride	mianserin 10mg tablets	Atypical		1
+11956	tricyclic and related antidepressants	mianserin hydrochloride	norval 20mg tablet (bencard)	Atypical		1
+12368	tricyclic and related antidepressants	mianserin hydrochloride	norval 10mg tablet (bencard)	Atypical		1
+7468	tricyclic and related antidepressants	mianserin hydrochloride	bolvidon 10mg tablet (organon laboratories ltd)	Atypical		1
+6488	other antidepressants	mirtazapine	mirtazapine 30mg orodispersible tablets	Atypical		1
+53699	other antidepressants	mirtazapine	mirtazapine 15mg tablets (accord healthcare ltd)	Atypical		1
+58625	other antidepressants	mirtazapine	mirtazapine 45mg tablets (accord healthcare ltd)	Atypical		1
+59954	other antidepressants	mirtazapine	mirtazapine 45mg tablets (almus pharmaceuticals ltd)	Atypical		1
+43246	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (genus pharmaceuticals ltd)	Atypical		1
+64223	other antidepressants	mirtazapine	mirtazapine 45mg tablets (teva uk ltd)	Atypical		1
+6481	other antidepressants	mirtazapine	mirtazapine 45mg orodispersible tablets	Atypical		1
+64101	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (accord healthcare ltd)	Atypical		1
+59953	other antidepressants	mirtazapine	mirtazapine 15mg tablets (almus pharmaceuticals ltd)	Atypical		1
+50892	other antidepressants	mirtazapine	zispin soltab 15mg orodispersible tablets (necessity supplies ltd)	Atypical		1
+6854	other antidepressants	mirtazapine	mirtazapine 45mg tablets	Atypical		1
+63403	other antidepressants	mirtazapine	mirtazapine 30mg tablets (teva uk ltd)	Atypical		1
+66183	other antidepressants	mirtazapine	mirtazapine 15mg tablets (alliance healthcare (distribution) ltd)	Atypical		1
+54644	other antidepressants	mirtazapine	mirtazapine 15mg tablets (pfizer ltd)	Atypical		1
+68680	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (mawdsley-brooks & company ltd)	Atypical		1
+47966	other antidepressants	mirtazapine	mirtazapine 15mg/ml oral solution sugar free (rosemont pharmaceuticals ltd)	Atypical		1
+68052	other antidepressants	mirtazapine	mirtazapine 30mg orodispersible tablets (almus pharmaceuticals ltd)	Atypical		1
+53321	other antidepressants	mirtazapine	mirtazapine 15mg/ml oral solution sugar free (a a h pharmaceuticals ltd)	Atypical		1
+43256	other antidepressants	mirtazapine	mirtazapine 45mg orodispersible tablets (advanz pharma)	Atypical		1
+48185	unknown	mirtazapine	mirtazapine 30mg orodispersible tablets (almus pharmaceuticals ltd)	Atypical		1
+53543	other antidepressants	mirtazapine	zispin soltab 30mg orodispersible tablets (necessity supplies ltd)	Atypical		1
+10083	other antidepressants	mirtazapine	zispin soltab 30mg orodispersible tablets (organon pharma (uk) ltd)	Atypical		1
+69005	other antidepressants	mirtazapine	mirtazapine 30mg tablets (almus pharmaceuticals ltd)	Atypical		1
+742	other antidepressants	mirtazapine	mirtazapine 30mg tablets	Atypical		1
+71543	other antidepressants	mirtazapine	mirtazapine 30mg tablets (sigma pharmaceuticals plc)	Atypical		1
+54792	other antidepressants	mirtazapine	mirtazapine 30mg tablets (alliance healthcare (distribution) ltd)	Atypical		1
+16154	other antidepressants	mirtazapine	mirtazapine 15mg/ml oral solution sugar free	Atypical		1
+43241	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (milpharm ltd)	Atypical		1
+61856	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (consilient health ltd)	Atypical		1
+60538	other antidepressants	mirtazapine	mirtazapine 30mg tablets (de pharmaceuticals)	Atypical		1
+46668	other antidepressants	mirtazapine	mirtazapine 15mg tablets (arrow generics ltd)	Atypical		1
+59694	other antidepressants	mirtazapine	mirtazapine 30mg orodispersible tablets (phoenix healthcare distribution ltd)	Atypical		1
+43234	other antidepressants	mirtazapine	mirtazapine 45mg orodispersible tablets (teva uk ltd)	Atypical		1
+43248	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (advanz pharma)	Atypical		1
+68544	other antidepressants	mirtazapine	mirtazapine 2mg capsules	Atypical		1
+43242	other antidepressants	mirtazapine	mirtazapine 15mg tablets (genus pharmaceuticals ltd)	Atypical		1
+43235	other antidepressants	mirtazapine	mirtazapine 45mg orodispersible tablets (a a h pharmaceuticals ltd)	Atypical		1
+60370	other antidepressants	mirtazapine	zispin soltab 15mg orodispersible tablets (mawdsley-brooks & company ltd)	Atypical		1
+43257	other antidepressants	mirtazapine	mirtazapine 15mg tablets (teva uk ltd)	Atypical		1
+61547	other antidepressants	mirtazapine	mirtazapine 15mg/ml oral solution sugar free (de pharmaceuticals)	Atypical		1
+43253	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (a a h pharmaceuticals ltd)	Atypical		1
+43236	other antidepressants	mirtazapine	mirtazapine 45mg orodispersible tablets (accord healthcare ltd)	Atypical		1
+4726	other antidepressants	mirtazapine	zispin 30mg tablets (organon laboratories ltd)	Atypical		1
+67272	other antidepressants	mirtazapine	zispin 30mg tablets (waymade healthcare plc)	Atypical		1
+69420	other antidepressants	mirtazapine	mirtazapine 30mg orodispersible tablets (milpharm ltd)	Atypical		1
+43239	other antidepressants	mirtazapine	mirtazapine 15mg tablets (a a h pharmaceuticals ltd)	Atypical		1
+47945	other antidepressants	mirtazapine	mirtazapine 30mg tablets (a a h pharmaceuticals ltd)	Atypical		1
+58291	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (pfizer ltd)	Atypical		1
+33337	other antidepressants	mirtazapine	mirtazapine 45mg tablets (a a h pharmaceuticals ltd)	Atypical		1
+56209	other antidepressants	mirtazapine	mirtazapine 30mg tablets (phoenix healthcare distribution ltd)	Atypical		1
+48698	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets sugar free	Atypical		1
+6846	other antidepressants	mirtazapine	zispin soltab 15mg orodispersible tablets (organon pharma (uk) ltd)	Atypical		1
+40160	other antidepressants	mirtazapine	mirtazapine 30mg tablets (accord healthcare ltd)	Atypical		1
+66580	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (bluefish pharmaceuticals ab)	Atypical		1
+54342	other antidepressants	mirtazapine	mirtazapine 15mg tablets (medreich plc)	Atypical		1
+43237	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (teva uk ltd)	Atypical		1
+6795	other antidepressants	mirtazapine	mirtazapine 15mg tablets	Atypical		1
+65555	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (sigma pharmaceuticals plc)	Atypical		1
+55482	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets (viatris uk healthcare ltd)	Atypical		1
+54012	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets sugar free (sandoz ltd)	Atypical		1
+68933	other antidepressants	mirtazapine	mirtazapine 30mg tablets (pliva pharma ltd)	Atypical		1
+64139	other antidepressants	mirtazapine	mirtazapine 45mg orodispersible tablets (viatris uk healthcare ltd)	Atypical		1
+49820	other antidepressants	mirtazapine	mirtazapine 45mg orodispersible tablets sugar free	Atypical		1
+15268	other antidepressants	mirtazapine	zispin soltab 45mg orodispersible tablets (organon pharma (uk) ltd)	Atypical		1
+43247	other antidepressants	mirtazapine	mirtazapine 45mg orodispersible tablets (genus pharmaceuticals ltd)	Atypical		1
+66752	other antidepressants	mirtazapine	mirtazapine 15mg tablets (milpharm ltd)	Atypical		1
+43250	other antidepressants	mirtazapine	mirtazapine 30mg orodispersible tablets (a a h pharmaceuticals ltd)	Atypical		1
+53648	other antidepressants	mirtazapine	mirtazapine 30mg orodispersible tablets (accord healthcare ltd)	Atypical		1
+6421	other antidepressants	mirtazapine	mirtazapine 15mg orodispersible tablets	Atypical		1
+55138	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 250mg/5ml oral solution	Atypical		1
+34003	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg capsules (a a h pharmaceuticals ltd)	Atypical		1
+4194	tricyclic and related antidepressants	trazodone hydrochloride	molipaxin 100mg capsules (zentiva pharma uk ltd)	Atypical		1
+72291	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 100mg/5ml oral solution sugar free	Atypical		1
+4020	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 150mg tablets	Atypical		1
+34421	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg capsules (zentiva pharma uk ltd)	Atypical		1
+55137	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 150mg/5ml oral suspension	Atypical		1
+41710	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 100mg capsules (zentiva pharma uk ltd)	Atypical		1
+34470	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 150mg tablets (zentiva pharma uk ltd)	Atypical		1
+30983	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 150mg tablets (viatris uk healthcare ltd)	Atypical		1
+13621	unknown	trazodone hydrochloride	molipaxin cr 150mg tablets (aventis pharma)	Atypical		1
+41609	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg capsules (teva uk ltd)	Atypical		1
+66749	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 10mg/5ml oral solution	Atypical		1
+19181	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 100mg capsules (viatris uk healthcare ltd)	Atypical		1
+61657	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 75mg/5ml oral solution	Atypical		1
+65152	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 100mg/5ml oral solution	Atypical		1
+61842	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg/5ml oral solution	Atypical		1
+71031	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg capsules (accord healthcare ltd)	Atypical		1
+59931	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg/5ml oral solution sugar free (a a h pharmaceuticals ltd)	Atypical		1
+34580	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 100mg capsules (a a h pharmaceuticals ltd)	Atypical		1
+4874	tricyclic and related antidepressants	trazodone hydrochloride	molipaxin 50mg capsules (zentiva pharma uk ltd)	Atypical		1
+4003	tricyclic and related antidepressants	trazodone hydrochloride	molipaxin 150mg tablets (zentiva pharma uk ltd)	Atypical		1
+29857	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 150mg tablets (teva uk ltd)	Atypical		1
+12710	unknown	trazodone hydrochloride	trazodone 150mg modified-release tablets	Atypical		1
+6442	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg/5ml oral solution sugar free	Atypical		1
+29339	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg capsules (viatris uk healthcare ltd)	Atypical		1
+57226	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 25mg/5ml oral suspension	Atypical		1
+69355	tricyclic and related antidepressants	trazodone hydrochloride	trazodone oral solution	Atypical		1
+1730	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 100mg capsules	Atypical		1
+70521	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg/5ml oral solution sugar free (advanz pharma)	Atypical		1
+41709	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 100mg capsules (teva uk ltd)	Atypical		1
+3355	tricyclic and related antidepressants	trazodone hydrochloride	trazodone 50mg capsules	Atypical		1
+8174	tricyclic and related antidepressants	trazodone hydrochloride	molipaxin 50mg/5ml oral liquid (sanofi)	Atypical		1

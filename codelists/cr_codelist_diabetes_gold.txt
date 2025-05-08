@@ -1,0 +1,469 @@
+medcode	readcode	readterm	diabetes
+506	C100112	non-insulin dependent diabetes mellitus	1
+711	C10..00	diabetes mellitus	1
+758	C10F.00	type 2 diabetes mellitus	1
+1038	C100011	insulin dependent diabetes mellitus	1
+1323	F420.00	diabetic retinopathy	1
+1407	C10FJ00	insulin treated type 2 diabetes mellitus	1
+1549	C10E.00	type 1 diabetes mellitus	1
+1647	C108.00	insulin dependent diabetes mellitus	1
+1682	C101.00	diabetes mellitus with ketoacidosis	1
+1684	66A4.00	diabetic on oral treatment	1
+2340	F381311	diabetic amyotrophy	1
+2342	F372.12	diabetic neuropathy	1
+2378	66AJ.00	diabetic - poor control	1
+2471	K01x100	nephrotic syndrome in diabetes mellitus	1
+2475	C104.11	diabetic nephropathy	1
+2478	66AJ100	brittle diabetes	1
+2986	F420200	preproliferative diabetic retinopathy	1
+3286	F420100	proliferative diabetic retinopathy	1
+3837	F420400	diabetic maculopathy	1
+4513	C109.00	non-insulin dependent diabetes mellitus	1
+5002	F372.11	diabetic polyneuropathy	1
+5884	C109.11	niddm - non-insulin dependent diabetes mellitus	1
+6125	66AS.00	diabetic annual review	1
+6509	C108700	insulin dependent diabetes mellitus with retinopathy	1
+6791	C108800	insulin dependent diabetes mellitus - poor control	1
+7045	14F4.00	h/o: admission in last year for diabetes foot problem	1
+7059	8H2J.00	admit diabetic emergency	1
+7069	F420000	background diabetic retinopathy	1
+7328	M037200	cellulitis in diabetic foot	1
+7563	66A3.00	diabetic on diet only	1
+7795	C106.12	diabetes mellitus with neuropathy	1
+8403	C109700	non-insulin dependent diabetes mellitus - poor control	1
+8836	66AR.00	diabetes management plan given	1
+8842	66A5.00	diabetic on insulin	1
+9013	66AJ.11	unstable diabetes	1
+9835	2BBL.00	o/e - diabetic maculopathy present both eyes	1
+9881	M271200	mixed diabetic ulcer - foot	1
+10098	C10yy00	other specified diabetes mellitus with other spec comps	1
+10099	F420300	advanced diabetic maculopathy	1
+10418	C10ED00	type 1 diabetes mellitus with nephropathy	1
+10642	ZC2C800	dietary advice for diabetes mellitus	1
+10659	F464000	diabetic cataract	1
+10692	C10EM00	type 1 diabetes mellitus with ketoacidosis	1
+10755	F420600	non proliferative diabetic retinopathy	1
+11018	8HBG.00	diabetic retinopathy 12 month review	1
+11047	66AH000	conversion to insulin	1
+11129	2BBQ.00	o/e - left eye background diabetic retinopathy	1
+11433	2BBP.00	o/e - right eye background diabetic retinopathy	1
+11471	8B3l.00	diabetes medication review	1
+11551	C10B.00	diabetes mellitus induced by steroids	1
+11599	7276	pan retinal photocoagulation for diabetes	1
+11626	F420z00	diabetic retinopathy nos	1
+11663	M271100	neuropathic diabetic ulcer - foot	1
+12213	8BL2.00	patient on maximal tolerated therapy for diabetes	1
+12307	66AU.00	diabetes care by hospital only	1
+12455	C10E.11	type i diabetes mellitus	1
+12640	C10FC00	type 2 diabetes mellitus with nephropathy	1
+12736	C10F500	type 2 diabetes mellitus with gangrene	1
+13071	66AI.00	diabetic - good control	1
+13078	13AC.00	diabetic weight reducing diet	1
+13097	2BBT.00	o/e - right eye proliferative diabetic retinopathy	1
+13099	2BBR.00	o/e - right eye preproliferative diabetic retinopathy	1
+13101	2BBV.00	o/e - left eye proliferative diabetic retinopathy	1
+13102	2BBW.00	o/e - right eye diabetic maculopathy	1
+13103	2BBS.00	o/e - left eye preproliferative diabetic retinopathy	1
+13108	2BBX.00	o/e - left eye diabetic maculopathy	1
+13279	C104y00	other specified diabetes mellitus with renal complications	1
+14803	C100100	diabetes mellitus, adult onset, no mention of complication	1
+14889	C100111	maturity onset diabetes	1
+15690	C103.00	diabetes mellitus with ketoacidotic coma	1
+16230	C106.00	diabetes mellitus with neurological manifestation	1
+16490	66AH.00	diabetic treatment changed	1
+16491	C106.13	diabetes mellitus with polyneuropathy	1
+16502	C104.00	diabetes mellitus with renal manifestation	1
+16881	ZV65312	[v]dietary counselling in diabetes mellitus	1
+17067	F171100	autonomic neuropathy due to diabetes	1
+17095	2G5A.00	o/e - right diabetic foot at risk	1
+17236	14P3.00	h/o: insulin therapy	1
+17247	F35z000	diabetic mononeuritis nos	1
+17262	C109600	non-insulin-dependent diabetes mellitus with retinopathy	1
+17313	F440700	diabetic iritis	1
+17545	C108F11	type i diabetes mellitus with diabetic cataract	1
+17817	7L19800	subcutaneous injection of insulin	1
+17858	C108.12	type 1 diabetes mellitus	1
+17859	C109.12	type 2 diabetes mellitus	1
+17869	66AL.00	diabetic-uncooperative patient	1
+18056	2G5C.00	foot abnormality - diabetes related	1
+18142	N030000	diabetic cheiroarthropathy	1
+18143	C109G11	type ii diabetes mellitus with arthropathy	1
+18167	66AT.00	annual diabetic blood test	1
+18209	C109012	type 2 diabetes mellitus with renal complications	1
+18219	C109.13	type ii diabetes mellitus	1
+18230	C108J12	type 1 diabetes mellitus with neuropathic arthropathy	1
+18264	C109J12	insulin treated type ii diabetes mellitus	1
+18278	C109J00	insulin treated type 2 diabetes mellitus	1
+18387	C10E700	type 1 diabetes mellitus with retinopathy	1
+18390	C10FM00	type 2 diabetes mellitus with persistent microalbuminuria	1
+18425	C10FB00	type 2 diabetes mellitus with polyneuropathy	1
+18496	C10F600	type 2 diabetes mellitus with retinopathy	1
+18505	C108.11	iddm-insulin dependent diabetes mellitus	1
+18642	C10EH00	type 1 diabetes mellitus with arthropathy	1
+18662	8HBH.00	diabetic retinopathy 6 month review	1
+18683	C10E500	type 1 diabetes mellitus with ulcer	1
+18777	C10F000	type 2 diabetes mellitus with renal complications	1
+20696	66AA.11	injection sites - diabetic	1
+21482	C102.00	diabetes mellitus with hyperosmolar coma	1
+21983	C108012	type 1 diabetes mellitus with renal complications	1
+22023	66AJz00	diabetic - poor control nos	1
+22487	C10N.00	secondary diabetes mellitus	1
+22573	C106z00	diabetes mellitus nos with neurological manifestation	1
+22823	66Ab.00	diabetic foot examination	1
+22871	C10EP00	type 1 diabetes mellitus with exudative maculopathy	1
+22884	C10F.11	type ii diabetes mellitus	1
+22967	2BBF.00	retinal abnormality - diabetes related	1
+23479	C350011	bronzed diabetes	1
+24327	M271000	ischaemic ulcer diabetic foot	1
+24363	8A13.00	diabetic stabilisation	1
+24423	C108.13	type i diabetes mellitus	1
+24458	C109711	type ii diabetes mellitus - poor control	1
+24490	C100000	diabetes mellitus, juvenile type, no mention of complication	1
+24571	F372200	asymptomatic diabetic neuropathy	1
+24693	C109G00	non-insulin dependent diabetes mellitus with arthropathy	1
+24694	C108B00	insulin dependent diabetes mellitus with mononeuropathy	1
+24836	C109C12	type 2 diabetes mellitus with nephropathy	1
+25041	ZC2CA00	dietary advice for type ii diabetes	1
+25591	C10FQ00	type 2 diabetes mellitus with exudative maculopathy	1
+25627	C10F700	type 2 diabetes mellitus - poor control	1
+26054	C10FL00	type 2 diabetes mellitus with persistent proteinuria	1
+26108	C10B000	steroid induced diabetes mellitus without complication	1
+26664	2G5B.00	o/e - left diabetic foot at risk	1
+26666	2G5E.00	o/e - right diabetic foot at low risk	1
+26667	2G5I.00	o/e - left diabetic foot at low risk	1
+26855	C108400	unstable insulin dependent diabetes mellitus	1
+27891	N030100	diabetic charcot arthropathy	1
+27921	2G51000	foot abnormality - diabetes related	1
+28769	66AV.00	diabetic on insulin and oral treatment	1
+28873	66Ai.00	diabetic 6 month review	1
+29041	66AN.00	date diabetic treatment start	1
+29979	C109900	non-insulin-dependent diabetes mellitus without complication	1
+30294	C10EL00	type 1 diabetes mellitus with persistent microalbuminuria	1
+30323	C10EK00	type 1 diabetes mellitus with persistent proteinuria	1
+30477	F420700	high risk proliferative diabetic retinopathy	1
+31053	R054300	[d]widespread diabetic foot gangrene	1
+31156	2G5J.00	o/e - left diabetic foot at moderate risk	1
+31157	2G5F.00	o/e - right diabetic foot at moderate risk	1
+31171	2G5G.00	o/e - right diabetic foot at high risk	1
+31172	2G5K.00	o/e - left diabetic foot at high risk	1
+31310	C108900	insulin dependent diabetes maturity onset	1
+31790	F372.00	polyneuropathy in diabetes	1
+32193	C11y000	steroid induced diabetes	1
+32359	ZRbH.00	perceived control of insulin-dependent diabetes	1
+32403	C107.11	diabetes mellitus with gangrene	1
+32556	C107.12	diabetes with gangrene	1
+32627	C10FN00	type 2 diabetes mellitus with ketoacidosis	1
+33254	C105.00	diabetes mellitus with ophthalmic manifestation	1
+33343	C10y.00	diabetes mellitus with other specified manifestation	1
+33807	C107200	diabetes mellitus, adult with gangrene	1
+33969	C10A100	malnutrition-related diabetes mellitus with ketoacidosis	1
+34152	G73y000	diabetic peripheral angiopathy	1
+34268	C10F200	type 2 diabetes mellitus with neurological complications	1
+34283	C105z00	diabetes mellitus nos with ophthalmic manifestation	1
+34450	C10FK00	hyperosmolar non-ketotic state in type 2 diabetes mellitus	1
+34912	C109400	non-insulin dependent diabetes mellitus with ulcer	1
+35105	C104100	diabetes mellitus, adult onset, with renal manifestation	1
+35107	C104z00	diabetes mellitus with nephropathy nos	1
+35116	2G5L.00	o/e - left diabetic foot - ulcerated	1
+35288	C10E800	type 1 diabetes mellitus - poor control	1
+35316	2G5H.00	o/e - right diabetic foot - ulcerated	1
+35321	8H3O.00	non-urgent diabetic admission	1
+35385	C10FH00	type 2 diabetes mellitus with neuropathic arthropathy	1
+35399	C107.00	diabetes mellitus with peripheral circulatory disorder	1
+35785	F372100	chronic painful diabetic neuropathy	1
+36633	C109K00	hyperosmolar non-ketotic state in type 2 diabetes mellitus	1
+36695	C10D.00	diabetes mellitus autosomal dominant type 2	1
+36798	7L10000	continuous subcutaneous infusion of insulin	1
+37315	F3y0.00	diabetic mononeuropathy	1
+37648	C109J11	insulin treated non-insulin dependent diabetes mellitus	1
+37806	C10FF00	type 2 diabetes mellitus with peripheral angiopathy	1
+38076	M21yC00	insulin lipohypertrophy	1
+38161	C108711	type i diabetes mellitus with retinopathy	1
+38617	C101y00	other specified diabetes mellitus with ketoacidosis	1
+38986	C100.00	diabetes mellitus with no mention of complication	1
+39070	C10EE00	type 1 diabetes mellitus with hypoglycaemic coma	1
+39317	C106100	diabetes mellitus, adult onset, + neurological manifestation	1
+39420	F381300	myasthenic syndrome due to diabetic amyotrophy	1
+39809	C108J00	insulin dependent diab mell with neuropathic arthropathy	1
+40023	C102000	diabetes mellitus, juvenile type, with hyperosmolar coma	1
+40401	C109500	non-insulin dependent diabetes mellitus with gangrene	1
+40682	C10E900	type 1 diabetes mellitus maturity onset	1
+40837	C10EN00	type 1 diabetes mellitus with ketoacidotic coma	1
+40962	C109H00	non-insulin dependent d m with neuropathic arthropathy	1
+41049	C108712	type 1 diabetes mellitus with retinopathy	1
+41389	C105100	diabetes mellitus, adult onset, + ophthalmic manifestation	1
+41686	Cyu2000	[x]other specified diabetes mellitus	1
+41716	C108C00	insulin dependent diabetes mellitus with polyneuropathy	1
+42505	C101z00	diabetes mellitus nos with ketoacidosis	1
+42567	C103000	diabetes mellitus, juvenile type, with ketoacidotic coma	1
+42729	C108E11	type i diabetes mellitus with hypoglycaemic coma	1
+42762	C109612	type 2 diabetes mellitus with retinopathy	1
+42831	C10E200	type 1 diabetes mellitus with neurological complications	1
+43139	C102100	diabetes mellitus, adult onset, with hyperosmolar coma	1
+43227	C10F311	type ii diabetes mellitus with multiple complications	1
+43453	C10C.00	diabetes mellitus autosomal dominant	1
+43493	M21yC11	insulin site lipohypertrophy	1
+43785	C109D00	non-insulin dependent diabetes mellitus with hypoglyca coma	1
+43857	C10M.00	lipoatrophic diabetes mellitus	1
+43921	C10E400	unstable type 1 diabetes mellitus	1
+43951	66AK.00	diabetic - cooperative patient	1
+44033	F345000	diabetic mononeuritis multiplex	1
+44260	C108F00	insulin dependent diabetes mellitus with diabetic cataract	1
+44440	C108E00	insulin dependent diabetes mellitus with hypoglycaemic coma	1
+44443	C108500	insulin dependent diabetes mellitus with ulcer	1
+44779	C109E12	type 2 diabetes mellitus with diabetic cataract	1
+44982	C10FE00	type 2 diabetes mellitus with diabetic cataract	1
+45276	C10E312	insulin dependent diabetes mellitus with multiple complicat	1
+45467	C109B00	non-insulin dependent diabetes mellitus with polyneuropathy	1
+45491	C10z.00	diabetes mellitus with unspecified complication	1
+45499	K01x111	kimmelstiel - wilson disease	1
+45913	C109712	type 2 diabetes mellitus - poor control	1
+45914	C108812	type 1 diabetes mellitus - poor control	1
+45919	C109212	type 2 diabetes mellitus with neurological complications	1
+46150	C109512	type 2 diabetes mellitus with gangrene	1
+46290	C108y00	other specified diabetes mellitus with multiple comps	1
+46301	C10EC00	type 1 diabetes mellitus with polyneuropathy	1
+46624	C10C.11	maturity onset diabetes in youth	1
+46850	C108811	type i diabetes mellitus - poor control	1
+46917	C10FD00	type 2 diabetes mellitus with hypoglycaemic coma	1
+46963	C108000	insulin-dependent diabetes mellitus with renal complications	1
+47032	8CS0.00	diabetes care plan agreed	1
+47315	C10F711	type ii diabetes mellitus - poor control	1
+47321	C10F100	type 2 diabetes mellitus with ophthalmic complications	1
+47328	2BBk.00	o/e - right eye stable treated prolif diabetic retinopathy	1
+47377	C105y00	other specified diabetes mellitus with ophthalmic complicatn	1
+47409	C109B11	type ii diabetes mellitus with polyneuropathy	1
+47582	C10E000	type 1 diabetes mellitus with renal complications	1
+47584	F420500	advanced diabetic retinal disease	1
+47649	C10E100	type 1 diabetes mellitus with ophthalmic complications	1
+47650	C10E300	type 1 diabetes mellitus with multiple complications	1
+47816	C109H11	type ii diabetes mellitus with neuropathic arthropathy	1
+47954	C10F900	type 2 diabetes mellitus without complication	1
+48078	F372000	acute painful diabetic neuropathy	1
+48192	C109E11	type ii diabetes mellitus with diabetic cataract	1
+48310	ZV6DA00	[v]admitted for commencement of insulin	1
+49074	C10F400	type 2 diabetes mellitus with ulcer	1
+49146	C108211	type i diabetes mellitus with neurological complications	1
+49276	C108100	insulin-dependent diabetes mellitus with ophthalmic comps	1
+49554	C10EF00	type 1 diabetes mellitus with diabetic cataract	1
+49640	2G5W.00	o/e - left chronic diabetic foot ulcer	1
+49655	C10F611	type ii diabetes mellitus with retinopathy	1
+49869	C109G12	type 2 diabetes mellitus with arthropathy	1
+49949	C10E411	unstable type i diabetes mellitus	1
+50175	66AW.00	diabetic foot risk assessment	1
+50225	C109011	type ii diabetes mellitus with renal complications	1
+50429	C109100	non-insulin-dependent diabetes mellitus with ophthalm comps	1
+50527	C10FB11	type ii diabetes mellitus with polyneuropathy	1
+50609	L180600	pre-existing diabetes mellitus, non-insulin-dependent	1
+50813	C109A11	type ii diabetes mellitus with mononeuropathy	1
+50960	L180500	pre-existing diabetes mellitus, insulin-dependent	1
+50972	C100z00	diabetes mellitus nos with no mention of complication	1
+51261	C10E.12	insulin dependent diabetes mellitus	1
+51697	C10G.00	secondary pancreatic diabetes mellitus	1
+51756	C10FP00	type 2 diabetes mellitus with ketoacidotic coma	1
+51939	ZV6DB00	[v]admitted for conversion to insulin	1
+51957	C108511	type i diabetes mellitus with ulcer	1
+52041	2BBl.00	o/e - left eye stable treated prolif diabetic retinopathy	1
+52104	C108300	insulin dependent diabetes mellitus with multiple complicatn	1
+52212	Cyu2.00	[x]diabetes mellitus	1
+52236	C10A.00	malnutrition-related diabetes mellitus	1
+52283	C108200	insulin-dependent diabetes mellitus with neurological comps	1
+52303	C109000	non-insulin-dependent diabetes mellitus with renal comps	1
+52630	2BBo.00	o/e - sight threatening diabetic retinopathy	1
+53200	C101000	diabetes mellitus, juvenile type, with ketoacidosis	1
+53238	66AG.00	diabetic drug side effects	1
+53392	C10F911	type ii diabetes mellitus without complication	1
+53630	C110.11	insulin coma	1
+53634	R054200	[d]gangrene of toe in diabetic	1
+54008	C10EJ00	type 1 diabetes mellitus with neuropathic arthropathy	1
+54212	C109F00	non-insulin-dependent d m with peripheral angiopath	1
+54600	C10E412	unstable insulin dependent diabetes mellitus	1
+54856	C101100	diabetes mellitus, adult onset, with ketoacidosis	1
+54899	C109F11	type ii diabetes mellitus with peripheral angiopathy	1
+55075	C109411	type ii diabetes mellitus with ulcer	1
+55239	C10EQ00	type 1 diabetes mellitus with gastroparesis	1
+55431	L180X00	pre-existing diabetes mellitus, unspecified	1
+55842	C109200	non-insulin-dependent diabetes mellitus with neuro comps	1
+56268	C109D11	type ii diabetes mellitus with hypoglycaemic coma	1
+56448	C108A00	insulin-dependent diabetes without complication	1
+56803	C107400	niddm with peripheral circulatory disorder	1
+57278	C10F011	type ii diabetes mellitus with renal complications	1
+57333	N030011	diabetic cheiropathy	1
+57621	C108D00	insulin dependent diabetes mellitus with nephropathy	1
+58604	C109611	type ii diabetes mellitus with retinopathy	1
+59253	C10FG00	type 2 diabetes mellitus with arthropathy	1
+59288	C103y00	other specified diabetes mellitus with coma	1
+59365	C109C00	non-insulin dependent diabetes mellitus with nephropathy	1
+59725	C109111	type ii diabetes mellitus with ophthalmic complications	1
+59903	C106.11	diabetic amyotrophy	1
+59991	C10D.11	maturity onset diabetes in youth type 2	1
+60107	C108411	unstable type i diabetes mellitus	1
+60208	C108J11	type i diabetes mellitus with neuropathic arthropathy	1
+60499	C108600	insulin dependent diabetes mellitus with gangrene	1
+60699	C109F12	type 2 diabetes mellitus with peripheral angiopathy	1
+60796	C10FL11	type ii diabetes mellitus with persistent proteinuria	1
+61071	C109D12	type 2 diabetes mellitus with hypoglycaemic coma	1
+61122	C10H.00	diabetes mellitus induced by non-steroid drugs	1
+61344	C108011	type i diabetes mellitus with renal complications	1
+61520	C110000	iatrogenic hyperinsulinism	1
+61523	C106y00	other specified diabetes mellitus with neurological comps	1
+61670	889A.00	diab mellit insulin-glucose infus acute myocardial infarct	1
+61829	C108212	type 1 diabetes mellitus with neurological complications	1
+62107	C109511	type ii diabetes mellitus with gangrene	1
+62146	C109300	non-insulin-dependent diabetes mellitus with multiple comps	1
+62209	C10EM11	type i diabetes mellitus with ketoacidosis	1
+62352	C108H11	type i diabetes mellitus with arthropathy	1
+62384	2G5V.00	o/e - right chronic diabetic foot ulcer	1
+62613	C10EA11	type i diabetes mellitus without complication	1
+62674	C10FA00	type 2 diabetes mellitus with mononeuropathy	1
+63017	C108911	type i diabetes mellitus maturity onset	1
+63357	C107100	diabetes mellitus, adult, + peripheral circulatory disorder	1
+63371	C10y100	diabetes mellitus, adult, + other specified manifestation	1
+63412	8CR2.00	diabetes clinical management plan	1
+63690	C10FR00	type 2 diabetes mellitus with gastroparesis	1
+63762	C10z100	diabetes mellitus, adult onset, + unspecified complication	1
+64283	C10zy00	other specified diabetes mellitus with unspecified comps	1
+64357	C10zz00	diabetes mellitus nos with unspecified complication	1
+64446	C108G00	insulin dependent diab mell with peripheral angiopathy	1
+64449	C108z00	unspecified diabetes mellitus with multiple complications	1
+64571	C109C11	type ii diabetes mellitus with nephropathy	1
+64668	C10FJ11	insulin treated type ii diabetes mellitus	1
+65025	C107z00	diabetes mellitus nos with peripheral circulatory disorder	1
+65062	C103z00	diabetes mellitus nos with ketoacidotic coma	1
+65267	C10F300	type 2 diabetes mellitus with multiple complications	1
+65463	F420800	high risk non proliferative diabetic retinopathy	1
+65616	C108H00	insulin dependent diabetes mellitus with arthropathy	1
+65704	C109412	type 2 diabetes mellitus with ulcer	1
+66145	C10EN11	type i diabetes mellitus with ketoacidotic coma	1
+66274	66Ah.00	insulin needles changed for each injection	1
+66675	C10A000	malnutrition-related diabetes mellitus with coma	1
+66872	C108D11	type i diabetes mellitus with nephropathy	1
+66965	C109H12	type 2 diabetes mellitus with neuropathic arthropathy	1
+67212	C10H000	dm induced by non-steroid drugs without complication	1
+67853	C106000	diabetes mellitus, juvenile, + neurological manifestation	1
+67905	C109211	type ii diabetes mellitus with neurological complications	1
+68105	C10EB00	type 1 diabetes mellitus with mononeuropathy	1
+68390	C108512	type 1 diabetes mellitus with ulcer	1
+68792	C10z000	diabetes mellitus, juvenile type, + unspecified complication	1
+68843	C103100	diabetes mellitus, adult onset, with ketoacidotic coma	1
+69043	ZC2C900	dietary advice for type i diabetes	1
+69124	C107300	iddm with peripheral circulatory disorder	1
+69152	66Aj.00	insulin needles changed less than once a day	1
+69278	C109E00	non-insulin depend diabetes mellitus with diabetic cataract	1
+69676	C10EA00	type 1 diabetes mellitus without complication	1
+69748	C105000	diabetes mellitus, juvenile type, + ophthalmic manifestation	1
+69993	C10E600	type 1 diabetes mellitus with gangrene	1
+70316	C109112	type 2 diabetes mellitus with ophthalmic complications	1
+70448	C107000	diabetes mellitus, juvenile +peripheral circulatory disorder	1
+70766	C108E12	type 1 diabetes mellitus with hypoglycaemic coma	1
+70821	C10yz00	diabetes mellitus nos with other specified manifestation	1
+72320	C109A00	non-insulin dependent diabetes mellitus with mononeuropathy	1
+72345	C102z00	diabetes mellitus nos with hyperosmolar coma	1
+72702	C10E812	insulin dependent diabetes mellitus - poor control	1
+83485	66Am.00	insulin dose changed	1
+83532	66Ao.00	diabetes type 2 review	1
+85660	66An.00	diabetes type 1 review	1
+85991	C10FM11	type ii diabetes mellitus with persistent microalbuminuria	1
+90301	66Ag.00	insulin needles changed daily	1
+91646	C10F411	type ii diabetes mellitus with ulcer	1
+91942	C10E311	type i diabetes mellitus with multiple complications	1
+91943	C10EC11	type i diabetes mellitus with polyneuropathy	1
+93380	C10N100	cystic fibrosis related diabetes mellitus	1
+93468	C10EG00	type 1 diabetes mellitus with peripheral angiopathy	1
+93727	C10FE11	type ii diabetes mellitus with diabetic cataract	1
+93875	C10E712	insulin dependent diabetes mellitus with retinopathy	1
+93878	C10E511	type i diabetes mellitus with ulcer	1
+93922	C104000	diabetes mellitus, juvenile type, with renal manifestation	1
+94383	C10N000	secondary diabetes mellitus without complication	1
+95343	C10E711	type i diabetes mellitus with retinopathy	1
+95351	C10FA11	type ii diabetes mellitus with mononeuropathy	1
+95539	C10FS00	maternally inherited diabetes mellitus	1
+95636	C10ER00	latent autoimmune diabetes mellitus in adult	1
+95992	C108A11	type i diabetes mellitus without complication	1
+96010	66Ap.00	insulin treatment initiated	1
+96235	C10E911	type i diabetes mellitus maturity onset	1
+96506	C10G000	secondary pancreatic diabetes mellitus without complication	1
+97446	C108912	type 1 diabetes mellitus maturity onset	1
+97474	C108412	unstable type 1 diabetes mellitus	1
+97849	C10E912	insulin dependent diabetes maturity onset	1
+97894	C10EP11	type i diabetes mellitus with exudative maculopathy	1
+98071	C10E112	insulin-dependent diabetes mellitus with ophthalmic comps	1
+98392	C10C.12	maturity onset diabetes in youth type 1	1
+98616	C10F211	type ii diabetes mellitus with neurological complications	1
+98704	C10E512	insulin dependent diabetes mellitus with ulcer	1
+98723	C10FD11	type ii diabetes mellitus with hypoglycaemic coma	1
+99231	C108B11	type i diabetes mellitus with mononeuropathy	1
+99311	C10E111	type i diabetes mellitus with ophthalmic complications	1
+99628	Kyu0300	[x]glomerular disorders in diabetes mellitus	1
+99716	C10EE12	insulin dependent diabetes mellitus with hypoglycaemic coma	1
+99719	C10EA12	insulin-dependent diabetes without complication	1
+100292	Cyu2300	[x]unspecified diabetes mellitus with renal complications	1
+100347	C10A500	malnutritn-relat diabetes melitus wth periph circul complctn	1
+100770	C10EF12	insulin dependent diabetes mellitus with diabetic cataract	1
+100964	C10F111	type ii diabetes mellitus with ophthalmic complications	1
+101311	C10EC12	insulin dependent diabetes mellitus with polyneuropathy	1
+101735	C10E212	insulin-dependent diabetes mellitus with neurological comps	1
+101801	66At100	type ii diabetic dietary review	1
+102112	C10E611	type i diabetes mellitus with gangrene	1
+102163	C10ED12	insulin dependent diabetes mellitus with nephropathy	1
+102201	C10FC11	type ii diabetes mellitus with nephropathy	1
+102434	66Au.00	diabetic erectile dysfunction review	1
+102490	66Av.00	diabetic assessment of erectile dysfunction	1
+102611	66At111	type 2 diabetic dietary review	1
+102620	C10EL11	type i diabetes mellitus with persistent microalbuminuria	1
+102704	66At000	type i diabetic dietary review	1
+102740	C108112	type 1 diabetes mellitus with ophthalmic complications	1
+102946	C10E012	insulin-dependent diabetes mellitus with renal complications	1
+103902	C10FG11	type ii diabetes mellitus with arthropathy	1
+104254	7L10011	subcutaneous infusion with insulin pump	1
+104323	C10F511	type ii diabetes mellitus with gangrene	1
+104453	66At011	type 1 diabetic dietary review	1
+104639	C10FF11	type ii diabetes mellitus with peripheral angiopathy	1
+105302	K08yA00	proteinuric diabetic nephropathy	1
+105337	C10E811	type i diabetes mellitus - poor control	1
+105740	2G5d.00	o/e - left diabetic foot at increased risk	1
+105741	2G5e.00	o/e - right diabetic foot at increased risk	1
+105784	C109912	type 2 diabetes mellitus without complication	1
+106061	C10FP11	type ii diabetes mellitus with ketoacidotic coma	1
+106360	K27y700	erectile dysfunction due to diabetes mellitus	1
+106528	C10FN11	type ii diabetes mellitus with ketoacidosis	1
+107331	66AH100	conversion to insulin in secondary care	1
+107423	661N400	diabetes self-management plan review	1
+107464	66AS000	diabetes year of care annual review	1
+107508	66AH200	conversion to insulin by diabetes specialist nurse	1
+107603	C10P.00	diabetes mellitus in remission	1
+107701	C10FK11	hyperosmolar non-ketotic state in type ii diabetes mellitus	1
+107824	C10P100	type ii diabetes mellitus in remission	1
+107881	K08yA11	clinical diabetic nephropathy	1
+108005	C109312	type 2 diabetes mellitus with multiple complications	1
+108007	C108311	type i diabetes mellitus with multiple complications	1
+108360	C10P000	type i diabetes mellitus in remission	1
+108724	C10EQ11	type i diabetes mellitus with gastroparesis	1
+108993	661M400	diabetes self-management plan agreed	1
+109051	C10E612	insulin dependent diabetes mellitus with gangrene	1
+109103	C109911	type ii diabetes mellitus without complication	1
+109133	L180700	pre-existing malnutrition-related diabetes mellitus	1
+109197	C10FH11	type ii diabetes mellitus with neuropathic arthropathy	1
+109628	C10P011	type 1 diabetes mellitus in remission	1
+109700	66AH300	conversion to non-insulin injectable medication	1
+109760	1M8..00	diabetic peripheral neuropathic pain	1
+109837	C10E011	type i diabetes mellitus with renal complications	1
+109865	C109B12	type 2 diabetes mellitus with polyneuropathy	1
+109878	ZC2C911	diet advice for insulin-dependent diabetes	1
+110344	66o2.00	diabetic on non-insulin injectable medication	1
+110379	66o5.00	diabetic on oral treatment and glucagon-like peptide 1	1
+110393	13B1000	diabetic carbohydrate counting diet	1
+110400	C108F12	type 1 diabetes mellitus with diabetic cataract	1
+110611	C10P111	type 2 diabetes mellitus in remission	1
+110997	C10y000	diabetes mellitus, juvenile, + other specified manifestation	1
+111106	C108A12	type 1 diabetes mellitus without complication	1
+111483	66o6.00	diabetic on insulin and glucagon-like peptide 1	1
+111798	C10FQ11	type ii diabetes mellitus with exudative maculopathy	1
+112365	Lyu2900	[x]pre-existing diabetes mellitus, unspecified	1
+112402	C107y00	other specified diabetes mellitus with periph circ comps	1
+113115	C10Q.00	maturity onset diabetes of the young type 5	1
+113197	C108D12	type 1 diabetes mellitus with nephropathy	1
+113495	C109311	type ii diabetes mellitus with multiple complications	1
+113609	C10FR11	type ii diabetes mellitus with gastroparesis	1
+113863	C10ED11	type i diabetes mellitus with nephropathy	1
+113975	C108C11	type i diabetes mellitus with polyneuropathy	1

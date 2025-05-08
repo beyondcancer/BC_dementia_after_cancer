@@ -1,0 +1,136 @@
+medcodeid	observations	term	certlevel
+1779323014	2000	rheumatoid vasculitis	1
+9357441000006116	4	seropositive rheumatoid arthritis of multiple joints	1
+2275751000000111	10000	rheumatoid arthritis monitoring invitation third letter	1
+5141711000006115	1	necrotising rheumatoid vasculitis	1
+12114051000006110	3	rheumatoid arthritis of left shoulder	1
+309790010	20	rheumatoid arthritis of sternoclavicular joint	1
+162041000006117	80	rheumatoid arthritis of distal interphalangeal joint of finger	1
+309802019	300	rheumatoid arthritis of ankle	1
+3527737010	1	deformity of right hand co-occurrent and due to rheumatoid arthritis	1
+309803012	90	rheumatoid arthritis of subtalar joint	1
+7099641000006113	4	rheumatoid arthritis of foot	1
+909191000006119	4000	[rfc] rheumatoid arthritis	1
+1786505011	20	caplan's syndrome	1
+3527061011	2	deformity of left foot co-occurrent and due to rheumatoid arthritis	1
+251794010	40000	h/o: rheumatoid arthritis	4
+11929781000006114	20	disease activity score 28 joint in rheumatoid arthritis	1
+48361011	90	rheumatoid carditis	1
+162131000006111	400	rheumatoid arthritis of proximal interphalangeal joint of finger	1
+8440031000006113	800	rheumatoid arthritis monitoring invitation by sms (short message service) text messaging	1
+463281000006113	7000	adult onset still's disease	1
+3527731011	2	deformity of right foot co-occurrent and due to rheumatoid arthritis	1
+309789018	600	rheumatoid arthritis of shoulder	1
+2275711000000112	30000	rheumatoid arthritis monitoring invitation second letter	1
+162341000006115	4000	rheumatoid nodule	1
+162191000006110	6	rheumatoid arthritis of tibio-fibular joint	1
+149911000006117	100000	seropositive rheumatoid arthritis	1
+12626381000006115	2000	qof (quality and outcomes framework) rheumatoid arthritis quality indicator-related care invitation	1
+312518013	2000	[x]other seropositive rheumatoid arthritis	1
+309794018	2000	rheumatoid arthritis of wrist	1
+2839291014	2000	disease activity score 28 joint in rheumatoid arthritis	1
+12114061000006112	5	rheumatoid arthritis of right shoulder	1
+3514955016	4	erosion of joint surface co-occurrent and due to rheumatoid arthritis	1
+1875581000006112	3	rheumatoid arthritis monitoring verbal invitation	1
+8102191000006119	1	rheumatoid lung disease with rheumatoid arthritis	1
+13605001000006117	1	rheumatoid arthritis of joint of spine	1
+162051000006115	30	rheumatoid arthritis of distal radio-ulnar joint	1
+3514958019	1	rheumatoid arthritis without erosion	1
+1875611000006116	8	rheumatoid arthritis monitoring invitation third letter	1
+309788014	100	rheumatoid arthritis of spine	1
+6802551000006118	3	still's disease	1
+14177971000006114	1	bilateral seropositive rheumatoid arthritis of knees	1
+13677571000006116	1	rheumatoid nodule of left hand	1
+8440041000006115	2000	rheumatoid arthritis monitoring sms (short message service) text message first invitation	1
+1932121000006116	10	3d study - problems with rheumatoid arthritis management	1
+309792019	400	rheumatoid arthritis of elbow	1
+297544012	200	polyneuropathy in rheumatoid arthritis	1
+1875571000006114	5	rheumatoid arthritis monitoring telephone invitation	1
+168761000006118	100	rheumatoid arthritis of 1st metatarsophalangeal joint	1
+2275791000000115	2000	rheumatoid arthritis monitoring verbal invitation	1
+311496011	2000	fibrosing alveolitis associated with rheumatoid arthritis	1
+309787016	400	rheumatoid arthritis of cervical spine	1
+4809221000006114	20	rheumatoid arthritis of first metatarsophalangeal joint	1
+905301000006114	30	[rfc] rheumatoid	1
+162111000006117	800	rheumatoid arthritis of metacarpophalangeal joint	1
+312534011	3000	[x]seropositive rheumatoid arthritis, unspecified	1
+12734381000006119	10	qof (quality and outcomes framework) rheumatoid arthritis quality indicator-related care invitation using preferred method of communication	1
+8447281000006115	4	rheumatoid arthritis of right knee	1
+6665291000006110	1	nailfold/finger-pulp infarcts in rheumatoid disease	1
+5721481000006110	9	rheumatoid arthritis - ankle and/or foot	1
+1875601000006119	10	rheumatoid arthritis monitoring invitation second letter	1
+6665211000006117	1	rheumatoid nodulosis	1
+297641010	50	myopathy due to rheumatoid arthritis	1
+7282111000006119	300	das (disease activity score) 28 joint in rheumatoid arthritis	1
+255925015	200	o/e-hands-rheumatoid spindling	1
+3636541000006112	2	ra - rheumatoid arthritis	1
+2196791000000119	700000	rheumatoid arthritis annual review	1
+8447181000006111	6	rheumatoid arthritis of left knee	1
+13709511000006115	1	bilateral rheumatoid arthritis of feet	1
+13687691000006111	1	rheumatoid arthritis of left wrist	1
+3636551000006114	4	rheumatoid disease	1
+13709581000006110	1	rheumatoid arthritis of both hands	1
+14177941000006118	2	bilateral seronegative rheumatoid arthritis of wrists	1
+485614018	3000	rheumatoid nodule	1
+1880371000006117	2000	rheumatoid arthritis resolved	1
+424981000006114	30	[x]rheumatoid arthritis+involvement/other organs or systems	1
+463301000006112	3000	adult-onset still's disease	1
+309812014	400	rheumatoid bursitis	1
+3527712017	1	deformity of left hand co-occurrent and due to rheumatoid arthritis	1
+309791014	80	rheumatoid arthritis of acromioclavicular joint	1
+309804018	100	rheumatoid arthritis of talonavicular joint	1
+5721451000006119	20	rheumatoid arthritis - hand joint	1
+451461014	10000	seropositive erosive rheumatoid arthritis	1
+162231000006117	1000	rheumatoid arthropathy + visceral/systemic involvement nos	1
+6608781000006113	1	caplan's syndrome	1
+13709571000006112	6	bilateral rheumatoid arthritis of hands	1
+168751000006115	30000	rheumatoid arthritis and other inflammatory polyarthropathy	1
+359292012	200000	seronegative rheumatoid arthritis	1
+13687681000006113	1	rheumatoid arthritis of left foot	1
+1875561000006119	40	rheumatoid arthritis monitoring invitation	1
+2275671000000111	90000	rheumatoid arthritis monitoring invitation first letter	1
+309798015	300	rheumatoid arthritis of hip	1
+13709541000006116	10	bilateral rheumatoid arthritis of knees	1
+13687711000006114	2	rheumatoid arthritis of right wrist	1
+162141000006118	40	rheumatoid arthritis of sacroiliac joint	1
+3428911000006119	1	felty syndrome	1
+300221014	20	rheumatoid myocarditis	1
+1786545019	400	rheumatoid lung	1
+2640821000000117	20	rheumatoid arthritis impact of disease questionnaire score	1
+2275501000000119	10000	rheumatoid arthritis monitoring invitation	1
+1875591000006110	500	rheumatoid arthritis monitoring invitation first letter	1
+13677531000006119	40	seronegative rheumatoid arthritis of multiple sites	1
+95067016	2000	felty's syndrome	1
+162301000006117	900	rheumatoid lung	1
+3528264013	5	rheumatoid arthritis of left hip	1
+371261000000111	4	delivery of rehabilitation for rheumatoid arthritis	1
+116082011	2000000	rheumatoid arthritis	1
+8459501000006119	6	rheumatoid arthritis monitoring invitation email	1
+8440071000006111	70	rheumatoid arthritis monitoring sms (short message service) text message third invitation	1
+1778239014	800	rheumatoid lung disease	1
+309816012	10000	flare of rheumatoid arthritis	1
+7276071000006116	1	das (disease activity score) in rheumatoid arthritis	1
+14011041000006114	8	bilateral deformity of hands due to rheumatoid arthritis	1
+4809101000006114	5	rheumatoid arthritis of distal radioulnar joint	1
+162081000006111	40	rheumatoid arthritis of interphalangeal joint of toe	1
+312520011	300	[x]other specified rheumatoid arthritis	1
+5721431000006114	1000	rheumatoid arthritis of multiple joints	1
+3528266010	9	rheumatoid arthritis of right hip	1
+162101000006115	40	rheumatoid arthritis of lesser metatarsophalangeal joint	1
+426510015	30000	rheumatoid arthritis - multiple joint	1
+8440051000006118	400	rheumatoid arthritis monitoring sms (short message service) text message second invitation	1
+889731000006111	10000	rheumatoid arthritis nos	1
+8045661000006112	200	rheumatoid arthritis in remission	1
+309805017	40	rheumatoid arthritis of other tarsal joint	1
+2275831000000110	8000	rheumatoid arthritis monitoring telephone invitation	1
+16911000006114	200	rheumatoid arthritis with organ / system involvement	1
+3901751000006115	3	uveitis-rheumatoid arthritis syndrome	1
+3042571000006112	30	subcutaneous rheumatoid nodule	1
+309800010	2000	rheumatoid arthritis of knee	1
+3322481000006114	1	rheumatoid nodule	1
+8187291000006113	1	assessment of rheumatoid arthritis using das (disease activity score) - original	1
+8187311000006112	6	assessment of rheumatoid arthritis using das28 (disease activity score 28)	1
+13687701000006111	1	rheumatoid arthritis of right foot	1
+3528262012	2	rheumatoid arthritis of right hand	1
+7078501000006113	10	rheumatoid arthritis of temporomandibular joint	1
+219021000000114	50000	rheumatoid arthritis monitoring	1
