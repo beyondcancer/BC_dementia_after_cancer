@@ -147,32 +147,28 @@ file write tablecontent _n
 	}
 	
 	gen stage_final=`stage'
-	recode stage_final 2=1 3=2 4=2
+	*recode stage_final 2=1 3=2 4=2
 	replace stage_final=0 if  exposed==0
 	replace stage_final=9 if stage_final==99 & exposed==1
 	replace stage_final=9 if stage_final==. & exposed==1 
 	replace stage_final=. if doentry<=d(01jan2013)
 	tab stage_final
 	tab stage_final, nolab
+	
+file write tablecontent "Stage (among those diagnosed from 1st January 2012)"
 
 *Stage
+foreach stage in 1 2 3 4 9 {
  count  if exposed == 1 & stage_final!=.
  local tot=r(N)
- count  if exposed == 1 & stage_final==1
- local s1=r(N)
- local s1_p=(`s1'/`tot')*100
-  count  if exposed == 1 & stage_final==2
- local s2=r(N)
-  local s2_p=(`s2'/`tot')*100
+ count  if exposed == 1 & stage_final==`stage'
+ local s=r(N)
+ local s_p=(`s'/`tot')*100
 
-  count  if exposed == 1 & stage_final==9
- local sm=r(N)
-   local sm_p=(`sm'/`tot')*100
-   di "`s1_p'"
-file write tablecontent "Stage (among those diagnosed from 1st January 2012)"
-file write tablecontent _tab "Early stage" _tab (`s1') " ("  %3.1fc (`s1_p=') ")"_n
-file write tablecontent _tab "Late stage" _tab (`s2') " (" %3.1fc (`s2_p=') ")"_n
-file write tablecontent _tab "Missing stage" _tab (`sm') " (" %3.1fc (`sm_p=') ")"_n
+file write tablecontent _tab "`stage''" _tab (`s') " ("  %3.1fc (`s_p') ")"_n
+}
+
+
 file write tablecontent _n 
 
 
