@@ -37,6 +37,7 @@ replace analysis=".  Adj. stroke after cancer" if sense == "stroke"
 replace analysis=".  Exc. Down's syndrome" if sense == "downs"
 replace analysis=".  Adj. prior healthcare use" if sense == "adj_hcus"
 replace analysis=".  Adj. age using splines" if sense == "adj_splA"
+replace analysis=".  Covariate*time interactions" if sense == "non_PH_c"
 
 
 tab analysis, miss
@@ -53,12 +54,13 @@ replace order=8 if sense == "pandemic"
 replace order=9 if sense == "downs"
 replace order=10 if sense == "adj_hcus" 
 replace order=11 if sense == "adj_splA" 
+replace order=12 if sense == "non_PH_c" 
 
 *replace order=6 if analysis==".  Data from 2006 onwards"
 
 sort cancer order
 
-gen graphorder = 13-order
+gen graphorder = 14-order
 
 * limit UCI to 4.5
 gen uci_abovemax=.
@@ -138,7 +140,7 @@ graph combine ora oes gas col liv pan lun mel bre cer ute ova pro kid bla cns th
 graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_genformat_allcancers.grec"
 
 graph export "$results_an_dem/forest_sensitivity_`outcome'.pdf", as(pdf) name("Graph") replace
-graph export "$results_an_dem/forest_sensitivity_`outcome'.tif", as(tif) name("Graph") replace
+graph export "$results_an_dem/forest_sensitivity_`outcome'.tif", as(tif) name("Graph") replace width(8000)
 graph export "$results_an_dem/forest_sensitivity_`outcome'.emf", as(emf) name("Graph") replace
 graph save $results_an_dem/forest_sensitivity_`outcome', replace
 }
