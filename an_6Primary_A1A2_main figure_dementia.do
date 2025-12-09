@@ -12,7 +12,6 @@ individual outcome graphs included for supplementary appendix
 /***** CREATE FILES WITH HR, LCI, UCI, HR (95% CI), Incidence rates (cancer
 survivors and controls  *********************** */
 
-/*KB 25/2 I added to the "post" to capture the number of events, and the agesex_adj incidences */
 
 foreach year in 0 1 3 5 {
 foreach db of  global databases {
@@ -78,13 +77,13 @@ cd $results_an_dem
 
 
 
-
-import delimited "$results_an_dem/an_4_main_analysis_PH_test.txt"
+/*
+import delimited "$results_an_dem/an_4_main_analysis_PH_test.txt", clear
 rename var1 cancersite
 rename var2 phtest
 save "$results_an_dem/an_4_main_analysis_PH_test_formatted.txt", replace
-
 */
+
 
 
 /**** GRAPHS  *********************** */
@@ -180,7 +179,7 @@ foreach outcome in dem_all {
 	replace uci = 12 if ucimax == 12
 	
 	/*label/headings positions*/
-	gen irlabpos = 10
+	gen irlabpos = 6
 	gen hrlabpos = 10 /*location of HR estimates*/
 	gen sitelabpos = 0.3  /*location of cancer site labels*/
 	gen phtestpos=15 /*location of PH test*/
@@ -235,7 +234,10 @@ foreach outcome in dem_all {
 	|| scatter obs ucimax if model == "crude", mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| scatter obs lcimin if model == "adjusted", mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| scatter obs ucimax if model == "adjusted", mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
-	/// add results labels
+	  /// add absolute risks
+		|| scatter obs irlabpos if model == "adjusted", m(i)  mlab(irboth) mlabcol(black) mlabsize(tiny) mlabposition(9) ///
+		|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
+/// add results labels
 	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
 	/// Headings for site labels and results
 	|| scatter obs hrlabpos if obs==$headingobs, m(i) mlab(hrheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
@@ -261,7 +263,6 @@ foreach outcome in dem_all {
 
 /*		|| scatter obs higherlabpos if _n==1|obs==$headingobs, m(i) mlab(higherriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
 	|| scatter obs lowerlabpos if _n==1|obs==$headingobs, m(i) mlab(lowerriskheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(vsmall) mlabpos(9) ///
-	|| scatter obs irlabpos if model == "unadj", m(i)  mlab(irboth) mlabcol(black) mlabsize(vsmall) mlabposition(9)  ///
 	/// add PH test labels
 	|| scatter obs phtestpos, m(i)  mlab(phtest_round) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
 */

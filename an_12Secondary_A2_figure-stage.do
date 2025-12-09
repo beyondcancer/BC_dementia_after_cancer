@@ -221,7 +221,7 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	gen ucimax = 15 if uci > 15 & hr !=.
 	replace uci = 15 if ucimax == 15
 	
-	replace hr=. if hr <0.5 | hr>15
+	replace hr=. if hr <0.4 | hr>15
 	replace uci=. if hr==.
 	replace lci=. if hr==.
 

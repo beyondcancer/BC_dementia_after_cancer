@@ -54,7 +54,7 @@ end
 
 foreach db in aandg {
 use "$datafiles_an_dem/cr_dataforDEManalysis_`db'.dta", clear
-
+stop
 local outcome dementia
 local year 0
 count

@@ -6,15 +6,24 @@ DEMENTIA ANALYSIS
 ***************************************************************************/
 ***************************************************************************/
 
+*Set up globals
+do "C:\Github\BC_data_management\globals.do"
+do "C:\Github\BC_dementia_after_cancer\globals_dem.do"
+
+
+/***************************************************************************
+DEMENTIA DATSET CREATION
+***************************************************************************/
+
 *Generate dementia outcome variable and history of
-do "C:\Github\BC_data_management\2 variable generation\cr_all_events_dementia_gold.do"
-do "C:\Github\BC_data_management\2 variable generation\cr_all_events_dementia_Aurum.do"
+*do "C:\Github\BC_data_management\2 variable generation\cr_all_events_dementia_gold.do"
+*do "C:\Github\BC_data_management\2 variable generation\cr_all_events_dementia_Aurum.do"
  
-do "C:\Github\BC_data_management\2 variable generation\cr_listpat_dementia_gold.do"
-do "C:\Github\BC_data_management\2 variable generation\cr_listpat_dementia_aurum.do"
+*do "C:\Github\BC_data_management\2 variable generation\cr_listpat_dementia_gold.do"
+*do "C:\Github\BC_data_management\2 variable generation\cr_listpat_dementia_aurum.do"
 
 
-*Generate main dataset and datasets for sense analysis
+/*Generate main dataset and datasets for sense analysis
 do "$dofiles_an_dem\0_cr_dataforDEManalysis_GOLD.do"
 do "$dofiles_an_dem\0_cr_dataforDEManalysis_Aurum.do"
 do "$dofiles_an_dem\0_cr_dataforDEManalysis_AandG.do"
@@ -29,7 +38,7 @@ do "$dofiles_an_dem\0_cr_dataforSENSE_histdem_DEManalysis_AandG.do"
 
 do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_GOLD.do"
 do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_Aurum.do"
-do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_AandG.do"
+do "$dofiles_an_dem\0_cr_dataforSENSEpricare_DEManalysis_AandG.do"*/
 
 /***************************************************************************
         DESCRIPTIVE ANALYSIS        
@@ -47,11 +56,12 @@ do "$dofiles_an_dem\an_2covariates_tables_by_site_appendix.do"
 /***************************************************************************
 MAIN ANALYSIS
 ***************************************************************************/
-*Generate incidences - no longer generating crude incidences
-*do "$dofiles_an_dem/an_3Primary_A1_crude-incidence_nofailures_dementia.do"
+*Generate incidences 
+do "$dofiles_an_dem/an_3Primary_A1_crude-incidence_nofailures_dementia.do"
 
 *Run main models
 do "$dofiles_an_dem/an_4Primary_A2_cox-model-estimates_dementia.do" 
+do "$dofiles_an_dem/an_4Primary_A2_cox-model-estimates_dementia_PHTEST.do"  /*run PH tests*/
 do "$dofiles_an_dem/an_5Primary_A2_cox-model-estimates_processout_dementia.do" /*save estimates in stata file*/
 
 *Figures 
@@ -76,11 +86,11 @@ do "$dofiles_an_dem\an_13Secondary_timesinceDx_cox-model-estimates.do"
 do "$dofiles_an_dem\an_14Secondary_timesinceDx_cox-model-estimates_process_out.do"	
 do "$dofiles_an_dem\an_15Secondary_timesinceDx_cox-model-estimates-figures.do"
 
-/**TREATMENT
-do "$dofiles_an_dem\an_16Secondary_A2_cox-model-estimates-trt.do"
-do "$dofiles_an_dem\an_17Secondary_A2_cox-model-estimates_processout-trt.do"
-do "$dofiles_an_dem\an_18Secondary_A2_figure-trt.do"*/
-
+**TREATMENT
+do "$dofiles_an_dem\an_24Secondary_A2_cox-model-estimates-trt.do"
+do "$dofiles_an_dem\an_24Secondary_A2_cox-model-estimates-trt_with_HES.do"
+do "$dofiles_an_dem\an_25Secondary_A2_cox-model-estimates_processout-trt.do"
+do "$dofiles_an_dem\an_26Secondary_A2_figure-trt.do"
 
 ****IN MEDIUM-LONG-TERM CANCER SURVIVORS*****
 do "$dofiles_an_dem\an_18Secondary_cox_models_risk-over-time.do"
@@ -89,20 +99,23 @@ do "$dofiles_an_dem\an_19a_figure-risk_over_time.do"
 
 
 ***SENSE ANALYSES****
-do "$dofiles_an_dem/an_4Primary_A2_cox-model-estimates_dementia_SENSE_specificdemdx.do" 
-do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses2.do"
+do "$dofiles_an_dem/an_20_cox-model-estimates_dementia_SENSE_specificdemdx.do" 
 do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses.do"
+do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses_drop_downs.do"
+do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses2-pandemic.do"
 do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses3-pricare.do"
 do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses4-stroke.do"
+do "$dofiles_an_dem\an_20_cox-model-sensitivity-analyses5-agesplines.do"
+
 do "$dofiles_an_dem\an_21_cox-model-sensitivity-analyses-process-out.do"
 do "$dofiles_an_dem\an_22cr_forest_sensitivity.do"
 
 *Odds of having a history of dementia at cancer diagnosis
 do "$dofiles_an_dem\an_23_SENSE_odds_exc_h_o_dementia.do"
+do "$dofiles_an_dem\an_23_SENSE_post_baseline_h_c_utilisation.do"
 
 *Cumulative incidence over time 
-do "$dofiles_an_dem\an_Primary_A4_stpm2_cum_predictedincidences_histCVD_allcancers.do"
-do "$dofiles_an_dem\an_Primary_A4_stpm2_cum_predictedincidences_histCVD_allcancers_GRAPH.do"
-/*Exploratory
-*With estimates unaccounted for matched set (crude)
-do "$dofiles_an_dem/an_X_main figure_dementia_with_crude.do"
+do "$dofiles_an_dem\an_Primary_A4_stpm2_cum_predictedincidences_allcancers.do"
+do "$dofiles_an_dem\an_Primary_A4_stpm2_cum_predictedincidences_allcancers_GRAPH.do"
+
+

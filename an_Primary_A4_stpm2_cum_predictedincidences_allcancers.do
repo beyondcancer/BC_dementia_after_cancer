@@ -31,16 +31,7 @@ use "$datafiles_an_dem/cr_dataforDEManalysis_aandg_`cancersite'.dta", clear
 	
 	*tab dementia exposed if b_cvd==1, miss col 
 	sts graph, by(exposed) cumhaz
-	*stop
-/*generate bmi splines
-mkspline bmispl=bmi, cubic nk(3) dis
-summ bmispl1 if exposed==1
-local bmispl1mean = r(mean)
-summ bmispl2 if abs(bmispl1-`bmispl1mean')<0.01
-local bmispl2ref = r(mean)
-replace bmispl2=`bmispl2ref'
-replace bmispl1=`bmispl1mean'
-*/
+
 	sts graph, by(exposed) cumhaz saving("$results_an_dem/stpm2cumrisk_`outcome'_`cancersite'", replace)	
 local covariatescleaned = subinstr(subinstr("$covariates_common", "i.smokstatus","",1), "i.", "", 2)
 
