@@ -15,11 +15,22 @@ foreach db of  global databases {
 	*drop if index_year<2014
 	
 	*Merge chemo records from HES-APC (OPCS and ICD-10 codes)
-	merge 1:1 e_patid setid using "$datafiles/cr_listpatid_hes_apc_chemotherapy", nogen keep(master match)
+	merge 1:1 e_patid using "$datafiles/cr_listpatid_hes_apc_chemotherapy_aurum", nogen keep(master match)
 	gen chemo_hesapc=1 if dof_chemo_hesapc>indexdate-31 & dof_chemo_hesapc<indexdate+(365.25)
 	recode  chemo_hesapc .=0 if exposed==1
+	
 
-	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
+	*Merge surgery records from CR and OPCS
+	merge 1:1 e_patid setid using "$datafiles/cr_list_patid_surg_opcs_aurum", nogen keep(master match) keepusing(dosurg_opcs)
+	merge 1:1 e_patid setid using "$datafiles/cr_list_patid_surg_opcs_gold", nogen keep(master match)	 keepusing(dosurg_opcs)
+	merge 1:1 e_patid setid using "$datafiles/cr_list_patid_surg_cr_aurum", nogen keep(master match) keepusing(dofsurg)
+	merge 1:1 e_patid setid using "$datafiles/cr_list_patid_surg_cr_gold", nogen keep(master match) keepusing(dofsurg)
+
+	gen surgcr=1 if dofsurg>indexdate-31 & dofsurg<indexdate+(365.25)
+	recode  surgcr .=0 if exposed==1
+
+	gen surgopcs=1 if dosurg_opcs>indexdate-31 & dosurg_opcs<indexdate+(365.25)
+	recode  surgopcs .=0 if exposed==1	
  	
 	tab exposed
 	gen indexdate=doentry-365.25

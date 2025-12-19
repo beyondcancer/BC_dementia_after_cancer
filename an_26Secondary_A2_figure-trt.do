@@ -16,16 +16,17 @@ EDITED KB 11/7/23
 
 *set trace on
 ********************************************************************************
+**# Bookmark #1
 *** 1. FOREST PLOT BY OUTCOME: 
 ********************************************************************************
 foreach outcome in dementia {
-foreach trt in chemo {
+	foreach trt in radio chemo  surgopcs surgcr {
 *
 clear all 
 use "$results_an_dem\an_Primary_A2_cox-model-estimates_processout_trt_dementia.dta", clear
 keep if outcome=="`outcome'"
 keep if trt=="`trt'"
-keep if model=="adjstage"
+keep if model=="adj"
 *gen lci = substr(v6,1,4)
 *gen uci = substr(v7,1,4)
 *drop v6 v7
@@ -33,7 +34,7 @@ keep if model=="adjstage"
 *rename v4 hr
 *rename v8 pvalue
 order cancersite hr lci uci 
-
+ 
 gen treatments=1 if  trt=="`trt'" & exposed=="1"
 replace treatments=2 if trt=="`trt'" & exposed=="2"
 
@@ -114,26 +115,30 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	drop graphorder
 	rename graphorder2 graphorder
 
-	gen labelxpos = 0.15
+	gen labelxpos = 0.01
 	gen hrxpos = 17
 	
 	destring lci, replace
 	destring uci, replace
 	
 	/* gen new variable for offscale lcis and ucis*/ 
-	gen lcimin = 0.5 if lci <0.5 & hr !=.
-	replace lci = 0.5 if lcimin == 0.5
+	gen lcimin = 0.2 if lci <0.2 & hr !=.
+	replace lci = 0.2 if lcimin == 0.2
 	gen ucimax = 15 if uci > 15 & hr !=.
 	replace uci = 15 if ucimax == 15
 	
-	replace hr=. if hr <0.5 | hr>15
+	replace hr=. if hr <0.2 | hr>15
 	replace uci=. if hr==.
 	replace lci=. if hr==.
 
 	replace uci=0.5 if uci<0.5
 		gen overlab = ">"
 	gen underlab = "<"
-	 
+	replace displayhrci="[could not caluclate]" if displayhrci=="0.00 (0.00, .)"
+		if "`trt'"=="chemo" local trt_title "Chemotherapy"
+	if "`trt'"=="radio" local trt_title "Radiotherapy"
+	if "`trt'"=="surgopcs" local trt_title "Surgery from inpatient hospital procedures"
+	if "`trt'"=="surgcr" local trt_title "Surgery from cancer registry data"
 	scatter graphorder labelxpos if treatments==0, m(i) mlab(cancersite) mlabcol(black) mlabsize(vsmall) ///
 	|| scatter graphorder labelxpos if treatments==1, m(i) mlab(treatment2) mlabcol(black) mlabsize(vsmall) ///
 	|| scatter graphorder hr if treatments==1, mcol(black) msize(small) msymbol(D) ///
@@ -141,26 +146,28 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	|| scatter graphorder hrxpos if treatments==1, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///		
 	|| scatter graphorder labelxpos if treatments==2, m(i)  ///
-	|| scatter graphorder labelxpos if treatments==2, m(i) mlab(treatment2) mlabcol(black) mlabsize(vsmall) ///
-	|| scatter graphorder hr if treatments==2, mcol(red) msize(small) msymbol(O) ///
-	|| rcap lci uci graphorder if treatments==2, hor mcol(red) lcol(black) ///	
+	|| scatter graphorder labelxpos if treatments==2, m(i) mlab(treatment2) mlabcol(red) mlabsize(vsmall) ///
+	|| scatter graphorder hr if treatments==2, mcol(red) msize(small) msymbol(D) ///
+	|| rcap lci uci graphorder if treatments==2, hor mcol(red) lcol(red) ///	
 	|| scatter graphorder hrxpos if treatments==2, m(i) mlab(displayhrci) mlabcol(black) mlabsize(vsmall) ///
 	///
-	ylabels(none) ytitle("") xscale(log range(60)) xlab(0.5 1 2 4 6) ///
-	xtitle("Hazard ratio & 95% CI") title("`trt'") xline(1,lp(dash)) legend(off) ///
+	ylabels(none) ytitle("") xscale(log range(100)) xlab(0.5 1 2 4 6, labsize(tiny)) ///
+	xtitle("Hazard ratio & 95% CI", size(vsmall)) title("`trt_title'", size(small)) xline(1,lp(dash)) legend(off) ///
 	ysize(10) graphregion(color(white))
-
-
+ 
 graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis.grec"
 graph save "$results_an_dem/forest_`outcome'_`trt'", replace
 graph export "$results_an_dem\forest_`outcome'_`trt'.emf", as(emf) name("Graph") replace
 }
 }
-stop 
+ 
 *********************************************************************************
 *** COMBINE FOREST PLOTS
 	graph combine ///
 			$results_an_dem/forest_dementia_chemo.gph /// 
+			$results_an_dem/forest_dementia_radio.gph /// 
+			$results_an_dem/forest_dementia_surgopcs.gph /// 
+			$results_an_dem/forest_dementia_surgcr.gph /// 
 			, col(2) iscale(0.6) imargin (0 0 0 0) graphregion(margin(l=0 r=0) color(white)) plotregion(color(white)) ysize(10)
 			graph save "$results_an_dem/Forest_dementia_trt.gph", replace
 			graph export "$results_an_dem\Forest_dementia_trt.emf", as(emf) name("Graph") replace

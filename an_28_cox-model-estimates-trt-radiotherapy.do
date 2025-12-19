@@ -2,56 +2,42 @@ cap log close
 args  db site
 log using "$logfiles_an_dem/an_Primary_A2_cox-model-estimates_treatment_dementia.txt", replace t
  tempname myhandle
-   file open `myhandle' using "$results_an_dem/an_24_SENSE_chemo_use.txt", write  replace 
+   file open `myhandle' using "$results_an_dem/an_24_SENSE_radio_use.txt", write  replace 
 
 /***** COX MODEL ESTIMATES FOR CRUDE, ADJUSTED AND SENSITIVITY ANALYSES ****/
 foreach db of  global databases {
-	foreach trt in chemo radio surgopcs surgcr {
-	file write `myhandle' _n "`trt'" _tab "No treatment" _tab "Treatment" _n
 	foreach site of global cancersites {
+	foreach trt in radio  {
 	foreach outcome in dementia {
 	    
 	foreach year in 1 {		
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`site'.dta", clear 
 
-	*drop if indexdate<=d(01apr2014)
-	drop if index_year<2014
-	tab exposed
+	drop if indexdate<=d(01apr2014)
 	
-	*Merge surgery records from CR and OPCS
-	merge m:1 e_patid using "$datafiles_an_dem/cr_list_patid_surg_opcs_aandg", nogen keep(master match) keepusing(dosurg_opcs)
-	merge m:1 e_patid setid using "$datafiles_an_dem/cr_list_patid_surg_cr_aandg", nogen keep(master match) keepusing(dofsurg)
 
-	if "`trt'"=="chemo" local datetrt dof_chemo
-	if "`trt'"=="radio" local datetrt dof_radio
-	if "`trt'"=="surgopcs" local datetrt dosurg_opcs
-	if "`trt'"=="surgcr" local datetrt dofsurg
-	
+stop
 	include "$dofiles_an_dem/inc_excludepriorandset_dementia.do" /*excludes prior specific outcomes and st sets data*/
  	
 	tab exposed
- 
 	gen indexdate=doentry-365.25
 	gen exposed_trt=exposed
-	replace exposed_trt=2 if `datetrt'!=. 
-	di "`datetrt'"
+	replace exposed_trt=2 if dof_radio!=.
 	tab exposed_trt
-
-	replace exposed_trt=1 if (`datetrt'<indexdate-31 | `datetrt'>indexdate+365.25) & exposed==1
-	replace exposed_trt=1 if `datetrt'>doexit & exposed==1
+	replace exposed_trt=1 if (dof_radio<indexdate-31 | dof_radio>indexdate+365.25) & exposed==1
+	replace exposed_trt=1 if dof_radio>doexit & exposed==1
 	tab exposed_trt
-	
+	 
 	tab `outcome' exposed_trt , col chi miss
  
 	file write `myhandle' _n "`site'" _tab 
 	count if exposed==1
 	local total=`r(N)'	
-	file write `myhandle' (`total')   _tab
 	foreach x in 1 2 {
 	count if exposed_trt==`x'
 	local n=`r(N)'
 	local percent=(`n'/`total')*100
-	file write `myhandle' _tab %2.0f (`n')  " (" %2.0f (`percent') ")" _tab
+	file write `myhandle' (`total') _tab %4.1f (`n') " (" %4.1f (`percent') ")" _tab
 	}
 	 
 	*** CRUDE AND ADJUSTED MODELS
@@ -62,10 +48,10 @@ foreach db of  global databases {
 	local exposed_trtfailures = `r(N)'
 	count if exposed_trt == 0 & _d==1
 	local controlfailures = `r(N)'
-	*if `exposed_trtfailures' >=1 & `controlfailures' >=1 & `exposed_trtfailures2' >=1 {
+	if `exposed_trtfailures' >=1 & `controlfailures' >=1 & `exposed_trtfailures2' >=1 {
 	
-	noi stcox i.exposed_trt $covariates_common, strata(set) iterate(1000)
-	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adj_`trt'_`site'_`outcome'_`db'_`year'", replace
+	cap noi stcox i.exposed_trt $covariates_common, strata(set) iterate(1000)
+	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adj_radio_`site'_`outcome'_`db'_`year'", replace
 	
 	/*if "`site'"=="cns" {
 	local stage grade_cns
@@ -85,15 +71,14 @@ foreach db of  global databases {
 	drop if `stage'==4
 	drop if `stage'==0 | `stage'==99 
 	cap noi stcox i.exposed_trt $covariates_mh_an, strata(set) iterate(1000)
-	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adjstage_chemo_`site'_`outcome'_`db'_`year'", replace	
-	
-	*/
-} /*if at least 1 ev per group for crude and adjusted models*/
+	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adjstage_radio_`site'_`outcome'_`db'_`year'", replace	
+*/
+	} /*if at least 1 ev per group for crude and adjusted models*/
 } /*year from dx*/
 
 } /* outcomes */
 } /*trt type*/
 }
-
+}
 
 log close

@@ -74,7 +74,5 @@ graph combine  "$results_an_dem\stpm2cumrisk_ora.gph" "$results_an_dem\stpm2cumr
 
 graph export "$results_an_dem\Forest_cumincid_all.png", width(8000) height(6000) replace name("Graph")
 
-/*legend(order(1 "No hist. mental illness" 2 "Hist. mental illness" 5 "No cancer" 6 "Cancer survivors" 7 "No cancer" 8 "Cancer survivors") ring(0) cols(6) pos(11) size(tiny)) ///
- ytitle("Cumulative risk (%)", size(vsmall) placement(w)) ///
- xtitle("Time since cancer diagnosis (years)", size(vsmall)) 
+
 			 

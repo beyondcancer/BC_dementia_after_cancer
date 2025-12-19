@@ -14,7 +14,7 @@ foreach cancersite of global cancersites {
 foreach outcome in dementia {
 foreach model in adj adjstage  {
 foreach year in 1   {		
-foreach trt in chemo {
+	foreach trt in chemo radio surgopcs surgcr {
 foreach exposed in 1 2 {
 
 cap estimates use "$results_an_dem\an_Primary_A2_cox-model-estimates_`model'_`trt'_`cancersite'_`outcome'_`db'_`year'"

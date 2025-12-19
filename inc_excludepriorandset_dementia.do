@@ -17,7 +17,7 @@ format doexit %dD/N/CY
 drop if doentry > doexit & exposed==0 
 drop if doentry > doexit & exposed==1 
 
-*Censor controls at date of censor in cases
+/*Censor controls at date of censor in cases
 gen censordatecancer_temp=doexit if exposed==1
 bysort setid: egen censordatecancer=max(censordatecancer_temp)
 replace doexit = censordatecancer if doexit>censordatecancer
@@ -30,7 +30,7 @@ gen flag=1 if doexit>censordatecontrol
 
 *list setid exposed doexit censordatecontrol  if flag==1 
 replace doexit = censordatecontrol if doexit>=censordatecontrol
-format censordatecontrol %td
+format censordatecontrol %td*/
 
 
 *Check all cases have at least one control
