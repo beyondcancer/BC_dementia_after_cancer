@@ -33,7 +33,7 @@ bysort cancersite year: gen timeperiod=_n
 replace cancersite="Oral cavity (C00-06)" 	  if cancersite=="ora"
 replace cancersite="Oesophageal (C15)"	  	  if cancersite=="oes"
 replace cancersite="Stomach (C16)" 		  	  if cancersite=="gas"
-replace cancersite="Colorectal (C18-20)"  	  if cancersite=="col"
+replace cancersite="Colorectal (C18-21)"  	  if cancersite=="col"
 replace cancersite="Liver (C22)"		  	  if cancersite=="liv"
 replace cancersite="Pancreas (C25)"		  	  if cancersite=="pan"
 replace cancersite="Lung (C34)"  		  	  if cancersite=="lun"
@@ -63,7 +63,7 @@ replace displayhrci = string(hr, "%4.2f") + " (" + string(lci, "%4.2f") + ", " +
 *replace displayhrci = string(hr, "%3.2f") + " (" + lci + "-" + uci + ", 0.004" + ")" if p>0.004 & p<0.005
 *replace displayhrci = string(hr, "%3.2f") + " (" + lci + "-" + uci + ", 0.01" + ")" if p>0.005 & p<=0.01
 
-foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "Colorectal (C18-20)" "Liver (C22)"  "Pancreas (C25)" "Lung (C34)" "Malignant melanoma (C43)"  "Breast (C50)"  "Cervix (C53)"  {
+foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "Colorectal (C18-21)" "Liver (C22)"  "Pancreas (C25)" "Lung (C34)" "Malignant melanoma (C43)"  "Breast (C50)"  "Cervix (C53)"  {
 	count 
 	local n=r(N)+1
 	set obs `n'
@@ -83,7 +83,7 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	replace graphorder=1  if cancersite=="Oral cavity (C00-06)"
 	replace graphorder=2  if cancersite=="Oesophageal (C15)"
 	replace graphorder=3  if cancersite=="Stomach (C16)"
-	replace graphorder=4  if cancersite=="Colorectal (C18-20)"
+	replace graphorder=4  if cancersite=="Colorectal (C18-21)"
 	replace graphorder=5  if cancersite=="Liver (C22)" 
 	replace graphorder=6  if cancersite=="Pancreas (C25)" 
 	replace graphorder=7  if cancersite=="Lung (C34)" 

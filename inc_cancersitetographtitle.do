@@ -5,7 +5,7 @@
 *full  name plus icd
 		if "`site'"=="bla" local nameicd "Bladder (C67)"
 		if "`site'"=="cns" local nameicd "Brain/CNS (C71-72)"
-		if "`site'"=="col" local nameicd "Colorectal (C18-C20)"
+		if "`site'"=="col" local nameicd "Colorectal (C18-C21)"
 		if "`site'"=="gas" local nameicd "Stomach (C16)"
 		if "`site'"=="kid" local nameicd "Kidney (C64)"
 		if "`site'"=="leu" local nameicd "Leukemia (C91-95)"
@@ -71,7 +71,7 @@
 *icd
 		if "`site'"=="bla" local icd "(C67)"
 		if "`site'"=="cns" local icd "(C71-72)"
-		if "`site'"=="col" local icd "(C18-C20)"
+		if "`site'"=="col" local icd "(C18-C21)"
 		if "`site'"=="gas" local icd "(C16)"
 		if "`site'"=="kid" local icd "(C64)"
 		if "`site'"=="leu" local icd "(C91-95)"

@@ -13,7 +13,7 @@ foreach cancer of global cancersites {
 
 		if "`cancer'"=="bla" local cancerlong "Bladder (C67)"
 		if "`cancer'"=="cns" local cancerlong "Brain/CNS (C71-72)"
-		if "`cancer'"=="col" local cancerlong "Colorectal (C18-C20)"
+		if "`cancer'"=="col" local cancerlong "Colorectal (C18-C21)"
 		if "`cancer'"=="gas" local cancerlong "Stomach (C16)"
 		if "`cancer'"=="kid" local cancerlong "Kidney (C64)"
 		if "`cancer'"=="leu" local cancerlong "Leukemia (C91-95)"

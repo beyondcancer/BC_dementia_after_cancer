@@ -15,8 +15,8 @@ survivors and controls  *********************** */
 
 foreach year in 0 1 3 5 {
 foreach db of  global databases {
-*vasc alz other_dem ns_dem
-foreach outcome in dementia   {
+*
+foreach outcome in dementia  vasc alz other_dem ns_dem {
 
 use "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", clear
 
@@ -234,9 +234,6 @@ foreach outcome in dem_all {
 	|| scatter obs ucimax if model == "crude", mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| scatter obs lcimin if model == "adjusted", mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| scatter obs ucimax if model == "adjusted", mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
-	  /// add absolute risks
-		|| scatter obs irlabpos if model == "adjusted", m(i)  mlab(irboth) mlabcol(black) mlabsize(tiny) mlabposition(9) ///
-		|| scatter obs irlabpos if obs==$headingobs, m(i) mlab(irheading) mlabcol(black) mlabsize(tiny) mlabpos(9) ///
 /// add results labels
 	|| scatter obs hrlabpos, m(i)  mlab(result) mlabcol(black) mlabsize(tiny) mlabposition(9)  ///
 	/// Headings for site labels and results
@@ -254,8 +251,7 @@ foreach outcome in dem_all {
 			size(tiny) rows(1) nobox region(lstyle(none) col(none) margin(zero)) bmargin(zero) pos(6)) ///
 			graphregion(color(white))	bgcolor(white)		/// get rid of rubbish grey/blue around graph
 			name("`outcome'_`year'", replace)
-		
-		
+
 	} /*if there are data*/
 } /*outcomes*/
 } /*years*/
@@ -273,7 +269,7 @@ graphregion(fcolor(white))  ///
 name(combined, replace) 
 graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementia_year0.emf", replace
 
- stop 
+
 /**** GRAPHS  *********************** */
 foreach year in 0 {
 foreach db of  global databases {

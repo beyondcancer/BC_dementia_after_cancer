@@ -183,7 +183,7 @@ file write tablecontent _tab %4.3f (`F_unexposed_dementia') " (" %4.3f (`F_unexp
   if "`cancersite'"=="ora"	local cancersite2="Oral cavity (C00-06)"    
  if "`cancersite'"=="oes"	local cancersite2="Oesophageal (C15)"	 	  
  if "`cancersite'"=="gas"	local cancersite2="Stomach (C16)" 		  
-  if "`cancersite'"=="col"	local cancersite2="Colorectal (C18-20)"    
+  if "`cancersite'"=="col"	local cancersite2="Colorectal (C18-21)"    
  if "`cancersite'"=="liv"	local cancersite2="Liver (C22)"		  	  
   if "`cancersite'"=="pan"	local cancersite2="Pancreas (C25)"		   
   if "`cancersite'"=="lun"	local cancersite2="Lung (C34)"  		  	  
