@@ -2,7 +2,7 @@
 
 global datafiles_raw "Z:\GPRD_GOLD\Krishnan\20_000268\20_000268_2nd_Delivery (full data)\datafiles/"
 global datafiles_core "Z:\GPRD_GOLD\Krishnan\20_000268\20_000268_2nd_Delivery (full data)\datafiles/cr_coredataset/"
-global datafiles_an_dem "Z:\GPRD_GOLD\Krishnan\20_000268\20_000268_2nd_Delivery (full data)\datafiles\dementia"
+global datafiles_an_dem "Z:\GPRD_GOLD\Krishnan\20_000268\20_000268_2nd_Delivery (full data)\datafiles\cr_dataset_dementia"
 global logfiles_an_dem "J:\EHR-Working\Krishnan\20_000268\logfiles\Dementia"
 global results_an_dem "J:\EHR-Working\Krishnan\20_000268\results\dementia"
 global dofiles_an_dem "C:\Github\BC_dementia_after_cancer"

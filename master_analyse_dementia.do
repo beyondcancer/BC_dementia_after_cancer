@@ -118,4 +118,22 @@ do "$dofiles_an_dem\an_23_SENSE_post_baseline_h_c_utilisation.do"
 do "$dofiles_an_dem\an_Primary_A4_stpm2_cum_predictedincidences_allcancers.do"
 do "$dofiles_an_dem\an_Primary_A4_stpm2_cum_predictedincidences_allcancers_GRAPH.do"
 
+/***************************************************************************
+ESTIMANDS ANALYSIS (run on high performance cluster)
+***************************************************************************/
+do "$dofiles_an_dem\kbestimandcode\cr_cnstumourgrades.do"
+
+**************************************************************
+****TO RUN ON THE HIGH HPC - SEE README HPC SUBMISSION.TXT****
+**************************************************************
+foreach cancertype of any $cancersites {
+	do "$dofiles_an_dem\kbestimandcode\an_cdekm.do `cancertype'"
+	do "$dofiles_an_dem\kbestimandcode\an_WeightedCox.do `cancertype'"
+}
+do "$dofiles_an_dem\kbestimandcode\an_cdekm_combine.do"
+**************************************************************
+**************************************************************
+*Run after moving hpc outputs back to $results_an_dem (/results and /logfiles)
+do "$dofiles_an_dem\kbestimandcode\an_processout_tidyandcombineHPCresults.do"
+do "$dofiles_an_dem\kbestimandcode\an_processout_estimandsfigure.do"
 

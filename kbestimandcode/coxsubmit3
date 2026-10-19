@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --job-name=KBWtdCox
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=krishnan.bhaskaran@lshtm.ac.uk
+#SBATCH --ntasks=1
+#SBATCH --mem=64gb
+#SBATCH --time=160:00:00
+#SBATCH --array=1-18
+#SBATCH --exclude=c37
+
+CANCERS=(bla cer cns col gas kid leu liv lun  mel mye nhl oes ora ova pan thy ute)
+CANCER=${CANCERS[$((SLURM_ARRAY_TASK_ID-1))]}
+
+if [ -z "$CANCER" ]; then echo "No cancer for task $SLURM_ARRAY_TASK_ID"; exit 1; fi
+ 
+module load stata
+
+stata-se -b do an_weightedCox.do ${CANCER}
+
