@@ -15,7 +15,8 @@
 * Settings below: layout (estimands clustered within each follow-up window,
 * or one block per estimand showing the ratio over time), how to show
 * estimates with unacceptable covariate balance (fade / grey / suppress),
-* whether the death-weighted Cox HR takes the CDE balance flag, panel order
+* whether the death-weighted Cox HR is shown and whether it takes the CDE
+* balance flag, panel order
 * (lethality / ICD-10 / alphabetical), axis, horizons, cancers to leave out.
 *==============================================================================
 version 18
@@ -30,6 +31,8 @@ local connect     1          /* 1 = join each estimand's points across follow-up
 local poorbal     "fade"     /* fade     = same colour, hollow and pale
                                 grey     = hollow, light grey
                                 suppress = not shown                        */
+local show_cdehr  0          /* 1 = show the death-weighted Cox HR; 0 = leave it
+                                out (the other estimands close up the gap)   */
 local cdehr_bal   1          /* 1 = death-weighted Cox HR takes the CDE balance
                                 flag at the same horizon (same death weights);
                                 0 = use its own balance_ok as supplied        */
@@ -100,6 +103,20 @@ if r(N) > 0 {
 	drop if missing(est)
 }
 
+* Estimands shown, and their slot (1, 2, ...) in each block or cluster
+local estlist 1 2 3 4
+if !`show_cdehr' {
+	drop if est == 2
+	local estlist 1 3 4
+}
+local nest : word count `estlist'
+gen byte slot = .
+local j = 0
+foreach e of local estlist {
+	local ++j
+	replace slot = `j' if est == `e'
+}
+
 * Horizon positions, in the order given in `horizons'
 gen byte hpos = .
 local k = 0
@@ -118,22 +135,24 @@ local blocktext
 if "`layout'" == "estimand" {
 	* One block per estimand (nh positions plus a gap), horizons within it
 	local bw = `nh' + 1
-	gen double xpos = (est - 1) * `bw' + hpos
-	forvalues e = 1/4 {
+	gen double xpos = (slot - 1) * `bw' + hpos
+	forvalues j = 1/`nest' {
+		local e : word `j' of `estlist'
 		forvalues k = 1/`nh' {
-			local xlab `"`xlab' `=(`e' - 1) * `bw' + `k'' "`hl`k''""'
+			local xlab `"`xlab' `=(`j' - 1) * `bw' + `k'' "`hl`k''""'
 		}
-		if `e' < 4 local xlines `xlines' `=`e' * `bw''
-		local blocktext `"`blocktext' text(`ymax' `=(`e' - 1) * `bw' + (`nh' + 1) / 2' "`short`e''", placement(s) size(vsmall) color("`c`e''"))"'
+		if `j' < `nest' local xlines `xlines' `=`j' * `bw''
+		local blocktext `"`blocktext' text(`ymax' `=(`j' - 1) * `bw' + (`nh' + 1) / 2' "`short`e''", placement(s) size(vsmall) color("`c`e''"))"'
 	}
 	local xmin = 0.3
-	local xmax = 4 * `bw' - 0.3
+	local xmax = `nest' * `bw' - 0.3
 	local xlabopt labsize(tiny) angle(90) noticks
 	local xtitletext "Cumulative follow-up from cancer diagnosis, within each estimand"
 }
 else {
 	* Follow-up windows along the axis, estimands side by side within each
-	gen double xpos = hpos + (est - 2.5) * 0.19
+	* (cluster width kept the same whether 3 or 4 estimands are shown)
+	gen double xpos = hpos + (slot - (`nest' + 1) / 2) * (0.76 / `nest')
 	forvalues k = 1/`nh' {
 		local xlab `"`xlab' `k' "`hl`k''""'
 		if `k' < `nh' local xlines `xlines' `=`k' + 0.5'
