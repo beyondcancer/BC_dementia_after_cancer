@@ -65,7 +65,7 @@ drop if anyexposed==0
 
 if "`outcome'"=="dementia" {
 gen event= 1 if main0_datedementia<= doexit
-replace event= 2 if (doexit==deathdate | doexit==deathdate) & deathdate!=. & doexit!=.
+replace event= 2 if (doexit==dod | doexit==deathdate) & (deathdate!=.|dod!=.) & doexit!=.
 recode event .=0
 }
 
@@ -127,7 +127,7 @@ if e(converged)==1{
 	* calculates the standardised failure function
 standsurv, crmodels(dementia death) cif ci timevar(tt) frame(cif2, replace) ///
   at1(exposed 1) at2(exposed 0) atvar(F_exposed F_unexposed)                     ///
- contrast(difference) contrastvar(cif_diff)
+ contrast(ratio) contrastvar(cif_rr)
 
 frame cif2 {
   twoway (rarea F_exposed_dementia_lci F_exposed_dementia_uci tt, color(red%30))        ///
