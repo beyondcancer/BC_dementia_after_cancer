@@ -10,9 +10,13 @@ use  "$datafiles_core/cr_coredataset_aurum.dta", clear
 tab exposed
 
 	/* mh outcomes */
-	desc using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
-	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpatid_dementia_outcome_categories_aurum"
+	drop *dementia*
+		/*Harriet: updated 22nd February 2026, when updating file names in line with file naming guidelines*/
+	desc using "$datafiles_raw/cr_listpat_dementia_aurum"
+	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpat_dementia_aurum"
 	drop _m
+	rename dof_dementia main0_date 
+	rename b_dementia h_odementia 
 	
 		/*downs syndrome*/
 	merge 1:1 setid e_patid using "$datafiles_raw/cr_listpat_downs_syndrome_outcomes_aurum", force

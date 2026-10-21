@@ -267,7 +267,7 @@ graph combine dem_all_0, iscale(*0.9) ///
 ysize(7) ///
 graphregion(fcolor(white))  ///
 name(combined, replace) 
-graph export "$results_an_dem/an_Primary_A1A2_main_figure_dementia_year0.emf", replace
+graph export "$results_an_dem/an_6Primary_A1A2_main_figure_dementia_year0.tif", replace
 
 
 /**** GRAPHS  *********************** */

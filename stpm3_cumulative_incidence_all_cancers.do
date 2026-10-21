@@ -134,27 +134,27 @@ standsurv, crmodels(dementia death) cif ci timevar(tt) frame(cif2, replace) ///
  contrast(difference) contrastvar(cif_diff)
 
 frame cif2 {
-  twoway (rarea F_exposed_dementia_lci F_exposed_dementia_uci tt, color(red%30))        ///
-          (line F_exposed_dementia tt, color(red))                               ///
-          (rarea F_unexposed_dementia_lci F_unexposed_dementia_uci tt, color(blue%30))   ///
-          (line F_unexposed_dementia tt, color(blue))                            ///
+  twoway (rarea F_exposed_dementia_lci F_exposed_dementia_uci tt, color(gs3))        ///
+          (line F_exposed_dementia tt, color(gs3))                               ///
+          (rarea F_unexposed_dementia_lci F_unexposed_dementia_uci tt, color(gs11))   ///
+          (line F_unexposed_dementia tt, color(gs11))                            ///
           , legend(off) ///
           ylabel(, angle(h) format(%3.2f))  								 /// 
 		  yscale(range(0 0.4)) 												///
-          xtitle("Time from diagnosis (years)", size(tiny))                          ///
-          ytitle("cause-specific CIF", size(tiny))                                   ///
+          xtitle("Time from diagnosis (years)", size(vsmall))                          ///
+          ytitle("cause-specific CIF", size(vsmall))                                   ///
           title("Dementia", size(small))                                                   ///
           name(dementia, replace)
                 
-   twoway (rarea F_exposed_death_lci F_exposed_death_uci tt, color(red%30))      ///
-          (line F_exposed_death tt, color(red))                               ///
-          (rarea F_unexposed_death_lci F_unexposed_death_uci tt, color(blue%30)) ///
-          (line F_unexposed_death tt, color(blue))                            ///
+   twoway (rarea F_exposed_death_lci F_exposed_death_uci tt, color(gs3))      ///
+          (line F_exposed_death tt, color(gs3))                               ///
+          (rarea F_unexposed_death_lci F_unexposed_death_uci tt, color(gs11)) ///
+          (line F_unexposed_death tt, color(gs11))                            ///
           , legend(off)    ///
           ylabel(, angle(h) format(%3.2f))                                 ///
           yscale(range(0 0.4)) 												///
-			xtitle("Time from diagnosis (years)", size(tiny))                            ///
-            ytitle("cause-specific CIF", size(tiny))                                   ///
+			xtitle("Time from diagnosis (years)", size(vsmall))                            ///
+            ytitle("cause-specific CIF", size(vsmall))                                   ///
           title("Death" , size(small))                                                   ///
           name(death, replace)
 		  
@@ -193,7 +193,7 @@ file write tablecontent _tab %4.3f (`F_unexposed_dementia') " (" %4.3f (`F_unexp
   if "`cancersite'"=="ute"	local cancersite2="Uterus (C54-55)" 	  	  
   if "`cancersite'"=="ova"	local cancersite2="Ovary (C56)" 		  	 
   if "`cancersite'"=="pro"	local cancersite2="Prostate (C61)"		 
-  if "`cancersite'"=="kid"	local cancersite2="Kidney (C64)" 		  	  
+  if "`cancersite'"=="kid"	local cancersite2="Kidney (C64-C65)" 		  	  
   if "`cancersite'"=="bla"	local cancersite2="Bladder (C67)" 		
   if "`cancersite'"=="cns"	local cancersite2="CNS (C71-72)" 		  	  
   if "`cancersite'"=="thy"	local cancersite2="Thyroid (C73)" 		 
@@ -224,5 +224,5 @@ stpm3cumpredincidences dementia
  "$results_an_dem\stpm3cumrisk_dementiapro.gph" "$results_an_dem\stpm3cumrisk_dementiakid.gph" "$results_an_dem\stpm3cumrisk_dementiabla.gph" ///
  "$results_an_dem\stpm3cumrisk_dementiacns.gph" "$results_an_dem\stpm3cumrisk_dementiathy.gph" "$results_an_dem\stpm3cumrisk_dementianhl.gph" ///
  "$results_an_dem\stpm3cumrisk_dementiamye.gph" "$results_an_dem\stpm3cumrisk_dementialeu.gph", nocopies ycommon ro(5) imargin(1 1 1 1)          
-graph export "$results_an_dem\stpm3cumrisk_final.emf", as(emf) name("Graph") replace
+graph export "$results_an_dem\stpm3cumrisk_final.tif", as(tif) name("Graph") width(4000)  replace
 		

@@ -38,6 +38,7 @@ replace analysis=".  Exc. Down's syndrome" if sense == "downs"
 replace analysis=".  Adj. prior healthcare use" if sense == "adj_hcus"
 replace analysis=".  Adj. age using splines" if sense == "adj_splA"
 replace analysis=".  Covariate*time interactions" if sense == "non_PH_c"
+replace analysis=".  Cluster GP practice" if sense == "cluster_"
 
 
 tab analysis, miss
@@ -55,12 +56,13 @@ replace order=9 if sense == "downs"
 replace order=10 if sense == "adj_hcus" 
 replace order=11 if sense == "adj_splA" 
 replace order=12 if sense == "non_PH_c" 
+replace order=13 if sense == "cluster_" 
 
 *replace order=6 if analysis==".  Data from 2006 onwards"
 
 sort cancer order
 
-gen graphorder = 14-order
+gen graphorder = 15-order
 
 * limit UCI to 4.5
 gen uci_abovemax=.
@@ -80,7 +82,7 @@ gen hrxpos = 4 // HR display
 	replace cancersite2="Oral cavity (C00-06)"     if cancersite=="ora"
 	replace cancersite2="Oesophageal (C15)"	 	   if cancersite=="oes"
 	replace cancersite2="Stomach (C16)" 		   if cancersite=="gas"
-	replace cancersite2="Colorectal (C18-20)"      if cancersite=="col"
+	replace cancersite2="Colorectal (C18-21)"      if cancersite=="col"
 	replace cancersite2="Liver (C22)"		  	   if cancersite=="liv"
 	replace cancersite2="Pancreas (C25)"		   if cancersite=="pan"
 	replace cancersite2="Lung (C34)"  		  	   if cancersite=="lun"
@@ -90,7 +92,7 @@ gen hrxpos = 4 // HR display
 	replace cancersite2="Uterus (C54-55)" 	  	   if cancersite=="ute"
 	replace cancersite2="Ovary (C56)" 		  	   if cancersite=="ova"
 	replace cancersite2="Prostate (C61)"		   if cancersite=="pro"
-	replace cancersite2="Kidney (C64)" 		  	   if cancersite=="kid"
+	replace cancersite2="Kidney (C64-65)" 		  	   if cancersite=="kid"
 	replace cancersite2="Bladder (C67)" 		   if cancersite=="bla" 
 	replace cancersite2="CNS (C71-72)" 		  	   if cancersite=="cns"
 	replace cancersite2="Thyroid (C73)" 		   if cancersite=="thy"
@@ -99,12 +101,12 @@ gen hrxpos = 4 // HR display
 	replace cancersite2="Leukaemia (C91-95)"   	   if cancersite=="leu"
 
 
-foreach cancer in "Oral cavity (C00-06)" "Oesophageal (C15)" "Stomach (C16)" "Colorectal (C18-20)" "Liver (C22)" "Pancreas (C25)" "Lung (C34)" "Malignant melanoma (C43)" "Breast (C50)" "Cervix (C53)" "Uterus (C54-55)" "Ovary (C56)" "Prostate (C61)" "Kidney (C64)" "Bladder (C67)" "CNS (C71-72)" "Thyroid (C73)" "NHL (C82-85)" "Multiple myeloma (C90)" "Leukaemia (C91-95)" {
+foreach cancer in "Oral cavity (C00-06)" "Oesophageal (C15)" "Stomach (C16)" "Colorectal (C18-21)" "Liver (C22)" "Pancreas (C25)" "Lung (C34)" "Malignant melanoma (C43)" "Breast (C50)" "Cervix (C53)" "Uterus (C54-55)" "Ovary (C56)" "Prostate (C61)" "Kidney (C64-65)" "Bladder (C67)" "CNS (C71-72)" "Thyroid (C73)" "NHL (C82-85)" "Multiple myeloma (C90)" "Leukaemia (C91-95)" {
 	
 	if "`cancer'"=="Oral cavity (C00-06)" local namegraph="ora"
 	if "`cancer'"=="Oesophageal (C15)" local namegraph="oes"	
 	if "`cancer'"=="Stomach (C16)"  local namegraph="gas"
-	if "`cancer'"=="Colorectal (C18-20)" local namegraph="col"
+	if "`cancer'"=="Colorectal (C18-21)" local namegraph="col"
 	if "`cancer'"=="Liver (C22)" local namegraph="liv"
 	if "`cancer'"=="Pancreas (C25)" local namegraph="pan"
 	if "`cancer'"=="Lung (C34)" local namegraph="lun"
@@ -114,7 +116,7 @@ foreach cancer in "Oral cavity (C00-06)" "Oesophageal (C15)" "Stomach (C16)" "Co
 	if "`cancer'"=="Uterus (C54-55)" local namegraph="ute"
 	if "`cancer'"=="Ovary (C56)" local namegraph="ova"
 	if "`cancer'"=="Prostate (C61)" local namegraph="pro"
-	if "`cancer'"=="Kidney (C64)" local namegraph="kid"
+	if "`cancer'"=="Kidney (C64-65)" local namegraph="kid"
 	if "`cancer'"=="Bladder (C67)" local namegraph="bla"
 	if "`cancer'"=="CNS (C71-72)" local namegraph="cns"
 	if "`cancer'"=="Thyroid (C73)" local namegraph="thy"
@@ -128,7 +130,7 @@ foreach cancer in "Oral cavity (C00-06)" "Oesophageal (C15)" "Stomach (C16)" "Co
 	|| scatter graphorder hrxpos if cancersite2=="`cancer'", m(i) mlab(displayhrci) mlabcol(black) mlabsize(2.5) ///
 	|| scatter graphorder uci if cancersite2=="`cancer'", m(i) mlab(overlab) mlabcol(black) mlabsize(2.5) ///
 	|| scatter graphorder anxpos if cancersite2=="`cancer'", m(i) mlab(analysis) mlabcol(black) mlabsize(2.5) ///
-	ylabels(none) ytitle("") xscale(log) xlab(1 2 4 8 10) ///
+	ylabels(none) ytitle("") xscale(log) xlab(1 2 4 8 12) ///
 	xtitle("Hazard ratio & 95% CI") title("`cancer'") xline(1,lp(dash)) legend(off) ///
 	name("`namegraph'", replace)
 

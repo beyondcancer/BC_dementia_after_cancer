@@ -15,7 +15,7 @@ foreach cancer of global cancersites {
 		if "`cancer'"=="cns" local cancerlong "Brain/CNS (C71-72)"
 		if "`cancer'"=="col" local cancerlong "Colorectal (C18-C21)"
 		if "`cancer'"=="gas" local cancerlong "Stomach (C16)"
-		if "`cancer'"=="kid" local cancerlong "Kidney (C64)"
+		if "`cancer'"=="kid" local cancerlong "Kidney (C64-65)"
 		if "`cancer'"=="leu" local cancerlong "Leukemia (C91-95)"
 		if "`cancer'"=="liv" local cancerlong "Liver (C22)"
 		if "`cancer'"=="lun" local cancerlong "Lung (C34)"
@@ -121,42 +121,47 @@ bysort intvar (level): replace pintstr="" if _n!=1
  
 *CReate headers for graphs
 insobs 1, before(1) 
-replace n=31 if n==.
+replace n=28 if n==.
  tostring nevents, gen(nevents_str)
- replace nevents_str="N outcomes" if n==31
- replace stratum="Variable" if n==31 
- replace esthr="HR (95% CI)" if n==31 
- replace pintstr="P-int" if n==31 
+ replace nevents_str="N outcomes" if n==28
+ replace stratum="Variable" if n==28
+ replace esthr="HR (95% CI)" if n==28 
+ replace pintstr="P-int" if n==28
 
 cap drop estx px interacx
 gen interacx = 0.01
 gen lab_events=0.1
 gen estx = 18
-gen px = 70
+gen px = 170
  
  scatter n hr , mcol(black) mlabsize(vsmall) ///
-	|| scatter n interacx, m(i) mlab(stratum) mlabcol(black) ///
+	|| scatter n interacx, m(i) mlab(stratum) mlabcol(black) mlabsize(vsmall)  ///
 	|| rcap uci lci n, hor lc(black) ///
-	|| scatter n lab_events, m(i) mlab(nevents_str) mlabcol(black) ///
+	|| scatter n lab_events, m(i) mlab(nevents_str) mlabcol(black) mlabsize(vsmall)  ///
 	|| scatter n estx, m(i) mlab(esthr) mlabcol(black) mlabsize(vsmall) ///
 	|| scatter n px, m(i) mlab(pintstr) mlabcol(black)  mlabsize(vsmall) ///
 	|| scatter n lcimin, mlab(underlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
 	|| scatter n ucimax, mlab(overlab) mlabpos(0) mlabsize(small) mlabcolor(black) m(i) ///
-	|| , xscale(range (0.1 90) log) xlab(0.5 1 2 4 6) yscale(range(20)) ysize(4) ylab(none) xtitle("HR and 95% CI") ytitle("") legend(off) title("`cancerlong'") name(`cancer', replace) xline(1, lp(dash)) graphregion(color(white))
+	|| , xscale(range (0.1 250) log) xlab(0.5 1 2 4 6) yscale(range(20)) ysize(3) ylab(none) xtitle("HR and 95% CI") ytitle("") legend(off) title("`cancerlong'") name(`cancer', replace) xline(1, lp(dash)) graphregion(color(white))
  
 } /*cancer*/
 *graph export "$results\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.emf", replace
 
- 
-graph combine $cancersites, altshrink rows(4)  graphregion(color(white))
-graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.emf", replace
-graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_`outcome'_`db'_dementia.jpg", replace
-graph export "$results_an_dem/forest_interaction_`outcome'.tif", name("Graph") replace width(10000) 
-*graph drop _all
 } /*outcome*/
 } /*db*/
 
+graph combine ora oes gas col liv pan lun mel bre cer ute ova, altshrink rows(3) ysize(3) graphregion(color(white))
+graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_dementia_1.emf", replace
+graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_dementia_1.jpg", replace
+graph export "$results_an_dem/forest_interaction_dementia_1.tif", name("Graph") replace width(16000) 
 
+
+graph combine  pro kid bla cns thy nhl mye leu, altshrink rows(2)  ysize(2)  graphregion(color(white))
+graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_dementia_2.emf", replace
+graph export "$results_an_dem\an_Primary_A2_cox-model-figures-interactions_Appendixfig_dementia_2.jpg", replace
+graph export "$results_an_dem/forest_interaction_dementia_2.tif", name("Graph") replace width(16000) 
+*graph drop _all
+*graph drop _all
 
 /*
 graph combine "$results/nhl_hfcardiomyopathy" "$results/bre_vte" "$results/col_vte" , altshrink cols(1) ysize(10)

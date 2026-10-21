@@ -54,10 +54,10 @@ foreach cancer in "Oral cavity (C00-06)" "Oesophageal (C15)" "Stomach (C16)" "Co
 	if "`cancer'"=="Leukaemia (C91-95)" local namegraph="leu"	
 }	
 
-twoway  (rarea exp1_lci exp1_uci date, color(red%25))  ///
-			(rarea exp0_lci exp0_uci date, color(blue%25)) ///
-			(line exp1 date, sort lcolor(red)  lwidth(vthin)) ///
-			(line exp0 date, sort lcolor(blue)  lwidth(vthin)) ///
+twoway  (rarea exp1_lci exp1_uci date, color(gs3))  ///
+			(rarea exp0_lci exp0_uci date, color(gs10)) ///
+			(line exp1 date, sort lcolor(gs3)  lwidth(vthin)) ///
+			(line exp0 date, sort lcolor(gs10)  lwidth(vthin)) ///
 			 ,  legend(off) xtitle("",)  ///
 			 ylabel(0 (10) 30,angle(h) format(%3.0f) labsize(tiny)) xlabel(0(1)10, labsize(tiny)) ///
 			title("`cancersite2'", size(small)) ///

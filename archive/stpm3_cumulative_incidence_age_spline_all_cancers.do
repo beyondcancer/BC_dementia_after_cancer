@@ -79,7 +79,6 @@ gen female = gender==2
 
 *generate age splines
 mkspline agespl=age, cubic nk(3) dis
-stop
 xi i.smokstatus i.imd5 i.age_cat i.gender i.index_year_gr
 
 if "`cancersite'"=="ora" | "`cancersite'"=="oes" | "`cancersite'"=="gas" |  "`cancersite'"=="col" |  "`cancersite'"=="liv" | "`cancersite'"=="pan" | "`cancersite'"=="lun" | "`cancersite'"=="mel" |   "`cancersite'"=="kid" | "`cancersite'"=="bla" | "`cancersite'"=="thy" | "`cancersite'"=="nhl" | "`cancersite'"=="mye" | "`cancersite'"=="leu" {
@@ -136,8 +135,8 @@ frame cif2 {
           (line F_unexposed_dementia tt, color(blue))                            ///
           , legend(off) ///
           ylabel(, angle(h) format(%3.2f))                               ///
-          xtitle("Time from diagnosis (years)")                          ///
-          ytitle("cause-specific CIF")                                   ///
+          xtitle("Time (years)", size(vsmall))                          ///
+          ytitle("cause-specific CIF", size(vsmall))                                   ///
           title("Dementia", size(small))                                                   ///
           name(dementia, replace)
                 
@@ -147,8 +146,8 @@ frame cif2 {
           (line F_unexposed_death tt, color(blue))                            ///
           , legend(off)    ///
           ylabel(, angle(h) format(%3.2f))                                 ///
-          xtitle("Time from diagnosis (years)")                            ///
-            ytitle("cause-specific CIF")                                   ///
+          xtitle("Time (years)", size(vsmall))                            ///
+            ytitle("cause-specific CIF", size(vsmall))                                   ///
           title("Death" , size(small))                                                   ///
           name(death, replace)
  }               
@@ -192,7 +191,6 @@ di "** `outcome' **"
 stpm3cumpredincidences `outcome' 
 }
 
-stop
  graph combine "$results_an_dem\stpm3cumrisk_dementiaora.gph" "$results_an_dem\stpm3cumrisk_dementiaoes.gph" "$results_an_dem\stpm3cumrisk_dementiagas.gph" ///
  "$results_an_dem\stpm3cumrisk_dementiacol.gph" "$results_an_dem\stpm3cumrisk_dementialiv.gph" "$results_an_dem\stpm3cumrisk_dementiapan.gph" ///
  "$results_an_dem\stpm3cumrisk_dementialun.gph" "$results_an_dem\stpm3cumrisk_dementiamel.gph" "$results_an_dem\stpm3cumrisk_dementiabre.gph" ///

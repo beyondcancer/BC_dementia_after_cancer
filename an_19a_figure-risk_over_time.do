@@ -44,7 +44,7 @@ replace cancersite="Cervix (C53)" 		  	  if cancersite=="cer"
 replace cancersite="Uterus (C54-55)" 	  	  if cancersite=="ute"
 replace cancersite="Ovary (C56)" 		  	  if cancersite=="ova"
 replace cancersite="Prostate (C61)"		  	  if cancersite=="pro"
-replace cancersite="Kidney (C64)" 		  	  if cancersite=="kid"
+replace cancersite="Kidney (C64-65)" 		  	 if cancersite=="kid"
 replace cancersite="Bladder (C67)" 		  	  if cancersite=="bla" 
 replace cancersite="CNS (C71-72)" 		  	  if cancersite=="cns"
 replace cancersite="Thyroid (C73)" 		  	  if cancersite=="thy"
@@ -65,7 +65,7 @@ replace displayhrci="(not calculated)" if uci==. | beta==0 | sebeta==0
 *replace displayhrci = string(hr, "%3.2f") + " (" + lci + "-" + uci + ", 0.004" + ")" if p>0.004 & p<0.005
 *replace displayhrci = string(hr, "%3.2f") + " (" + lci + "-" + uci + ", 0.01" + ")" if p>0.005 & p<=0.01
 
-foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "Colorectal (C18-21)" "Liver (C22)"  "Pancreas (C25)" "Lung (C34)" "Malignant melanoma (C43)"  "Breast (C50)"  "Cervix (C53)"  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C64)"  "Bladder (C67)" "CNS (C71-72)" "Thyroid (C73)" "NHL (C82-85)" "Multiple myeloma (C90)" "Leukaemia (C91-95)" {
+foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "Colorectal (C18-21)" "Liver (C22)"  "Pancreas (C25)" "Lung (C34)" "Malignant melanoma (C43)"  "Breast (C50)"  "Cervix (C53)"  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C64-65)"  "Bladder (C67)" "CNS (C71-72)" "Thyroid (C73)" "NHL (C82-85)" "Multiple myeloma (C90)" "Leukaemia (C91-95)" {
 	count 
 	local n=r(N)+1
 	set obs `n'
@@ -88,7 +88,7 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 	replace graphorder=11 if cancersite=="Uterus (C54-55)" 
 	replace graphorder=12 if cancersite=="Ovary (C56)" 
 	replace graphorder=13 if cancersite=="Prostate (C61)" 
-	replace graphorder=14 if cancersite=="Kidney (C64)" 
+	replace graphorder=14 if cancersite=="Kidney (C64-65)" 
 	replace graphorder=15 if cancersite=="Bladder (C67)"
 	replace graphorder=16 if cancersite=="CNS (C71-72)" 
 	replace graphorder=17 if cancersite=="Thyroid (C73)"
@@ -161,6 +161,6 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 
 graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis.grec"
 graph save "$results_an_dem/forest_dementia_year", replace
-graph export "$results_an_dem\forest_dementia_year.emf", as(emf) name("Graph") replace
+graph export "$results_an_dem\forest_dementia_year.tif", as(tif) name("Graph") replace
 
 

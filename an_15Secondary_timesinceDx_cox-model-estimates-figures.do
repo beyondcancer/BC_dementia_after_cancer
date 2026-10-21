@@ -167,7 +167,7 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 		
 graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis.grec"
 graph save "$results_an_dem/forest_`outcome'_timesincedx_A", replace
-graph export "$results_an_dem\forest_`outcome'_timesincedx_A.emf", as(emf) name("Graph") replace
+graph export "$results_an_dem\forest_`outcome'_timesincedx_A.tif", as(tif) name("Graph") replace
 }
  
 /*
@@ -213,7 +213,7 @@ drop if cancersite=="cer"
 replace cancersite="Uterus (C54-55)" 	  	  if cancersite=="ute"
 replace cancersite="Ovary (C56)" 		  	  if cancersite=="ova"
 replace cancersite="Prostate (C61)"		  	  if cancersite=="pro"
-replace cancersite="Kidney (C64)" 		  	  if cancersite=="kid"
+replace cancersite="Kidney (C64-65)" 		  	  if cancersite=="kid"
 replace cancersite="Bladder (C67)" 		  	  if cancersite=="bla" 
 replace cancersite="CNS (C71-72)" 		  	  if cancersite=="cns"
 replace cancersite="Thyroid (C73)" 		  	  if cancersite=="thy"
@@ -233,7 +233,7 @@ replace displayhrci = string(hr, "%4.2f") + " (" + string(lci, "%4.2f") + ", " +
 *replace displayhrci = string(hr, "%3.2f") + " (" + lci + "-" + uci + ", 0.004" + ")" if p>0.004 & p<0.005
 *replace displayhrci = string(hr, "%3.2f") + " (" + lci + "-" + uci + ", 0.01" + ")" if p>0.005 & p<=0.01
 
-foreach cancer in  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C64)"  "Bladder (C67)" "CNS (C71-72)" "Thyroid (C73)" "NHL (C82-85)" "Multiple myeloma (C90)" "Leukaemia (C91-95)" {
+foreach cancer in  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C64-65)"  "Bladder (C67)" "CNS (C71-72)" "Thyroid (C73)" "NHL (C82-85)" "Multiple myeloma (C90)" "Leukaemia (C91-95)" {
 	count 
 	local n=r(N)+1
 	set obs `n'
@@ -255,7 +255,7 @@ foreach cancer in  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C
 	replace graphorder=1 if cancersite=="Uterus (C54-55)" 
 	replace graphorder=2 if cancersite=="Ovary (C56)" 
 	replace graphorder=3 if cancersite=="Prostate (C61)" 
-	replace graphorder=4 if cancersite=="Kidney (C64)" 
+	replace graphorder=4 if cancersite=="Kidney (C64-65)" 
 	replace graphorder=5 if cancersite=="Bladder (C67)"
 	replace graphorder=6 if cancersite=="CNS (C71-72)" 
 	replace graphorder=7 if cancersite=="Thyroid (C73)"
@@ -336,7 +336,7 @@ foreach cancer in  "Uterus (C54-55)"  "Ovary (C56)"  "Prostate (C61)" "Kidney (C
 
 graph play "J:\EHR-Working\Helena\bonefractures_cs\dofiles\Data_analysis\dofiles\edit_axis.grec"
 graph save "$results_an_dem/forest_`outcome'_timesincedx_B", replace
-graph export "$results_an_dem\forest_`outcome'_timesincedx_B.emf", as(emf) name("Graph") replace
+graph export "$results_an_dem\forest_`outcome'_timesincedx_B.tif", as(tif) name("Graph") replace
 } 
 
 

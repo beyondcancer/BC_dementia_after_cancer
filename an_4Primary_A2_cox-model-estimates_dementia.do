@@ -44,7 +44,7 @@ foreach outcome in dementia   {
 	*stcox exposed age i.gender $covariates_common i.index_year_gr
 	stcox exposed $covariates_common, strata(set) iterate(1000) 
 	if _rc==0 estimates save "$results_an_dem/an_Primary_A2_cox-model-estimates_adjusted_`cancersite'_`outcome'_`db'_`year'", replace	
-	
+
 	recode b_nocons_yrprior_gr 4=2 10=3
 
 	 stcox exposed $covariates_common i.b_nocons_yrprior_gr, strata(set) iterate(1000) 

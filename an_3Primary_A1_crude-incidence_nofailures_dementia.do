@@ -5,7 +5,7 @@ log using "$logfiles_an_dem/an_Primary_A1_crude-incidence_nofailures.txt", repla
 CREATE FILE WITH CRUDE INCIDENCE RATES AND NUMBER OF FAILURES
 *******************************************************************************/
 *vasc alz other_dem ns_dem
-foreach outcome in dementia   {
+foreach outcome in dementia vasc alz other_dem ns_dem  {
 postutil clear
 postfile failures str10 db str5 cancersite str5 year str20 outcome ncancer nfail expfail unexpfail exptime unexptime rateexp rateunexp using "$results_an_dem/an_Primary_A1_crude-incidence_nofailures_`outcome'", replace
 
@@ -15,6 +15,8 @@ foreach year in 0 1 3 5  {
 noi di "`cancersite'" "`outcome'"
 	use "$datafiles_an_dem/cr_dataforDEManalysis_`db'_`cancersite'.dta", clear
 	
+	tab exposed
+	 
 	*Apply outcome specific exclusions
 	drop if h_odementia==1
 
