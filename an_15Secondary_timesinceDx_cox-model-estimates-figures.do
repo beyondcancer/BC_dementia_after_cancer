@@ -26,7 +26,7 @@ keep if outcome=="`outcome'"
 *rename v8 pvalue
 order cancersite hr lci uci 
 destring year, replace
-drop if year==0.5 | year==0.75 | year==25 | year==10 | year==100
+drop if year==0.25 | year==0.75 | year==25 | year==10 | year==100
 
 bysort cancersite year: gen timeperiod=_n
 
@@ -72,7 +72,6 @@ foreach cancer in "Oral cavity (C00-06)"  "Oesophageal (C15)" "Stomach (C16)" "C
 }
   
 	gen timeperiod2=""
-	replace timeperiod2=".  0-3 months" if year==0.25 
 	replace timeperiod2=".  0-6 mo" if year==0.5 
 	replace timeperiod2=".  0-9 mo" if year==0.75 
 	replace timeperiod2=".  0-1 yrs" if year==1
@@ -196,7 +195,7 @@ keep if outcome=="`outcome'"
 *rename v8 pvalue
 order cancersite hr lci uci 
 destring year, replace
-drop if year==0.5 | year==0.75 | year==25 | year==10 | year==100
+drop if year==0.25 | year==0.75 | year==25 | year==10 | year==100
 
 bysort cancersite year: gen timeperiod=_n
 
